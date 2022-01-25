@@ -19,3 +19,9 @@ console.log(myNumber3);
   // let myNumber3 = 2;
   // console.log(myNumber3);
 
+  let example = 123;
+  console.log(example);
+
+  let example = 456;
+  console.log(example);
+
