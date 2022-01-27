@@ -1,15 +1,15 @@
 "use strict";
 
-// 문제 1
-const YEAR = 2022;
-let age = YEAR - 1992;
-console.log("나는 %d세 입니다.", age);
+// // 문제 1
+// const YEAR = 2022;
+// let age = YEAR - 1992;
+// console.log("나는 %d세 입니다.", age);
 
 
-//문제 2
-const AGE = 30;
-let year = 2022 - AGE;
-console.log("나는 %d년도에 태어났습니다.", year);
+// //문제 2
+// const AGE = 30;
+// let year = 2022 - AGE;
+// console.log("나는 %d년도에 태어났습니다.", year);
 
 //문제 3
 
@@ -20,14 +20,27 @@ console.log("나는 %d년도에 태어났습니다.", year);
 // const baguni = numOfApple / 10 > 12 ? 13 : 12;
 // console.log(baguni); 
 
-const numOfApple = 123;
-const extra = (numOfApple % 10) / 10
-let basketCount = extra > 0 ? (numOfApple / 10) - extra + 1 : (numOfApple / 10) - extra;
-console.log(basketCount);
 
-let basketCount2 = (numOfApple / 10) - extra;
+const numOfApples = 80;
+const extra = (numOfApples % 10) / 10;
+let basketCount = extra > 0 ? (numOfApples / 10) - extra + 1 : (numOfApples / 10) - extra;
+// console.log(basketCount);
+
+let basketCount2 = (numOfApples / 10) - extra;
 basketCount2 += extra > 0 ? 1 : 0;
-console.log(basketCount2);
+
+
+
+
+
+// const numOfApple = 123;
+// const extra = (numOfApple % 10) / 10
+// let basketCount = extra > 0 ? (numOfApple / 10) - extra + 1 : (numOfApple / 10) - extra;
+// console.log(basketCount);
+
+// let basketCount2 = (numOfApple / 10) - extra;
+// basketCount2 += extra > 0 ? 1 : 0;
+// console.log(basketCount2);
 
 
 
@@ -39,9 +52,17 @@ console.log(basketCount2);
 // let result = Math.floor(num / 100) * 100;
 // console.log(result);
 
-const number = 457;
-const ex = (number % 100) / 100;
-const result = ((number / 100) - ex) * 100;
+let num = 457;
+const ex = (num % 100) / 100;
+const result = ((num / 100) - ex) * 100;
 console.log(result);
+
+
+
+
+// const number = 457;
+// const ex = (number % 100) / 100;
+// const result = ((number / 100) - ex) * 100;
+// console.log(result);
 
 
