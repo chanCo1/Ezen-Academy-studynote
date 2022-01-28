@@ -80,40 +80,6 @@ console.log(count);
 3 4 5 6 
 */
 
-let num = "";
-for(let i = 0; i < 4; i++) {
-  num += i;
-  if(i = 0) {
-    for(let j = 1; j < i; j++) {
-      num += j;
-    }
-  }
-  num += '\n'
-}
-console.log(num);
-
-
-// let num = "";
-// let num2 = "";
-// let num3 = "";
-// let num4 = "";
-// for(let i = 0; i < 4; i++) {
-//   num += i;
-// }
-// for(let j = 1; j < 5; j++) {
-//   num2 += j;
-// }
-// for(let j = 2; j < 6; j++) {
-//   num3 += j;
-// }
-// for(let j = 3; j < 7; j++) {
-//   num4 += j;
-// }
-// console.log(num);
-// console.log(num2);
-// console.log(num3);
-// console.log(num4);
-
 // FIXME:
 // 반복은 행, 열의 수만 관여
 
@@ -152,7 +118,6 @@ for(let i = 0; i < 7; i++) {
 // FIXME:
 for(let i = 0; i < 7; i++) {
   let str = "";
-
   for(let j =0; j < i + 1; j++) {
     str += j + 1
   }
@@ -185,9 +150,9 @@ for(let i = 2; i < 10; i++) {
 // const number = 1;  // 3,5,7,9
 const number = 2;  // 2,4,6,8
 
-let start = number == 2 ? 2 : 3
+let a = number == 2 ? 2 : 3
 
-for(let i = start; i < 10; i+=2) {
+for(let i = a; i < 10; i+=2) {
 
   for(let j = 1; j < 10; j++) {
     console.log("%d x %d = %d", i, j, i*j);
