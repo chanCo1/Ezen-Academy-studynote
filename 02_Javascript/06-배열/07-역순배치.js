@@ -20,6 +20,7 @@ console.log(data);
 
 // 반복 횟수 -> 2 나누고 소수점 이하를 버린다.
 const p = parseInt(data.length/2); // 괄호 안에 내용에서 소수점 이하를 버린다.
+console.log(p);
 
 // let q = (data.length % 2) / 10;
 // let p = data.length / 2 - q;

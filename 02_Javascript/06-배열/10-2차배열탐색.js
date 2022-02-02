@@ -14,7 +14,7 @@ console.log(myArr[1].length);  // 3
 // 2차 배열은 반복문으로 탐색할 때는 2중 반복문이 사용된다.
 // 바깥의 반복문은 행을 담당
 for(let i = 0; i < myArr.length; i++) {
-  console.log(i + "번째 행 -----");
+  console.log(`-${i}행-`);
   console.log(myArr[i]);
 
   // 안쪽의 반복문은 i번째 행에 대한 열을 담당

@@ -10,3 +10,11 @@ for(let i = 0; i < len; i++) {
   myArr[i] = i * 10;
 }
 console.log(myArr);  // [ 0, 10, 20, 30, 40 ]
+
+
+const arr = new Array(5);
+
+for(let i = 0; i < arr.length; i++) {
+  arr[i] = i * 10
+}
+console.log(arr);

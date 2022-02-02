@@ -1,6 +1,6 @@
 console.log("1차 배열의 탐색");
 
-const data = [4,5,2,1,3];
+const data = [4,5,2,1,3,6];
 for(const item of data) {
   console.log(item);
 }
@@ -8,8 +8,8 @@ for(const item of data) {
 console.log("2차 배열의 탐색");
 
 const myArr = [
-  [1,2,3],
-  [4,5,6]
+  [4,5,2],
+  [1,3,6]
 ];
 
 for(const item of myArr) {
@@ -19,3 +19,6 @@ for(const item of myArr) {
     console.log(sub);
   }
 }
+
+
+

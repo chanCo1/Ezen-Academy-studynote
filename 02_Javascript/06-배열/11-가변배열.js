@@ -1,10 +1,12 @@
-const a = [1,3,5,7,9];
-const b = [2,4,6];
+// const a = [1,3,5,7,9];
+// const b = [2,4,6];
+// const data = [a,b];
 
-const data = [a,b];
-console.log(data);
+const data = [[1,3,5,7,9], [2,4,6]];
+// console.log(data);
 
 for(let i = 0; i < data.length; i++) {
+  console.log(`-${i}행-`);
   console.log(data[i]);
 
   for(let j = 0; j < data[i].length; j++) {
