@@ -17,6 +17,11 @@ console.log("학년: " + student.grade);
 console.log("이름: " + student.name);
 console.log("연락처: " + student.phoneno);
 
+console.log("학번2: " + student["studno"]);
+console.log("학년2: " + student['grade']);
+console.log("이름2: " + student["name"]);
+console.log("연락처2: " + student['phoneno']);
+
 // 접근하고자 하는 하위 변수의 이름을 동적으로 설정해야 할 경우 type2가 활용된다
 const keyName = "phoneno";
 console.log(student[keyName]);

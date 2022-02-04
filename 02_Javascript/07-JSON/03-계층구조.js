@@ -26,3 +26,32 @@ let circle2 = {
 
 console.log("원의 중점: (%d, %d)", circle2.center.x, circle2.center.y);
 console.log("원의 반지름: %d", circle2.radius);
+
+
+// const name1 = {
+// 	a : 1,
+//   b : 2
+// };
+
+// const jason1 = {
+// 	c : name1,
+//   d : 3
+// };
+
+// console.log(jason1.c);
+// console.log(jason1.c.a);
+// console.log(jason1.c.b);
+// console.log(jason1.d);
+
+// const jason2 = {
+//   name1 : {
+//     a : 4,
+//     b : 5
+//   },
+//   c : 6
+// };
+
+// console.log(jason2.name1);
+// console.log(jason2.name1.a);
+// console.log(jason2.name1.b);
+// console.log(jason2.c);

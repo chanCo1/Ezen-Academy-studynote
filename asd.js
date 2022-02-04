@@ -95,3 +95,5 @@ function diceGame() {
 // 호출
 diceGame();
 */
+
+// 2 ~ 14 까지 시험 , 9단원 빠짐, 13,14도 빠짐
