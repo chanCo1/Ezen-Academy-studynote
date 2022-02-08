@@ -10,7 +10,6 @@ console.log("a = " + a + ", b = " + b);
 // 일반 변수끼리 복사한 경우 원본이 변경되면 복사본에는 영향이 없다.
 a++;
 console.log("a = " + a + ", b = " + b);
-console.log(`a = ${a}, b = ${b}`);
 
 
 //! 참조복사 (=옅은복사)
@@ -50,6 +49,7 @@ const a2 = new Array(a1.length);
 for(let i = 0; i < a1.length; i++) {
   a2[i] = a1[i];
 }
+console.log(a2);
 
 // 배열 객체가 갖는 메서드를 활용한 깊은 복사 방법
 const a3 = a1.slice(); // 깊은 복사를 한번에 해주는 명령어 ..
@@ -87,7 +87,6 @@ addr.gu = "강남";
 console.log(addr);
 console.log(copy);
 
-
 // js가 제공하는 기능 활용하기
 const copy2 = {};
 
@@ -96,4 +95,3 @@ const copy2 = {};
 // copy2가 비어있지 않으면 누적
 Object.assign(copy2, addr);
 console.log(copy2);
-

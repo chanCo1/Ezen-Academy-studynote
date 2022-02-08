@@ -1,4 +1,4 @@
-// // 윤년 구하기
+// // // 윤년 구하기
 // function getLeapYear(year) {
 
 //   let isLeapYear;
@@ -11,36 +11,36 @@
 //   return isLeapYear;
 // }
 
-function getDate(year, month) {
+// function getDate(year, month) {
 
-  function getLeapYear(year) {
+//   // function getLeapYear(year) {
 
-    let isLeapYear;
+//   //   let isLeapYear;
   
-    if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-      isLeapYear =  "true";
-    } else if(year % 100 == 0 || year) {
-      isLeapYear =  "false";
-    }
-    return isLeapYear;
-  }
+//   //   if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+//   //     isLeapYear =  "true";
+//   //   } else if(year % 100 == 0 || year) {
+//   //     isLeapYear =  "false";
+//   //   }
+//   //   return isLeapYear;
+//   // }
 
-  let date;
+//   let date;
 
-  if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
-    date = 31;
-  } else if(month == 2) {
-    if(getLeapYear(year)) {
-      date = 29;
-    } else {
-      date = 28;
-    };
-  } else if(month == 4 || month == 6 || month == 9 || month == 11){
-    date = 30;
-  }
-  return date;
-}
-console.log(getDate(1995,2));
+//   if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+//     date = 31;
+//   } else if(month == 2) {
+//     if(getLeapYear(year)) {
+//       date = 29;
+//     } else {
+//       date = 28;
+//     };
+//   } else if(month == 4 || month == 6 || month == 9 || month == 11){
+//     date = 30;
+//   }
+//   return date;
+// }
+// console.log(getDate(1992,2));
 
 
 
@@ -97,3 +97,84 @@ diceGame();
 */
 
 // 2 ~ 14 까지 시험 , 9단원 빠짐, 13,14도 빠짐
+
+
+// // Fizz Buzz
+
+// for(let i = 1; i < 101; i++) {
+//   if(i % (3 * 5) === 0 ) {
+//     console.log("FizzBuzz");
+//   } else if(i % 3 === 0) {
+//     console.log("Fizz");
+//   } else if(i % 5 === 0) {
+//     console.log("Buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+
+// let i = 1;
+// while(i < 101) {
+//   if(i % 3 == 0) {
+//     console.log("Fizz");
+//   } else if(i % 5 == 0) {
+//     console.log("Buzz");
+//   } else if(i % 3 == 0 && i % 5 == 0) {
+//     console.log("FizzBuzz");
+//   } else {
+//     console.log(i);
+//   }
+//   i++
+// }
+
+// for(let i = 0; i < 5; i++) {
+//   let star = "";
+//   for(let j = 0; j < 5 - i; j++) {
+//     star += "*";
+//   }
+//   console.log(star);
+// }
+
+
+// for(let i = 0; i < 5; i++) {
+//   let star = "";
+//   for(let j = 0; j < i; j++) {
+//     star += " ";
+//   }
+//   for(let k = 0; k < 5 - i; k++) {
+//     star += "*";
+//   }
+//   console.log(star);
+// }
+
+// for(let i = 0; i < 5; i++) {
+//   let star = "";
+//   for(let j = 0; j < 10; j++) {
+//     if(j < 5 - i || j - 5 >= i) {
+//       star += "*";
+//     } else {
+//       star += " ";
+//     }
+//   }
+//   console.log(star);
+// }
+
+
+// const studentNames = ["이수현", "김수민", "아무개3", "아무개4", "아무개5", "아무개6", "아무개7", "아무개8", "아무개9", "아무개10"];
+
+// function a(name) {
+//   for(let i = name.length - 1; i >= 0 ; i--) {
+//     console.log(`Hi, ${name[i]}!!`);
+//   }
+// }
+// a(studentNames);
+
+// let fruitArray = ["banana", "orange", "apple"];
+// fruitArray.splice(fruitArray.indexOf("banana"),1);
+// console.log(fruitArray);
+
+
+// const RSP = ["가위","바위","보","묵","찌","빠","보자기","주먹","가우ㅣ"];
+// let a = RSP[Math.floor(Math.random() * RSP.length)];
+// console.log(a);

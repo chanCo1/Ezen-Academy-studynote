@@ -18,15 +18,15 @@ for(let i = 0; i < classRoom.student.length; i++) {
   console.log(">> 학번: " + classRoom.student[i].name);
 }
 
-// const example = {
-// 	key: [{
-//     	key1: 1,
-//         key2: 2,
-//         key3: '3'
-// 	}, {
-//     	key1: 4,
-//         key2: 5,
-//         key3: '6'
-//     }]
-// };
-// console.log(example);
+const example = {
+	key: [{
+    	key1: 1,
+        key2: 2,
+        key3: '3'
+	}, {
+    	key1: 4,
+        key2: 5,
+        key3: '6'
+    }]
+};
+console.log(example);

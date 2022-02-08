@@ -21,7 +21,9 @@ const {name} = data;
 console.log(name);
 
 // data안에 있는 height와 weight를 분해하면서 이름을 h 와 w로 변경
-const {height: h, weight: w} = data;
+const {name: a, age: b, height: h, weight: w} = data;
+console.log(a);
+console.log(b);
 console.log(h);
 console.log(w);
 console.log(data);
@@ -56,8 +58,7 @@ console.log(one);
 console.log(two);
 
 // 구조분해를 수행한 나머지를 별도로 분리하기
-[b1, b2, ...rest_b] = [1,2,3,4,5,6,7,8,9];
+[b1, b2, ...rest_b] = [3,1,2,4,6,8,7,5,9];
 console.log(b1);
 console.log(b2);
 console.log(rest_b);
-console.log();
