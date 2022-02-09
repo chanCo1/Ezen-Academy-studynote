@@ -14,7 +14,7 @@ f(5) = f(4) + f(3) = 5
 */
 
 function fibonacci(n) {
-  if(n < 2) {
+  if(n <= 1) {
     return n;
   } else {
     //f(n) =  f(n-1) + f(n-2) 는 피보나치 공식이다.
@@ -23,3 +23,15 @@ function fibonacci(n) {
 }
 
 console.log(fibonacci(10));
+
+
+
+function p(n) {
+  if(n <= 1) {
+    return 1;
+  } else {
+    return p(n-2) + p(n-1);
+  }
+}
+console.log(p(10));
+

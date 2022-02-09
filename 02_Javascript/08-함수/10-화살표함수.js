@@ -17,6 +17,7 @@ const bar = x => {
 };
 bar(3);
 
+
 // 처리 로직이 한 줄만 존재하는 경우
 // 파라미터 x,y를 받아서 x+y를 리턴하는 화살표함수 라는 이름의 함수
 /*
@@ -27,3 +28,6 @@ const hello = (x, y) => {
 
 const hello = (x, y) => x + y;
 console.log(hello(100,400));
+
+const example = x => x + x;
+console.log(example(3));
