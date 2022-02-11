@@ -11,3 +11,14 @@ const bar = new User2("world", "world@javascript.com");
 console.log(foo);
 console.log(bar);
 
+
+const example = function(p1, p2) {
+  this._p1 = p1;
+  this._p2 = p2;
+};
+
+const a = new example("Hi", "Bye");
+const b = new example("Hello", "World");
+
+console.log(a);
+console.log(b);

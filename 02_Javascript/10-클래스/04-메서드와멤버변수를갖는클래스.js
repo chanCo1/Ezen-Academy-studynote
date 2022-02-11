@@ -27,3 +27,30 @@ hello.sayHello();
 
 hello.setKor();
 hello.sayHello();
+
+
+
+// class Example {
+
+//   constructor() {
+//     this.output = null;
+//   }
+
+//   method1() {
+//     console.log(this.output);
+//   }
+//   method2() {
+//     this.output = 1;
+//   }
+//   method3() {
+//     this.output = 2;
+//   }
+// };
+
+// const e = new Example();
+
+// e.method2();
+// e.method1();
+
+// e.method3();
+// e.method1();

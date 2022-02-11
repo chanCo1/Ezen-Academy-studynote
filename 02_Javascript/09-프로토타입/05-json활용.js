@@ -8,7 +8,7 @@ function Member(username, password) {
   this._password = password;
 };
 
-// getter, setter 메서드 일괄 정의
+// getter, setter, 메서드 일괄 정의
 Member.prototype = {
   // 멤버변수 _username에 대한 getter, setter
   get username() {
@@ -60,3 +60,55 @@ member1.password = "1234"
 // 메서드 호출
 member1.login();
 member1.logout();
+
+
+
+
+
+// // 생성자와 멤버변수 정의
+// function Example(x, y) {
+//   this._x = x;
+//   this._y = y;
+// };
+
+// // getter, setter, 메서드 일괄 정의
+// Example.prototype = {
+
+//   // 멤버변수 _x에 대한 getter, setter
+//   get x() {
+//     return this._x;
+//   },
+//   set x(pm) {
+//     this._x = pm;
+//   },
+
+//   // 멤버변수 _y에 대한 getter, setter
+//   get y() {
+//     return this._y;
+//   },
+//   set y(pm) {
+//     this._y = pm
+//   },
+
+//   // 메서드 생성
+//   ouput: function() {
+//     console.log(`${this.x} 과 ${this.y} 출력`);
+//   }
+// };
+
+// // 생성자를 통한 객체 생성
+// const a = new Example("엑스값", "와이값");
+
+// // getter를 통한 멤버변수 반환
+// console.log(a.x);  // 엑스값
+// console.log(a.y);  // 와이값
+
+// // 메서드 호출
+// a.ouput();  // 엑스값과 와이값 출력
+
+// // setter를 통한 멤버변수 변경
+// a.x = "곱창";
+// a.y = "육회"
+
+// // 메서드 호출
+// a.ouput();  // 곱창 과 육회 출력

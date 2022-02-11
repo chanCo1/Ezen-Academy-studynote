@@ -22,7 +22,7 @@ console.log(m2);
 console.log(m2.userName);
 console.log(m2.email);
 
-// 객체의 특성 -> 같은 구조를 갖니만 저장되는 내용은 개별적이다.
+// 객체의 특성 -> 같은 구조를 갖지만 저장되는 내용은 개별적이다.
 m1.userName = "민혁";
 m1.email = "mh@mail.com"
 
@@ -36,3 +36,32 @@ console.log(m1.email);
 console.log(m2);
 console.log(m2.userName);
 console.log(m2.email);
+
+
+
+
+
+// class Example {
+//   // 생성자 함수
+//   constructor() {
+//     this.x = null;
+//   }
+// };
+
+// // 클래스의 객체 생성
+// const ex1 = new Example();
+// console.log(ex1);  // Example { x: null }
+// console.log(ex1.x);  // null
+
+// const ex2 = new Example();
+// console.log(ex2);  // Example { x: null }
+// console.log(ex2.x);  // null
+
+// // 객체의 특성 -> 같은 구조를 갖지만 저장되는 내용은 개별적이다.
+// ex1.x = "값 넣었다."
+// console.log(ex1);  // Example { x: '값 넣었다.' }
+// console.log(ex1.x);  // 값 넣었다
+
+// ex2.x = "다른 값 넣었다."
+// console.log(ex2);  // Example { x: '다른 값 넣었다.' }
+// console.log(ex2.x);  // 다른 값 넣었다.

@@ -19,3 +19,20 @@ m3.email = "ms@naver.com";
 // 객체끼리의 대입은 복사가 아닌 참조이므로 원본의 데이터를 변경하면 복사본도 함께 변경된다. (반대도 동일)
 console.log(m3);
 console.log(m4);
+
+
+// const ex = {
+//   x: "Andy",
+//   y: "Josh"
+// };
+
+// const ex2 = ex;
+
+// console.log(ex);
+// console.log(ex2);
+
+// ex.x = "Tom";
+// ex.y = "Juny";
+
+// console.log(ex);
+// console.log(ex2);

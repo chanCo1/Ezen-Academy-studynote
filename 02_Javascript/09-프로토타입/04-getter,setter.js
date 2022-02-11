@@ -3,7 +3,7 @@ function User4() {
   // 맴버변수 정의하기
   // 일반적으로 멤버변수는 일반 변수와 구분하기 위해 언더바로 시작하는 이름을 갖는다
   this._id = null;
-  this.email = null;
+  this._email = null;
 }
 
 Object.defineProperty(User4.prototype, 'id', {
@@ -46,3 +46,32 @@ console.log(friend.email);
 
 
 // 게터, 세터는 실제로는 함수인데 변수처럼쓴다..
+
+
+
+
+// function Example() {
+//   this._x = null;
+// };
+
+// Object.defineProperty(Example.prototype, "value", {
+//   get: function() {
+//     console.log("value에 대한 getter 호출");
+//     // 멤버변수의 값을 반환하는 기능
+//     // 반환 전에 필요하다면 멤버변수의 값을 가공하여 반환할 수도 있다.
+//     return this._x;
+//   },
+
+//   set: function(pm) {
+//     console.log("value에 대한 setter 호출");
+//     // 파라미터의 값을 멤버변수에 복사하는 기능
+//     // 필요하다면 파라미터 값을 가공하여 멤버변수에 복사 할 수 있다.
+//     this._x = pm;
+//   }
+// });
+
+// // 객체 생성
+// const y = new Example();
+// y.value = "와이";  // value에 대한 setter 호출
+
+// const z = y.value;  // value에 대한 getter 호출
