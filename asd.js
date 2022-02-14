@@ -178,3 +178,64 @@ diceGame();
 // const RSP = ["가위","바위","보","묵","찌","빠","보자기","주먹","가우ㅣ"];
 // let a = RSP[Math.floor(Math.random() * RSP.length)];
 // console.log(a);
+
+
+const example = "Javascript, Typescript, React.js, Node.js"
+// console.log(msg);
+
+// const msg1 = example.length;
+// console.log(msg1);
+
+// const msg2 = example.charAt(5);
+// console.log(msg2);  // c
+
+// console.log(example[12]);  // T
+
+// const msg3 = example.indexOf("i");
+// console.log(msg3);
+
+// const msg3_1 = example.indexOf("z");
+// console.log(msg3_1);
+
+// const msg3_2 = example.indexOf("React");
+// console.log(msg3_2);  // 24
+
+// if(example.indexOf("Hello") > -1) {  // 없으므로 -1을 반환 -> false
+//   console.log("Hello가 포함됨");
+// } else {
+//   console.log("Hello가 포함되지 않음.");
+// }
+
+// const msg4 = example.lastIndexOf("s");
+// console.log(msg4);
+
+// const msg5 = example.substring(0,10);
+// console.log(msg5);
+
+// const msg5_1 = example.substring(12,22);
+// console.log(msg5_1);
+
+// const msg5_2 = example.substring(24, 32);
+// console.log(msg5_2);
+
+// const msg5_3 = example.substring(34);
+// console.log(msg5_3);  // Node.js
+
+// const msg6 = example.toUpperCase();
+// console.log(msg6);
+
+// const msg7 = example.toLowerCase();
+// console.log(msg7);
+
+// const msg8 = example.split(",");
+// console.log(msg8);
+
+// const msg8_1 = example.split("");
+// console.log(msg8_1);
+
+// const msg9 = example.replace(",", "@");
+// console.log(msg9);
+
+const a = "   trim   ";
+const msg10 = a.trim();
+console.log(msg10);

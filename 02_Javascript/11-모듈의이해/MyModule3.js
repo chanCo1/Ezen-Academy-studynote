@@ -1,7 +1,7 @@
 // class를 모듈화 하기
 class MyClass {
   constructor() {
-    console.log(("---- MyClass의 객체가 생성되었습니다. ----"));
+    // console.log(("---- MyClass의 객체가 생성되었습니다. ----"));
     this.age = 20;
     this.name = "node"  
   }

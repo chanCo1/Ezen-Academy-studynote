@@ -2,7 +2,7 @@
 // exprots의 하위 속성으로 변수, JSON, 함수 추가하기
 module.exports.name = "nord";
 module.exports.property = {
-  id: "nodejs",
+  id: "node.js",
   type: "javascrpit"
 };
 
@@ -31,3 +31,21 @@ module.exports.home = {
   }
 }
 */
+
+// // 변수
+// module.exports.name = "Hello";
+
+// // JSON
+// module.exports.property = {
+//   id: "Node.js",
+//   type: "Javascript",
+//   getDevelop: function() {
+//     console.log(`${this.id}와 ${this.type}`);
+//   }
+// };
+
+// // 함수
+// module.exports.func = function() {
+//   console.log("나는 함수다");
+// }
+

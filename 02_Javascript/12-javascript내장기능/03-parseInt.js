@@ -16,7 +16,8 @@ parseInt(value, int)
 // 8진법 :  0 1 2 3 4 5 6 7 10 11 12 13 14 15 16 17 20 21 22 23 -> ex) 0o12
 
 // 15로 변환되는 예제들
-console.log(parseInt("0xF", 16));
+console.log(parseInt(15.14));  // 3
+console.log(parseInt(" 0xF", 16));
 console.log(parseInt("F", 16));
 console.log(parseInt("17", 8));
 console.log(parseInt("015", 10));  // 따옴표를 제거하고 015는 15와 동일
@@ -32,7 +33,7 @@ console.log(parseInt("15px", 10));  // 문자열 px는 버려진다.
 console.log(parseInt("-f", 16));
 console.log(parseInt("-0f", 16));
 console.log(parseInt("-0XF", 16));
-console.log(parseInt(-15.1, 10));
+console.log(parseInt(-15.1));
 console.log(parseInt(" -17", 8));
 console.log(parseInt(" -15", 10));
 console.log(parseInt("-1111", 2));
