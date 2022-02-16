@@ -46,6 +46,7 @@ const startDay = today.getDay();
 console.log(startDay);
 
 // 이번달의 마지막날은 며칠인지 구함 -> 다음달의 0번째 날짜를 구함
+
 const m = today.getMonth();
 today.setMonth(m +1);
 today.setDate(0);

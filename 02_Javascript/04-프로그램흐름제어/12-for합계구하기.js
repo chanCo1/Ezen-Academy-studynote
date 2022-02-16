@@ -6,6 +6,6 @@ let x = 0;
 // i가 1부터 10 이하일 동안 1씩 증가 --> i의 범위: 1~10
 for(let i = 1; i <= 10; i++) {
   x += i;
-  console.log("i = $d", "x = %d", i, x);
+  console.log("i = %d, x = %d", i, x);
 }
 console.log("1부터 10까지의 합 : " + x);

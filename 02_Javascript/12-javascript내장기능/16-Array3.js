@@ -64,16 +64,16 @@ console.log(d2);
 
 // map 함수에 전달된 콜백이 리턴하는 값들을 하나의 배열로 묶어서 변수에 저장
 const hello1 = arr.map(function(v, i) {
-  return v +1;
+  return v +10;
 });
 console.log(hello1);
 
 // 콜백함수를 화살표 함수로 변환(ES6)
 const hello2 = arr.map((v, i) => {
-  return v +2;
+  return v +20;
 });
 console.log(hello2);
 
 // 화살표 함수는 처리로직이 한줄인 경우 {} ; return 키워드 생략 가능
-const hello3 = arr.map((v, i) => v +3)
+const hello3 = arr.map((v, i) => v +30)
 console.log(hello3);

@@ -14,7 +14,7 @@ const min = Math.min(100,123, 493, 233);
 console.log(min);  // 100
 
 // 소수점 반옮림
-const num1 = 3.7146;
+const num1 = 3.3146;
 console.log(Math.round(num1));  // 4
 
 // 소수점 올림

@@ -36,9 +36,9 @@ for(let i = 0; i < data.length; i++) {
   let str = "";
   for(let j = 0; j < data[i].length; j++) {
     if(data[i][j] == 0) {
-      str += "\t";
+      str += "  \t";
     } else {
-      str += data[i][j] + "\t";
+      str += data[i][j] + " \t";
     }
   }
   console.log(str);

@@ -34,11 +34,11 @@ console.log(day);  // 월
 
 // 시간
 const hh = date1.getHours();
-console.log(hh);  // 17
+console.log(hh);  // 23
 
 // 분
 const mi = date1.getMinutes();
-console.log(mi);  // 26
+console.log(mi);  // 31
 
 // 초
 const ss = date1.getSeconds();
@@ -48,7 +48,8 @@ const result = `${yy}-${mm}-${dd} ${day}요일 ${hh}:${mi}:${ss}`
 console.log(result);
 
 // 날짜를 의미하는 문자열 반환 //
-// 날짜 부분문 나타내는, 사람이 읽을 수 있는 문자열을 반환
+// 날짜 부분만 나타내는, 사람이 읽을 수 있는 문자열을 반환
+// const date1 = new Date();
 console.log(date1.toDateString());
 
 // Date를 나타내는 문자열을 ISO8601 확장 형식에 맞춰 반환
@@ -71,11 +72,11 @@ console.log(date1.toLocaleTimeString('ko-KR'));
 
 // 특정 날짜를 의미하는 객체 생성 //
 // 시각이 없으므로 자정으로 설정
-const date2 = new Date(2021, 9, 5);
-console.log(date2.toLocaleString('ko-KO'));
+const date2 = new Date(2001, 9, 5);
+console.log(date2.toLocaleString('ko-KR'));
 
 // 특정 시점을 의미하는 객체 생성 (연, 월, 일, 시, 분, 초)//
-const date3 = new Date(2021, 9, 5, 21, 19, 31);
+const date3 = new Date(2001, 9, 5, 21, 19, 31);
 console.log(date3.toLocaleString('ko-KR'));
 
 // 이미 생성된 날짜 객체의 성분 변경 //

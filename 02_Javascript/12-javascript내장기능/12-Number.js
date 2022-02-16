@@ -29,7 +29,7 @@ console.log(Number.MAX_VALUE);
 console.log(Number.MIN_VALUE);
 
 // "숫자가 아님"을 나타내는 특별한 값
-console.log(Number.NaN);
+console.log(Number.NaN);  // NaN
 console.log(isNaN(Number.NaN));  // true
 
 // (정적) 메서드//
@@ -43,7 +43,7 @@ console.log(Number.isInteger(123));  // true
 
 // 내장 함수 parseFloat()과 동일
 // 앞에서 소개한 Number() 함수와 동일
-console.log(Number.parseFloat("123"));  // 123
+console.log(Number.parseFloat("123.12"));  // 123.12
 
 // 내장 함수 parseInt()와 동일
 console.log(Number.parseInt("123"));  // 123

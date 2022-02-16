@@ -1,8 +1,9 @@
 
 // 인덱스오브는 완벽하게 일치하는 값이 있느냐
 // 
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+// console.log(arr.lastIndexOf(3,1));
 // find 규칙을 충족하는 값, 콜백함수 
-
 // 배열 탐색하기 //
 let arr1 = [1, 0, false];
 
@@ -35,7 +36,7 @@ const arr3 = [5, 12, 8, 131, 44];
 const found = arr3.find(function(v) {
   // 파라미터로 전달되는 v는 배열의 모든 원소가 순차적으로 전달 된다.
   console.log(v);
-
+  
   // v를 우리가 원하는 조건에 충족하는지 검사하여 true/false를 리턴
   // true를 리턴하는 순간 배열의 탐색을 중단한다. (break와 동일한 기능)
   if(v % 2 == 0) {
@@ -50,11 +51,11 @@ console.log(found);
 
 // 배열 전체 검색 //
 const arr4 = [5, 12, 8, 131, 44];
-const results = arr4.filter(function(v, i ,arr){
+const found2 = arr4.filter(function(v, i ,arr){
   console.log(`v= ${v}, i= ${i}, arr= ${arr}`);
 
   if(v % 2 == 0) {
-    // true가 리턴되는 경우 v는 results 배열의 원소로 저장된다.
+    // true가 리턴되는 경우 v는 found2 배열의 원소로 저장된다.
     // true를 리턴하더라도 배열의 모든 원소를 탐색하기 전까지는 종료되지 않는다.
     return true;
   } else {
@@ -62,10 +63,10 @@ const results = arr4.filter(function(v, i ,arr){
     return false;
   }
 });
-console.log(results);
+console.log(found2);
 
 // 배열 정렬 //
-const arr5 = [2, 1, 15];
+const arr5 = [5, 12, 8, 131, 44];
 // 퀵정렬 알고리즘을 사용하여 배열 자체를 정렬한다.
 // -> 배열의 모든 원소를 문자열로 취급하기 때문에 글자 정렬 기준이 적용된다.
 // arr5.sort(); // 문자열 기준으로 정렬하기 떄문에 안됨
@@ -74,7 +75,7 @@ const arr5 = [2, 1, 15];
 // sort 함수도 정렬 조건을 콜백함수로 처리한다.
 arr5.sort(function(a, b) {
   // 정렬을 위해 비교되는 원소값들이 파라미터로 전달된다.
-  console.log("a=%s, b=%s",a ,b);
+  console.log("a= %s, b= %s",a ,b);
 
   // 리턴값이 양수인 경우: a가 b보다 크다
   // 리턴값이 음수인 경우: b가 a보다 크다
