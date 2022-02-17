@@ -618,3 +618,99 @@ for(let i = 0; i < calendar.length; i++) {
 //   console.log(err.message);
 // }
 // console.log(a);
+
+// const example = [1,2,3];
+
+// try {
+//   setTimeout(() => {
+//     // 콜백함수 안까지는 try-catch가 관여하지 못한다.
+//     for(let i = 0; i < 10; i ++) {
+//       console.log(example[i].toFixed(2));
+//     }
+
+//     // 위에서 에러가 발생했기 때문에 실행되지 않는다.
+//     console.log("배열탐색 종료");
+//   }, 1000)  // 1초 뒤 실행되다가 에러가 나는 부분부터 중지된다.
+// } catch(err) {
+//   // catch 구문도 비동기 함수는 처리하지 못하기 때문에 실행되지 않는다.
+//   console.log("에러발생");
+// }
+
+// // 가장 먼저 실행된다.
+// console.log("프로그램 종료");
+
+// const example = [1,2,3];
+
+// setTimeout(() => {
+//   // 콜백함수 내부에 try-catch 선언
+//   try {
+//     for(let i = 0; i < 10; i++) {
+//       console.log(example[i].toFixed(2));
+//     }
+
+//     // 위에서 에러가 발생했기 때문에 실행되지 않는다.
+//     console.log("배열탐색 종료");
+
+//   } catch(err) {
+//     // try 구문에서 에러가 발생했기 때문에 catch 구문 실행
+//     console.log("에러발생");  // 에러발생
+//     console.error(err.name);  // TypeError
+//     console.error(err.message);  // 에러 메세지 내용
+//   }
+// }, 1000);
+
+// // 가장 먼저 실행된다.
+// console.log("프로그램 종료");
+
+// function example(print, timeout) {
+//   setTimeout(print, timeout);
+// }
+// example(() => console.log("비동기식 콜백"), 2000);
+
+// // 랜덤 숫자 함수 선언
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min + 1)) + min;
+// };
+
+// // 비동기식 처리
+// setTimeout(() => {
+//   console.log("홀수/짝수");
+
+//   // 랜덤 숫자 함수 호출
+//   const number = random(1, 9);
+//   setTimeout(() => {
+//     console.log(number % 2 === 0 ? "짝수" : "홀수");
+//   }, 3000)
+// }, 1000);
+
+function random(min, max) {
+  return parseInt(Math.random() * (max - min + 1)) + min;
+};
+
+function getOddEven() {
+  return new Promise(function(resolve, reject) {
+    setTimeout(() => {
+      console.log("홀수/짝수");
+      const oddEven = random(1,10) 
+
+      if(oddEven % 2 === 0) {
+        resolve({msg1: "짝수", msg2: "짝홀짝홀"});
+      } else {
+        reject({msg1: "홀수", msg2: "홀짝홀짝"});
+      }
+    }, 1000);
+  });
+}
+
+const myPromise = getOddEven();
+
+myPromise
+.then(({msg1, msg2}) => {
+  console.log(msg1, msg2);
+}) 
+.catch(({msg1, msg2}) => {
+  console.log(msg1, msg2);
+})
+.finally(() => {
+  console.log("finally는 생략가능");
+});
