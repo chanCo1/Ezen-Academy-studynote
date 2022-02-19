@@ -9,12 +9,16 @@ setTimeout(() => {
     for(let i = 0; i < 10; i++) {
       console.log(data[i].toFixed(2));
     }
+    console.log("배열탐색 종료1");
+
   } catch(err) {
     console.log("에러발생(2)");
     console.error(err.name);  // TypeError
     console.error(err.message);  // 에러 메세지
   }
-  console.log("배열탐색 종료");
+  // 콜백함수 내부에서 처리된 예외처리는 발생한 에러 상황을 처리할 수 있기 때문에 
+  // 아래코드는 정상적으로 실행된다.
+  console.log("배열탐색 종료2");
 }, 1000);
 
 console.log("프로그램 종료");

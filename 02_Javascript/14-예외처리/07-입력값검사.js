@@ -3,7 +3,7 @@ const RegexHelper = require("./RegexHelper");
 // 회원가입시 입력받은 값을 가정한 변수
 // 사용자가 입력한 모든 내용은 문자열 변수이다.
 
-const uername = "자바스크립트";
+const uername = "자바스크립트123";
 const age = "20";
 const uerid = "js123";
 

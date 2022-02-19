@@ -683,34 +683,223 @@ for(let i = 0; i < calendar.length; i++) {
 //   }, 3000)
 // }, 1000);
 
-function random(min, max) {
-  return parseInt(Math.random() * (max - min + 1)) + min;
-};
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min + 1)) + min;
+// };
 
-function getOddEven() {
-  return new Promise(function(resolve, reject) {
+// // Promise를 가동하기 위해서는 Promise 객체를 리턴하는 함수가 필요함
+// function getOddEven() {
+//   // Promise 객체는 resolve 함수와 reject 함수를 파라미터로 받는 콜백이 필요함
+//   return new Promise(function(resolve, reject) {
+//     // 비동기 처리
+//     setTimeout(() => {
+//       console.log("홀수/짝수");
+//       const oddEven = random(1,10) 
+
+//       if(oddEven % 2 === 0) {
+
+//         // if문이 true면 resolve를 호출
+//         // 여러개의 정보를 보내야할 경우 JSON이 적절함
+//         resolve({msg1: "짝수", msg2: "짝홀짝홀"});
+//       } else {
+
+//         // if문이 false일 경우 reject 호출
+//         reject({msg1: "홀수", msg2: "홀짝홀짝"});
+//       }
+//     }, 3000);
+//   });
+// }
+
+// // Promise 객체를 리턴받기 위한 함수 호출
+// // Promise 클래스에 전달한 생성자 파라미터(콜백함수)가 실행됨
+// const myPromise = getOddEven();
+
+// myPromise
+// .then(({msg1, msg2}) => {  // resolve 값을 호출
+//   console.log(msg1, msg2);
+// }) 
+// .catch(({msg1, msg2}) => {  // reject 값을 호출
+//   console.log(msg1, msg2);
+// })
+// .finally(() => {  // 결과값에 상관 없이 무조건 실행되는 구문, 생략가능
+//   console.log("finally는 생략가능");
+// });
+
+// // 함수 앞에 async 선언
+// async function example() {
+//   return "Hi";
+// };
+
+// // async가 선언된 함수에서 then 사용
+// example().then(console.log);  // Hi 출력
+// console.log(example());  // Promise { 'Hi' } 출력
+
+
+// async function f() {
+//   let example = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("실행완료")
+//     }, 2000);
+//   })
+//   // Promise가 처리 될 때까지 기다린다.
+//   let wait = await example;
+//   console.log(wait);
+// }
+// f();
+
+
+
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min + 1)) + min;
+// };
+
+// function getOddEven() {
+//   return new Promise(function(resolve, reject) {
+//     setTimeout(() => {
+//       console.log("홀수/짝수");
+//       const oddEven = random(1,10) 
+
+//       if(oddEven % 2 === 0) {
+//         resolve({msg1: "짝수", msg2: "짝홀짝홀"});
+//       } else {
+//         reject({msg1: "홀수", msg2: "홀짝홀짝"});
+//       }
+//     }, 1000);
+//   });
+// };
+
+// (async () => {
+//   let result = null;
+
+//   try {
+//     result = await getOddEven();
+//     console.log(result.msg1, result.msg2);
+//   } catch(err) {
+//     console.log(err.msg1, err.msg2);
+//   }
+// }) ();
+
+
+
+// // 입력값 검사
+// // 검사하는 클래스 모듈 호출
+// const RegexHelper = require("./ex_RegexHelper");
+
+// // 사용자가 입력한 값
+// const username = "Java스크립트123";
+
+// // 입력값 검사를 수행하기 위한 객체 생성
+// const regex = new RegexHelper();
+
+// try {
+//   // RegexHelper 클래스의 kor() 메서드에 파라미터 값 전달
+//   regex.kor(username, "영문과 한글만 입력하세요.")
+// } catch(err) {
+//   console.error("%s 에러 발생", err.name);  // BadRequestException 에러 발생
+//   console.error("에러코드: %d", err.statusCode);  // 에러코드: 400
+//   console.error("에러내용: %s", err.message);  // 에러내용: 영문과 한글만 입력하세요.
+// } finally {
+//   console.log("검사완료");
+// }
+
+
+// // ------------ 5문제 만들기 ----------- //
+
+// //## 문제
+// // 아래 코드를 실행 후 마지막으로 출력되는 숫자는?
+// let example = 15;
+// while(example < 28) {
+//   if(example == 20) {
+//     break;
+//   }
+//   console.log(example);
+//   example++;
+// }
+// // 1. 15 - 초기값으로 while문이 실행되기 전 값이다.
+// // 2. 19 - 정답
+// // 3. 20 -  console.log()문이 증감식 보다 위에 선언돼있어서 마지막 숫자가 출력되지 않는다.
+// // 4. 27 - 숫자가 20과 같아지면 break 하라는 조건이 있기 때문에 답이 아니다.
+
+// // 해설: 15~27 까지 반복하면서 숫자가 20이되면 멈추는데, 증감식 수행 전에 출력을 했기 때문에 19가 출력된다.
+
+
+// //## 문제
+// // 아래 코드를 실행 하면 어떤 숫자가 출력되는지 찾으시오.
+// for(let i = 0; i < 20; i+=2) {
+//   if(i % 3 == 1) {
+//     console.log(i);
+//   }
+// }
+// // 1. 4,16 - 10이 빠져있다.
+// // 2. 4,10,16 - 정답
+// // 3. 0,6,12,18 - 3으로 나누었을 때 0이 남는다.
+// // 4. 1,4,7,10,13,16,19 - 2씩 증감하기 때문에 나올 수 없는 숫자이다.
+
+// // 해설: 0~19까지 반복하면서 숫자 2씩 증가시키는데, 3으로 나누었을 때 1이 남는 숫자를 찾는 문제이다. 0~19 사이에 짝수 중 3으로 나누었을 때 1이 남는 숫자는 4, 10, 16 이다.
+
+
+// //## 문제
+// // 아래 코드를 실행하면 어떤 숫자가 출력되는지 찾으시오.
+// const arr = [1, 2, 3, 4, 5];
+// arr.push(20);
+// arr.unshift(15);
+// arr.pop();
+// arr.splice(0,5);
+// console.log(arr);
+
+// // 1. [5] - 정답
+// // 2. [20, 1, 2, 3, 4, 5, 15]
+// // 3. [15, 1, 2, 3, 4, 5, 20]
+// // 4. [1, 2, 3, 4, 5]
+
+// // 해설: 배열 값의 마지막에 20을 넣고(push), 맨 앞에 15를 넣고(unshift), 마지막 배열을 삭제(pop) 후 splice로 0번째 인덱스에서 5번째 까지 값을 삭제하였다.  
+
+
+// //## 문제
+// // 아래 코드를 실행시 출력되는 답을 고르시오.
+// const nameInfo = {
+//   firstName : "이름",
+//   lastName : "성",
+//   information : function () {
+//     return `사람의 이름은 ${this.lastName}과 ${this.firstName}으로 이루어져있다.`;
+//   }
+// }
+// nameInfo.information();
+
+// // 1. 사람의 이름은 lastName과 firstName으로 이루어져있다.
+// // 2. 사람의 이름은 성과 이름으로 이루어져있다.
+// // 3. 사람의 이름은 undefined과 undefined으로 이루어져있다.
+// // 4. 아무것도 출력되지 않는다. - 정답
+
+// // 해설: console.log()문이 없기 때문에 아무것도 출력되지 않는다.
+
+
+// // 문제
+// // Math.random() 함수에 대해 옳은 말을 고르시오.
+
+// // 1. 0은 제외하고 1은 포함된 두 수 사이의 실수
+// // 2. 0과 1을 포함한 두 수 사이의 실수
+// // 3. 0과 1을 제외한 두 수 사이의 실수
+// // 4. 0은 포함되고 1은 제외한 두 수 사이의 실수 - 정답
+
+// // 해설: Math.random() 함수는 0포함, 1제외한  두 수 사이의 부동소수점을 반환한다.
+
+
+
+
+
+
+function dinner2() {
+  setTimeout(() => {
+    console.log("저녁메뉴는!?");
+
     setTimeout(() => {
-      console.log("홀수/짝수");
-      const oddEven = random(1,10) 
-
-      if(oddEven % 2 === 0) {
-        resolve({msg1: "짝수", msg2: "짝홀짝홀"});
-      } else {
-        reject({msg1: "홀수", msg2: "홀짝홀짝"});
-      }
+      
+      const arr1 = ["회", "육회", "곱창", "돈이&김치말이국수", "족발&막국수"];
+      const dinner = arr1[Math.floor(Math.random() * arr1.length)];
+      console.log(dinner);
     }, 1000);
-  });
+  }, 500);
 }
+dinner2();
 
-const myPromise = getOddEven();
-
-myPromise
-.then(({msg1, msg2}) => {
-  console.log(msg1, msg2);
-}) 
-.catch(({msg1, msg2}) => {
-  console.log(msg1, msg2);
-})
-.finally(() => {
-  console.log("finally는 생략가능");
-});
