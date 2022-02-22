@@ -1,4 +1,4 @@
-// ## 연산자 실습 //
+// ----- 연산자 실습 ----- //
 
 // // TODO: 1.
 // const year = 2022;
@@ -35,7 +35,7 @@
 // console.log(Math.floor(result) * 100);
 
 
-// ## 프로그램 흐름 제어 실습 //
+// ----- 프로그램 흐름 제어 실습 ----- //
 
 // // TODO: 1.
 // const math = "B";
@@ -65,7 +65,7 @@
 // }
 
 
-// ## 기본 문법 활용 실습 //
+// ----- 기본 문법 활용 실습 ----- //
 
 // // TODO: 문제 1.
 // for(let i = 9; i > -1; i--) {
@@ -259,7 +259,7 @@
 // console.log(star);
 
 
-// ## 배열 실습 //
+// -----  실습 ----- //
 
 // // TODO: 1.
 // const before = [true, false, false, true, false];
@@ -464,7 +464,7 @@
 // }
 
 
-// ## JSON 실습 //
+// ----- JSON 실습 ----- //
 
 // // FIXME: 1.
 // const bloodType = ['A', 'A', 'A', 'O', 'B', 'B', 'O', 'AB', 'AB', 'O'];
@@ -569,7 +569,7 @@
 // console.log(maxDate);
 
 
-// ## 함수 실습 //
+// ----- 함수 실습 ----- //
 
 // // TODO: 1.
 // function star(num) {
@@ -658,7 +658,19 @@
 // PrintRevStar(5)
 
 
-// ## 클래스 실습 //
+// // TODO: 6.
+// function gugu(max, current=1) {
+//   if(9 < current) {
+//     return;
+//   } else {
+//     console.log(max, current, max*current);
+//     gugu(max, current+1);
+//   }
+// }
+// gugu(5);
+
+
+// ----- 클래스 실습 ----- //
 
 // // TODO: 1.
 // class Student {
@@ -809,6 +821,633 @@
 // customer.output();
 
 
-// ## 내장기능 실습 //
+// ----- 내장기능 실습 ----- //
 
-// TODO: 1.
+// // TODO: 1.
+// const email = "javascript@mail.com";
+
+// const find = email.indexOf("@");
+
+// const id = email.substring(0, find);
+// const domain = email.substring(find+1);
+// console.log(id);
+// console.log(domain);
+
+
+// // TODO: 2.
+// const jumin = "020517-3******";
+
+// const year = parseInt(jumin.substring(0,2));
+// const month = parseInt(jumin.substring(2, 4));
+// const day = parseInt(jumin.substring(4, 6));
+// const gender = parseInt(jumin.substring(7,8));
+
+// const born_year = gender > 2 ? year + 2000 : year + 1900;
+
+// const date = new Date();
+// const now_year = date.getFullYear();
+
+// const age = now_year - born_year + 1;
+
+// const sex = gender % 2 == 1 ? "남자" : "여자";
+
+// console.log(`${born_year}년 ${month}월 ${day}일에 태어난 ${age}세 ${sex} 입니다.`);
+
+
+// // FIXME: 3.
+// let str = "수업시간에 배운것은 수업시간에 다 이해하고 넘어가야지 수업시간에 놓치면 따라오기 힘들다";
+
+// const word = "수업시간";
+// const w_len = word.length;
+// let find = true;
+// let count = 0;
+
+// while(find) {
+//   found = str.indexOf(word);
+//   find = found > -1;
+
+//   if(find) {
+//     count++;
+//     str = str.substring(found + w_len);
+//   }
+// };
+// console.log(count);
+
+
+// // FIXME: 4.
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min) + min);
+// };
+
+// const lotto = [];
+
+// for(let i = 0; i < 6; i++) {
+//   const ran = random(1,45);
+
+//   while(true) {
+
+//     if(!lotto.includes(ran)) {
+//       lotto.push(ran);
+//       break;
+//     }
+//   }
+// }
+// console.log(lotto);
+
+
+// // FIXME: 4-1.
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min) + min);
+// };
+
+// let balls = [];
+// const lotto = new Array(6);
+
+// for(let i = 0; i < 45; i++) {
+//   balls[i] = i + 1
+// }
+
+// for(let i = 0; i < lotto.length; i++) {
+//   ran = random(0, balls.length - 1);
+
+//   lotto[i] = balls[ran];
+
+//   balls.splice(ran, 1);
+// }
+
+// console.log(lotto);
+
+
+// // FIXME: 5.
+// const date = new Date();
+// const ms = date.getTime();
+
+// const day1 = new Date(date.getFullYear(), 0, 1);
+// const ms2 = day1.getTime();
+
+// const calculator = ms - ms2;
+
+// const result = Math.floor(calculator / (24 * 60 * 60 * 1000));
+// const today = date.toLocaleString("ko-KR");
+// console.log(today, result);
+
+
+// // TODO: 5-1.
+// const date = new Date();
+// const ms = date.getTime();
+
+// const date2 = new Date(date.getFullYear(), 11, 31);
+// const ms2 = date2.getTime();
+
+// const calculator = ms2 - ms;
+
+// const result = Math.ceil(calculator / (24 * 60 * 60 * 1000));
+// const today = date.toLocaleString("ko-KR");
+// console.log(today, result);
+
+
+
+
+
+
+
+// ----- 재풀이 2회차 ----- //
+
+// ----- 프로그램 흐름 제어 실습 ----- //
+
+// // TODO: 5.
+// for(let i = 0; i < 4; i++) {
+//   let num = 0;
+//   for(let j = 0; j < 4; j++) {
+//     num += i + j
+
+//     if(j + 1 < 4) {
+//       num += " ";
+//     }
+//   }
+//   console.log(num);
+// }
+
+
+// // TODO: 7.
+// const number = 1;
+
+// const ex = number == 1 ? 3 : 2;
+
+// for(let i = ex; i < 10; i+=2) {
+//   for(let j = 1; j < 10; j++) {
+//     console.log(`${i} X ${j} = ${i*j}`);
+//   }
+// }
+
+
+// -----  실습 ----- //
+
+// // FIXME: 5.  // 풀었지만, 다시 풀어보는게 좋을 듯.
+// const price = [38000, 20000, 17900, 17900]; 
+// const qty = [6, 4, 3, 5];
+
+// let money = price[0] * qty[0];
+
+// for(let i = 0; i < price.length; i++) {
+//   let sum = price[i] * qty[i];
+
+//   if(money < sum) {
+//     money = sum
+//   }
+// }
+// console.log(money);
+
+// // const max = Math.max(...money);
+// // console.log(max);
+
+
+// // FIXME: 7.  // 풀었지만, 다시 풀어보는게 좋을 듯.
+// const price = [209000, 109000, 119000, 109000, 94000];
+// console.log("상품가격 -> " + price);
+
+// price.sort((a, b) => {
+//   if(a > b) {
+//     return 1;
+//   } else {
+//     return -1;
+//   }
+// });
+// console.log("낮은가격순 -> " + price);
+
+// // TODO: 9.
+// const student = ["둘리", "도우너", "또치", "희동"];
+// const score = [
+//   [78, 89, 96],
+//   [62, 77, 67],
+//   [54, 90, 80],
+//   [100, 99, 98]
+// ];
+
+// for(let i = 0; i < score.length; i++) {
+//   let sum = 0;
+//   for(let j = 0; j < score[i].length; j++) {
+//     sum += score[i][j]
+//   }
+
+//   let avg = (sum / score[i].length).toFixed(2);
+//   console.log(student[i], sum, avg);
+// }
+
+
+// // TODO: 10.
+// const student = ["둘리", "도우너", "또치", "희동"];
+// const score = [
+//   [78, 89, 96],
+//   [62, 77, 67],
+//   [54, 90, 80],
+//   [100, 99, 98]
+// ];
+
+// let totalAvg = 0;
+
+// for(let i = 0; i < score.length; i++) {
+//   let sum = 0;
+//   for(let j = 0; j < score[i].length; j++) {
+//     sum += score[i][j];
+//   }
+
+//   let avg = (sum / score[i].length).toFixed(2);
+//   console.log(student[i], sum, avg);
+
+//   totalAvg += (sum / score[i].length) / student.length;
+// }
+// console.log("반평균 = " + totalAvg);
+
+
+// ----- JSON 실습 ----- //
+// // TODO: 1.
+// const bloodType = ['A', 'A', 'A', 'O', 'B', 'B', 'O', 'AB', 'AB', 'O'];
+
+// const result = {
+//   "A" : 0,
+//   "B" : 0,
+//   "AB" : 0,
+//   "O" : 0
+// };
+
+// for(const i of bloodType) {
+//   result[i]++;
+// }
+// console.log(result);
+
+
+// // TODO: 2.
+// const exam = { 
+//   "철수": [89, 82, 79, 91], 
+//   "민영": [91, 95, 94, 89], 
+//   "남철": [65, 57, 71, 64], 
+//   "혜진": [82, 76, 81, 83]
+// }
+
+// for(const i in exam) {
+//   let sum = 0;
+//   for(const j of exam[i]) {
+//     sum += j;
+//   }
+  
+//   let avg = sum / exam[i].length;
+//   console.log(i, sum, avg);
+// };
+
+
+// // TODO: 5.
+// covid = [ 
+//   {date: '0125', active: 426}, 
+//   {date: '0126', active: 343}, 
+//   {date: '0127', active: 547}, 
+//   {date: '0128', active: 490}, 
+//   {date: '0129', active: 460}, 
+//   {date: '0130', active: 443}, 
+//   {date: '0131', active: 338}, 
+//   {date: '0201', active: 299} 
+// ];
+
+// let maxDate = covid[0].date;
+// let maxActive = covid[0].active;
+
+// for(const i of covid) {
+//     if(maxActive < i.active) {
+//       maxDate = i.date;
+//       maxActive = i.active;
+//     }
+// };
+// console.log(maxDate);
+
+// ----- 함수 실습 ----- //
+// // FIXME: 3.
+// function myGame(n) {
+//   let count = 0;
+
+//   for(let i = 1; i <= n; i++) {
+//     let str = i + "";
+//     let say = "";
+//     let clap = 0;
+
+//     for(let j of str) {
+//       if(j == 3 || j == 6 || j == 9) {
+//         say += "짝";
+//         clap++;
+//       }
+//     }
+    
+//     if(clap == 0) {
+//       console.log(i);
+//     } else {
+//       console.log(say, i, clap);
+//     }
+//     count += clap;
+//   }
+//   console.log(count);
+// }
+// myGame(35);
+
+// str == 3 || str == 6 || str == 9
+//str.includes(3) || str.includes(6) || str.includes(9)
+
+
+// // TODO: 4.
+// function printStar(max, current=1) {
+//   if(max < current) {
+//     return;
+//   } else {
+//     let star = "";
+//     for(let i = 0; i < current; i++) {
+//       star += "*";
+//     }
+//     console.log(star);
+//     printStar(max, current+1);
+//   }
+// }
+// printStar(5);
+
+
+// // TODO: 5.
+// function printRevStar(max, current=1) {
+//   if(max < current) {
+//     return;
+//   } else {
+//     let star = "";
+//     for(let i = 0; i < max - current+1; i++) {
+//       star += "*";
+//     }
+//     console.log(star);
+//     printRevStar(max, current+1);
+//   }
+// }
+// printRevStar(5)
+
+
+// ----- 내장기능 실습 ----- //
+// // FIXME: 3.
+// let str = "수업시간에 배운것은 수업시간에 다 이해하고 넘어가야지 수업시간에 놓치면 따라오기 힘들다";
+
+// const word = "수업시간";
+// const w_leng = word.length;
+// let find = true;
+// let count = 0;
+
+// while(find) {
+//   let found = str.indexOf(word);
+//   find = found > -1
+
+//   if(find) {
+//     count++;
+//     str = str.substring(found + w_leng);
+//   }
+// }
+// console.log(count);
+
+
+
+// // FIXME: 4.
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min + 1)) + min;
+// };
+
+// let lotto = [];
+
+// for(let i = 0; i < 6; i++) {
+//   while(true) {
+//     const ran = random(1,45);
+
+//     if(!lotto.includes(ran)) {
+//       lotto.push(ran);
+//       break;
+//     } 
+//   }
+// }
+// console.log(lotto);
+
+
+// // FIXME: 4-1.  // 풀었지만, 다시 풀어보기
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min + 1)) + min;
+// };
+
+// let balls = [];
+// for(let i = 0; i < 45; i++) {
+//   balls[i] = i+1
+// }
+
+// let lotto = new Array(6);
+// for(let j = 0; j < lotto.length; j++) {
+//   let ran = random(0, balls.length-1);
+
+//   lotto[j] = balls[ran];
+//   balls.splice(ran, 1);
+// }
+// console.log(lotto);
+
+// // TODO: 5
+// const date = new Date();
+// const day = date.getTime();
+
+// const date2 = new Date(date.getFullYear(), 0, 1);
+// const day2 = date2.getTime();
+
+// const calc = day - day2;
+// const result = Math.floor(calc / (24 * 60 * 60 * 1000));
+// const today = date.toLocaleString("ko-KR");
+
+// console.log(today, result);
+
+
+
+// ----- 재풀이 3회차 ----- //
+
+// ----- 배열 실습 ----- //
+
+// // TODO: 5.
+// const price = [38000, 20000, 1799696900, 17900];
+// const qty = [6, 4, 3, 5];
+
+// let max = price[0] * qty[0];
+// let sum =[];
+
+// for(let i = 0; i < price.length; i++) {
+//   sum[i] = price[i] * qty[i];
+
+//   if(max < sum[i]) {
+//     max = sum[i]
+//   }
+// }
+// console.log(max);
+
+// // TODO: 7.
+// const price = [209000, 109000,119000, 109000, 94000];
+// console.log("상품가격 -> " + price);
+
+// price.sort((a,b) => {
+//   if(a > b) {
+//     return 1;
+//   } else {
+//     return -1;
+//   }
+// })
+
+// console.log("낮은가격순 -> " + price);
+
+
+// ----- 함수 실습 ----- //
+
+// // TODO:  FIXME: 3.
+// function myGame(n) {
+
+//   let count = 0;
+
+//   for(let i = 1; i <= n; i++) {
+//     let str = i + "";
+//     let say = "";
+//     let clap = 0;
+
+//     for(const j of str) {
+
+//       if(j == 3 || j == 6 || j == 9) {
+//         say += "짝";
+//         clap++;
+//       }
+//     }
+
+//     if(clap == 0) {
+//       console.log(str);
+//     } else {
+//       console.log(`${say}(${str}) --> ${clap}번`);
+//       count += clap;
+//     }
+//   }
+//   console.log();
+//   console.log(count);
+// }
+// myGame(35);
+
+// ----- 내장기능 실습 ----- //
+
+// // FIXME: 3.
+// let str = "수업시간에 배운것은 수업시간에 다 이해하고 넘어가야지 수업시간에 놓치면 따라오기 힘들다";
+
+// const word = "수업시간";
+// const w_len = word.length;
+// let find = true;
+// let count = 0;
+
+// while(find) {
+//   let found = str.indexOf(word)
+//   find = found > -1;
+
+//   if(find) {
+//     count++;
+//     str = str.substring(found + w_len);
+//   }
+// }
+// console.log(count);
+
+
+// // TODO: 4.
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min + 1)) + min;
+// }
+
+// let lotto = [];
+
+// for(let i = 0; i < 6; i++) {
+//   while(true) {
+//     let ran = random(1,45);
+
+//     if(!lotto.includes(ran)) {
+//       lotto.push(ran);
+//       break;
+//     }
+//   }
+// }
+// console.log(lotto);
+
+
+// // TODO: FIXME: 4-1.
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min + 1)) + min;
+// };
+
+// let balls = [];
+// for(let i = 0; i < 45; i++) {
+//   balls[i] = i +1
+// }
+
+// let lotto = new Array(6);
+// for(let i = 0; i < lotto.length; i++) {
+//   let ran = random(0, balls.length-1);
+//   console.log(balls);
+
+//   lotto[i] = balls[ran];
+
+//   balls.splice(ran, 1);
+//   console.log(lotto);
+// }
+// console.log();
+// console.log("오늘의 로또: " + lotto);
+
+
+// ----- 재풀이 4회차 ----- //
+
+// ----- 함수 실습 ----- //
+
+// // // FIXME: 3.  // 그냥 for문과 for of문의 차이가 뭔지 숙지 할 것.
+// function myGame(n) {
+//   let count = 0;
+
+//   for(let i = 1; i <= n; i++) {
+//     const str = i + "";
+//     let say = "";
+//     let clap = 0;
+
+//     for(const j of str) {
+//       if(j == "3" || j == 6 || j == 9) {
+//         say += "짝";
+//         clap++;
+//       }
+//     }
+
+//     if(clap == 0) {
+//       console.log(str);
+//     } else {
+//       console.log(say, i, clap);
+//       count += clap;
+//     }
+//   }
+//   console.log();
+//   console.log(count);
+// }
+// myGame(35);
+
+
+// ----- 내장기능 실습 ----- //
+
+// TODO: 3.
+let str = "수업시간에 배운것은 수업시간에 다 이해하고 넘어가야지 수업시간에 놓치면 따라오기 힘들다";
+
+
+// // TODO: 4-1.
+// function random(min, max) {
+//   return parseInt(Math.random() * (max - min + 1)) + min;
+// }
+
+// let balls = [];
+// for(let i = 0; i < 45; i++) {
+//   balls[i] = i +1;
+// }
+
+// let lotto = new Array(6);
+// for(let i = 0; i < lotto.length; i++) {
+//   const ran = random(0, balls.length -1);
+
+//   lotto[i] = balls[ran];
+
+//   balls.splice(ran, 1);
+//   console.log(balls);
+// }
+// console.log(lotto);

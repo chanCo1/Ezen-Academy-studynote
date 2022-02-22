@@ -811,16 +811,16 @@ for(let i = 0; i < calendar.length; i++) {
 // while(example < 28) {
 //   if(example == 20) {
 //     break;
-//   }
+//   };
 //   console.log(example);
 //   example++;
-// }
+// };
 // // 1. 15 - 초기값으로 while문이 실행되기 전 값이다.
 // // 2. 19 - 정답
 // // 3. 20 -  console.log()문이 증감식 보다 위에 선언돼있어서 마지막 숫자가 출력되지 않는다.
 // // 4. 27 - 숫자가 20과 같아지면 break 하라는 조건이 있기 때문에 답이 아니다.
 
-// // 해설: 15~27 까지 반복하면서 숫자가 20이되면 멈추는데, 증감식 수행 전에 출력을 했기 때문에 19가 출력된다.
+// // 해설: 15~27 까지 반복하면서 숫자가 20이되면 멈추는데, 증감식을 수행하기 전에 출력을 하기 때문에 마지막 숫자는 19가 출력된다.
 
 
 // //## 문제
@@ -828,8 +828,8 @@ for(let i = 0; i < calendar.length; i++) {
 // for(let i = 0; i < 20; i+=2) {
 //   if(i % 3 == 1) {
 //     console.log(i);
-//   }
-// }
+//   };
+// };
 // // 1. 4,16 - 10이 빠져있다.
 // // 2. 4,10,16 - 정답
 // // 3. 0,6,12,18 - 3으로 나누었을 때 0이 남는다.
@@ -852,7 +852,7 @@ for(let i = 0; i < calendar.length; i++) {
 // // 3. [15, 1, 2, 3, 4, 5, 20]
 // // 4. [1, 2, 3, 4, 5]
 
-// // 해설: 배열 값의 마지막에 20을 넣고(push), 맨 앞에 15를 넣고(unshift), 마지막 배열을 삭제(pop) 후 splice로 0번째 인덱스에서 5번째 까지 값을 삭제하였다.  
+// // 해설: 선언된 배열 값의 맨 마지막에 20을 넣고(push), 맨 앞에 15를 넣고(unshift), 마지막 배열을 삭제(pop) 후 splice로 0번째 인덱스에서 5번째 까지 값을 삭제하였다.
 
 
 // //## 문제
@@ -863,7 +863,7 @@ for(let i = 0; i < calendar.length; i++) {
 //   information : function () {
 //     return `사람의 이름은 ${this.lastName}과 ${this.firstName}으로 이루어져있다.`;
 //   }
-// }
+// };
 // nameInfo.information();
 
 // // 1. 사람의 이름은 lastName과 firstName으로 이루어져있다.
@@ -887,19 +887,52 @@ for(let i = 0; i < calendar.length; i++) {
 
 
 
+// // ----- 메뉴고르기 ----- //
 
+// function dinner2() {
+//   setTimeout(() => {
+//     console.log("저녁메뉴는!?");
 
-function dinner2() {
-  setTimeout(() => {
-    console.log("저녁메뉴는!?");
-
-    setTimeout(() => {
+//     setTimeout(() => {
       
-      const arr1 = ["회", "육회", "곱창", "돈이&김치말이국수", "족발&막국수"];
-      const dinner = arr1[Math.floor(Math.random() * arr1.length)];
-      console.log(dinner);
-    }, 1000);
-  }, 500);
-}
-dinner2();
+//       const arr1 = ["회", "육회", "곱창", "돈이&김치말이국수", "족발&막국수"];
+//       const dinner = arr1[Math.floor(Math.random() * arr1.length)];
+//       console.log(dinner);
+//     }, 2000);
+//   }, 500);
+// }
+// dinner2();
 
+
+// // ------ 정수 내림차순으로 배치하기 ----- //
+// function solution(n) {
+//   let answer = 0;
+
+//   let str = (n + "").split("");
+//   str.sort((a, b) => {
+//     if(a > b) {
+//       return -1;
+//     }
+//   })
+
+//   answer = Number(str.toString().replace(/,/g, ''));
+//   console.log(typeof answer);
+
+//   return answer;
+// }
+// console.log(solution(118372));
+
+
+// ----- 이상한 문자 만들기 ------ //
+function solution(s) {
+  let answer = "";
+  const arr = s.split(" ");
+
+  for(let i = 0; i < arr.length; i++) {
+    
+  }
+
+
+  return answer;
+}
+solution("try hello world");
