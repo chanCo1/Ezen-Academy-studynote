@@ -904,35 +904,16 @@ for(let i = 0; i < calendar.length; i++) {
 // dinner2();
 
 
-// // ------ 정수 내림차순으로 배치하기 ----- //
-// function solution(n) {
-//   let answer = 0;
+// const data = [10, 20, 30, 40, 50];
 
-//   let str = (n + "").split("");
-//   str.sort((a, b) => {
-//     if(a > b) {
-//       return -1;
-//     }
-//   })
+// const a = data.join("");
+// console.log(a);  // abcde5060
 
-//   answer = Number(str.toString().replace(/,/g, ''));
-//   console.log(typeof answer);
+// const b = data.join("/");
+// console.log(b);  // a/b/c/d/e/50/60
 
-//   return answer;
-// }
-// console.log(solution(118372));
+// const c = data.join(" ");
+// console.log(c);  // a b c d e 50 60
 
-
-// ----- 이상한 문자 만들기 ------ //
-function solution(s) {
-  let answer = "";
-  const arr = s.split(" ");
-
-  for(let i = 0; i < arr.length; i++) {
-    
-  }
-
-
-  return answer;
-}
-solution("try hello world");
+// const d = data.join(" + ")
+// console.log(d);  // a + b + c + d + e + 50 + 60
