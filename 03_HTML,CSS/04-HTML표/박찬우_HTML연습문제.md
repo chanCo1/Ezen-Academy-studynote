@@ -1,0 +1,158 @@
+# 박찬우 HTML 연습문제
+
+> 2022-02-24
+
+## 문제 1
+
+표 똑같이 만들기
+
+<img src="" width="600px"></img>
+
+```html
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이력서 만들기</title>
+</head>
+<body>
+  
+  <table border="1" width="1000" align="center" cellpadding="0" style="font-size: 20px;">
+
+    <thead>
+      <tr align="center">
+        <td width="100" height="280" colspan="3" rowspan="4">사진</td>
+        <th height="100" colspan="4" style="font-size: 40px;">이&nbsp;&nbsp;&nbsp;&nbsp;력&nbsp;&nbsp;&nbsp;&nbsp;서</th>
+      </tr>
+      <tr align="center">
+        <th>성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;명</th>
+        <td>박찬우</td>
+        <th>주민등록번호</th>
+        <td>000101-3012345</td>
+      </tr>
+      <tr align="center">
+        <th>생년원일</th>
+        <td>2000년 01월 01일</td>
+        <th>전 화 번 호</th>
+        <td>010-1234-5678</td>
+      </tr>
+      <tr align="center">
+        <th>현 주 소</th>
+        <td align="left" colspan="3">&nbsp;서울시 강남구 역삼동 ...</td>
+      </tr>
+    </thead>
+
+    <tbody>
+        <tr align="center" height="60" style="font-size: 20px;">
+        <th>년</th>
+        <th>월</th>
+        <th>일</th>
+        <th colspan="3">학력 및 경력사항</th>
+        <th>발령청</th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+      <tr align="center" height="60">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="3"></th>
+        <th></th>
+      </tr>
+
+    </tbody>
+  </table>
+</body>
+</html>
+```
+
+>실행결과
+
+<img src="./img/표그리기.png" width="600px" height="600px"></img>
+
+---
+
