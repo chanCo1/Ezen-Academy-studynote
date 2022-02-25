@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <form name="form1" method="get" action="result.html">
+    <fieldset>
+      <legend>이름입력하기</legend>
+      <div>
+        <label for="user_name"></label>
+        <input type="text" name="user_name" id="user_name" />
+      </div>
+      <div>
+        <input type="submit" value="입력완료" />  // action 값으로 이동
+        <input type="reset" value="다시작성" />
+        <input type="button" value="일반버튼" />
+        <input type="image" src="./img/ok.png" value="입력완료" />  // 기능은 서브밋과 동일, 잘 안씀
+      </div>
+    </fieldset>
+  </form>
+
+</body>
+</html>

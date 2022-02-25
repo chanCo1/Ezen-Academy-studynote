@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <form>
+
+    <fieldset>
+      <legend>취미 선택하기</legend>
+      <div>
+        <!-- 체크박스 (중복 됨)-->   // 체크박스는 백엔드 가면 배열이 된다. id는 겹치면 안된다.
+        <input type="checkbox" name="hobby" id="hobby1" value="축구" checked /> // 백이나 프론트가 값으로 인식하는건 value 이다
+        <label for="hobby1">축구</label>
+        <input type="checkbox" name="hobby" id="hobby2" value="농구" />
+        <label for="hobby2">농구</label>
+        <input type="checkbox" name="hobby" id="hobby3" value="야구" />
+        <label for="hobby3">야구</label>
+      </div>
+    </fieldset>
+    <hr />
+    <fieldset>
+      <legend>성별 선택하기</legend>
+      <div>
+        <!-- 라디오 버튼 (중복 안됨)-->
+        <input type="radio" name="gender" id="gender_m" value="M" checked /> //  name 속성이 같은 것 끼리 묶인다.
+        <label for="gender_m">남자</label>
+        <input type="radio" name="gender" id="gender_f" value="F" />
+        <label for="gender_f">여자</label>
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
