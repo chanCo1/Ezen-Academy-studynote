@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /* 
+      기본 글자 크기
+      -> 특정 요소에 적용된 글자와 문단 관련 CSS는 자식 요소에게도 상속된다. 
+      그러므로 body 태그에 적용된 폰트속성은 페이지 내의 모든 요소에 동일하게 적용된다. 
+    */
+    body {
+      font-size: 40px;
+    }
+
+    /* 글꼴 지정 */
+    div.font1 {
+      font-family: "궁서", "굴림";
+      font-size: 0.8em;
+      /* em - 부모에게 지정된 글자크기를 1로 본다. */
+    }
+
+    /* 글자 기울임 */
+    div.font2 {
+      font-style:italic;
+      text-align:start;
+    }
+
+    /* 글자 굵기 */
+    div.font3 {
+      font-weight: lighter;
+    }
+
+    /* 줄간격 */
+    /* 한 줄의 줄높이를 지정 */
+    div.font4 {
+      line-height: 80px;
+      color: rgb(100%, 0%, 100%)
+    }
+
+    /* 일괄지정 */
+    div.font5 {
+      font: bold italic 50px/100px '궁서';
+      /* 폰트 사이즈와 라인 헤이트는 " / "로 구분 */
+      /* 글자 크기와 생략 x */
+    }
+  </style>
+
+</head>
+<body>
+  
+  <div class="font1">폰트관련 속성1</div>
+  <div class="font2">폰트관련 속성2</div>
+  <div class="font3">폰트관련 속성3</div>
+  <div class="font4">폰트관련 속성4</div>
+  <div class="font5">폰트관련 속성5</div>
+</body>
+</html>
