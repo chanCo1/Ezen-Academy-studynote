@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .link {
+      font: 16px;
+      padding: 10px 10px;
+      color: #222;
+      text-decoration: none;
+      display: block;
+      width: auto;
+      height: auto;
+      border-bottom: 1px dashed #ccc;
+    }
+
+    .link:first-child {
+      border-top: 1px dashed #ccc;
+    }
+
+    .link:hover {
+      color: #fff;
+      background-color: #f43f09;
+    }
+    
+    .link span {
+      display: block;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .link .subject {
+      font-weight: bold;
+      font-size: 20px;
+      padding-bottom: 5px;
+    }
+
+    .link .desc {
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- 링크는 HTML 분류상 inline 요소이기 때문에 블록레벨을 포함할 수 없다. 
+  즉, 링크 안에서 여러개의 문단을 구성하기 위해서는 span만 사용할 수 있다.
+  span을 문단처럼 적용하기 위해서 display 속성을 block으로 부여한다. -->
+
+  <a href="#" class="link">
+    <span class="subject">HTML</span>
+    <span class="desc">웹 페이지를 제작하기 위한 뼈대를 구성하는 언어</span>
+  </a>
+  <a href="#" class="link">
+    <span class="subject">CSS</span>
+    <span class="desc">HTML로 구성된 뼈대에 입히는 언어</span>
+  </a>
+  <a href="#" class="link">
+    <span class="subject">JS</span>
+    <span class="desc">동적인 기능을 추가하는 언어</span>
+  </a>
+</body>
+</html>
