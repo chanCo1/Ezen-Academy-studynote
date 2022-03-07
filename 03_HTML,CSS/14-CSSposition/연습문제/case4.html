@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>case4</title>
+  <link rel="stylesheet" href="./common.css">
+
+  <style>
+    .container {
+      width: 1000px;
+      background-color: #eee;
+      margin: auto;
+      /* .logo의 좌표 기준점 설정 */
+      position: relative;
+      top: 50px;
+      height: 150px;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      background-color: #ff6600;
+      /* 절대 좌표 방식 */
+      /* box의 좌측 상단 꼭지점을 부모 중앙에 맞춤 */
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      /* 스스로의 반만큼 반대로 이동 */
+      margin-left: -50px;
+      margin-top: -50px;
+    }
+
+    .side1 {
+      width: 80px;
+      height: 80px;
+      background-color: #ff00ff;
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -240px;
+      margin-top: -40px;
+    }
+
+    .side2 {
+      width: 80px;
+      height: 80px;
+      background-color: #00ff00;
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: 160px;
+      margin-top: -40px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo">logo</div>
+    <div class="side1">side1</div>
+    <div class="side2">side2</div>
+  </div>
+
+</body>
+</html>

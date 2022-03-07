@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* float은 html의 계층 구조를 뚫는다. */
+    #box1, #box2 {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid red;
+    }
+    
+    #box1 {
+      margin: 0 10px 10px 0;
+      float: left;
+    }
+    
+    #box2 {
+      margin: 0 0 10px 10px;
+      float: right;
+    }
+    
+    #box1 img, #box2 img {
+      width: 100%;
+    }
+    /* float는 한번 사용되면 그 특성을 계속해서 유지하기 때문에 새로운 문단을 시작하기 위해서는 앞에서 사용한 속성을 해제해야 한다. */
+
+    .clear {
+      float: none;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div id="box1">
+    <img src="./img/thumb-01.jpg" alt="">
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae atque maiores, odit delectus cumque aut consequuntur vel sequi rem aperiam? Optio placeat ut sint amet laboriosam eligendi assumenda explicabo labore!</p>
+  <div class="clear"></div>
+  <div id="box2">
+    <img src="./img/thumb-02.jpg" alt="">
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus perspiciatis incidunt, nemo veritatis ex neque delectus debitis quidem architecto fuga nihil temporibus fugit exercitationem distinctio ut expedita aperiam. Suscipit.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus perspiciatis incidunt, nemo veritatis ex neque delectus debitis quidem architecto fuga nihil temporibus fugit exercitationem distinctio ut expedita aperiam. Suscipit.</p>
+</body>
+</html>

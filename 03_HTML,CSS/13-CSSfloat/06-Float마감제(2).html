@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #box1, #box2 {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid red;
+    }
+
+    #box1 {
+      margin: 0 10px 10px 0;
+      float: left;
+    }
+
+    #box2 {
+      margin: 0 0 10px 10px;
+      float: right;
+    }
+
+    /*
+    CSS로 float 마감처리
+    1) float 영역을 <div class="clear">로 감싼다
+    2) .clear:after CSS를 정의한다.
+    */
+    .clear:after {
+      content: "";
+      display: block;
+      clear:both;
+      float: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="clear">
+    <div id="box1">
+      <img src="./img/html5.png" alt="">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aut aliquid ipsa tempore dolore corporis et, nostrum dolorem sequi reprehenderit fuga natus! Dolor itaque officia veritatis dolore magni iste libero.</p>
+  </div>
+
+  <div class="clear">
+    <div id="box2">
+      <img src="./img/thumb-06.jpg" alt="">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quidem, incidunt autem animi minus explicabo rerum pariatur ipsa aperiam eligendi, molestias impedit necessitatibus perferendis sunt dolorum error obcaecati odit officiis?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat sint dignissimos labore animi magnam, assumenda voluptates id reprehenderit, asperiores, laboriosam est dolorum quos? Qui commodi fugit voluptatem quaerat dolorum quis.</p>
+  </div>
+</body>
+</html>

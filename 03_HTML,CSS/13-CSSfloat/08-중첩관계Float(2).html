@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #parent {
+      border: 5px dotted #000;
+      padding: 10px;
+    }
+
+    #box1 {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid red;
+      margin: 0 0 10px 10px;
+      float: right;
+    }
+
+    #box1 img {
+      width: 100%;
+    }
+
+    .clear:after {
+      display: block;
+      content: "";
+      clear: both;
+      float: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="parent" class="clear">
+    <div id="box1">
+      <img src="./img/html5.png" alt="" />
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, fuga at odit molestiae provident velit quaerat. Saepe, doloribus exercitationem tempora nobis officiis porro delectus obcaecati magni sequi fugit ullam ad!</p>
+  </div>
+</body>
+</html>

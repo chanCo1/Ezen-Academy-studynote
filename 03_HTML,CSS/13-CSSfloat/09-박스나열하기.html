@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 전체 박스의 크기 지정과 중앙 배치 */
+    #container {
+      width: 1000px;
+      border: 5px dotted red;
+      padding: 10px;
+      margin: auto;
+    }
+
+    /* 모든 박스의 크기 일괄 지정 */
+    #container div {
+      width: 20%;
+      height: 200px;
+      float: left;
+    }
+
+    div#box1 {
+      background: red;
+    }
+    div#box2 {
+      background: orange;
+    }
+    div#box3 {
+      background: yellow;
+    }
+    div#box4 {
+      background: green;
+    }
+    div#box5 {
+      background: blue;
+    }
+
+    /* float 마감 */
+    .clear:after {
+      content: "";
+      display: block;
+      float: none;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div id="container" class="clear">
+    <div id="box1">박스1</div>
+    <div id="box2">박스2</div>
+    <div id="box3">박스3</div>
+    <div id="box4">박스4</div>
+    <div id="box5">박스5</div>
+  </div>
+</body>
+</html>

@@ -887,21 +887,21 @@ for(let i = 0; i < calendar.length; i++) {
 
 
 
-// // ----- 메뉴고르기 ----- //
+// ----- 메뉴고르기 ----- //
 
-// function dinner2() {
-//   setTimeout(() => {
-//     console.log("저녁메뉴는!?");
+function dinner2() {
+  setTimeout(() => {
+    console.log("저녁메뉴는!?");
 
-//     setTimeout(() => {
+    setTimeout(() => {
       
-//       const arr1 = ["회", "육회", "곱창", "돈이&김치말이국수", "족발&막국수"];
-//       const dinner = arr1[Math.floor(Math.random() * arr1.length)];
-//       console.log(dinner);
-//     }, 2000);
-//   }, 500);
-// }
-// dinner2();
+      const arr1 = ["회", "곱창", "돈이", "치킨","다시","다시","다시"];
+      const dinner = arr1[Math.floor(Math.random() * arr1.length)];
+      console.log(dinner);
+    }, 500);
+  }, 500);
+}
+dinner2();
 
 
 // const data = [10, 20, 30, 40, 50];

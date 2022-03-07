@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #container {
+      border: 2px dotted red;
+    }
+   
+    #box1 {
+      /* 전체 페이지 넓이 중 30%만 차지 */
+      width: 30%;
+      height: 200px;
+      background-color: red;
+      /* float을 왼쪽에 지정 */
+      float: left;
+    }
+    #box2 {
+      /* 전체 페이지 넓이 중 70% 차지 */
+      width: 70%;
+      height: 200px;
+      background-color: blue;
+      /* float값을 안주면 박스1과 겹쳐진다. */
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="box1">박스1</div>
+    <div id="box2">박스2</div>
+    <p>여기는 본문</p>
+  </div>
+</body>
+</html>

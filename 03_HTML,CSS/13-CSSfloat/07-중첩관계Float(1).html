@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #parent {
+      border: 5px dotted #000;
+      padding: 10px;
+    }
+
+    #box1 {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid red;
+      margin: 0 0 10px 10px;
+      float: right;
+    }
+
+    #box1 img {
+      width: 100%;
+    }
+
+    /* 부모 요소가 끝나기 전에 clear 처리 필요함 */
+    .clear {
+      clear: both;
+      float: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="parent" class="clear">
+    <div id="box1">
+      <img src="./img/html5.png" alt="">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam temporibus nihil dicta illum dolorum, ipsa veniam eligendi sequi quia sapiente tempora necessitatibus corrupti numquam neque impedit iure esse alias!</p>
+    <div class="clear"></div>
+  </div>
+
+</body>
+</html>
