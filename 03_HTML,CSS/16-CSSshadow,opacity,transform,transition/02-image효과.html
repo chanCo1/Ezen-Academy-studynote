@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .img-shadow {
+      box-shadow: 7px 7px 12px #000;
+    }
+    .img-circle {
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div>
+      <h1>기본이미지</h1>
+      <img src="./img/spring.jpg" alt="" />
+    </div>
+    <div>
+      <h1>그림자 효과</h1>
+      <img src="./img/summer.jpg" alt="" class="img-shadow" />
+    </div>
+    <div>
+      <h1>둥근이미지</h1>
+      <img src="./img/autumn.jpg" alt="" class="img-circle" />
+    </div>
+    <div>
+      <h1>둥근이미지 + 그림자 효과</h1>
+      <img src="./img/winter.jpg" alt="" class="img-circle img-shadow" />
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    
+    ul {
+      list-style: none;
+    }
+    /* 아이콘 그룹 박스 > 개별 아이콘 박스 */
+    #icon_list li {
+      width: 100px;
+      float: left;
+    }
+    /* 아이콘 그룹 박스 > 개별 아이콘 박스 > 링크 > 아이콘 박스 */
+    #icon_list li a .icon {
+      /* 아이콘의 크기만큼 사이즈 지정 */
+      display: block;
+      width: 56px;
+      height: 56px;
+      /* 배경이미지 적용 및 중앙 정렬 */
+      background: url(./img/icon.png) no-repeat;
+      margin: auto;
+    }
+    /* 개별 아이콘 좌표 처리 */
+    #icon_list li a #icon1 {
+      background-position: 0 0;
+    }
+    #icon_list li a #icon2 {
+      background-position: -57px 0;
+    }
+    #icon_list li a #icon3 {
+      background-position: -114px 0;
+    }
+    #icon_list li a #icon4 {
+      background-position: -171px 0;
+    }
+  
+
+  </style>
+</head>
+<body>
+  <ul id="icon_list">
+    <li>
+      <a href="#">
+        <span class="icon" id="icon1"></span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon" id="icon2"></span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon" id="icon3"></span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon" id="icon4"></span>
+      </a>
+    </li>
+  </ul>
+</body>
+</html>
