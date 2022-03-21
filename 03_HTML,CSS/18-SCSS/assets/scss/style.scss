@@ -1,0 +1,65 @@
+// @import - 이 파일의 내용을 복붙해라
+@import "./colors.scss";
+@import "./common.scss";
+
+body {
+  width: 850px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.my-scss {
+  display: flex;
+  justify-content: center;
+  margin: auto;  // .my-scss라는 클래스에 대한 css 속성
+  border: 5px dotted #d5d5d5;
+  padding: 5px;
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+    float: none;
+  }
+
+  .my-scss-box {  // .my-scss .my-scss-box
+    cursor: pointer;
+    float: left;
+
+    // .red 클래스가 .my-scss-box와 함께 사용되었을 때
+    // -> .my-scss .my-scss-box.red
+    &.red {
+      background: $red;
+      // @include - 함수 호출
+      @include myMixin(1);
+    }
+
+    &.green {
+      background: $green;
+      @include myMixin(2);
+    }
+
+    &.blue {
+      background: $blue;
+      @include myMixin(3);
+    }
+
+    &.orange {
+      background: $orange;
+      @include myMixin(4);
+    }
+
+    &.yellow {
+      background: $yellow;
+      @include myMixin(5);
+    }
+
+    &.pink {
+      background: $pink;
+      @include myMixin(6);
+    }
+  }
+}
