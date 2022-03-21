@@ -1,0 +1,271 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1920px;
+}
+
+hr {
+  display: block;
+  width: 1100px;
+  height: 1px;
+  margin: 20px auto;
+  opacity: .4;
+}
+
+/* --- top --- */
+.top {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gideon Roman', cursive;
+  width: 100%;
+  height: 54.5px;
+  padding: 8px 16px;
+  position: fixed;
+  background: #fff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+  z-index: 1000;
+}
+
+.top .home {
+  width: 258px;
+  height: 38.5px;
+  padding: 8px 16px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.top a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 4px;
+}
+
+.top .nav {
+  display: flex;
+  height: 38.5px;
+  line-height: 25px;
+}
+
+.top .nav li {
+  list-style: none;
+  padding: 8px 16px;
+}
+
+.top .home:hover {
+  background: rgb(200, 200, 200);
+}
+
+.top .nav li:hover {
+  background: rgb(200, 200, 200);
+}
+
+/* --- header --- */
+.header {
+  width: 1600px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+}
+
+.header .bottom_text {
+  position: absolute;
+  justify-items:flex-end;
+  top: calc(800px - 98px);
+  width: 275px;
+  height: 98px;
+  padding: 12px 24px;
+}
+
+.header .text {
+  display: block;
+  font-size: 35px;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: 5px;
+  margin: 10px 0;
+  line-height: 55px;
+}
+
+/* --- contents --- */
+/* --- about --- */
+.about {
+  position: relative;
+  display: flex;
+  width: 1100px;
+  height: auto;
+  padding: 64px 0;
+  margin: auto;
+}
+
+.about div {
+  flex: 1;
+  padding: 12px 24px;
+}
+
+.about_text > h1 {
+  text-align: center;
+  height: 54px;
+  margin: 10px 0;
+  letter-spacing: 5px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.about_text h3 {
+  text-align: center;
+  height: 27px;
+  margin: 10px 0;
+  letter-spacing: 5px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about_text p {
+  font-family: 'Gideon Roman', cursive;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 18px 0;
+  line-height: 27px;
+}
+
+.about_text > p > span {
+  width: 77px;
+  height: 27px;
+  padding: 0 8px;
+  background: rgb(230, 230, 230);
+}
+
+.about_text p:last-child {
+  color: rgb(121, 117, 117);
+}
+
+.contents_img > img {
+  width: 100%;
+  height: auto;
+  opacity: .7;
+  border-radius: 5px;
+}
+
+ /* --- menu --- */
+ .menu {
+  position: relative;
+  display: flex;
+  width: 1100px;
+  height: auto;
+  padding: 64px 0;
+  margin: auto;
+}
+
+.menu div {
+  flex: 1;
+  padding: 12px 24px;
+}
+
+.menu_text > h1,
+.menu_text > h4 {
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+.menu_text > h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.menu_text > h4 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.menu_text > p {
+  font-family: 'Gideon Roman', cursive;
+  font-size: 15px;
+  margin: 15px 0;
+  color: #757575;
+  line-height: 1.5;
+}
+
+/* --- contact --- */
+.contact {
+  width: 1100px;
+  height: auto;
+  padding: 64px 16px;
+  margin: auto;
+}
+
+.contact > h1 {
+  letter-spacing: 5px;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.contact > p {
+  font-size: 14px;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.contact > p > b {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 18px 0;
+  line-height: 1.5;
+  color: #607d8b;
+}
+
+.contact form input {
+  font-family: 'Gideon Roman', cursive;
+  display: block;
+  width: 100%;
+  padding: 16px 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact button {
+  font-family: 'Gideon Roman', cursive;
+  font-size: 15px;
+  background: #f1f1f1;
+  margin: 16px 0;
+  padding: 8px 16px;
+  border: none;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: rgb(200, 200, 200);
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: auto;
+  background: #f1f1f1;
+  padding: 32px 0;
+}
+
+.footer p {
+  font-family: 'Gideon Roman', cursive;
+  text-align: center;
+  font-size: 15px;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.footer a {
+  color: #000;
+}

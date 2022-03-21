@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 페이지 전체 여백 제거 */
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    /* 각 섹션별 높이 지정, 내용의 위치 지정을 위한 포지션 부여 */
+    .section {
+      height: 640px;
+      position: relative;
+    }
+    /* 짝수 번째 섹션에 대한 배경이미지 공통 속송 */
+    .section:nth-child(2n) {
+      background: #d5d5d5;
+    }
+    /* 홀수 번째 섹션에 대한 배경 색상 처리 */
+    .section:nth-child(odd) {
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    /* 짝수 번째의 각 요소에 대한 배경이미지 지정 */
+    .section:nth-child(1) {
+      background-image: url(./img/bg1.jpg);
+    }
+    .section:nth-child(3) {
+      background-image: url(./img/bg2.jpg);
+    }
+    .section:nth-child(5) {
+      background-image: url(./img/bg3.jpg);
+    }
+    .section:nth-child(7) {
+      background-image: url(./img/bg4.jpg);
+    }
+  </style>
+</head>
+<body>
+  <div class="section"></div>
+  <div class="section"></div>
+  <div class="section"></div>
+  <div class="section"></div>
+  <div class="section"></div>
+  <div class="section"></div>
+  <div class="section"></div>
+</body>
+</html>

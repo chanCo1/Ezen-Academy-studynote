@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+/* 공통사용 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+.text1 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text2 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  float: none;
+}
+
+/* contents 공통 */
+#contents_box {
+  width: 1564px;
+  margin: auto;
+  padding: 8px 16px;
+}
+
+.contents {
+  width: 100%;
+  padding: 32px 16px;
+}
+
+.contents .text1 {
+  margin: 10px 0;
+  padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* header */
+#header {
+  width: 100%;
+  height: 54.5px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background: #fff;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.3);
+  letter-spacing: 4px;
+  z-index: 999;
+}
+
+/* header > home */
+#header .home {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#header .home:hover {
+  background: #ccc;
+}
+
+/* header > nav */
+#header .nav ul li {
+  display: inline-block;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#header .nav ul li a {
+  text-decoration: none;
+}
+
+#header .nav ul li:hover {
+  background: #ccc;
+}
+
+/* main */
+#main {
+  width: 1500px;
+  margin: auto;
+}
+
+#main img {
+  width: 100%;
+  height: auto;
+}
+
+/* main > 텍스트 */
+#main .main_text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main .main_text h1 {
+  margin: 10px 0;
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+#main .main_text h1 span {
+  padding: 8px 16px;
+  background: #000;
+  opacity: .7;
+}
+
+/* contents 공통
+#contents_box {
+  width: 1564px;
+  margin: auto;
+  padding: 8px 16px;
+}
+
+.contents {
+  width: 100%;
+  padding: 32px 16px;
+}
+
+.contents .text1 {
+  margin: 10px 0;
+  padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0;
+} */
+
+/* projects */
+.projects_image {
+  width: 25%;
+  height: 258px;
+  padding: 0 8px;
+  float: left;
+}
+
+.projects_image .img_box {
+  width: 100%;
+  height: 242px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.projects_image .img_box .text2 {
+  position: absolute;
+  padding: 8px 16px;
+  color: #fff;
+  background: #000;
+}
+
+.projects_image .img_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.contents > p {
+  margin: 15px 0;
+}
+
+/* about */
+.about_contents {
+  width: 25%;
+  float: left;
+  padding: 0 8px;
+}
+
+.about_contents .about_box {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.about_contents .about_box img {
+  width: 100%;
+  filter: grayscale(70%);
+}
+
+.about_contents .about_box h3 {
+  margin: 10px 0;
+} 
+
+.about_contents .about_box p {
+  margin: 15px 0;
+}
+
+.about_contents .about_box p:nth-child(3) {
+  color: #999;
+}
+
+/* about > button */
+.about_contents .about_box button {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.about_contents .about_box button:hover {
+  background: #ccc;
+}
+
+/* contact */
+#contact form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+#contact form button {
+  margin: 16px 0;
+  padding: 8px 16px;
+  color: #fff;
+  background: #000;
+  border: none;
+  cursor: pointer;
+}
+
+#contact form button:hover {
+  color: #000;
+  background: #ccc;
+}
+
+/* 하단 이미지 */
+.bottom_img {
+  width: 100%;
+  padding: 0.15px 16px;
+}
+
+.bottom_img img {
+  width: 100%;
+}
+
+/* footer */
+#footer {
+  width: 100%;
+  background: #000;
+  padding: 16px 0;
+}
+
+#footer p {
+  text-align: center;
+  margin: 15px 0;
+  color: #fff;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: green;
+}

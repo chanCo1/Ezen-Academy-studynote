@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    div {
+      width: 1000px;
+      height: 700px;
+      border: 2px solid #000;
+    }
+
+    figure div img.half {
+      width: 300px;
+      height: 200px;
+      display: block;
+      position: relative;
+      top: 250px;
+      margin: auto;
+      opacity: .5;
+      transition: .3s;
+    }
+    figure div img.half:hover {
+      opacity: 1;
+      background: #ccc;
+    } 
+
+  </style>
+</head>
+<body>
+  <figure>
+    <div>
+      <img src="./img/spring.jpg" title="봄" class="half" alt="" />
+      <figcaption id="text">새싹이 피어나는 이른 아침</figcaption>
+    </div>
+  </figure>
+</body>
+</html>

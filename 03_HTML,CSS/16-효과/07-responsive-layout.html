@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .suject {
+      background: #e5e5e5;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .contain {
+      overflow: auto;
+    }
+
+    .menu {
+      float: left;
+      width: 20%;
+      text-align: center;
+    }
+
+    .menu a {
+      background: #e5e5e5;
+      padding: 8px;
+      margin-top: 7px;
+      display: block;
+      width: 100%;
+      color: #000;
+    }
+
+    .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+    }
+
+    .right {
+      background: #e5e5e5;
+      float: left;
+      width: 20%;
+      padding: 15px;
+      margin-top: 7px;
+      text-align: center;
+    }
+
+    .footer {
+      background: #e5e5e5;
+      text-align: center;
+      padding: 10px;
+      margin-top: 7px;
+    }
+
+    @media screen and (max-width: 620px) {
+      .menu, .main, .right {
+        width: 100%;
+      }
+    }
+  
+
+  </style>
+
+</head>
+<body>
+
+  <div class="suject">
+    <h1>Hello World</h1>
+  </div>
+
+  <div class="contain">
+
+    <div class="menu">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+    </div>
+  
+    <div class="main">
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt architecto esse qui incidunt ut fugit pariatur laudantium doloribus a veniam.</p>
+    </div>
+  
+    <div class="right">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, soluta.</p>
+    </div>
+
+  </div>
+
+  <div class="footer">&copy; copyright</div>
+
+</body>
+</html>
