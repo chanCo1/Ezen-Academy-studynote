@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- 
+  1) 자바스크립트 코드는 스크립트태그 안에서 작성된다.
+    HTML 문서의 어느곳에서나 존재할 수 있다.
+
+  2) HTML 안에서 실행되는 자바스크립트는 document라는 내장 객체를 갖게된다.
+    document 객체가 갖는 메서드 중에서 getElementById(id값)는
+    HTML 태그의 id값에 의해서 (Byid) HTML 요소(Element)를 가져온다. (get)
+    값이 있는 속성 -> Attribue
+    값이 없는 속성 -> property
+      ex) selected. checked, disabled
+ -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    console.log("Hello World!");
+
+    // h1태그에 대한 HTML 요소 객체 반환받기
+    const foo = document.getElementById("foo");
+    // HTML 요소 객체는 innerHTML이라는 속성값을 갖는다.
+    // 이 값은 시작 태그와 끝 태그 사이의 내용을 의미한다.
+    foo.innerHTML = "Hello World";
+
+    /* 
+      위 코드는 한 줄 씩 차례대로 해석하는 웹 브라우저의 특성상 23라인을 브라우저가 해석하는 시점에서
+      #foo 요소를 발견하지 못하므로 null을 리턴하고, 26라인에서 null에 대한 접근 에러가 발생한다.
+    */
+  </script>
+
+</head>
+<body>
+  <h1 id="foo"></h1>
+</body>
+</html>
