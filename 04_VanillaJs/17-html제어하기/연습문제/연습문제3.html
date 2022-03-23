@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습문제 3</title>
+</head>
+<body>
+  <img src="./img/HTML.png" width="200px" id="img" class="img">
+
+  <script>
+    const img = ["./img/HTML.png", "./img/css3.png", "./img/js.png"];
+    
+    let i = 0
+    setInterval(() => {
+      document.querySelector("#img").setAttribute("src", img[i]);
+      i++;
+      if(i >= img.length) {
+        i = 0;
+      }
+      // i = (i + 1) % img.length;
+    }, 3000) 
+
+    // 왜 for문은 안되는지?
+    // setInterval(() => {
+    //   for(let i = 0; i < imgList.length; i++) {
+    //     document.querySelector("#img").setAttribute("src", imgList[i]);
+    //     if(i >= imgList.length) {
+    //       i = 0;
+    //     }
+    //   }
+    // }, 1000)
+
+  </script>
+</body>
+</html>

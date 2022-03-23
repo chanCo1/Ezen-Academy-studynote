@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box1 {
+      margin: 10px auto;
+      border: 5px solid #ccc;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .box2 {
+      margin: 10px auto;
+      border: 10px solid #ff00ff;
+      background: #ff0;
+      padding: 25px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="box" class="box1">
+    <h1>테스트 영역입니다.</h1>
+  </div>
+
+  <input type="button" id="btn1" value="(폰트) red">
+  <input type="button" id="btn2" value="(폰트) green">
+  <input type="button" id="btn3" value="(폰트) blue">
+  <input type="button" id="btn4" value="(배경) red">
+  <input type="button" id="btn5" value="(배경) green">
+  <input type="button" id="btn6" value="(배경) blue">
+  <input type="button" id="btn7" value="width=50%">
+  <input type="button" id="btn8" value="width=auto">
+  <input type="button" id="btn9" value="box1 클래스 적용">
+  <input type="button" id="btn10" value="box2 클래스 적용">
+
+  <script>
+
+    /* --------
+    자바스크립트 객체로 HTML 요소를 가져오면 style 이라는 프로퍼티 객체가 내장된다. 
+    이 style 객체는 모든 cSS 속성을 프로퍼티로 갖고 있다.
+    css에서 "-"를 사용해 표현하던 부분은 카멜표기법으로 변환하여 적용한다.
+    ex) font-family -> fontFamily
+    */
+
+   document.querySelector("#btn1").addEventListener("click", function(e) {
+     // id 값이 box인 요소
+     const box = document.getElementById("box");
+     // 글자 색상을 파라미터로 전달된 값으로 설정함
+     box.style.color = "#f00";
+    });
+
+    // 위의 구문을 축약한 화살표 함수 형태 -> 메서드 체인
+    document.querySelector("#btn2").addEventListener("click", e => document.getElementById("box").style.color = "#0f0");
+    document.querySelector("#btn3").addEventListener("click", e => document.getElementById("box").style.color = "#00f");
+    document.querySelector("#btn4").addEventListener("click", e => document.getElementById("box").style.background = "red");
+    document.querySelector("#btn5").addEventListener("click", e => document.getElementById("box").style.background = "green");
+    document.querySelector("#btn6").addEventListener("click", e => document.getElementById("box").style.background = "blue");
+    // 단위를 함께 명시해야 하는 경우 따옴표로 감싸서 문자열로 처리해야 한다,
+    document.querySelector("#btn7").addEventListener("click", e => document.getElementById("box").style.width = "50%");
+    document.querySelector("#btn8").addEventListener("click", e => document.getElementById("box").style.width = "auto");
+
+
+    /* ---------
+    자바스크립트 객체로 HTML 요소를 가져오면 className 이라는 프로퍼티가 내장된다.
+    이 값에 적용하고자 하는 CSS 클래스 이름을 대입한다.
+    두개 이상의 클래스를 복수 적용할 경우 공백으로 구분한 문자열 형식으로 할당
+    */
+    document.querySelector("#btn9").addEventListener("click", e => {
+      const box = document.getElementById("box");
+      box.classList.add("box1");
+      box.classList.remove("box2");
+    })
+
+    document.querySelector("#btn10").addEventListener("click", e => {
+      const box = document.getElementById("box");
+      box.classList.add("box2");
+      box.classList.remove("box1");
+    })
+  </script>
+</body>
+</html>

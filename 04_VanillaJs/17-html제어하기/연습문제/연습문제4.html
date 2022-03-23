@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습문제 4</title>
+</head>
+<body>
+  <div><span id="date1"></span> ~ <span id="date2"></span></div>
+
+  <input type="button" id="btn1" value="1일">
+  <input type="button" id="btn2" value="7일">
+  <input type="button" id="btn3" value="15일">
+  <input type="button" id="btn4" value="30일">
+  <input type="button" id="btn5" value="60일">
+
+  <script>
+
+    function getTime(day) {
+      const date1 = new Date();
+      date1.setDate(date1.getDate() - (day));
+      const yyyy = date1.getFullYear();
+      let mm = date1.getMonth()+1;
+      let dd = date1.getDate();
+
+      const date2 = new Date();
+      const yyyy2 = date2.getFullYear();
+      let mm2 = date2.getMonth()+1;
+      let dd2 = date2.getDate();
+
+      document.querySelector("#date1").innerHTML = `${yyyy}-${mm}-${dd}`;
+      document.querySelector("#date2").innerHTML = `${yyyy2}-${mm2}-${dd2}`;
+
+    }
+    getTime(0);
+
+    document.querySelector("#btn1").addEventListener("click", e => getTime(1))
+    document.querySelector("#btn2").addEventListener("click", e => getTime(7))
+    document.querySelector("#btn3").addEventListener("click", e => getTime(15))
+    document.querySelector("#btn4").addEventListener("click", e => getTime(30))
+    document.querySelector("#btn5").addEventListener("click", e => getTime(60))
+
+  </script>
+</body>
+</html>
