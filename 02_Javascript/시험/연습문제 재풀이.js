@@ -1451,3 +1451,4 @@ let str = "수업시간에 배운것은 수업시간에 다 이해하고 넘어�
 //   console.log(balls);
 // }
 // console.log(lotto);
+//
