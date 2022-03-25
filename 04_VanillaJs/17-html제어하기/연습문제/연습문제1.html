@@ -4,14 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>연습문제 1</title>
-  <style>
-    .timer {
-      font-size: 40px;
-    }
-  </style>
 </head>
 <body>
-  <div id="timer" class="timer"></div>
+  <div id="timer"></div>
 
   <script>
     function getTime() {
@@ -33,7 +28,8 @@
       let ss = date.getSeconds();
       ss = ss < 10 ? `0${ss}` : ss;
 
-      document.querySelector("#timer").innerHTML = `${yyyy}-${mm}-${dd} ${hh}:${mi}:${ss}`;
+      document.querySelector("#timer").innerHTML = 
+      `${yyyy}-${mm}-${dd} ${hh}:${mi}:${ss}`;
     }
 
     setInterval(getTime, 1000)
