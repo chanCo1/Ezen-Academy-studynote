@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습문제1 - 재풀이</title>
+</head>
+<body>
+  <div id="timer"></div>
+
+  <script>
+
+    function timer() {
+      const date = new Date();
+      let yy = date.getFullYear();
+
+      let mm = date.getMonth()+1
+      mm = mm < 10 ? `0${mm}` : mm;
+
+      let dd = date.getDate();
+      dd = dd < 10 ? `0${dd}` : dd;
+
+      let hh = date.getHours();
+      hh = hh < 10 ? `0${hh}` : hh;
+
+      let mi = date.getMinutes();
+      mi = mi < 10 ? `0${mi}` : mi;
+
+      let ss = date.getSeconds();
+      ss = ss < 10 ? `0${ss}` : ss;
+
+      document.querySelector("#timer").innerHTML = `${yy}-${mm}-${dd} ${hh}:${mi}:${ss}`;
+    }
+
+    setInterval(timer, 1000);
+
+
+  </script>
+</body>
+</html>

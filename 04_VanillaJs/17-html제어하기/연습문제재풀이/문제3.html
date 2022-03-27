@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습문제3 - 재풀이</title>
+</head>
+<body>
+  <img src="../연습문제/img/HTML.png" width="200px" id="img" />
+
+  <script>
+    const img = ["../연습문제/img/HTML.png", "../연습문제/img/css3.png", "../연습문제/img/js.png"];
+
+    let i = 0;
+    setInterval(() => {
+      document.querySelector("#img").setAttribute("src", img[i]);
+      i = (i+1) % img.length;
+      
+    },3000)
+
+  </script>
+</body>
+</html>
