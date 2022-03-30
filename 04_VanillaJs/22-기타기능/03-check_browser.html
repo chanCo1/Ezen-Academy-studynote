@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="browser"></h1>
+  <h1 id="mobile"></h1>
+
+  <script>
+    // 브라우저의 이름을 리턴하는 함수
+    function getWebBrowserName() {
+      // userAgent 값을 모두 소문자로 변환하여 변수에 대입
+      let agt = navigator.userAgent.toLowerCase();
+
+      // 특정 브라우저의 이름이 검새되는지 여부를 판별하여 특정 이름이 검색 될 경우, 브라우저 이름을 읨하는 문자열을 리턴
+      if(agt.indexOf("edge") != -1) {
+        // window10 이상 window Edge 브라우저
+        return "Edge";
+      } else if(agt.indexOf("chrome") != -1) {
+        return "Chrome";
+      } else if(agt.indexOf("opera") != -1) {
+        return "Opera";
+      } else if(agt.indexOf("firefox") != -1) {
+        return "Firefox";
+      } else if(agt.indexOf("safari") != -1) {
+        return "Safari";
+      } else if(agt.indexOf("skipston") != -1) {
+        return "SkipStone";
+      } else if(agt.indexOf("msie") != -1 || agt.indexOf("trident") != -1) {
+        return "Internet Explorer";
+      } else if(agt.indexOf("netscape") != -1) {
+        return "Netscape";
+      } else {
+        return "Unkown";
+      }
+    }
+
+    // 모바일 브라우저이면 true, 그렇지 않으먄 false를 리턴하는 사용자 정의 함수
+    function isMobile() {
+      let tmpUser = navigator.userAgent.toLowerCase();
+      let isMobile = false;
+
+      // userAgent 값에 iPhone, iPad, iPod, Android 라는 문자열이 하나라도 검색되면 모바일로 간주한다.
+      if(tmpUser.indexOf("iPhone") > -1 || tmpUser.indexOf("iPad") > -1 || tmpUser.indexOf("iPod") > -1 || tmpUser.indexOf("Android") > -1) {
+        isMobile = true;
+      }
+
+      return isMobile;
+    };
+
+    document.getElementById("browser").innerHTML = getWebBrowserName();
+    document.getElementById("mobile").innerHTML = isMobile();
+  </script>
+</body>
+</html>

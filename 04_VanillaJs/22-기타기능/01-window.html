@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>window 객체</h1>
+  <h3>open 메소드 확인</h3>
+  <div>
+    <a href="#" id="link1">새 창 열기</a>
+    <hr />
+    <a href="#" id="link2">팝업 창 열기(1)</a>
+    <hr />
+    <a href="#" id="link3">팝업 창 열기(2-1)</a>
+    <hr />
+    <a href="#" id="link4">팝업 창 열기(2-1)</a>
+    <hr />
+  </div>
+
+  <script>
+    document.querySelector("#link1").addEventListener("click", e => {
+      e.preventDefault();
+
+      // 새 창 (혹은 탭) 띄우기
+      window.open("00-open.html");
+    });
+
+    document.querySelector("#link2").addEventListener("click", e => {
+      e.preventDefault();
+
+      // 클릭할 때 마다 창이 새로 열리는 팝업 창
+      // 두번째 파라미터 인 창 이름이 빈 문자열로 전달 되었으므로, 매번 새로운 팝업팡을 생성한다.
+      // location 옵션은 피싱 사이트를 방지하기 위해 브라우저 개발사들이ㅣ 담합하여 지원하지 않고 있다.
+      const popup = window.open("00-open.html", "", "width=300, height=500, scrollbars=no, toolbar=no, menubar=no, status=no, location=no");
+
+      if(!popup) {
+        alert("팝업 차단을 해제해 주세요.");        
+      } else {
+        popup.focus();
+      };
+    });
+
+    document.querySelector("#link3").addEventListener("click", e => {
+      e.preventDefault();
+
+      // link4가 눌러졌을 때 호출되는 팝업창과 창 이름이 동일하므로, 같은 창을 공유한다.
+      window.open("https:www.naver.com", "mywin", "width=300, height=500, scrollbars=no, toolbar=no, menubar=no, status=no, location=no");
+    });
+
+    document.querySelector("#link4").addEventListener("click", e => {
+      e.preventDefault();
+      window.open("https:www.daum.net", "mywin", "width=300, height=500, scrollbars=no, toolbar=no, menubar=no, status=no, location=no");
+    });
+  </script>
+
+</body>
+</html>
