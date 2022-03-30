@@ -1,0 +1,206 @@
+/**
+ * @fileName    : style.css
+ * @author      : 박찬우
+ * @description : 작성된 HTML 구조를 바탕으로 디자인 요소 정의
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+  background-color: #f5f6f7;
+}
+
+ion-icon {
+  font-size: 25px;
+  color: #777;
+}
+
+.text10 {
+  font-size: 10px;
+}
+
+.text12 {
+  font-size: 12px;
+}
+
+.text14 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.drop_down {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* --- header --- */
+#header {
+  position: relative;
+  margin: auto;
+  padding: 60px 0 10px;
+  width: 800px;
+  text-align: center;
+}
+
+/* --- content --- */
+.container {
+  position: relative;
+  width: 800px;
+  margin: auto;
+}
+
+.group {
+  width: 460px;
+  margin: auto;
+}
+
+.container .group:not(:first-child) {
+  margin-top: 30px;
+}
+
+.row_group .title {
+  display: block;
+  padding: 20px 0 5px;
+}
+
+.row_group .input_area {
+  display: flex;
+  height: 50px;
+  border: 1px solid #dadada;
+  background-color: #fff;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.row_group .input_area:hover {
+  border: 1px solid #53c859;
+}
+
+.row_group .input_area .input {
+  flex: 1;
+  border: none;
+  padding: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.row_group .input_area .input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+.row_group .input_area span {
+  color: #999;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* birth */
+.row_group .birth {
+  display: flex;
+}
+
+.row_group .birth .birth_box {
+  width: 100%;
+}
+
+.row_group .birth .birth_box:not(:first-child) {
+  margin-left: 10px;
+}
+
+.row_group .birth .birth_box input {
+  width: 100px;
+}
+
+/* email small-text*/
+.row_group span {
+  color: #999;
+  font-size: 11px;
+}
+
+/* phone */
+.auth_number {
+  display: flex;
+  margin: 10px auto;
+}
+
+.auth_number .auth_number_box {
+  width: 100%;
+}
+
+/* 인증번호 받기 버튼 */
+.auth_number button {
+  width: 40%;
+  margin-left: 10px;
+  border: none;
+  background-color: #53c859;
+  color: #fff;
+  cursor: pointer;
+}
+
+.row_group .auth_num:hover {
+  border: 1px solid #dadada;
+}
+
+/* 가입하기 버튼 */
+#join_btn {
+  width: 100%;
+  border: none;
+  background-color: #53c859;
+  color: #fff;
+  padding: 18px 0;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* footer */
+#footer {
+  position: relative;
+  text-align: center;
+  padding: 30px 0 15px;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#footer ul li {
+  list-style: none;
+}
+
+#footer ul li:not(:first-child) {
+  border-left: 1px solid #cfcfcf;
+} 
+
+#footer ul li a {
+  color: #222;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+#footer ul li a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+#footer div {
+  display: flex;
+  justify-content: center;
+  word-spacing: 3px;
+}

@@ -1,28 +1,183 @@
+<!--
+ * @fileName    : index.html
+ * @author      : 박찬우
+ * @description : HTML 구조 작성
+-->
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>네이버 : 회원가입 - 시험</title>
+
+  <link rel="icon" href="./img/favicon.ico" />
   <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-  <div id="container">
 
-    <!-- header -->
-    <div id="header">
-      <a href="https://www.naver.com"><img src="./" alt=""></a>
+  <!-- header -->
+  <div id="header">
+      <a href="https://www.naver.com">
+        <img src="./img/Naver_Logo.png" alt="네이버 로고" target="_blank" id="logo" style="width: 235px;"/>
+      </a>
+  </div>
+
+  <!-- content -->
+  <form id="join_content" name="join_content">
+    <div class="container">
+
+      <!-- content - group 1 -->
+      <div class="group">
+        <!-- 아이디 -->
+        <div class="row_group">
+          <label for="user_id" class="text14 title">아이디</label>
+          <div class="input_area">
+            <input type="text" name="user_id" id="user_id" class="input" />
+            <span class="sub_text">@naver.com</span>
+          </div>
+        </div>
+
+        <!-- 비밀번호 -->
+        <div class="row_group">
+          <label for="user_pw" class="text14 title">비밀번호</label>
+          <div class="input_area">
+            <input type="password" name="user_pw" id="user_pw" class="input" />
+            <span class="sub_text"><ion-icon name="bag-remove-outline"></ion-icon></span>
+          </div>
+        </div>
+
+        <!-- 비밀번호 재확인 -->
+        <div class="row_group">
+          <label for="user_pw_re" class="text14 title">비밀번호 재확인</label>
+          <div class="input_area">
+            <input type="password" name="user_pw_re" id="user_pw_re" class="input" />
+            <span class="sub_text"><ion-icon name="bag-check-outline"></ion-icon></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- content - group 2 -->
+      <div class="group">
+        <!-- 이름 -->
+        <div class="row_group">
+          <label for="user_name" class="text14 title">이름</label>
+          <div class="input_area">
+            <input type="text" name="user_name" id="user_name" class="input" />
+          </div>
+        </div>
+
+        <!-- 생년월일 -->
+        <div class="row_group">
+          <!-- 년 -->
+          <label for="user_birth" class="text14 title">생년월일</label>
+          <div class="birth">
+            <div class="input_area birth_box">
+              <input type="text" name="user_birth_year" id="user_birth_year" class="input" placeholder="년(4자)" />
+            </div>
+            <!-- 월 -->
+            <div class="input_area birth_box">
+              <select name="month" id="user_birth_month" class="drop_down">
+                <option value="">월</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <!-- 일 -->
+            </div>
+            <div class="input_area birth_box">
+              <input type="text" name="user_birth_date" id="user_birth_date" class="input" placeholder="일"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- 성별 -->
+        <div class="row_group">
+          <label for="gender" class="text14 title">성별</label>
+          <div class="input_area">
+            <select name="gender" id="gender" class="drop_down">
+              <option value="">성별</option>
+              <option value="M">남자</option>
+              <option value="F">여자</option>
+              <option value="N">선택안함</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 이메일 -->
+        <div class="row_group">
+          <label for="email" class="text14 title">본인 확인 이메일<span>(선택)</span></label>
+          <div class="input_area">
+            <input type="text" name="email" id="email" class="input" placeholder="선택입력" />
+          </div>
+        </div>
+      </div>
+
+      <!-- content - group 3 -->
+      <!-- 휴대전화 -->
+      <div class="group">
+        <!-- 나라 선택 -->
+        <div class="row_group">
+          <label for="tel" class="text14 title">휴대전화</label>
+          <div class="input_area">
+            <select name="tel_select" class="drop_down" id="tel_select">
+              <option value="233">가나 +233</option>
+              <option value="45">덴마크 +45</option>
+              <option value="82" selected>대한민국 +82</option>
+              <option value="1">미국/캐나다 +1</option>
+            </select>
+          </div>
+          <!-- 전화번호 입력 -->
+          <div class="auth_number">
+            <div class="input_area auth_number_box">
+              <input type="tel" name="tel" id="tel" class="input" placeholder="전화번호 입력" />
+            </div>
+              <button type="button"  class=" text14" id="auth_btn">인증번호 받기</button>
+          </div>
+          <!-- 인증번호 입력 -->
+          <div class="input_area auth_num" id="auth_num_box" style="background-color: #f2f2f2;">
+            <input type="text" name="auth_num" id="auth_num" class="input" placeholder="인증번호 입력하세요" disabled />
+          </div>
+          <br />
+          <!-- 가입하기 버튼 -->
+          <button type="submit" class="btn" id="join_btn">가입하기</button>
+        </div>
+      </div>
+
     </div>
+  </form>
 
-    <!-- content -->
-    <div id="content">
-
-    </div>
-
-    <!-- footer -->
-    <div id="footer">
-
+  <!-- footer -->
+  <div id="footer">
+    <ul class="text12">
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#" style="font-weight: bold;">개인정보처리방침</a></li>
+      <li><a href="#">책임의 한계와 법적고지</a></li>
+      <li><a href="#">회원정보 고객센터</a></li>
+    </ul>
+    <div class="text10">
+      <span><a href="https://www.naver.com"><img style="width: 60px; margin-right: 10px;" src="./img/Naver_Logo.png" alt="네이버 로고"></a></span>
+      <span>Copyright</span>&nbsp;
+      <span style="font-weight: bold; color: #222;">NAVER Corp.</span>&nbsp;
+      <span>All Rights Reserved</span>
     </div>
   </div>
+
+  <script src="./js/BadRequestExeption.js"></script>
+  <script src="./js/RegexHelper.js"></script>
+  <script src="./js/tryCatch.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
