@@ -1,0 +1,278 @@
+<html lang="en">
+  <!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .subplot {
+      float: left;
+      width: 33.3%;
+      padding: 50px;
+      box-sizing: border-box;
+    }
+
+    .subplot-item {
+      width: auto;
+      height: 320px;
+    }
+  </style>
+
+</head>
+<body>
+  
+  <h1>최종 결과물</h1>
+  <h3>2022-03-31 박찬우</h3>
+  <hr />
+  
+  <div class="subplot">
+    <h2>학과별 학생 수</h2>
+    <div class="subplot-item">
+      <canvas id="chart1"></canvas>
+    </div>
+  </div>
+
+  <div class="subplot">
+    <h2>학년에 따른 평균 나이 변화</h2>
+    <div class="subplot-item">
+      <canvas id="chart2"></canvas>
+    </div>
+  </div>
+
+  <div class="subplot">
+    <h2>학년별 평균키와 평균 몸무게</h2>
+    <div class="subplot-item">
+      <canvas id="chart3"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+  <script src="./dataset.js"></script>
+
+  <script>
+    // TODO:--- 문제 1 --- //
+
+    // 각 항목을 분할하여 저장하기 위한 배열
+    const department = [];
+    const studentCount = [];
+
+    // 학과별 학생 수
+    let departCount1 = 0;
+    let departCount2 = 0;
+    let departCount3 = 0;
+    
+    for(let i = 0; i < student.length; i++) {
+
+      // 학과 이름에 대한 배열
+      if(!department.includes(student[i].deptno)) department.push(student[i].deptno);
+
+      // 학과별 학생수에 대한 조건
+      if(student[i].deptno === "컴퓨터과") departCount1++;
+      else if(student[i].deptno === "정보통신과") departCount2++;
+      else if(student[i].deptno === "데이터통계과") departCount3++;
+    };
+
+    // 학과별 학생수에 대한 배열
+    studentCount[0] = departCount1;
+    studentCount[1] = departCount2;
+    studentCount[2] = departCount3;
+
+    // console.log(department);
+    // console.log(studentCount);
+
+
+    // TODO: --- 문제 2 --- //
+    // 나이 계산을 위한 Date 객체 생성
+    const date = new Date();
+    const year = date.getFullYear();
+
+    // 학년 별 나이
+    const gradeAge1 = [];
+    const gradeAge2 = [];
+    const gradeAge3 = [];
+    const gradeAge4 = [];
+
+    for(let i = 0; i < student.length; i++) {
+      // 나이 계산
+      student[i].birthdate = year - parseInt(student[i].birthdate) + 1;
+
+      // 학년별 나이값 대입
+      if(student[i].grade === 1) gradeAge1.push(student[i].birthdate);
+      else if(student[i].grade === 2) gradeAge2.push(student[i].birthdate);
+      else if(student[i].grade === 3) gradeAge3.push(student[i].birthdate);
+      else if(student[i].grade === 4) gradeAge4.push(student[i].birthdate);
+    };
+
+    // 학년별 나이 데이터 추출
+    const ageInfo = {
+      "1학년" : gradeAge1,
+      "2학년" : gradeAge2,
+      "3학년" : gradeAge3,
+      "4학년" : gradeAge4,
+    };
+
+    // 나이의 평균값 추출
+    const ageValue = [];
+    for(const i in ageInfo) {
+      let sum = 0;
+      for(const j of ageInfo[i]) {
+        sum += j
+      }
+      ageValue.push(sum / ageInfo[i].length);
+    };
+    // console.log(ageValue);
+
+
+    // TODO: --- 문제 3 --- //
+    // 학년별 키를 담기 위한 빈배열
+    const height1 = [];
+    const height2 = [];
+    const height3 = [];
+    const height4 = [];
+
+    // 학년별 몸무게를 담기 위한 빈배열
+    const weight1 = [];
+    const weight2 = [];
+    const weight3 = [];
+    const weight4 = [];
+
+    // 학년별 키와 몸무게를 추출
+    for(let i = 0; i < student.length; i++) {
+      if(student[i].grade === 1) {
+        height1.push(student[i].height);
+        weight1.push(student[i].weight);
+      } else if(student[i].grade === 2) {
+        height2.push(student[i].height);
+        weight2.push(student[i].weight);
+      } else if(student[i].grade === 3) {
+        height3.push(student[i].height);
+        weight3.push(student[i].weight);
+      } else if(student[i].grade === 4) {
+        height4.push(student[i].height);
+        weight4.push(student[i].weight);
+      }
+    };
+
+    // 새로운 객체를 생성하여 JSON 형식으로 담는다.
+    const gradeHW1 = new Object();
+    gradeHW1.height = height1;
+    gradeHW1.weight = weight1;
+    
+    const gradeHW2 = new Object();
+    gradeHW2.height = height2;
+    gradeHW2.weight = weight2;
+
+    const gradeHW3 = new Object();
+    gradeHW3.height = height3;
+    gradeHW3.weight = weight3;
+
+    const gradeHW4 = new Object();
+    gradeHW4.height = height4;
+    gradeHW4.weight = weight4;
+
+    // 학년별 추출한 값
+    const bodyInfo = {
+      "1학년" : gradeHW1,
+      "2학년" : gradeHW2,
+      "3학년" : gradeHW3,
+      "4학년" : gradeHW4,
+    }
+    // console.log(bodyInfo);
+
+    // 학년별 키의 평균값을 구한다.
+    const bodyHeightValue = [];
+    for(const i in bodyInfo) {
+      let sum = 0;
+      for(const j of bodyInfo[i].height) {
+        sum += j;
+      }
+      bodyHeightValue.push(sum / bodyInfo[i].height.length);
+    }
+    // console.log(bodyHeightValue);
+
+    // 학년별 몸무게의 평균값을 구한다.
+    const bodyWeightValue = [];
+    for(const i in bodyInfo) {
+      let sum = 0;
+      for(const j of bodyInfo[i].weight) {
+        sum += j;
+      }
+      bodyWeightValue.push(sum / bodyInfo[i].weight.length);
+    }
+    // console.log(bodyWeightValue);
+
+
+
+
+    // TODO: --- 1번 차트 --- //
+    new Chart(chart1, {
+      type: "bar",
+      data: {
+        labels: department,
+        datasets: [
+          {
+            label: "학생수",
+            data: studentCount,
+            borderWidth: 1,
+            borderColor: ["rgba(255,99,132,1)"],
+            backgroundColor: ["rgba(255,99,132,.2)"],
+          },
+        ],
+      },
+      oprions: {
+        maintainAspectRatio: false,
+        indexAxis: "y"
+      }
+    });
+
+
+    // TODO: --- 2번 차트 ---- //
+    new Chart(chart2, {
+      type: "line",
+      data: {
+        labels: Object.keys(ageInfo),
+        datasets: [
+          {
+            label: "평균나이",
+            data: ageValue,
+            borderWidth: 1,
+            borderColor: "#f60",
+          },
+        ],
+      },
+      options: {
+        maintainAspectRatio: false
+      },
+    });
+
+
+    // TODO: --- 3번 차트 --- //
+    new Chart(chart3, {
+      type: "bar",
+      data: {
+        labels: Object.keys(bodyInfo),
+        datasets: [
+          {
+            label: "키",
+            data: bodyHeightValue,
+            borderWidth: 0.5,
+            borderColor: "rgba(54,162,235,1)",
+            backgroundColor: "rgba(54,162,235,.2)",
+          },
+          {
+            label: "몸무게",
+            data: bodyWeightValue,
+            borderWidth: 0.5,
+            borderColor: "rgba(255,99,132,1)",
+            backgroundColor: "rgba(255,99,132,.2)",
+          },
+        ]
+      }
+    });
+
+  </script>
+
+</body>
+</html>

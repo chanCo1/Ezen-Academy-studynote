@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Lightbox Example</h1>
+  <hr />
+
+  <h2>Single Gallery</h2>
+  <p>주의사항: 실행시 Live Server 환경으로 실행해야 한다.</p>
+  <p>data-fslightbox 속성의 값을 서로 독립적으로 부여한다.</p>
+  <div>
+    <a href="./img/001.png" data-fslightbox="img1">
+      <img src="./img/001.png" width="150" alt="">
+    </a>
+    <a href="./img/002.png" data-fslightbox="img2">
+      <img src="./img/002.png" width="150" alt="">
+    </a>
+  </div>
+
+  <h2>Multi Gallery</h2>
+  <p>data-fslightbox 속성의 값을 서로 동일하게 부여한 항목끼리는 하나의 갤러리로 묶인다.</p>
+  <div>
+    <a href="./img/003.png" data-fslightbox="myPhoto">
+      <img src="./img/003.png" width="150"  alt="">
+    </a>
+    <a href="./img/004.png" data-fslightbox="myPhoto">
+      <img src="./img/004.png" width="150"  alt="">
+    </a>
+    <a href="./img/005.png" data-fslightbox="myPhoto">
+      <img src="./img/005.png" width="150"  alt="">
+    </a>
+  </div>
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.min.js" integrity="sha512-EqNNJuepkw5P9vxCml8eBk7C4Ld+4kAnvzOD/jG21rkxWPILGoQa5EvD62UieiJF0u3xoQrcVnce4i83VnYj/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
