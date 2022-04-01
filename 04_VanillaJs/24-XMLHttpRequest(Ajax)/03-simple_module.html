@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Simple Module</h1>
+  <a href="#" id="btn">load hello.json</a>
+  <div id="console"></div>
+
+  <script src="./libs/ajexHelper.js"></script>
+  <script>
+    document.querySelector("#btn").addEventListener("click", e => {
+      e.preventDefault();
+
+      ajaxHelper("backend/hello.json", "GET", json => {
+        const h1 = document.createElement("h1");
+        h1.classList.add("text-success");
+        h1.innerHTML = json.msg;
+        document.querySelector("#console").appendChild(h1);
+      });
+    });
+  </script>
+</body>
+</html>
