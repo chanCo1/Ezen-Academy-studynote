@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>영화진흥위원회 박스오피스 순위</h1>
+
+  <input type="date" id="targetDt">
+  <hr />
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>순위</th>
+        <th>영화제목</th>
+        <th>관객수</th>
+        <th>개봉일</th>
+      </tr>
+    </thead>
+    <tbody id="list-body"></tbody>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script>
+    // 파라미터로 백엔드에 전달할 값을 받아 이를 Ajax로 요쳥한 후 화면에 출력하는 함수
+    const getMoiveRank = async targetDt => {
+      const listBody = document.querySelector("#list-body");
+      const oldItem = listBody.getElementsByTagName("tr");
+      console.log(oldItem);
+
+      Array.from(oldItem).map(v => {
+        listBody.removeChild(v);
+      });
+
+      let json = null;
+
+      try {
+        json = await axios.get("http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json", {
+          params: {
+            key: "6d43813d9a215a631e29171efd50c890",
+            targetDt: targetDt,
+          },
+        });
+        console.log(json);
+      } catch(e) {
+        console.error(e);
+        alert("요청을 처리하는데 실패했습니다.");
+        return;
+      };
+
+      if(json != null) {
+        const {data} = json;
+        
+        data.boxOfficeResult.dailyBoxOfficeList.map(v => {
+          const tr = document.createElement("tr");
+
+          const td1 = document.createElement("td");
+          td1.innerHTML = v.rank;
+
+          const td2 = document.createElement("td");
+          td2.innerHTML = v.movieNm;
+
+          const td3 = document.createElement("td");
+          td3.innerHTML = v.audiCnt;
+
+          const td4 = document.createElement("td");
+          td4.innerHTML = v.openDt;
+
+          tr.appendChild(td1);
+          tr.appendChild(td2);
+          tr.appendChild(td3);
+          tr.appendChild(td4);
+
+          listBody.appendChild(tr);
+
+        });
+      };
+    };
+
+    document.querySelector("#targetDt").addEventListener("change", e => {
+      // e.currentTarget.value가 "yyyy-mm-dd" 형식이므로 "-"를 제거
+      // const date = e.currentTarget.value.replace(/\-/g, "");
+      const date = e.currentTarget.value.replaceAll("-", "");
+      console.log("여기요!!"+ date);
+      getMoiveRank(date);
+    });
+
+    // 페이지 열람과 동시에 실행됨
+    // 하루전을 계산
+    const date = new Date();
+    const b = date.getDate()-1;
+    date.setDate(b);
+
+    // 하루 전의 년,월,일
+    let yy = date.getFullYear();
+
+    let mm = date.getMonth() + 1;
+    // 한자리 숫자인 경우는 자리수 맞춤
+    mm = mm < 10 ? `0${mm}` : mm;
+
+    let dd = date.getDate();
+    dd = dd < 10 ? `0${dd}` : dd;
+
+    // 문자열로 결합
+    const sendDate = (yy + mm + dd).toString();
+    console.log("여기요~~~" + sendDate);
+    getMoiveRank(sendDate);
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>쿠키 읽기/쓰기</h1>
+  <div>
+    <select name="name" id="name">
+      <option value="name">name</option>
+      <option value="age">age</option>
+    </select>
+    <select name="time" id="time">
+      <option value="">X</option>
+      <option value="0">0</option>
+      <option value="5">5s</option>
+      <option value="10">10s</option>
+      <option value="30">30s</option>
+    </select>
+    <input type="text" id="input">
+    <button type="button" id="save">save</button>
+    <button type="button" id="read">read</button>
+
+    <script>
+      document.querySelector("#save").addEventListener("click", e => {
+        // 선택한 쿠키 이름 가져오기
+        const name = document.querySelector("#name");
+        const nameChoose = name[name.selectedIndex].value;
+
+        // 선택한 쿠키의 유효시간 가져오기
+        const time = document.querySelector("#time");
+        const timeChoose = time[time.selectedIndex].value;
+
+        // 저장할 쿠키의 내용
+        const input = document.querySelector("#input");
+        const inputValue = input.value;
+
+        // 쿠키에 저장할 정보의 문자열 구성
+        let cookieStr = encodeURIComponent(nameChoose) + " = " + encodeURIComponent(inputValue) + ";";
+        cookieStr += " path = /; ";
+
+        if(timeChoose) {
+          cookieStr += "max-age=" + timeChoose + ";";
+        }
+
+        console.log(cookieStr);
+        document.cookie = cookieStr;
+      });
+
+      document.querySelector("#read").addEventListener("click", e => {
+        alert(document.cookie);
+      })
+    </script>
+  </div>
+</body>
+</html>

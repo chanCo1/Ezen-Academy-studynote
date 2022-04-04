@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <style>
+    body {
+      height: 3000px;
+    }
+
     .box {
       width: 300px;
       height: 200px;
@@ -17,7 +21,7 @@
       background-color: #f60;
       text-align: center;
       line-height: 200px;
-      margin: 25px auto;
+      margin: 25px auto 200px;
     }
   </style>
 </head>
@@ -33,7 +37,13 @@
 
   <div class="box" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-easing="ease-oin-sine" data-aos-duration="600">AOS</div>
 
-  <div class="box" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-oin-sine" data-aos-duration="600">AOS</div>
+  <div class="box" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-oin-sine" data-aos-duration="600">left</div>
+
+  <div class="box" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-oin-sine" data-aos-duration="600">right</div>
+
+  <div class="box" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-oin-sine" data-aos-duration="600">up</div>
+
+  <div class="box" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-oin-sine" data-aos-duration="600">down</div>
 
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

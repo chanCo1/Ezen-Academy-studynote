@@ -197,6 +197,38 @@
       }
     });
 
+    // 파이 그래프 그리기
+    new Chart(mychart4, {
+      type: "pie",
+      data: {
+        labels: names,
+        datasets: [
+          {
+            label: "국어",
+            data: kor,
+            borderWidth: 0.5,
+            borderColor: ["rgba(255,99,132,1)", "rgba(54,162,235,1)", "rgba(255,206,86,1)", "rgba(75,192,192,1)", "rgba(153,102,255,1)"],
+            backgroundColor: ["rgba(255,99,132,0.2)", "rgba(54,162,235,0.2)", "rgba(255,206,86,0.2)", "rgba(75,192,192,0.2)", "rgba(153,102,255,0.2)"] 
+          },
+        ],
+      },
+
+      options: {
+        maintainAspectRatio: false,
+
+        plugins: {
+          // 범주에 대한 설정
+          legend: {
+            position: "left"
+          },
+          title: {
+            display: true,
+            text: "학생별 점수 비율"
+          }
+        }
+      }
+    });
+
 
   </script>
 </body>

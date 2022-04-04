@@ -59,65 +59,22 @@
     }
   </script>
 
-  <!-- <script>
-    // 학과별 학생 수
+  <script>
     const department = [];
     const studentCount = [];
 
     student.forEach((v,i) => {
-      // i번째 학생에 대한 학과번호 추출
       d = v.deptno;
-      // 배열에 학과번호가 있는지 확인
       p = department.indexOf(d);
-
-      // 학과번호가 없다면?
+      
       if(p === -1) {
-        // 새로운 학과 추가
         department.push(d);
-        // 이 학과의 학생수 1로 설정
-        studentCount.push(1);
+        studentCount.push(1)
       } else {
-        // p번째 학과에 대응되는 학생 수 1증가
         studentCount[p]++;
       }
-    });
-
-    console.log(department);
-    console.log(studentCount);
-  </script> -->
-
-  <script>
-    const ageInfo = {};
-
-    // 현재 년도
-    const nowYear = new Date().getFullYear();
-
-    student.forEach((v,i) => {
-      const key = v.grade + "학년";
-
-      // 생년월일에서 왼쪽 글자를 추출하여 숫자로 변환
-      const birthYear = parseInt(v.birthdate);
-
-      // 년도를 나이로 환산
-      const age = nowYear - birthYear +1;
-
-      // json에 i번째 학년에 대한 key가 없다면?
-      if(ageInfo[key] === undefined) {
-        ageInfo[key] = [age];
-      } else {
-        ageInfo[key].push(age);
-      }
-    });
-
-    const level = [];
-    const age = [];
-
-    for(let key in ageInfo) {
-      level.push(key);
-      age.push(getAvg(ageInfo[key]));
-    };
-
-
+    })
   </script>
+
 </body>
 </html>

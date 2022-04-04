@@ -43,12 +43,13 @@
     });
 
     document.querySelector("#remove").addEventListener("click", e => {
-      // 데이터의 key(이름) 가져오기
+      // 데이터의 key(이름) 삭제
       const key = document.querySelector("#key");
       const keyChoose = key[key.selectedIndex].value;
       localStorage.removeItem(keyChoose);
     });
 
+    // 모든 데이터 삭제
     document.querySelector("#clear").addEventListener("click", e => {
       localStorage.clear();
     })

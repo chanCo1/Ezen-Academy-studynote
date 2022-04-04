@@ -20,9 +20,12 @@
       const url = "backend/hello.json";
 
       xhr.onreadystatechange = e => {
+
         const ajax = e.target;
 
+
         if(ajax.readyState == XMLHttpRequest.DONE) {
+          console.log(ajax.readyState);
           if(ajax.status == 200) {
 
             // ajax.responseText --> 통신을 통해 읽어온 내용

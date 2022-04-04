@@ -39,7 +39,7 @@
       const cookieVar = document.querySelector("#cookie_var");
       const cookieVarValue = cookieVar.value;
 
-      // 쿠키에 저자할 정보의 문자열 구성 -> "user=John; path=/; max-age=3600"
+      // 쿠키에 저장할 정보의 문자열 구성 -> "user=John; path=/; max-age=3600"
       let cookie_str = encodeURIComponent(cookieNameChoose) + "=" + encodeURIComponent(cookieVarValue) + ";";
       cookie_str += "path=/;";
 
