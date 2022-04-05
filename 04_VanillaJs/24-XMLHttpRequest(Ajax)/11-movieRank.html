@@ -28,25 +28,34 @@
 
   <script>
     // 파라미터로 백엔드에 전달할 값을 받아 이를 Ajax로 요쳥한 후 화면에 출력하는 함수
-    const getMoiveRank = async targetDt => {
+    // async / await으로 비동기처리
+    const getMoiveRank = async (targetDt) => {
+      // 값을 추가할 영역 요소 가져오기
       const listBody = document.querySelector("#list-body");
+      // 기존에 있는 값 요소 가져오기
       const oldItem = listBody.getElementsByTagName("tr");
-      console.log(oldItem);
 
+      // 기존에 있는 값을 배열로 만들어서 삭제한다.
       Array.from(oldItem).map(v => {
         listBody.removeChild(v);
       });
 
+      // 변수에 null 값으로 지정
       let json = null;
 
+      // 성공시 수행될 코드
       try {
+        // rest 방식으로 url 값을 가져온다.
         json = await axios.get("http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json", {
           params: {
+            // 키 값을 지정한다.
             key: "6d43813d9a215a631e29171efd50c890",
+            // 조회할 날짜 값 지정
             targetDt: targetDt,
           },
         });
         console.log(json);
+        // 실패시 수행될 코드
       } catch(e) {
         console.error(e);
         alert("요청을 처리하는데 실패했습니다.");
@@ -92,15 +101,16 @@
 
     // 페이지 열람과 동시에 실행됨
     // 하루전을 계산
-    const date = new Date();
-    const b = date.getDate()-1;
-    date.setDate(b);
+    // const date = new Date();
+    // const b = date.getDate()-1;
+    // date.setDate(b);
 
     // 하루 전의 년,월,일
+    const date = new Date();
     let yy = date.getFullYear();
 
     let mm = date.getMonth() + 1;
-    // 한자리 숫자인 경우는 자리수 맞춤
+    // 한자리 숫자인 경우 자리수 맞춤
     mm = mm < 10 ? `0${mm}` : mm;
 
     let dd = date.getDate();

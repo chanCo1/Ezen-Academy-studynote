@@ -61,7 +61,7 @@
       let json = null;
 
       try {
-        json = await ajaxPromiseHelper("http://localhost:3000/department");
+        json = await ajaxPromiseHelper("http://localhost:3000/professor");
         console.log(json);
       } catch(e) {
         console.error(e);
@@ -81,11 +81,11 @@
           td1.classList.add("td");
 
           const td2 = document.createElement("td");
-          td2.innerHTML = v.dname;
+          td2.innerHTML = v.name;
           td2.classList.add("td");
 
           const td3 = document.createElement("td");
-          td3.innerHTML = v.loc;
+          td3.innerHTML = v.userid;
           td3.classList.add("td");
 
           tr.appendChild(td1);

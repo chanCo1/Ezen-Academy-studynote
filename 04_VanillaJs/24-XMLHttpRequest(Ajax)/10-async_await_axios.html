@@ -87,13 +87,13 @@
 
         // 링크에 숨겨진 data-deptno의 값을 가져옴
         const deptno = e.currentTarget.dataset.deptno;
-        console.log(deptno);
+        console.log("여기요!!" + deptno);
 
         let json = null;
 
         try {
           json = await axios.get(`http://localhost:3000/department/${deptno}`);
-          console.log(json);
+          console.log(json.headers);
           // console.log(json.data);  // 자세한 내용을 출력 가능
         } catch(e) {
             console.error(e);

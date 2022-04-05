@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    #loading {
+      width: 100px;
+      height: 100px;
+      background-image: url(./img/loading.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9;
+      display: none;
+    }
+
+    #loading.active {
+      display: block;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 127px;
+    }
+
+    #header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      z-index: 1000;
+      padding: 0 10px 5px 10px;
+      box-sizing: border-box;
+    }
+
+    #list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #list li {
+      border-bottom: 1px dotted #d5d5d5;
+    }
+
+    #list li:first-child {
+      border-top: 1px dotted #d5d5d5;
+    }
+
+    #list a {
+      display: block;
+      width: auto;
+      min-height: 120px;
+      padding: 10px;
+      position: relative;
+      color: #000;
+      text-decoration: none;
+      padding-left: 150px;
+    }
+
+    #list a img {
+      display: block;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+
+    #list a h2 {
+      font-size: 18px;
+      margin-top: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      word-wrap: break-word;
+    }
+
+    #list a span,
+    #list a p {
+      font-size: 14px;
+    }
+
+    #list a p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      word-wrap: break-word;
+    }
+
+    #list span.info::after {
+      content:  "|";
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+
+    #list span.info:last-child::after {
+      content: "";
+    }
+
+  </style>
+
+</head>
+<body>
+  <div id="loading"></div>
+
+  <div id="header">
+    <h1>카카오 블로그, 카페 검색</h1>
+
+    <form id="searchForm">
+      <fieldset>
+        <select name="source" id="source">
+          <option value="blog">블로그 검색</option>
+          <option value="cafe">카페 검색</option>
+        </select>
+        <input type="search" id="query" placeholder="Search..." />
+        <button type="submit">검색</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <ul id="list">
+    <li>
+      <a href="#" target="_blank" class="use-thumbnail">
+        <img src="./img/noimage.jpg" />
+        <h2>글 제목</h2>
+        <p>본문내용...</p>
+        <span class="info">카페/블로그 이름</span>
+        <span class="info">작성일시</span>
+      </a>
+    </li>
+  </ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="./main.js"></script>
+</body>
+</html>
+
