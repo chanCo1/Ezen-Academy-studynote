@@ -1,0 +1,66 @@
+<!--
+  @fileName    : index0406.html
+  @author      : 박찬우
+  @description : HTML 구조 작성
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CCS 참조 -->
+  <link rel="stylesheet" href="./style0406.css">
+</head>
+<body>
+  <!-- header -->
+  <h1 id="header">
+    카카오 openAPI를 활용하여 책 검색하기
+    <!-- 검색 -->
+    <form id="search_form" >
+      <fieldset>
+        <select name="select_sort" id="select_sort" class="select">
+          <option value="accuracy">정확도순</option>
+          <option value="latest">발간일순</option>
+        </select>
+        <select name="select_size" id="select_size" class="select">
+          <option value="10">10건</option>
+          <option value="20">20건</option>
+          <option value="30">30건</option>
+          <option value="40">40건</option>
+          <option value="50">50건</option>
+        </select>
+        <input type="search" id="search" placeholder="검색"/>
+        <button type="submit">검색</button>
+      </fieldset>
+    </form>
+    <hr />
+  </h1>
+
+  <!-- 로딩이미지 -->
+  <div id="loading"></div>
+
+  <!-- 검색한 값을 불러올 영역 -->
+  <ul id="list">
+    <li class="list_value" id="list_value">
+      <a href="#" target="_blank">
+        <img src="./img/noimage.jpg" alt="이미지 없음" />
+        <h2>글제목</h2>
+        <p>본문내용</p>
+        <span class="info">저자이름</span>
+        <span class="info">출판사이름</span>
+        <span class="info">원가</span>
+        <span class="info">판매가</span>
+      </a>
+    </li>
+  </ul>
+  
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- 자바스크립트 참조 -->
+  <script src="./main0406.js"></script>
+
+</body>
+</html>

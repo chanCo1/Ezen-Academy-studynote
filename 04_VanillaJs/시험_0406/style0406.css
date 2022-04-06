@@ -1,0 +1,106 @@
+/**
+ * @fileName    : style0406.css
+ * @author      : 박찬우
+ * @description : 작성된 HTML 구조를 바탕으로 디자인 요소 정의
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 90px;
+}
+
+#loading {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url(./img/loading.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  display: none;
+}
+
+#loading.active {
+  display: block;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10px 0;
+  background-color: #fff;
+  z-index: 9;
+}
+
+#header fieldset {
+  padding: 5px 20px;
+  line-height: 4px;
+}
+
+#header fieldset button {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+#list {
+  list-style: none;
+}
+
+#list li:not(:last-child) {
+  border-bottom: 1px dashed gray;
+}
+
+#list a {
+  display: block;
+  width: auto;
+  min-height: 120px;
+  padding: 10px;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  padding-left: 150px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+#list a img {
+  display: flex;
+  width: 120px;
+  object-fit: cover;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+#list a h2 {
+  font-size: 18px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#list a span,
+#list a p {
+  font-size: 14px;
+}
+
+#list a p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#list span.info:not(:last-child)::after {
+  content: " | ";
+}

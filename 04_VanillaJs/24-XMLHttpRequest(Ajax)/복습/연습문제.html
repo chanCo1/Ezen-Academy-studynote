@@ -121,7 +121,7 @@
           <option value="cafe">카페</option>
         </select>
         <input type="search" id="search" placeholder="Search..." />
-        <button type="sumit">검색</button>
+        <button type="submit">검색</button>
       </fieldset>
     </form>
   </div>
@@ -143,61 +143,89 @@
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
   <script>
+    // --- 카카오에서 받은 키 --- //
     const key = "bb10b2a5cc7da58fb075c6b428ff9ed1";
+
+    // --- 검색 위치 --- //
     let source = null;
-    let page = 1;
+
+    // --- 검색어 --- //
     let queryKeyword = null;
+
+    // --- 페이지 번호 --- //
+    let page = 1;
+
+    // --- 마지막 페이지인지 검사 --- //
     let isEnd = false;
 
+    // --- 검색폼의 submit 이벤트 -> 신규검색 --- //
     document.querySelector("#search_form").addEventListener("submit", e => {
       e.preventDefault();
 
+      // 검색 대상을 가져온다.
       const sourceField = document.querySelector("#source");
       source = sourceField[sourceField.selectedIndex].value;
 
+      // 입력된 검색어를 가져온다.
       const queryField = document.querySelector("#search");
       queryKeyword = queryField.value.trim();
 
+      // 검색어가 입력되지 않은 경우에 대한 예외처리
       if(!queryKeyword) {
         alert("검색어를 입력하세요.");
         queryField.focus();
         return;
       }
 
+      // 신규 검색
       page = 1;
-      search();
+      search();  // 호출
     });
 
+    // --- 스크롤 이벤트 -> 추가검색 --- //
     window.addEventListener("scroll", e => {
+      // 마지막 페이지거나 이미 로딩바가 화면에 표시되고 있다면 처리 중단
       if(isEnd || document.querySelector("#loading").classList.contains("active")) {
         return;
       };
 
+      // 스크롤바의 Y좌표
       const scrollTop = window.scrollY;
+      // 웹 브라우저의 창 높이
       const windowHeight = window.screen.availHeight;
+      // HTML 문서의 높이
       const documentHeight = document.body.scrollHeight;
 
+      // 스크롤바의 반동 효과를 고려해서 scrollTop + windowHeight가 실제 화면 크기보다 커 질 수도 있다.
       if(scrollTop + windowHeight >= documentHeight) {
+        // 2페이지 이후는 추가 검색
         page++;
         search();
       };
     });
 
+    // --- Ajax요청 후 결과를 화면에 HTML로 출력하는 함수 --- //
     async function search() {
+      // 로딩바 객체
       const loading = document.querySelector("#loading");
-      loading.classList.add("active");
+      loading.classList.add("active");  // 화면에 표시
 
+      // 검색 결과가 표시될 영역 선택
       const list = document.querySelector("#list");
 
+      // 1페이지에 대한 요청일 경우 기존에 표시되고 있던 검색결과가 있다면 삭제한다.
       if(page === 1) {
         Array.from(list.getElementsByTagName("li")).forEach((v,i) => {
           list.removeChild(v);
         });
       };
 
+      // 검색 결과를 저장할 변수
       let json = null;
       
+      // 비동기 처리
       try {
+        // ${source}를 활용해 모든 소스 가져온다
         json = await axios.get(`https://dapi.kakao.com/v2/search/${source}`, {
           params: {
             query: queryKeyword,
@@ -209,45 +237,50 @@
         });
         console.log(json);
 
+        // 실패시 처리
       } catch(e) {
         console.error(e);
         alert("실패!");
         return;
       } finally {
-        loading.classList.remove("active");
+        loading.classList.remove("active");  // 로딩바 닫기
       };
 
+      // 데이터를 성공적으로 가져왔을 때 처리할 코드
       if(json != null) {
         const {data} = json;
         console.log(data);
 
+        // 다음 페이지를 요청할 수 있는지를 판단하기 위한 값
         isEnd = data.meta.is_end;
 
+        // 가져온 data 객체를 map을 통해 변경
         data.documents.map((v,i) => {
           const li = document.createElement("li");
 
           const a = document.createElement("a");
-          a.setAttribute("href", v.url);
+          a.setAttribute("href", v.url);  // url 주소
           a.setAttribute("target", "_blank");
 
           const img = document.createElement("img");
           img.classList.add("thumbnail");
-          img.setAttribute("src", v.thumbnail || "../img/noimage.jpg");
+          img.setAttribute("src", v.thumbnail || "../img/noimage.jpg");  // 썸네일
 
           const h2 = document.createElement("h2");
-          h2.innerHTML = v.title;
+          h2.innerHTML = v.title;  // 제목
 
           const p = document.createElement("p");
-          p.innerHTML = v.contents;
+          p.innerHTML = v.contents;  // 본문내용
 
           const span1 = document.createElement("span");
           span1.classList.add("info");
-          span1.innerHTML = v.blogname || v.cafename;
+          span1.innerHTML = v.blogname || v.cafename;  // 블로그이름 또는 카페이름
 
           const span2 = document.createElement("span");
           span2.classList.add("info");
-          span2.innerHTML = new Date(v.datetime).toLocaleString();
+          span2.innerHTML = new Date(v.datetime).toLocaleString();  // 시간
 
+          // HTML 요소 추가
           list.appendChild(li);
           li.appendChild(a);
           a.appendChild(img);
@@ -255,10 +288,10 @@
           a.appendChild(p);
           a.appendChild(span1);
           a.appendChild(span2);
-          
         });
       };
     };
+
   </script>
 </body>
 </html>
