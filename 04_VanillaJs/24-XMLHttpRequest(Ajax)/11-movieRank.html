@@ -27,7 +27,7 @@
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
   <script>
-    // 파라미터로 백엔드에 전달할 값을 받아 이를 Ajax로 요쳥한 후 화면에 출력하는 함수
+    // 파라미터로 백엔드에 전달할 값을 받아 이를 Ajax로 요청한 후 화면에 출력하는 함수
     // async / await으로 비동기처리
     const getMoiveRank = async (targetDt) => {
       // 값을 추가할 영역 요소 가져오기
@@ -64,6 +64,8 @@
 
       if(json != null) {
         const {data} = json;
+        console.log("--- data");
+        console.log(data);
         
         data.boxOfficeResult.dailyBoxOfficeList.map(v => {
           const tr = document.createElement("tr");

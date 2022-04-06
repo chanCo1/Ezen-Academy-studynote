@@ -102,17 +102,11 @@
     // --- 페이지 번호 --- //
     let currentPage = 1;
 
-
-
     // --- 검색어 --- //
     let queryKeyword = null;
 
-
-
     // --- 마지막 페이지인지 검사 --- //
     let isEnd = false;
-
-
 
     // --- 검색 폼의 submit 이벤트 - 신규검색 --- //
     document.querySelector("#search_Form").addEventListener("submit", e => {
@@ -133,8 +127,6 @@
       currentPage = 1;
       get_image_search();
     });
-
-
 
     // --- 스크롤 이벤트 - 추가검색 --- //
     window.addEventListener("scroll", e => {
@@ -157,8 +149,6 @@
         get_image_search();
       }
     });
-
-
 
     // --- Ajax 요청 후 결과를 화면에 HTML로 출력하는 함수 --- //
     async function get_image_search() {
@@ -231,9 +221,7 @@
           list.appendChild(li);
         });
       }
-    };
-
-    
+    };  
   </script>
 </body>
 </html>

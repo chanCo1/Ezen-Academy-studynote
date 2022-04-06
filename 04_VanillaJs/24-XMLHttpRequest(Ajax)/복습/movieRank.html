@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>박스오피스</h1>
+  <input type="date" id="targetDt" />
+  <hr />
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>순위</th>
+        <th>영화제목</th>
+        <th>누적 관객수</th>
+        <th>개봉일</th>
+      </tr>
+    </thead>
+    <tbody id="list-body"></tbody>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script>
+    const getMovieRank = async targetDt => {
+      const listBody = document.querySelector("#list-body");
+      console.log("--- listBody");
+      console.log(listBody);
+      const oldItem = listBody.getElementsByTagName("tr");
+      console.log("--- oldItem");
+      console.log(oldItem);
+
+      Array.from(oldItem).map((v,i) => {
+        listBody.removeChild(v);
+      });
+
+      let json = null;
+      try {
+        json = await axios.get("http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json", {
+          params: {
+            key: "6d43813d9a215a631e29171efd50c890",
+            targetDt: targetDt,
+          }
+        })
+        console.log("--- json");
+        console.log(json);
+      } catch(e) {
+        console.error(e);
+        alert("실패!");
+        return;
+      };
+
+      if(json != null) {
+        const {data} = json;
+        console.log("--- data");
+        console.log(data);
+
+        data.boxOfficeResult.dailyBoxOfficeList.map((v,i) => {
+          console.log(v);
+          const tr = document.createElement("tr");
+          const rank = document.createElement("td");
+          const title = document.createElement("td");
+          const count = document.createElement("td");
+          const open = document.createElement("td");
+
+          rank.innerHTML = v.rank;
+          title.innerHTML = v.movieNm;
+          count.innerHTML = v.audiAcc;
+          open.innerHTML = v.openDt;
+
+          tr.appendChild(rank);
+          tr.appendChild(title);
+          tr.appendChild(count);
+          tr.appendChild(open);
+
+          listBody.appendChild(tr);
+        })
+      };
+    };
+
+    document.querySelector("#targetDt").addEventListener("change", e => {
+      const date = e.currentTarget.value.replaceAll("-", "");
+      console.log("--- date");
+      console.log(date);
+      getMovieRank(date);
+    });
+
+    const date = new Date();
+    const today = date.getDate() -1;
+    date.setDate(today);
+
+    let yy = date.getFullYear();
+    let mm = date.getMonth() +1;
+    let dd = date.getDate();
+
+    mm = mm < 10 ? `0${mm}` : mm;
+    dd = dd < 10 ? `0${dd}` : dd;
+
+    const sendDate = (yy + mm + dd).toString();
+    getMovieRank(sendDate);
+    
+  </script>
+</body>
+</html>
