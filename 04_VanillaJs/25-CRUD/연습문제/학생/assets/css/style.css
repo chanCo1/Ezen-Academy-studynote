@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 20px 0;
+  width: 640px;
+  margin: auto;
+}
+
+.container header h1 {
+  color: #06f;
+  font-size: 28px;
+}
+
+.container footer address {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+
+.container section {
+  margin-bottom: 20px;
+}
+
+.container .table {
+  width: 100%;
+  border-top: 1px solid #444;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.container .table th,
+.container .table td {
+  border-bottom: 1px solid #444;
+  border-left: 1px solid #444;
+  padding: 10px;
+  text-align: center;
+}
+
+.container .table th:first-child,
+.container .table td:first-child {
+  border-left: none;
+}
+
+.container .table td a {
+  margin:  0 5px;
+}
+
+.container .form-group {
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.container .text-danger {
+  color: #f00;
+}
+
+.container .text-center {
+  text-align: center;
+}
+
+.container .form-group:after {
+  display: block;
+  content: "";
+  float: none;
+  clear: both;
+}
+
+.container .form-group label {
+  float: left;
+  width: 100px;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.container .form-group div {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+.container dt {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.container dt::before {
+  content: "#";
+  padding-right: 5px;
+}
+
+.container dd {
+  font-weight: normal;
+  margin-bottom: 30px;
+  border-left: 5px solid #d5d5d5;
+  padding-left: 15px;
+  font-size: 14px;
+}
