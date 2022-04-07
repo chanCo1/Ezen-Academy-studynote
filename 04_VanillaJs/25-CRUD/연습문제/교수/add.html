@@ -15,7 +15,7 @@
 
     <!-- body -->
     <section>
-      <form name="form" id="department-form">
+      <form name="form" id="professor-form">
         <div class="form-group">
           <label for="name">이름<span class="text-danger"> * </span></label>
           <div>
@@ -73,7 +73,7 @@
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./assets/js/include.js"></script>
   <script>
-    document.querySelector("#department-form").addEventListener("submit", async e => {
+    document.querySelector("#professor-form").addEventListener("submit", async e => {
       e.preventDefault();
 
       // 입력값 받아오기
@@ -85,12 +85,10 @@
       const comm = document.querySelector("#comm").value;
       const deptno = document.querySelector("#deptno").value;
 
-      // <!-- 입렵값에 대한 유효성 검사 진행 ..은 생략! -->
-
       let json = null;
 
       try {
-        // 대부분의 backend가 일력번호는 자체적으로 생성하기 때문에 create에 해당하는 데이터 추가 처리에서는  백엔드에게 일련번호를 제외한 변수만 전달해야한다.
+        // 대부분의 backend가 일력번호는 자체적으로 생성하기 때문에 create에 해당하는 데이터 추가 처리에서는 백엔드에게 일련번호를 제외한 변수만 전달해야한다.
         json = await axios.post("http://localhost:3000/professor", {
           name: name,
           userid: userid,

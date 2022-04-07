@@ -43,8 +43,8 @@
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./assets/js/include.js"></script>
 
-  <script>
-    // 페이지가 실행되면서 자동으로 동작해야 하므로 즉시 실행 함수 형태로 구현
+  <script> 
+     // 페이지가 실행되면서 자동으로 동작해야 하므로 즉시 실행 함수 형태로 구현
     (async () => {
       // --- GET 파라미터 받기 --- //
       // window.location.search : "?id=101"
@@ -102,6 +102,7 @@
       e.preventDefault();
 
       const current = e.currentTarget;
+      const id = current.dataset.id;
       const name = current.dataset.name;
       const userid = current.dataset.userid;
       const position = current.dataset.position;

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>학과관리 ::: My School - view</title>
+  <title>학생관리 ::: My School - view</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -16,12 +16,26 @@
     <!-- body -->
     <section>
       <dl>
+        <dt>이름</dt>
+        <dd class="name"></dd>
+        <dt>아이디</dt>
+        <dd class="userid"></dd>
+        <dt>학년</dt>
+        <dd class="grade"></dd>
+        <dt>주민번호</dt>
+        <dd class="idnum"></dd>
+        <dt>생년월일</dt>
+        <dd class="birthdate"></dd>
+        <dt>전화번호</dt>
+        <dd class="tel"></dd>
+        <dt>키</dt>
+        <dd class="height"></dd>
+        <dt>몸무게</dt>
+        <dd class="weight"></dd>
         <dt>학과번호</dt>
-        <dd class="id"></dd>
-        <dt>학과명</dt>
-        <dd class="dname"></dd>
-        <dt>학과위치</dt>
-        <dd class="loc"></dd>
+        <dd class="deptno"></dd>
+        <dt>담당교수일련번호</dt>
+        <dd class="profno"></dd>
       </dl>
       <a href="index.html">목록보기</a>
       <a href="#" class="btn-edit">수정하기</a>
@@ -51,7 +65,7 @@
 
       // 파라미터가 정상적이지 않으므로 메세지 출력, 전 페이지 이동 처리 후 수행 중단(return)
       if(!id) {
-        alert("학과번호가 없습니다.");
+        alert("학생번호가 없습니다.");
         history.back();
         return;
       };
@@ -60,18 +74,27 @@
       let json = null;
 
       try {
-        json = await axios.get(`http://localhost:3000/department/${id}`);
+        json = await axios.get(`http://localhost:3000/student/${id}`);
+        console.log(json);
       } catch(e) {
         console.error(e);
-        alert("요청을 처리하는데 실패했습니다.");
+        alert("요청을 처리하는데 실패했습니까?");
         return;
       }
 
       if(json != null) {
         const {data} = json;
-        document.querySelector(".id").innerHTML = data.id;
-        document.querySelector(".dname").innerHTML = data.dname;
-        document.querySelector(".loc").innerHTML = data.loc;
+        // document.querySelector(".id").innerHTML = data.id;
+        document.querySelector(".name").innerHTML = data.name;
+        document.querySelector(".userid").innerHTML = data.userid;
+        document.querySelector(".grade").innerHTML = data.grade;
+        document.querySelector(".idnum").innerHTML = data.idnum;
+        document.querySelector(".birthdate").innerHTML = new Date(data.birthdate).toLocaleDateString();
+        document.querySelector(".tel").innerHTML = data.tel;
+        document.querySelector(".height").innerHTML = data.height;
+        document.querySelector(".weight").innerHTML = data.weight;
+        document.querySelector(".deptno").innerHTML = data.deptno;
+        document.querySelector(".profno").innerHTML = data.profno;
 
         // 가져온 데이터의 일련번호를 사용하여 어떤 대상을 수정할지에 대한 링크 URL 구성
         document.querySelector(".btn-edit").setAttribute("href", "edit.html?id=" + data.id);
@@ -79,7 +102,7 @@
         // 가져온 데이터의 일련번호를 사용하여 어떤 대상을 수정할지에 대한 링크 URL 구성
         const btnDelete = document.querySelector(".btn-delete");
         btnDelete.dataset.id = data.id;
-        btnDelete.dataset.dname = data.dname;
+        btnDelete.dataset.name = data.name;
       };
     })();
 
@@ -89,16 +112,25 @@
 
       const current = e.currentTarget;
       const id = current.dataset.id;
-      const dname = current.dataset.dname;
+      const name = current.dataset.name;
+      const userid = current.dataset.userid;
+      const grade = current.dataset.grade;
+      const idnum = current.dataset.idnum;
+      const birthdate = current.dataset.birthdate;
+      const tel = current.dataset.tel;
+      const height = current.dataset.height;
+      const weight = current.dataset.weight;
+      const deptno = current.dataset.deptno;
+      const profno = current.dataset.profno;
 
-      if(!confirm(`정말 ${dname}(을)를 삭제하시겠습니까?`)) {
+      if(!confirm(`정말 ${name}(을)를 삭제하시겠습니까?`)) {
         return;
       }
 
       let json = null;
 
       try {
-        json = axios.delete(`http://localhost:3000/department/${id}`);
+        json = axios.delete(`http://localhost:3000/student/${id}`);
       } catch(e) {
         console.error(e);
         alert("요청을 처리하는데 실패했습니다.");

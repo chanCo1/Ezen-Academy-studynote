@@ -106,16 +106,6 @@
       "hiredate": "1990-10-17T15:00:00.000Z",
       "comm": 17,
       "deptno": 202
-    },
-    {
-      "name": "TEST",
-      "userid": "aaaa",
-      "position": "교수",
-      "sal": "500",
-      "hiredate": "2022-04-06",
-      "comm": "50",
-      "deptno": "1111",
-      "id": 9909
     }
   ],
   "student": [
