@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container {
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      border: 2px dotted #06f;
+      padding: 10px;
+      width: 600px;
+      height: 300px;
+    }
+
+    .container1 {
+      align-content: stretch;
+    }
+
+    .container2 {
+      align-content: flex-start;
+    }
+
+    .container3 {
+      align-content: flex-end;
+    }
+
+    .container4 {
+      align-content: center;
+    }
+
+    .container5 {
+      align-content: space-between;    
+    }
+
+    .container6 {
+      align-content: space-around;    
+    }
+
+    .container7 {
+      align-content: space-evenly;    
+    }
+
+    .item {
+      border: 2px solid #f0f;
+      padding: 10px;
+      margin: 5px;
+      width: 200px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>=== align-content ===</h1>
+
+  <h2>stretch</h2>
+  <div class="container container1">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>flex-start</h2>
+  <div class="container container2">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>flex-end</h2>
+  <div class="container container3">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>center</h2>
+  <div class="container container4">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>space-between</h2>
+  <div class="container container5">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>space-around</h2>
+  <div class="container container6">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>space-evenly</h2>
+  <div class="container container7">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+  
+</body>
+</html>

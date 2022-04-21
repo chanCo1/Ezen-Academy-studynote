@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container {
+      box-sizing: border-box;
+      display: flex;
+      border: 2px dotted #06f;
+      padding: 10px;
+      width: 800px;
+      height: 300px;
+    }
+
+    .container1 {
+      justify-content: flex-start;
+    }
+
+    .container2 {
+      justify-content: flex-end;
+    }
+
+    .container3 {
+      justify-content: center;
+    }
+
+    .container4 {
+      justify-content: space-between;
+    }
+
+    .container5 {
+      justify-content: space-around;
+    }
+
+    .container6 {
+      justify-content: space-evenly;
+    }
+
+    .item {
+      border: 2px solid #f0f;
+      padding: 10px;
+      margin: 5px;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>=== justify-content ===</h1>
+
+  <h2>flex-start</h2>
+  <div class="container container1">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>flex-end</h2>
+  <div class="container container2">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>center</h2>
+  <div class="container container3">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>space-between</h2>
+  <div class="container container4">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>space-around</h2>
+  <div class="container container5">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>space-evenly</h2>
+  <div class="container container6">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+  
+</body>
+</html>

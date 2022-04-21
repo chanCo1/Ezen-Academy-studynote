@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container {
+      box-sizing: border-box;
+      display: flex;
+      border: 2px dotted #06f;
+      padding: 10px;
+      width: 100%;
+      height: 200px;
+    }
+
+    .item {
+      border: 2px solid #f0f;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    .flex1 {
+      flex: 1 1 0;
+    }
+
+    .flex2 {
+      flex: 2 1 0;
+    }
+
+    .container-wrap {
+      flex-wrap: wrap;
+      height: auto;
+    }
+
+    .flex3 {
+      flex: 1 1 40%;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <h1>=== flex ===</h1>
+
+  <h2>flex 1:2:1</h2>
+  <div class="container">
+    <div class="item flex1">A</div>
+    <div class="item flex2">B</div>
+    <div class="item flex1">C</div>
+  </div>
+
+  <h2>flex 2단</h2>
+  <div class="container container-wrap">
+    <div class="item flex3">normal contents</div>
+    <div class="item flex3">~~~~~~~~~~~~~~~~~~~~~~long</div>
+    <div class="item flex3">short</div>
+    <div class="item flex3">normal contents</div>
+    <div class="item flex3">~~~~~~~~~~~~~~~~~~~~~~long</div>
+    <div class="item flex3">short</div>
+    <div class="item flex3">normal contents</div>
+    <div class="item flex3">~~~~~~~~~~~~~~~~~~~~~~long</div>
+    <div class="item flex3">short</div>
+    <div class="item flex3">normal contents</div>
+    <div class="item flex3">~~~~~~~~~~~~~~~~~~~~~~long</div>
+    <div class="item flex3">short</div>
+  </div>
+
+  
+</body>
+</html>

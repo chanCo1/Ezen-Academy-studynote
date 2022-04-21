@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 부모 요소는 그대로 */
+    .container1 {
+      display: flex; 
+    }
+
+    /* 부모요소도 변경 */
+    .container2 {
+      display: inline-flex;
+    }
+
+    .container {
+      border: 1px dashed #444;
+      padding: 10px;
+      height: 50px;
+    }
+
+    .item {
+      border: 1px solid #000;
+      width: 50px;
+      background-color: pink;
+    }
+
+    .item:not(:last-child) {
+      margin-right: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>flex</h1>
+  <div class="container container1">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h1>inline-flex</h1>
+  <div class="container container2">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+  
+</body>
+</html>

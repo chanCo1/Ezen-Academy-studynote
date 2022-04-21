@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    .container {
+      box-sizing: border-box;
+      display: flex;
+      border: 2px dotted #06f;
+      padding: 10px;
+      width: 800px;
+      height: 200px;
+    }
+    
+    .container1 {
+      flex-wrap: nowrap;
+    }
+    
+    .container2 {
+      flex-wrap: wrap;
+    }
+    
+    .container3 {
+      flex-wrap: wrap-reverse;
+    }
+    
+    .item {
+      border: 2px solid #f0f;
+      padding: 10px;
+      margin: 5px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>=== flex-directuin ===</h1>
+
+  <h2>nowrap</h2>
+  <div class="container container1">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>wrap</h2>
+  <div class="container container2">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+
+  <h2>wrap-reverse</h2>
+  <div class="container container3">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+  </div>
+  
+</body>
+</html>
