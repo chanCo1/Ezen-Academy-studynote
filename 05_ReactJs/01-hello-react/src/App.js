@@ -24,6 +24,7 @@ function App() {
   );
 }
 
+// App 함수 내보내기
 export default App;
 
 

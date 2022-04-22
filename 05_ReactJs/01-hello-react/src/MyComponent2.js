@@ -7,7 +7,7 @@ import MySubComponent from "./MySubComponent";
 const MyComponent2 = () => {
   return (
     <div>
-      <h2>Virtual DOM</h2>
+      <h2>Example2</h2>
       <p>This is React Component</p>
 
       <MySubComponent />

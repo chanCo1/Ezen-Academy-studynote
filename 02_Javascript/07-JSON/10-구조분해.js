@@ -21,9 +21,9 @@ const {name} = data;
 console.log(name);
 
 // data안에 있는 height와 weight를 분해하면서 이름을 h 와 w로 변경
-const {name: a, age: b, height: h, weight: w} = data;
-console.log(a);
-console.log(b);
+const {name: aa, age: bb, height: h, weight: w} = data;
+console.log(aa);
+console.log(bb);
 console.log(h);
 console.log(w);
 console.log(data);
