@@ -1,18 +1,8 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
+import weather from './weatherData';
 
-const WeatherPath = () => {
-  console.clear();
-
-  const weather = {
-    "mon": ["맑음", "맑음"],
-    "tue": ["비", "맑음"],
-    "wed": ["맑음", "흐림"],
-    "thu": ["맑음", "흐림"],
-    "fri": ["흐림", "흐림"],
-    "sat": ["비", "맑음"],
-    "sun": ["맑음", "맑음"],
-  };
+const MyWeather = () => {
 
   const params = useParams();
   console.log(params);
@@ -21,6 +11,7 @@ const WeatherPath = () => {
   console.log(day);
 
   const [am, pm] = weather[day];
+  console.log(am,pm);
 
   return (
     <div>
@@ -34,4 +25,4 @@ const WeatherPath = () => {
   );
 };
 
-export default WeatherPath;
+export default MyWeather;

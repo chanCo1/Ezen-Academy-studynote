@@ -13,8 +13,8 @@ const Loop1 = () => {
 
     // 주어진 count 수 만틈 저장할 배열
     for(let i = 0; i < count; i++) {
-      // 반복적으로 처리되는 컴포넌트 요소는 각 항목을 식별하기 위해 고유한 값을 갖는 key 속성을 포함해야한다. (React 권고 사항)
-      li.push(<li key={i}>item_{i}</li>);
+    // 반복적으로 처리되는 컴포넌트 요소는 각 항목을 식별하기 위해 고유한 값을 갖는 key 속성을 포함해야한다. (React 권고 사항)
+      li.push(<li key={i}>item-{i}</li>);
     }
 
     return li;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Routes, Route } from "react-router-dom";
-import Weatehr from './WeatherPath';
+import Weatehr from './MyWeather';
 
 function App() {
   return (
@@ -9,17 +9,17 @@ function App() {
       <hr />
 
       <nav>
-        <Link to="/weather_path/mon">월</Link>&nbsp;|&nbsp;
-        <Link to="/weather_path/tue">화</Link>&nbsp;|&nbsp;
-        <Link to="/weather_path/wed">수</Link>&nbsp;|&nbsp;
-        <Link to="/weather_path/thu">목</Link>&nbsp;|&nbsp;
-        <Link to="/weather_path/fri">금</Link>&nbsp;|&nbsp;
-        <Link to="/weather_path/sat">토</Link>&nbsp;|&nbsp;
-        <Link to="/weather_path/sun">일</Link>
+        <Link to="/weather/mon">월</Link> |&nbsp;
+        <Link to="/weather/tue">화</Link> |&nbsp;
+        <Link to="/weather/wed">수</Link> |&nbsp;
+        <Link to="/weather/thu">목</Link> |&nbsp;
+        <Link to="/weather/fri">금</Link> |&nbsp;
+        <Link to="/weather/sat">토</Link> |&nbsp;
+        <Link to="/weather/sun">일</Link>
       </nav>
 
       <Routes>
-        <Route path="/weather_path/:day" exact={true} element={<Weatehr />} />
+        <Route path="/weather/:day" exact={true} element={<Weatehr />} />
       </Routes>
     </div>  
   );

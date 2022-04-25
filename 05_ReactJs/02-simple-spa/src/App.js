@@ -11,7 +11,7 @@ import Error404 from "./pages/Error404";
 function App() {
   return (
     <div>
-      <h1>02-simple-spa</h1>
+      <h1>SPA Example</h1>
       <hr />
 
       {/* === 링크 구성 부분 === */}
@@ -55,3 +55,5 @@ function App() {
 }
 
 export default App;
+
+

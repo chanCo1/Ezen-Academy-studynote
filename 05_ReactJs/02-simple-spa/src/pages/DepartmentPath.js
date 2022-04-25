@@ -11,7 +11,7 @@ const DepartmentPath = () => {
   // 기존의 콘솔 출력 내용 삭제
   console.clear();
 
-  // 쵸엋ㅇ 데이터 확인하기
+  // 요청 데이터 확인하기
   const parmas = useParams();
   console.group('useParmas()의 리턴값 확인');
   console.log(parmas);
