@@ -2,7 +2,6 @@ import React from "react";
 import GradeData from "./GradeData";
 import GradeItem from "./components/GradeItem";
 
-
 function App() {
   return (
     <div>

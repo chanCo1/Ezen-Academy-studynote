@@ -1,0 +1,62 @@
+
+/* 메누에 기본 적용될 클래스 */
+/* .normalLink {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  padding-bottom: 2px;
+  color: #222;
+}
+
+.normalLink:hover {
+  color: #22b8cf;
+}
+
+.normalLink::after {
+  content: "|";
+  display: inline-block;
+  padding: 0 7px;
+  color: #ccc;
+} */
+
+/* .normalLink:last-child::after {
+  color: #fff;
+} */
+
+/* 현재 페이지를 의미하는 메뉴에 적용될 클래스 */
+/* .active {
+  border-bottom: 2px solid #22b8cf;
+  color: #22b8cf;
+} */
+
+/* .active::after {
+  흰색 선을 추가하여 .active에서 지정한 border를 덮을 수 있도록 지정한다. (가림효과)
+  border-bottom: 4px solid #fff !important;
+} */
+
+
+
+
+
+/* 메뉴에 기본 적용될 클래스 */
+nav {
+  margin-bottom: 10px;
+}
+
+.normalLink {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #222;
+  margin: 0 20px;
+}
+
+.normalLink:hover {
+  color: #22b8cf;
+}
+
+/* 현재 페이지를 의미하는 메뉴에 적용될 클래스 */
+.active {
+  border-bottom: 2px solid #22b8cf;
+  color: #22b8cf;
+}

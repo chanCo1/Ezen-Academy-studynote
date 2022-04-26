@@ -2,13 +2,13 @@ import React from "react";
 
 import PropTypes from "prop-types"
 
-const MyChildrenSub = ({width, height, children}) => {
+const MyChildrenSub = ({w, h, children}) => {
   // CSS 속성값을 변수화 할 경우 JSON 객체로 구성한다.
 
   const myStyle = {
     // 부모로 부터 전달 받은 props에 포함된 값으로 width, height 결정
-    width: width + "px",
-    height: height + "px",
+    width: w + "px",
+    height: h + "px",
     border: "5px solid #d5d5d5",
     padding: "20px",
     margin: "10px",
