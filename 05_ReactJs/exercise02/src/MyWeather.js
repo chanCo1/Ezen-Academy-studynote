@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
-import weather from './weatherData';
+import WeatherData from './WeatherData';
 
 const MyWeather = () => {
 
@@ -10,7 +10,7 @@ const MyWeather = () => {
   const {day} = params;
   console.log(day);
 
-  const [am, pm] = weather[day];
+  const [am, pm] = WeatherData[day];
   console.log(am,pm);
 
   return (

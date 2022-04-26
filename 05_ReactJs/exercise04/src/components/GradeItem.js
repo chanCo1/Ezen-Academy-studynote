@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const GradeItem = ({name, level, gender, kor, eng, math, sci}) => {
-  
+
   const sum = parseInt(kor + eng + math + sci);
   const avg = parseInt(sum / 4);
 

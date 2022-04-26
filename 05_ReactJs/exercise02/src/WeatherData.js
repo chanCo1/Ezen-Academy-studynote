@@ -1,4 +1,4 @@
-const weatherData = {
+const WeatherData = {
   "mon": ["맑음", "맑음"],
   "tue": ["비", "맑음"],
   "wed": ["맑음", "흐림"],
@@ -8,4 +8,4 @@ const weatherData = {
   "sun": ["맑음", "맑음"],
 };
 
-export default weatherData;
+export default WeatherData;
