@@ -39,7 +39,7 @@ const CssModule = () => {
         </div>
         <div className={myStyleModule.notionWrap}>
           <h3 className={`${myStyleModule.notion} ${myStyleModule.fontWeight600}`}>CSS-Module이란?</h3>
-          <p className={myStyleModule.description}>CSS를 사용할 때 클래스 이름을 고유한 값으로 자동으로 만들어서 컴포넌트 스타일 클래스 이름이 중접되는 현상을 방지해주는 기술이다.</p>
+          <p className={myStyleModule.description}>CSS를 사용할 때 클래스 이름을 고유한 값으로 자동 변환해서 컴포넌트 스타일 클래스 이름이 중접되는 현상을 방지해주는 기술이다.</p>
         </div>
       </div>
 

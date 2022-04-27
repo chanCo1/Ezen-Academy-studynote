@@ -1,6 +1,6 @@
 
 /* 메누에 기본 적용될 클래스 */
-/* .normalLink {
+.normalLink {
   font-size: 20px;
   text-decoration: none;
   cursor: pointer;
@@ -17,28 +17,28 @@
   display: inline-block;
   padding: 0 7px;
   color: #ccc;
-} */
+}
 
-/* .normalLink:last-child::after {
+.normalLink:last-child::after {
   color: #fff;
-} */
+}
 
 /* 현재 페이지를 의미하는 메뉴에 적용될 클래스 */
-/* .active {
+.active {
   border-bottom: 2px solid #22b8cf;
   color: #22b8cf;
-} */
+}
 
-/* .active::after {
-  흰색 선을 추가하여 .active에서 지정한 border를 덮을 수 있도록 지정한다. (가림효과)
+.active::after {
+  /* 흰색 선을 추가하여 .active에서 지정한 border를 덮을 수 있도록 지정한다. (가림효과) */
   border-bottom: 4px solid #fff !important;
-} */
+}
 
 
 
 
 
-/* 메뉴에 기본 적용될 클래스 */
+/* 
 nav {
   margin-bottom: 10px;
 }
@@ -55,8 +55,7 @@ nav {
   color: #22b8cf;
 }
 
-/* 현재 페이지를 의미하는 메뉴에 적용될 클래스 */
 .active {
   border-bottom: 2px solid #22b8cf;
   color: #22b8cf;
-}
+} */
