@@ -8,6 +8,7 @@ import CssModule from "./pages/CssModule";
 import Scss from "./pages/Scss";
 import ScssModule from "./pages/ScssModule";
 import StyledComponent from "./pages/StyledComponent";
+import News from "./pages/News";
 
 // CSS파일 import
 import "./assets/css/menu.css"
@@ -41,6 +42,7 @@ function App() {
         <NavLink className="normalLink" to="/scss">scss</NavLink>
         <NavLink className="normalLink" to="/scss_module">scss_module</NavLink>
         <NavLink className="normalLink" to="/styled_component">styled_component</NavLink>
+        <NavLink className="normalLink" to="/news">News</NavLink>
       </nav>
 
       <Routes>
@@ -50,6 +52,7 @@ function App() {
         <Route path="/scss" element={<Scss />} />
         <Route path="/scss_module" element={<ScssModule />} />
         <Route path="/styled_component" element={<StyledComponent />} />
+        <Route path="/news/*" element={<News />} />
       </Routes>
     </div>
   );
