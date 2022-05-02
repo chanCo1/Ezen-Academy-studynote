@@ -27,7 +27,7 @@
 }
 
 .clear:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
   float: none;
@@ -121,7 +121,7 @@
 #main .main_text h1 span {
   padding: 8px 16px;
   background: #000;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /* contents 공통
@@ -193,7 +193,7 @@
 
 .about_contents .about_box h3 {
   margin: 10px 0;
-} 
+}
 
 .about_contents .about_box p {
   margin: 15px 0;
