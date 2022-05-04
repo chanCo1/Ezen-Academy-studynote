@@ -41,20 +41,12 @@ const MainContainer = styled.div`
 `;
 
 const Main = () => {
-  const projectData = data.project;
+  // const projectData = data.project;
   const aboutData = data.about;
 
   return (
     <MainContainer>
-      {/* TODO: Project */}
-      <div className="titleWrap">
-        <h3 className="title">Projects</h3>
-      </div>
-      {/* Projects 컴포넌트 */}
-      {/* 데이터를 바탕으로 map 함수를 이용해 작성한다. */}
-      {projectData.map((v, i) => (
-        <Projects key={i} items={v} />
-      ))}
+      <Projects data={data.project} />
 
       {/* TODO: About */}
       <div className="titleWrap">
@@ -74,3 +66,13 @@ const Main = () => {
 };
 
 export default Main;
+
+// {/* TODO: Project */}
+// <div className="titleWrap">
+// <h3 className="title">Projects</h3>
+// </div>
+// {/* Projects 컴포넌트 */}
+// {/* 데이터를 바탕으로 map 함수를 이용해 작성한다. */}
+// {projectData.map((v, i) => (
+// <Projects key={i} items={v} />
+// ))}

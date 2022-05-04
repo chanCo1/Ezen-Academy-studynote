@@ -40,18 +40,39 @@ const ProjectsContainer = styled.div`
   }
 `;
 
-// TODO: 파라미터로 데이터를 받아 구조를 작성한다.
-const Projects = ({ items: { subject, img } }) => {
+const Projects = (props) => {
+  const projectData = props.data;
+
   return (
     <ProjectsContainer>
-      <div className="imgTitleWrap">
-        <h4>{subject}</h4>
+      {/* TODO: Project */}
+      <div className="titleWrap">
+        <h3 className="title">Projects</h3>
       </div>
-      <div className="imgWrap">
-        <img alt="이미지" src={img} />
-      </div>
+      {projectData.map((v, i) => {
+        return (
+          <div key={i}>
+            <h4>{v.subject}</h4>
+            <img alt="이미지" src={v.img} />
+          </div>
+        );
+      })}
     </ProjectsContainer>
   );
 };
+
+// TODO: 파라미터로 데이터를 받아 구조를 작성한다.
+// const Projects = ({ items: { subject, img } }) => {
+//   return (
+//     <ProjectsContainer>
+//       <div className="imgTitleWrap">
+//         <h4>{subject}</h4>
+//       </div>
+//       <div className="imgWrap">
+//         <img alt="이미지" src={img} />
+//       </div>
+//     </ProjectsContainer>
+//   );
+// };
 
 export default Projects;
