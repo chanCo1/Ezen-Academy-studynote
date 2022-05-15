@@ -61,7 +61,7 @@ const Projects = (props) => {
   );
 };
 
-// TODO: 파라미터로 데이터를 받아 구조를 작성한다.
+// // TODO: 파라미터로 데이터를 받아 구조를 작성한다.
 // const Projects = ({ items: { subject, img } }) => {
 //   return (
 //     <ProjectsContainer>
