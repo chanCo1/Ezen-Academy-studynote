@@ -1,6 +1,6 @@
 /**
  * @filename : BrMainSlide.jsx
- * @author : 박찬우
+ * @author : chanCo
  * @description : 메인 페이지의 이미지 슬라이드 구현
  */
 

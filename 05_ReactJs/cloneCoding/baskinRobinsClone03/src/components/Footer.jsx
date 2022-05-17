@@ -1,3 +1,9 @@
+/**
+ * @filename : Footer.jsx
+ * @author : chanCo
+ * @description : footer 영역 정의
+ */
+
 import React, { memo, useState, useEffect, useCallback } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';

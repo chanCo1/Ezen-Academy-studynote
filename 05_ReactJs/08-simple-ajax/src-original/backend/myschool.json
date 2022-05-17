@@ -21,19 +21,9 @@
       "loc": "4호관"
     },
     {
-      "dname": "1234",
-      "loc": "1234",
+      "dname": "추가",
+      "loc": "아무데",
       "id": 203
-    },
-    {
-      "dname": "1234z",
-      "loc": "1234z",
-      "id": 204
-    },
-    {
-      "dname": "aabbasd",
-      "loc": "aabbasd",
-      "id": 205
     }
   ],
   "professor": [

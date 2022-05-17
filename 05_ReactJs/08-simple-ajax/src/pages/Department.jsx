@@ -6,7 +6,6 @@ const Department = () => {
   // ----------------------------------------------------------------- hooks 정의
   // TODO: 화면에 표시할 상태값 (ajax로 받아올 json, 초기값을 빈 배열로 정의)
   const [ department, setDepartment ] = useState([]);
-  console.log(department);
 
   // TODO: 검색 키워드 값 정의
   const [ keyword, setKeyword ] = useState('');
@@ -43,9 +42,9 @@ const Department = () => {
   const myKeywordInput = useRef();
 
   // TODO: 검색 버튼에 대한 클릭 이벤트
-  const onButtonClick = e => {
+  const onButtonClick = useCallback(e => {
     setKeyword(myKeywordInput.current.value);
-  };
+  }, []);
   // ----------------------------------------------------------------- 검색 끝
 
 
@@ -277,6 +276,91 @@ const Department = () => {
       </form>
     </div>
   );
+
+  // return (
+  //   <div>
+  //     {/* 검색기능 */}
+  //     <form>
+  //       <input type="text" name='keyword' ref={myKeywordInput} />
+  //       <button type='button' onClick={onButtonClick}>검색</button>
+  //     </form>
+
+  //     <hr />
+
+  //     {/* 저장기능 */}
+  //     <form onSubmit={onDepartmentSave}>
+  //       <label htmlFor="dname">학과: </label>
+  //       <input type="text" name='dname' id='dname' />
+
+  //       <label htmlFor="loc">위치: </label>
+  //       <input type="text" name='loc' id='loc' />
+
+  //       <button type='submit'>저장하기</button>
+  //     </form>
+
+  //     <hr />
+      
+  //     {/* 데이터를 가져와 화면에 보여준다 */}
+  //     <form onSubmit={onUpdateSubmit}>
+  //       <table border='1'>
+  //         <thead>
+  //           <tr>
+  //             <th>학과번호</th>
+  //             <th>학과명</th>
+  //             <th>학과위치</th>
+  //             <th>수정</th>
+  //             <th>삭제</th>
+  //           </tr>
+  //         </thead>
+  //         <tbody>
+  //           {department.length > 0 ? (
+  //             department.map((v,i) => {
+  //               return(
+  //                 <tr key={v.id}>
+  //                   {/* 상태값에 저장되어 있는 수정할 항목의 인덱스에 해당하는 원소라면? */}
+  //                   {updateId === v.id ? (
+  //                     <>
+  //                       {/* 수정을 위한 input 요소를 표시 */}
+  //                       <td><input type="hidden" name='id' defaultValue={v.id} />{v.id}</td>
+  //                       <td><input type="text" name='dname' defaultValue={v.dname} /></td>
+  //                       <td><input type="text" name='loc' defaultValue={v.loc} /></td>
+  //                       <td colSpan='2' align='center'>
+  //                         <button type='submit'>저장</button>
+  //                       </td>
+  //                     </>
+  //                   ) : (
+  //                     <>
+  //                       {/* 데이터를 텍스트로 출력 */}
+  //                       <td>{v.id}</td>
+  //                       <td>{v.dname}</td>
+  //                       <td>{v.loc}</td>
+  //                       <td>
+  //                         <button type='button' data-id={v.id} onClick={onUpdateClick}>
+  //                           수정하기
+  //                         </button>
+  //                       </td>
+  //                       <td>
+  //                         <button type='button' data-id={v.id} onClick={onDeleteClick}>
+  //                           삭제하기
+  //                         </button>
+  //                       </td>
+  //                     </>
+  //                   )}
+  //                 </tr>
+  //               );
+  //             })  
+  //           ) : (
+  //             <tr>
+  //               <td colSpan='5' align='center'>
+  //                 검색결과가 없습니다.
+  //               </td>
+  //             </tr>
+  //           )}
+  //         </tbody>
+  //       </table>
+  //     </form>
+  //   </div>
+  // );
 };
 
 // TODO: 함수형 컴포넌트의 리렌더링 성능 최적화

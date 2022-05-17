@@ -1,7 +1,7 @@
 /**
  * @filename : BrEvent.jsx
  * @author : 박찬우
- * @description : 
+ * @description : BrEvent 영역의 슬라이드 구현
  */
 
 import React, { memo, useEffect, useState } from 'react';

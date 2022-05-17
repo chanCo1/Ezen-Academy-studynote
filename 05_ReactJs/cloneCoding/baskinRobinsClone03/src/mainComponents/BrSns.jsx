@@ -1,7 +1,7 @@
 /**
  * @filename : BrSns.jsx
- * @author : 박찬우
- * @description :
+ * @author : chanCo
+ * @description : BrSns 영역 정의
  */
 
 import React, { memo, useEffect, useState } from 'react';

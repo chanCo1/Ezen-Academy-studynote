@@ -1,7 +1,7 @@
 /**
  * @filename : BrStore.jsx
- * @author : 박찬우
- * @description : 
+ * @author : chanCo
+ * @description : BrStore 영역 정의
  */
 
 import React from 'react';

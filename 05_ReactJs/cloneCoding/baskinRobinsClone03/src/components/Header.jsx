@@ -1,6 +1,6 @@
 /**
  * @filename : Header.jsx
- * @author : 박찬우
+ * @author : chanCo
  * @description : 헤더 영역 정의
  */
 
@@ -298,7 +298,7 @@ const Header = () => {
         </div>
       </HeaderContainer>
 
-      {/* Nav 영역 */}
+      {/* Nav 영역, 버튼 클릭시 변하는 값을 props로 전달 */}
       <Nav buttonState={button} />
 
       {/* 검색 버튼 활성화 영역 */}
@@ -335,7 +335,7 @@ const Header = () => {
             <div className="allergyWrap">
               <h4>알레르기 성분</h4>
               <div className="check">
-                {/* TODO: map으로 작성 */}
+                {/* 데이터를 받아 map을 활용해서 작성 */}
                 {checkList.map((v, i) => {
                   return (
                     <span key={v.id}>

@@ -1,7 +1,7 @@
 /**
  * @filename : BrMenu.jsx
  * @author : 박찬우
- * @description : 
+ * @description : BrMenu 영역 정의
  */
 
 import React, { memo } from 'react';

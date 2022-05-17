@@ -1,10 +1,10 @@
 /**
  * @filename : Meta.jsx
- * @author : 박찬우
+ * @author : chanCo
  * @description : SEO처리 및 기본 참조 리소스 명시
  */
 
-// === 패키지 참조 === //
+// 패키지 참조 
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
@@ -41,7 +41,7 @@ Meta.defaultProps = {
   title: '배스킨라빈스 :: 클론코딩',
   description: 'React.js로 구현한 배스킨라빈스 클론코딩 연습 페이지 입니다.',
   keywords: 'React, layout, demo, cloncoding',
-  author: '박찬우',
+  author: 'chanCo',
   url: 'http://www.baskinrobbins.co.kr',
   image: 'https://www.baskinrobbins.co.kr/assets/images/common/favicon.ico',
 };

@@ -1,7 +1,7 @@
 /**
  * @filename : Nav.jsx
- * @author : 박찬우
- * @description : 헤더 영역의 Nav 컴포넌트 작성
+ * @author : chanCo
+ * @description : 헤더 영역의 Nav 영역 컴포넌트 작성
  */
 
 import React, { useCallback, useState, memo } from "react";
