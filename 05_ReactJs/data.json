@@ -1,5 +1,17 @@
 {
-  "member": [],
+  "member": [
+    {
+      "userId": "whoareyou",
+      "password": 123123,
+      "name": "이름없다",
+      "birthday": "23000212",
+      "gender": "none",
+      "email": "kikiki@nate.com",
+      "country": "82",
+      "tel": 1012345678,
+      "id": 1
+    }
+  ],
   "department": [
     {
       "id": 101,
@@ -12962,16 +12974,6 @@
       "eng": 50,
       "math": 64,
       "sin": 75
-    },
-    {
-      "name": "나나",
-      "level": 1,
-      "sex": "남자",
-      "kor": 10,
-      "eng": 20,
-      "math": 30,
-      "sin": 40,
-      "id": 6
     }
   ],
   "traffic_acc": [

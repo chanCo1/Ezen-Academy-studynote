@@ -36,7 +36,7 @@ const GradeList = () => {
   const [grade, setGrade] = useState([]);
 
   // TODO: 백엔드로 부터 데이터 불러오기 - 자체 캐시기능 방지
-  const [{ data, loading1, error }, refetch] = useAxios(
+  const [{ data, loading1, error }] = useAxios(
     'http://localhost:3001/grade', {useCache: false}
   );
 

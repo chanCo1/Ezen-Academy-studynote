@@ -87,6 +87,7 @@ const GradeAdd = () => {
       regexHelper.num(current.math, '수학 점수는 숫자만 입력 가능합니다.');
       regexHelper.value(current.sin, '과학 점수를 입력하세요.');
       regexHelper.num(current.sin, '과학 점수는 숫자만 입력 가능합니다.');
+
     } catch(e) {
       window.alert(e.message);
       e.field.focus();
@@ -97,7 +98,7 @@ const GradeAdd = () => {
 
     let json = null;
 
-    // TODO: 입력, 수정, 삭제 처리는 asunc-await 문법을 사용해야 한다.
+    // TODO: 입력, 수정, 삭제 처리는 async-await 문법을 사용해야 한다.
     (async () => {
       try {
         const response = await refetch({

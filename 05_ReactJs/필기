@@ -161,6 +161,24 @@ spa 기능은 유지하면서 화면을 갱신
 value는 onChange 이벤트 있을 때만 사용가능
 
 
+5/23
+axios or useAxios
+-목록없이 진행할 경우 useAxios ,
+ 목록을 끌고갈경우는 redux 활용 -> 난이도 깡패
 
-리액트로 네이버 가입 클론코딩
-member에 ajax 저장된것 까지 제출
+리덕스는 각 상태값 관리하기 위한 slice
+병합하는 store
+
+slice를 store에 넣어주는 구조 -> slice 먼저 작업후 store에 넣어준다.
+
+* 옵셔널체이닝
+const k = null;
+
+if(payload) {
+  k = payload.data;
+}
+
+k = payload ? payload.data : null;
+
+payload?.data
+-> payload가 존재할 때만 접근해라

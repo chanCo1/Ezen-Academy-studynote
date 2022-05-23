@@ -34,6 +34,7 @@ const App = () => {
   useEffect(() => {
     // 화면이 마운트 된 후 true값이라면
     if(mountedRef.current) {
+      // 상태값 중에서 빈값이 아닌 항목들을 옮겨담는다.
       const setParams = {};
       console.log(setParams);
 
