@@ -1,15 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-// import { createLogger } from 'redux-logger';
-
-import counterSlice from './slices/CounterSlice';
 import departmentSlice from './slices/DepartmentSlice';
-
-// const logger = createLogger();
 
 const store = configureStore({
   reducer: {
     // 개발자가 직접 작성한 reducer들이 명시되어야 한다.
-    counter: counterSlice,
     department: departmentSlice,
   },
 

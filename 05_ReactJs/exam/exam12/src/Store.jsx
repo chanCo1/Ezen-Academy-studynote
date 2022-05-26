@@ -1,9 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
-import MovieRankSlice from './slices/MovieRankSlice';
+import { configureStore } from "@reduxjs/toolkit";
+
+import TrafficAccSlice from "./slice/TrafficAccSlice";
 
 const Store = configureStore({
   reducer: {
-    movieRank: MovieRankSlice,
+    trafficAcc: TrafficAccSlice,
   },
 
   middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false}),

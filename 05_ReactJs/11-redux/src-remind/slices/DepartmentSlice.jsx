@@ -6,10 +6,10 @@ export const getList = createAsyncThunk('department/getList', async (payload, {r
   let result = null;
 
   try {
-    result = await axios.get('http://localhost:3001/department');  // fulfilled의 payload로 들어간다.
+    result = await axios.get('http://localhost:3001/department');
   } catch(error) {
     // rejectWithValue -> 에러 발생시 사용
-    result = rejectWithValue(error.response);  // rejected의 payload로 들어간다.
+    result = rejectWithValue(error.response);
   }
 
   return result;

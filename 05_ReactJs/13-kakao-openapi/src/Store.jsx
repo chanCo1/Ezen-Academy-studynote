@@ -1,13 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import MovieRankSlice from './slices/MovieRankSlice';
+import KakaoSlice from './slice/KakaoSlice';
 
 const Store = configureStore({
   reducer: {
-    movieRank: MovieRankSlice,
+    kakao: KakaoSlice,
   },
 
   middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false}),
   devTools: true,
 });
 
-export default Store;
+export default Store

@@ -182,3 +182,12 @@ k = payload ? payload.data : null;
 
 payload?.data
 -> payload가 존재할 때만 접근해라
+
+
+
+
+
+리액트 오픈소스 샘플 만들기
+다른 오픈 API 만들기
+
+조구성 -> 체험판 과제 -> 1. 수업 외에 openAPI 연동 예제 만들기 - 2. 하나 이상의 오픈소스 라이브러리 예제 만들기

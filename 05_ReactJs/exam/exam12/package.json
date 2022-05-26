@@ -1,5 +1,5 @@
 {
-  "name": "12-moive-rank",
+  "name": "exam12",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,10 +8,8 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.27.2",
-    "chart.js": "^3.7.1",
-    "dayjs": "^1.11.2",
+    "axios-hooks": "^3.0.4",
     "react": "^18.1.0",
-    "react-chartjs-2": "^4.1.0",
     "react-dom": "^18.1.0",
     "react-loader-spinner": "^6.0.0-0",
     "react-redux": "^8.0.2",
