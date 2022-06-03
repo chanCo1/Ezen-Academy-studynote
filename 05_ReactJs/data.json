@@ -29,9 +29,9 @@
       "loc": "3호관"
     },
     {
-      "id": 202,
-      "dname": "기계공학과",
-      "loc": "4호관"
+      "dname": "기계공학과zzzz",
+      "loc": "4호관zzzz",
+      "id": 202
     }
   ],
   "professor": [

@@ -38,6 +38,7 @@ const Top = memo(() => {
   const navigate = useNavigate();
 
   const { query } = useQueryString();
+  console.log(query);
 
   const onSearchSubmit = useCallback((e) => {
     e.preventDefault();

@@ -13,6 +13,7 @@ const API_KEY = 'bb10b2a5cc7da58fb075c6b428ff9ed1';
 
 export const getKakaoSearch = createAsyncThunk('KakaoSlice/getKakaoSearch', async (payload, { rejectWithValue }) => {
   let result = null;
+  console.log(payload);
 
   try {
     result = await axios.get(API_URL[payload.api ? payload.api : 'web'], {
@@ -47,10 +48,10 @@ const KakaoSlice = createSlice({
       return { ...state, loading: true }
     },
 
-    [getKakaoSearch.fulfilled]: (state, { payload }) => {
+    [getKakaoSearch.fulfilled]: (state, { meta, payload }) => {
       return {
         meta: payload?.data?.meta,
-        documents: payload?.data?.documents,
+        documents: meta.arg.page > 1 ? state.documents.concat(payload?.data?.documents): payload?.data?.documents,
         loading: false,
         error: null,
       }

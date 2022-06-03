@@ -5,6 +5,7 @@ import { Bar } from 'react-chartjs-2';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const BarChartView = ({ chartData }) => {
+  console.log(chartData);
 
   // 그래프 옵션
   const options = {
