@@ -1,6 +1,6 @@
 
 // exprots의 하위 속성으로 변수, JSON, 함수 추가하기
-module.exports.name = "node";
+module.exports.name = "nord";
 module.exports.property = {
   id: "node.js",
   type: "javascrpit"
