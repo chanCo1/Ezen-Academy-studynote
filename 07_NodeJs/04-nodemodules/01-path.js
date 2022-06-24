@@ -18,7 +18,7 @@ import path from 'path';
  * 파라미터의 제한이 없다.
  * 조합된 경로 문자열에 해당하는 Path가 실제로 존재하는지는 상관없다.
  */
-const currentPath = path.join('C:/Users/hello/world', 'myphoto', '../photo.jpg');
+const currentPath = path.join('/Users/hello/world', 'myphoto', '../photo.jpg');
 console.debug('path.join >> ' + currentPath);
 
 

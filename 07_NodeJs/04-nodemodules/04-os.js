@@ -1,5 +1,5 @@
 /** (1) OS모듈 참조 */
-import os from 'os';
+// import os from 'os';
 
 
 /** (2) 시스템 기본 정보 */
@@ -38,6 +38,7 @@ const cpus = os.cpus();
 
 console.group('메모리 용량');
 console.debug('CPU 코어 수: ' + cpus.length);
+console.debug(cpus);
 
 cpus.map((v,i) => {
   console.group('[%d번째 CPU] %s', i + 1, v.model);
