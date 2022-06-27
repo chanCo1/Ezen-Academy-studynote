@@ -1,7 +1,6 @@
 // EventEmiter를 사용하여 직접 정의한 객체가 이벤트를 갖도록 구현하기
 
 /** (1) 모듈 가져오기 */
-import { channel } from 'diagnostics_channel';
 import { EventEmitter } from 'events';
 
 

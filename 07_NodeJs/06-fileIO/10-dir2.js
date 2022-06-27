@@ -6,7 +6,7 @@ const target = './docs';
 
 if(!fs.existsSync(target)) {
   // 파라미터 -> 경로, 퍼미션, 콜백함수
-  fs.mkdir(target, function(err) {
+  fs.mkdir(target, (err) => {
     if(err) {
       console.error(err);
       return;
@@ -20,7 +20,7 @@ if(!fs.existsSync(target)) {
 
 } else {
   // 파일 삭제 -> 비어있지 않은 폴더는 삭제 못함.
-  fs.rmdir(target, function(err) {
+  fs.rmdir(target, (err) => {
     if(err) {
       return console.log(err);
     }

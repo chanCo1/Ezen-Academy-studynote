@@ -1,4 +1,4 @@
-import { mkdirs } from "./helper/FileHelper.js";
+import { mkdirs } from "../helper/FileHelper.js";
 import path from 'path';
 
 /** 상대경로 방식으로 폴더 생성하기 */

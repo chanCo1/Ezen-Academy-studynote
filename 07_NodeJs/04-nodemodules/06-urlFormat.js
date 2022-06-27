@@ -1,4 +1,4 @@
-import { urlFormat } from "./Helper/UtilHelper.js"; 
+import { urlFormat } from "../helper/UtilHelper.js";
 
 const url1 = urlFormat({
   protocol: 'https',

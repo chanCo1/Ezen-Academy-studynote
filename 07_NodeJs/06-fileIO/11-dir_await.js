@@ -16,8 +16,8 @@ if(!fs.existsSync(target)) {
       console.error(e);
     }
   })();
-
   console.log(`${target} 폴더의 생성을 요청했습니다.`);
+
 } else {
   (async () => {
     try {
