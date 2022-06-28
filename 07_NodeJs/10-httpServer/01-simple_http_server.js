@@ -14,10 +14,13 @@ const server = http.createServer();  // 웹 서버 객체 만들기
 server.listen(port, () => {
   logger.debug(port + '번 포트에서 백엔드가 구동되었습니다.');
   logger.debug('- - - - - - - - - - - - - - - - - - -');
+  // console.log(port + '번 포트에서 백엔드가 구동되었습니다.');
+  // console.log('- - - - - - - - - - - - - - - - - - -');
 
   // 백엔드에게 접속할 수 있는 주소를 출력
   ip.forEach((v,i) => {
     logger.debug(`http://${v}:${port}`);
+    // console.log(`http://${v}:${port}`);
   });
 });
 
@@ -25,6 +28,8 @@ server.listen(port, () => {
 server.on('connection', (socket) => {
   logger.debug(`프론트엔드가 접속했습니다. : ${socket.remoteAddress}, ${socket.remotePort}`);
   logger.debug(socket);
+  // console.log(`프론트엔드가 접속했습니다. : ${socket.remoteAddress}, ${socket.remotePort}`);
+  // console.log(socket);
 });
 
 /** connection 이벤트 발생 직후 프론트엔드에게 결과값을 되돌려 주기 위해 호출되는 이벤트 */
@@ -32,6 +37,7 @@ server.on('connection', (socket) => {
 // res(response) -> 응답객체: 서버가 브라우저에게 결과를 전송하는 기능을 갖는다.
 server.on('request', (req, res) => {
   logger.debug(`프론트엔드의 요청 >> [${req.method}] ${req.url}`);
+  // console.log(`프론트엔드의 요청 >> [${req.method}] ${req.url}`);
 
   // 클라이언트에게 전송할 응답 헤더 구성
   res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
@@ -63,6 +69,7 @@ server.on('request', (req, res) => {
 // 정상적인 상황에서는 발생할 가능성이 없다.
 server.on('close', function() {
   logger.debug('백엔드가 종료되었습니다.');
+  // console.log('백엔드가 종료되었습니다.');
 });
 
 // // 예제이므로 타이머를 통해 백엔드를 60초 후 강제 종료

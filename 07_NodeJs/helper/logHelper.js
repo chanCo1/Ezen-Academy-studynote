@@ -6,9 +6,9 @@ import { mkdirs } from './FileHelper.js';
 
 /** (1) 설정파일 내용 가져오기 */
 dotenv.config({ path: join(resolve(), '../config.env') });
-// console.log(resolve());
-// console.log(process.env.LOG_PATH);
-// console.log(process.env.LOG_LEVEL);
+console.log(resolve());
+console.log(process.env.LOG_PATH);
+console.log(process.env.LOG_LEVEL);
 
 /** (2) 로그가 저장될 폴더 생성 */
 mkdirs(process.env.LOG_PATH);

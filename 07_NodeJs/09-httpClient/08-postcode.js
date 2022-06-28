@@ -9,7 +9,7 @@ import axios from "axios";
         confmKey: 'devU01TX0FVVEgyMDIyMDYyNzE1MjU0MTExMjczNjA=',  // 발급 받은 승인키
         currentPage: 1,  // 현재 페이지 번호
         countPerPage: 20,  // 페이지당 출력할 결과 Row 수
-        keyword: '맥주',  // 주소 검색어
+        keyword: '강남',  // 주소 검색어
         resultType: 'json',  // 검색결과형식 설정 (xml or json)
       }
     });

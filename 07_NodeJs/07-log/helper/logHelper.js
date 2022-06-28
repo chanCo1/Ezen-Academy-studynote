@@ -40,7 +40,7 @@ const logger = winston.createLogger({
       datePattern: 'YYMMDD', // 파일 이름에 표시될 날짜 형식
       dirname: process.env.LOG_PATH, // 파일이 저장될 위치
       filename: `log_%DATE%.log`, // 파일이름 형식. %DATE%는 datePattern의 값
-      maxsize: 500000000,
+      maxsize: 50000000,
       maxFiles: 50,
       zippedArchive: true,
     }),
