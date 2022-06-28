@@ -46,10 +46,10 @@ const logger = winston.createLogger({
     }),
     printf((info) => {
       // info.level: 로그 수준
-      // info.messgq: 로그 내용
+      // info.message: 로그 내용
       return `${info.timestamp} [${info.level}]: ${info.message}`;
     }),
-    splat()
+    splat(),
   ),
 
   // 일반 로그 규칙 정의

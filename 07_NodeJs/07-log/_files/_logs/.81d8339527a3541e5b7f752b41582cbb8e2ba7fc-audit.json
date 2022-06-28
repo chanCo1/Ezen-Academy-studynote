@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 50
+    },
+    "auditLog": "/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/07-log/_files/_logs/.81d8339527a3541e5b7f752b41582cbb8e2ba7fc-audit.json",
+    "files": [
+        {
+            "date": 1656372556906,
+            "name": "/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/07-log/_files/_logs/error_220628.log",
+            "hash": "db9024e7d06fdc0beb9c034f249dbb7e1192e4800331477e0bfad02c203a22f0"
+        }
+    ],
+    "hashType": "sha256"
+}
