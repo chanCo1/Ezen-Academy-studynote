@@ -18,6 +18,7 @@ import serveFavicon from 'serve-favicon';       // favicon 처리
 import bodyParser from 'body-parser';           // POST 파라미터 처리
 import methodOverride from 'method-override';   // PUT 파라미터 처리
 import cookieParser from 'cookie-parser';       // Cookie 처리
+import expressSession from 'express-session'    // Session 처리
 
 
 /* - - - - - - - - - - - - - - - - - - - -
@@ -108,6 +109,18 @@ app.use(methodOverride('_method'));   // HTML form, 안해도 된다고 함.
 // cookie-parser는 데이터를 저장, 조회 할 때 암호화 처리를 동반한다.
 // 이 때 암호화에 사용되는 key문자열을 개발자가 정해야 한다.
 app.use(cookieParser(process.env.COOKIE_ENCRYPT_KEY));
+
+
+/** 세션 설정 */
+app.use(expressSession({
+  // 암호화 키
+  secret: process.env.SESSION_ENCRYPT_KEY,
+  // 세션이 초기화 되지 않더라도 새로 저장할지 여부 (일반적으로 false)
+  resave: false,
+  // 세션이 저장되기 전에 기존의 세션을 초기화 상태로 만들지 여부
+  saveUninitialized: false,
+}));
+
 
 /** HTML, CSS, IMG, JS 등의 정적 파일을 URL에 노출시킬 폴더 연결 */
 // "http://아이피(혹은 도메인):포트번호" 이후의 경로가 router에 등록되지 않은 경로라면 static 모듈에 연결된 폴더 안에서 해당 경로를 탐색한다.
@@ -203,7 +216,7 @@ router.post('/send_post', (req, res, next) => {
   // URL 파라미터들은 req.body 객체의 하위 데이터로 저장된다.
   logger.debug('[프론트엔드로 부터 전달받은 POST 파라미터]');
   for(let key in req.body) {
-    const str = '\t >> ' + key + '=' + req.body[key];
+    const str = '\t >> ' + key + ' = ' + req.body[key];
     logger.debug(str);
 
     const html = `<h1><span style="color:#0066ff">${req.body.username}</span>님의 이메일 주소는 <span style="color:#ff6600">${req.body.email}</span> 입니다.</h1>`;
@@ -319,6 +332,119 @@ router
     res.status(200).send('clear');
   });
 
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 05-Session.js
+// Insomnia로 테스트
+router
+  .post('/session', (req, res, next) => {
+    // POST로 전송된 변수값을 추출
+    const username = req.body.username;
+    const nickname = req.body.nickname;
+
+    // 세션 저장
+    req.session.username = username;
+    req.session.nickname = nickname;
+
+    // 결과 응답
+    const json = { re: 'ok' };
+    res.status(200).send(json);
+  })
+  .get('/session', (req, res, next) => {
+    // 저장되어 잇는 모든 session값 탐색
+    for(let key in req.session) {
+      const str = `[session]${key} = ${req.session[key]}`;
+      logger.debug(str);
+    }
+
+    const my_data = {
+      username: req.session.username,
+      nickname: req.session.nickname,
+    }
+
+    res.status(200).send(my_data);
+  })
+  .delete('/session', async (req, res, next) => {
+    let result = 'ok';
+    let code = 200;
+
+    try {
+      await req.session.destroy();
+    } catch(e) {
+      logger.error(e.message);
+      result = e.message;
+      code = 500;
+    }
+
+    const json = { rt: result };
+    res.status(code).send(json);
+  })
+
+// public/06_login.html
+router
+  .post('/session/login', (req, res, next) => {
+    const id = req.body.userid;
+    const pw = req.body.userpw;
+
+    logger.debug('id = ' + id);
+    logger.debug('pw = ' + pw);
+
+    let login_ok = false;
+    if(id == 'node' && pw == '1234') {
+      logger.debug('로그인 성공');
+      login_ok = ture;
+    }
+
+    let result_code = null;
+    let result_msg = null;
+
+    if(login_ok) {
+      req.session.userid = id;
+      req.session.userpw = pw;
+      result_code = 200;
+      result_msg = 'success';
+    } else {
+      result_code = 403;
+      result_msg = 'fail'
+    };
+
+    const json = { rt: result_msg };
+    res.status(result_code).send(json);
+  })
+  .delete('/session/login', async (req, res, next) => {
+    let result = 'success';
+    let code = 200;
+
+    try {
+      await req.session.destroy();
+    } catch (e) {
+      logger.error(e.message);
+      result = e.message;
+      code = 500;
+    }
+
+    const json = { rt: result };
+    res.status(code).send(json);
+  })
+  .get('/session/login', (req, res, next) => {
+    const id = req.session.userid;
+    const pw = req.session.userpw;
+
+    let result_code = null;
+    let result_msg = null;
+
+    if(id !== undefined && pw !== undefined) {
+      logger.debug('현재 로그인 상태입니다.');
+      result_code = 200;
+      result_msg = 'success';
+    } else {
+      logger.debug('현재 로그인 상태가 아닙니다.');
+      result_code = 400;
+      result_msg = 'fail';
+    }
+
+    const josn = { rt: result_msg };
+    res.status(result_code).send(json);
+  });
 
 /* - - - - - - - - - - - - - - - - - - - -
 6) 설정한 내용을 기반으로 서버 구동 시작
