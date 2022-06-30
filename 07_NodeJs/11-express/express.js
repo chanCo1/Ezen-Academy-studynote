@@ -11,12 +11,13 @@ import path from 'path';
 
 // 설치가 필요한 모듈
 import dotenv from 'dotenv';
-import express from 'express';              // express 본체
-import useragent from 'express-useragent';  // 클라이언트의 정보를 조회할 수 있는 기능
-import serveStatic from 'serve-static';     // 특정 폴더의 파일을 URL로 노출시킴
-import serveFavicon from 'serve-favicon';   // favicon 처리
-import bodyParser from 'body-parser';       // POST 파라미터 처리
-import methodOverride from 'method-override';  // PUT 파라미터 처리
+import express from 'express';                  // express 본체
+import useragent from 'express-useragent';      // 클라이언트의 정보를 조회할 수 있는 기능
+import serveStatic from 'serve-static';         // 특정 폴더의 파일을 URL로 노출시킴
+import serveFavicon from 'serve-favicon';       // favicon 처리
+import bodyParser from 'body-parser';           // POST 파라미터 처리
+import methodOverride from 'method-override';   // PUT 파라미터 처리
+import cookieParser from 'cookie-parser';       // Cookie 처리
 
 
 /* - - - - - - - - - - - - - - - - - - - -
@@ -101,6 +102,12 @@ app.use(methodOverride('X-HTTP-Method-Override'));   // 구글/GData
 app.use(methodOverride('X-Method-Override'));   // IBM
 // HTML 폼에서 PUT, DELETE로 정송할 경우 POST방식을 사용하되, action 주소에 "?_method" 라고 추가.
 app.use(methodOverride('_method'));   // HTML form, 안해도 된다고 함.
+
+
+/** 쿠키를 처리할 수 있는 객체 연결 */
+// cookie-parser는 데이터를 저장, 조회 할 때 암호화 처리를 동반한다.
+// 이 때 암호화에 사용되는 key문자열을 개발자가 정해야 한다.
+app.use(cookieParser(process.env.COOKIE_ENCRYPT_KEY));
 
 /** HTML, CSS, IMG, JS 등의 정적 파일을 URL에 노출시킬 폴더 연결 */
 // "http://아이피(혹은 도메인):포트번호" 이후의 경로가 router에 등록되지 않은 경로라면 static 모듈에 연결된 폴더 안에서 해당 경로를 탐색한다.
@@ -206,28 +213,28 @@ router.post('/send_post', (req, res, next) => {
 });
 
 /** PUT 파라미터를 처리하기 위한 라우터 등록 */
-router.put('/send_post', (req, res, next) => {
+router.put('/send_put', (req, res, next) => {
   // URL 파라미터들은 req.body 객체의 하위 데이터로 저장된다.
   logger.debug('[프론트엔드로 부터 전달받은 PUT 파라미터]');
   for(let key in req.body) {
     const str = '\t >> ' + key + '=' + req.body[key];
     logger.debug(str);
 
-    const html = `<h1><span style="color:#0066ff">${req.body.username}</span>님은 <span style="color:#ff6600">${req.body.email}</span>학년 입니다.</h1>`;
+    const html = `<h1><span style="color:#0066ff">${req.body.username}</span>님은 <span style="color:#ff6600">${req.body.grade}</span>학년 입니다.</h1>`;
 
     res.status(200).send(html);
   }
 });
 
 /** DELETE 파라미터를 처리하기 위한 라우터 등록 */
-router.delete('/send_post', (req, res, next) => {
+router.delete('/send_delete', (req, res, next) => {
   // URL 파라미터들은 req.body 객체의 하위 데이터로 저장된다.
   logger.debug('[프론트엔드로 부터 전달받은 DELETE 파라미터]');
   for(let key in req.body) {
     const str = '\t >> ' + key + '=' + req.body[key];
     logger.debug(str);
 
-    const html = `<h1><span style="color:#0066ff">${req.body.username}</span>님의 점수는 <span style="color:#ff6600">${req.body.email}</span>점 입니다.</h1>`;
+    const html = `<h1><span style="color:#0066ff">${req.body.username}</span>님의 점수는 <span style="color:#ff6600">${req.body.point}</span>점 입니다.</h1>`;
 
     res.status(200).send(html);
   }
@@ -258,6 +265,59 @@ router
     const html = `<h1><span style="color:#0066ff">${req.params.productNumber}</span> 상품 <span style="color:#ff6600">삭제</span>하기</h1>`
     res.status(200).send(html);
   })
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 04-Cookie.js
+// public/04_cookie.html
+router
+  .post('/cookie', (req, res, next) => {
+    // POST로 전달된 파라미터 받기
+    const msg = req.body.msg;
+
+    // 일반 쿠키 저장하기 -> 유효시간을 30초로 설정
+    res.cookie('my_msg', msg, {
+      maxAge: 30 * 1000,
+      path: '/',
+    });
+
+    // 암호화된 쿠키 저장하기 -> 유효시간을 30초로 설정
+    res.cookie('my_msg_signed', msg, {
+      maxAge: 30 * 1000,
+      path: '/',
+      signed: true
+    });
+
+    res.status(200).send('OK');
+  })
+  .get('/cookie', (req, res, next) => {
+    // 일반 쿠키값들은 req.cookie 객체의 하위 데이터로 저장된다. (일반 데이터)
+    for(let key in req.cookies) {
+      const str = `[cookies] ${key} = ${req.cookies[key]}`;
+      logger.debug(str);
+    }
+
+    for(let key in req.signedCookies) {
+      const str = `[signedCookies] ${key} = ${req.signedCookies[key]}`;
+      logger.debug(str);
+    }
+
+    // 원하는 쿠키값을 가져온다.
+    const my_msg = req.cookies.my_msg;
+    const my_msg_signed = req.signedCookies.my_msg_signed;
+
+    const result_data = {
+      my_msg: my_msg,
+      my_msg_signed: my_msg_signed,
+    };
+
+    res.status(200).send(result_data);
+  })
+  .delete('/cookie', (req, res, next) => {
+    // 저장시 domain, path 를 설정했다면 삭제시에도 동일한 값을 지정해야 한다.
+    res.clearCookie('my_msg', { path: '/' });
+    res.clearCookie('my_msg_signed', { path: '/' });
+    res.status(200).send('clear');
+  });
 
 
 /* - - - - - - - - - - - - - - - - - - - -
