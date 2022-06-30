@@ -300,7 +300,7 @@ router
       signed: true
     });
 
-    res.status(200).send('OK');
+    res.status(200).send('Success');
   })
   .get('/cookie', (req, res, next) => {
     // 일반 쿠키값들은 req.cookie 객체의 하위 데이터로 저장된다. (일반 데이터)
@@ -391,7 +391,7 @@ router
     let login_ok = false;
     if(id == 'node' && pw == '1234') {
       logger.debug('로그인 성공');
-      login_ok = ture;
+      login_ok = true;
     }
 
     let result_code = null;
@@ -442,7 +442,7 @@ router
       result_msg = 'fail';
     }
 
-    const josn = { rt: result_msg };
+    const json = { rt: result_msg };
     res.status(result_code).send(json);
   });
 
