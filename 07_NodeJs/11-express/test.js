@@ -50,13 +50,6 @@ app.post('/send_mail', async (req, res, next) => {
 
   /** 4) 발송에 필요한 서버 정보를 사용하여 발송객체 생성 */
   const smtp = nodemailer.createTransport({
-    // host: process.env.SMTP_HOST,        // SMTP 서버명 : smtp.gmail.com
-    // port: process.env.SMTP_PORT,        // SMTP 포트 : 465
-    // secure: true,                       // 보안연결(SSL) 필요
-    // auth: {
-    //   user: process.env.SMTP_USERNAME,  // Gamil 로그인에 사용하는 메일주소
-    //   pass: process.env.SMTP_PASSWORD,  // 앱 비밀번호
-    // }
     host: 'smtp.gmail.com',        // SMTP 서버명 : smtp.gmail.com
     port: '465',        // SMTP 포트 : 465
     secure: true,                       // 보안연결(SSL) 필요
