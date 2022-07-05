@@ -4,6 +4,7 @@
 // 직접 구현한 모듈
 import logger from '../helper/logHelper.js';
 import { myIp, urlFormat } from '../helper/UtilHelper.js';
+import WebHelper from '../helper/WebHelper.js';
 
 // 내장 모듈
 // import url from 'url';
@@ -20,6 +21,12 @@ import methodOverride from 'method-override';   // PUT 파라미터 처리
 import cookieParser from 'cookie-parser';       // Cookie 처리
 import expressSession from 'express-session'    // Session 처리
 
+/** 예외처리 관련 클래스 */
+import BadRequestException from '../exceptions/BadRequestException.js';
+import MultipartException from '../exceptions/MultipartException.js';
+import PageNotFoundException from '../exceptions/PageNotFoundException.js';
+import RuntimeException from '../exceptions/RuntimeException.js';
+
 /** URL을 라우팅하는 모듈 참조 */
 import SetupController from './controllers/SetupController.js';
 import GetparamsController from './controllers/GetparamsController.js';
@@ -28,6 +35,7 @@ import CookieController from './controllers/CookieController.js';
 import SessionController from './controllers/SessionController.js';
 import SendMailController from './controllers/SendMailController.js';
 import FileUploadController from './controllers/FileUploadController.js';
+import ApiTest from './controllers/ApiTest.js';
 
 
 
@@ -144,6 +152,9 @@ app.use(process.env.THUMB_URL, serveStatic(process.env.THUMB_DIR));
 /** favicon 설정 */
 app.use(serveFavicon(process.env.FAVICON_PATH));
 
+/** WebHelper */
+app.use(WebHelper());
+
 
 /* - - - - - - - - - - - - - - - - - - - -
 5) 각 URL별 백엔드 기능 정의
@@ -174,6 +185,14 @@ app.use(SendMailController());
 // public/07_upload/single.html
 app.use(FileUploadController());
 
+// api test //
+app.use(ApiTest());
+
+// 컨트롤러에서 에러 발생이 next(에러객체)를 호출했을 때 동작할 처리 //
+app.use((err, req, res, next) => res.sendError(err));
+
+// 앞에서 정의하지 않은 기타 URL에 대한 일괄 처리 (무조건 맨 마지막에 정의해야 함) //
+app.use('*', (req, res, next) => res.sendError(new PageNotFoundException()));
 
 /* - - - - - - - - - - - - - - - - - - - -
 6) 설정한 내용을 기반으로 서버 구동 시작
@@ -191,11 +210,3 @@ app.listen(process.env.PORT, () => {
 
   logger.debug('- - - - - - - - - - - - - - - - - -')
 });
-
-
-
-
-
-// 구글 연동 비번 (띄어쓰기 없음!)
-// nzidxjhrrunvtdjg
-// xbeaayddaxhuypyq

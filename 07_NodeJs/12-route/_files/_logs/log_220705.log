@@ -389,3 +389,456 @@
 22/07/05 11:00:50 163 [debug]: 	 >> point = 0
 22/07/05 11:00:50 164 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
 22/07/05 11:00:50 164 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 14:56:07 108 [debug]: -----------------------------------
+22/07/05 14:56:07 111 [debug]: |       Start Express Server      |
+22/07/05 14:56:07 111 [debug]: -----------------------------------
+22/07/05 14:56:07 112 [debug]: server address => http://192.168.10.103:3001
+22/07/05 14:56:07 112 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/05 14:56:11 083 [debug]: 클라이언트가 접속했습니다.
+22/07/05 14:56:11 083 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 14:56:11 084 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 14:56:11 102 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 14:56:11 103 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 14:56:11 107 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/07/05 14:56:11 107 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 14:56:33 341 [debug]: 클라이언트가 접속했습니다.
+22/07/05 14:56:33 342 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 14:56:33 342 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 14:56:33 344 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 14:56:33 344 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 14:56:33 345 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/05 14:56:33 345 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 14:57:13 789 [debug]: 클라이언트가 접속했습니다.
+22/07/05 14:57:13 790 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 14:57:13 790 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 14:57:13 791 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 14:57:13 791 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 14:57:13 792 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/05 14:57:13 792 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 14:59:12 896 [debug]: 클라이언트가 접속했습니다.
+22/07/05 14:59:12 896 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 14:59:12 896 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 14:59:12 897 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 14:59:12 897 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 14:59:12 898 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/05 14:59:12 898 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 14:59:13 659 [debug]: 클라이언트가 접속했습니다.
+22/07/05 14:59:13 659 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 14:59:13 659 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 14:59:13 660 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 14:59:13 660 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 14:59:13 661 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/05 14:59:13 661 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:00:08 491 [debug]: -----------------------------------
+22/07/05 15:00:08 493 [debug]: |       Start Express Server      |
+22/07/05 15:00:08 494 [debug]: -----------------------------------
+22/07/05 15:00:08 494 [debug]: server address => http://192.168.10.103:3001
+22/07/05 15:00:08 495 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/05 15:00:10 297 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:00:10 297 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:00:10 298 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 15:00:10 304 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 15:00:10 304 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 15:00:10 309 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/05 15:00:10 309 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:00:11 131 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:00:11 131 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:00:11 132 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 15:00:11 134 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 15:00:11 134 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 15:00:11 135 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/05 15:00:11 135 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:00:11 633 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:00:11 634 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:00:11 634 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 15:00:11 635 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 15:00:11 635 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 15:00:11 636 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/05 15:00:11 636 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:00:15 383 [debug]: -----------------------------------
+22/07/05 15:00:15 385 [debug]: |       Start Express Server      |
+22/07/05 15:00:15 386 [debug]: -----------------------------------
+22/07/05 15:00:15 386 [debug]: server address => http://192.168.10.103:3001
+22/07/05 15:00:15 387 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/05 15:00:17 762 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:00:17 762 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:00:17 763 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 15:00:17 768 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 15:00:17 769 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 15:00:17 773 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/05 15:00:17 773 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:00:18 809 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:00:18 809 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:00:18 809 [debug]: [POST] http://localhost:3001/api_test/custom_error
+22/07/05 15:00:18 811 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 15:00:18 811 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 15:00:18 812 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/05 15:00:18 812 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:00:34 700 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:00:34 700 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:00:34 701 [debug]: [GET] http://localhost:3001/api_test/custom_error
+22/07/05 15:00:34 703 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 15:00:34 703 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 15:00:34 704 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/05 15:00:34 704 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:01:44 464 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:01:44 464 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:01:44 465 [debug]: [GET] http://localhost:3001/api_test/custom_error
+22/07/05 15:01:44 466 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 15:01:44 466 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:192:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 15:01:44 467 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/05 15:01:44 467 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:02:49 580 [debug]: -----------------------------------
+22/07/05 15:02:49 582 [debug]: |       Start Express Server      |
+22/07/05 15:02:49 583 [debug]: -----------------------------------
+22/07/05 15:02:49 583 [debug]: server address => http://192.168.10.103:3001
+22/07/05 15:02:49 583 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/05 15:02:53 524 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:02:53 525 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:02:53 525 [debug]: [GET] http://localhost:3001/api_test/custom_error
+22/07/05 15:02:53 532 [error]: [Error] 개발자가 직접 생성한 에러가 발생했습니다.
+22/07/05 15:02:53 532 [error]: Error: 개발자가 직접 생성한 에러가 발생했습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:12:15
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/05 15:02:53 536 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/05 15:02:53 537 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:03:12 154 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:03:12 155 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:03:12 155 [debug]: [GET] http://localhost:3001/api_test/custom_errorasdasd
+22/07/05 15:03:12 157 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 15:03:12 157 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:195:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/05 15:03:12 158 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/05 15:03:12 158 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:03:43 958 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:03:43 958 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:03:43 958 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 15:03:43 960 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:03:43 961 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:03:43 961 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 15:03:43 962 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:03:43 963 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/05 15:03:43 963 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:04:18 430 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:04:18 430 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:04:18 430 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 15:04:18 432 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:04:18 432 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:04:18 432 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 15:04:18 432 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:04:18 433 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/05 15:04:18 433 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:10:50 121 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:10:50 121 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:10:50 121 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200
+22/07/05 15:10:50 123 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:10:50 123 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:10:50 123 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:10:50 123 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:23:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:10:50 124 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/05 15:10:50 124 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:13:42 046 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:13:42 046 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:13:42 047 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200
+22/07/05 15:13:42 048 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:13:42 049 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:13:42 049 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:13:42 049 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:23:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:13:42 050 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/05 15:13:42 050 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:13:48 399 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:13:48 399 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:13:48 399 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200&num2=440
+22/07/05 15:13:48 401 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:13:48 401 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:13:48 401 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:13:48 401 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:23:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:13:48 402 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/05 15:13:48 402 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:16:59 694 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:16:59 694 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:16:59 694 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200&num2=eaerg
+22/07/05 15:16:59 695 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:16:59 695 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:16:59 696 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:16:59 696 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:23:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:16:59 696 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/05 15:16:59 697 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:17:03 160 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:17:03 160 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:17:03 161 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=wrgwrg&num2=eaerg
+22/07/05 15:17:03 162 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:17:03 162 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:17:03 162 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:17:03 163 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:23:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:17:03 164 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/05 15:17:03 164 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:17:09 487 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:17:09 488 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:17:09 488 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=wrgwrg
+22/07/05 15:17:09 489 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:17:09 489 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:17:09 489 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:17:09 489 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:23:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:17:09 490 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/05 15:17:09 490 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:17:14 337 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:17:14 337 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:17:14 337 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 15:17:14 338 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:17:14 338 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:17:14 338 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 15:17:14 339 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:17:14 339 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/05 15:17:14 339 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/05 15:17:49 728 [debug]: -----------------------------------
+22/07/05 15:17:49 730 [debug]: |       Start Express Server      |
+22/07/05 15:17:49 731 [debug]: -----------------------------------
+22/07/05 15:17:49 732 [debug]: server address => http://192.168.10.103:3001
+22/07/05 15:17:49 732 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/05 15:18:03 719 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:18:03 720 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/05 15:18:03 721 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 15:18:03 727 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:18:03 728 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:18:03 729 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 15:18:03 729 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/05 15:18:03 735 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/05 15:18:03 735 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
