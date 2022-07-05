@@ -5,10 +5,7 @@ import { join, resolve } from 'path';
 import { mkdirs } from './FileHelper.js';
 
 /** (1) 설정파일 내용 가져오기 */
-dotenv.config({ path: join(resolve(), '../config.env') });
-// console.log(resolve());
-// console.log(process.env.LOG_PATH);
-// console.log(process.env.LOG_LEVEL);
+dotenv.config({path: join(resolve(), '../config.env')});
 
 /** (2) 로그가 저장될 폴더 생성 */
 mkdirs(process.env.LOG_PATH);
@@ -55,7 +52,7 @@ if (process.env.NODE_ENV !== 'production') {
     new winston.transports.Console({
       prettyPrint: true,
       showLevel: true,
-      level: process.env.LOG_level,
+      level: process.env.LOG_LEVEL,
       format: combine(
         winston.format.colorize(),
         printf((info) => {
