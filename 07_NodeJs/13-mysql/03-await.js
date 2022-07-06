@@ -1,10 +1,10 @@
 /** (1) 모듈 및 환경설정 불러오기 */
 import { join, resolve } from 'path';
 import dotenv from 'dotenv';
-import mysql from 'mysql2';
+import mysql from 'mysql2/promise';
 
 // 설정 파일 내용 가져오기
-console.log(dotenv.config({path: join(resolve(), '../config.env')}));
+dotenv.config({path: join(resolve(), '../config.env')});
 
 // 접속 정보 설정
 const connectionInfo = {
@@ -32,7 +32,7 @@ console.info(connectionInfo);
 
     // INSERT의 결과는, 반환되는 객체의 원소가 1개인 배열이다.
     const result1 = await dbcon.query(sql, input_data);
-    console.log(result1[0].affectRows);
+    console.log(result1[0].affectedRows);
     console.log(result1[0].insertId);
 
     const firstId = result1[0].insertId;
@@ -42,7 +42,26 @@ console.info(connectionInfo);
     const [result2] = await dbcon.query(sql, input_data);
     console.group('INSERT 처리 결과');
     console.log('저장된 데이터의 수: ' + result2.affectedRows);
-    console.log('샹성된 PK값: ' + result2.insertId);
+    console.log('생성된 PK값: ' + result2.insertId);
+    console.groupEnd();
+
+    // 한번 더 비구조 문법을 적용할 수 도 있다.
+    input_data = ['백엔드학과', '공학관'];
+    const [{affectedRows, insertId}] = await dbcon.query(sql, input_data);
+    console.group('INSERT 처리 결과');
+    console.log('저장된 데이터의 수: ' + affectedRows);
+    console.log('샹성된 PK값: ' + insertId);
+    console.groupEnd();
+
+    // UPDATE절 수행 -> WHERE절의 지정이 중요하다.
+    const [result3] = await dbcon.query("UPDATE department SET dname=? WHERE deptno >=?", ["수정학과", firstId]);
+    console.group('UPDATE 처리 결과');
+    console.log('저장된 데이터의 수: ' + result3.affectedRows);
+    console.groupEnd();
+    
+    const [result4] = await dbcon.query("DELETE FROM department WHERE deptno >= ?", [firstId]);
+    console.group('DELETE 처리 결과');
+    console.log('삭제된 데이터의 수: ' + result4.affectedRows);
     console.groupEnd();
 
   } catch(err) {

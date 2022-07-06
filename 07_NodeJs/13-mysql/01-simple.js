@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import mysql from 'mysql2';
 
 // 설정 파일 내용 가져오기
-console.log(dotenv.config({path: join(resolve(), '../config.env')}));
+dotenv.config({path: join(resolve(), '../config.env')});
 
 // 접속 정보 설정
 const connectionInfo = {
