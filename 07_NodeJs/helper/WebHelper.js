@@ -1,7 +1,7 @@
 /**
  * @file: WebHelper.js
  */
-import { express } from 'express-useragent';
+// import { express } from 'express-useragent';
 import logger from './logHelper.js';
 
 const WebHelper = () => {
@@ -81,8 +81,11 @@ const WebHelper = () => {
       };
 
       if(data) {
-       json.data = data;
+      //  json.data = data;
+      for(const item in data) {
+        json[item] = data[item];
       }
+      };
 
       // 표준시로부터 한국의 시차를 적용하여 ISO 포맷을 생성
       const offset = new Date().getTimezoneOffset() * 60000;

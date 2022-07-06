@@ -8,7 +8,7 @@ export default () => {
   router
   .post('/session', (req, res, next) => {
     // POST로 전송된 변수값을 추출
-    /**
+    /**/
     // WebHelper 적용 전
     const username = req.body.username;
     const nickname = req.body.nickname;
@@ -23,7 +23,7 @@ export default () => {
     req.session.nickname = nickname;
 
     // 결과 응답
-    /**
+    /**/
     // WebHelper 적용 전
     const json = { re: 'ok' };
     res.status(200).send(json);
@@ -45,7 +45,7 @@ export default () => {
       nickname: req.session.nickname,
     }
 
-    /**
+    /**/
     // WebHelper 적용 전
     const json = { re: 'ok' };
     res.status(200).send(my_data);
@@ -62,7 +62,7 @@ export default () => {
     try {
       await req.session.destroy();
     } catch(e) {
-      /**
+      /**/
       // WebHelper 적용 전
       logger.error(e.message);
       result = e.message;
@@ -73,7 +73,7 @@ export default () => {
       /**/
     }
 
-    /**
+    /**/
     // WebHelper 적용 전
     const json = { rt: result };
     res.status(code).send(json);
@@ -86,7 +86,7 @@ export default () => {
 // public/06_login.html
 router
   .post('/session/login', (req, res, next) => {
-    /**
+    /**/
     // WebHelper 적용 전
     const id = req.body.userid;
     const pw = req.body.userpw;
@@ -99,7 +99,7 @@ router
     logger.debug('id = ' + id);
     logger.debug('pw = ' + pw);
 
-    /**
+    /**/
     // WebHelper 적용 전
     let login_ok = false;
     if(id == 'node' && pw == '1234') {
@@ -136,7 +136,7 @@ router
     /**/
   })
   .delete('/session/login', async (req, res, next) => {
-    /**
+    /**/
     // WebHelper 적용 전
     let result = 'success';
     let code = 200;
@@ -164,7 +164,7 @@ router
     const id = req.session.userid;
     const pw = req.session.userpw;
 
-    /**
+    /**/
     // WebHelper 적용 전
     let result_code = null;
     let result_msg = null;

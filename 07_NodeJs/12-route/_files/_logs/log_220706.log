@@ -1,0 +1,1056 @@
+22/07/06 09:32:39 869 [debug]: -----------------------------------
+22/07/06 09:32:39 871 [debug]: |       Start Express Server      |
+22/07/06 09:32:39 872 [debug]: -----------------------------------
+22/07/06 09:32:39 872 [debug]: server address => http://192.168.10.103:3001
+22/07/06 09:32:39 872 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 09:33:13 574 [debug]: 클라이언트가 접속했습니다.
+22/07/06 09:33:13 575 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 09:33:13 576 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/06 09:33:13 582 [debug]: [HTTP %s Params] %s=%s
+22/07/06 09:33:13 583 [debug]: [HTTP %s Params] %s=%s
+22/07/06 09:33:13 584 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/06 09:33:13 584 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/06 09:33:13 588 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/06 09:33:13 588 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 10:23:03 768 [debug]: -----------------------------------
+22/07/06 10:23:03 771 [debug]: |       Start Express Server      |
+22/07/06 10:23:03 771 [debug]: -----------------------------------
+22/07/06 10:23:03 772 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:23:03 772 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:23:59 453 [debug]: -----------------------------------
+22/07/06 10:23:59 455 [debug]: |       Start Express Server      |
+22/07/06 10:23:59 456 [debug]: -----------------------------------
+22/07/06 10:23:59 456 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:23:59 457 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:25:02 216 [debug]: -----------------------------------
+22/07/06 10:25:02 218 [debug]: |       Start Express Server      |
+22/07/06 10:25:02 219 [debug]: -----------------------------------
+22/07/06 10:25:02 219 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:25:02 220 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:25:04 946 [debug]: -----------------------------------
+22/07/06 10:25:04 948 [debug]: |       Start Express Server      |
+22/07/06 10:25:04 949 [debug]: -----------------------------------
+22/07/06 10:25:04 949 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:25:04 950 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:25:33 945 [debug]: -----------------------------------
+22/07/06 10:25:33 948 [debug]: |       Start Express Server      |
+22/07/06 10:25:33 948 [debug]: -----------------------------------
+22/07/06 10:25:33 949 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:25:33 950 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:25:43 364 [debug]: -----------------------------------
+22/07/06 10:25:43 366 [debug]: |       Start Express Server      |
+22/07/06 10:25:43 367 [debug]: -----------------------------------
+22/07/06 10:25:43 367 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:25:43 367 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:26:38 241 [debug]: -----------------------------------
+22/07/06 10:26:38 244 [debug]: |       Start Express Server      |
+22/07/06 10:26:38 245 [debug]: -----------------------------------
+22/07/06 10:26:38 246 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:26:38 247 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:27:30 687 [debug]: -----------------------------------
+22/07/06 10:27:30 690 [debug]: |       Start Express Server      |
+22/07/06 10:27:30 690 [debug]: -----------------------------------
+22/07/06 10:27:30 691 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:27:30 691 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:28:13 799 [debug]: -----------------------------------
+22/07/06 10:28:13 802 [debug]: |       Start Express Server      |
+22/07/06 10:28:13 802 [debug]: -----------------------------------
+22/07/06 10:28:13 803 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:28:13 803 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:29:08 955 [debug]: -----------------------------------
+22/07/06 10:29:08 957 [debug]: |       Start Express Server      |
+22/07/06 10:29:08 958 [debug]: -----------------------------------
+22/07/06 10:29:08 958 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:29:08 959 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:30:51 081 [debug]: -----------------------------------
+22/07/06 10:30:51 083 [debug]: |       Start Express Server      |
+22/07/06 10:30:51 084 [debug]: -----------------------------------
+22/07/06 10:30:51 085 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:30:51 085 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:31:23 460 [debug]: -----------------------------------
+22/07/06 10:31:23 463 [debug]: |       Start Express Server      |
+22/07/06 10:31:23 463 [debug]: -----------------------------------
+22/07/06 10:31:23 464 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:31:23 464 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:32:11 970 [debug]: -----------------------------------
+22/07/06 10:32:11 972 [debug]: |       Start Express Server      |
+22/07/06 10:32:11 973 [debug]: -----------------------------------
+22/07/06 10:32:11 973 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:32:11 973 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:34:16 944 [debug]: -----------------------------------
+22/07/06 10:34:16 947 [debug]: |       Start Express Server      |
+22/07/06 10:34:16 947 [debug]: -----------------------------------
+22/07/06 10:34:16 948 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:34:16 949 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:34:25 154 [debug]: -----------------------------------
+22/07/06 10:34:25 156 [debug]: |       Start Express Server      |
+22/07/06 10:34:25 157 [debug]: -----------------------------------
+22/07/06 10:34:25 157 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:34:25 157 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:34:49 432 [debug]: -----------------------------------
+22/07/06 10:34:49 435 [debug]: |       Start Express Server      |
+22/07/06 10:34:49 435 [debug]: -----------------------------------
+22/07/06 10:34:49 436 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:34:49 436 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:34:51 164 [debug]: -----------------------------------
+22/07/06 10:34:51 167 [debug]: |       Start Express Server      |
+22/07/06 10:34:51 167 [debug]: -----------------------------------
+22/07/06 10:34:51 168 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:34:51 168 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:34:54 184 [debug]: -----------------------------------
+22/07/06 10:34:54 187 [debug]: |       Start Express Server      |
+22/07/06 10:34:54 187 [debug]: -----------------------------------
+22/07/06 10:34:54 187 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:34:54 188 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:36:57 699 [debug]: -----------------------------------
+22/07/06 10:36:57 701 [debug]: |       Start Express Server      |
+22/07/06 10:36:57 702 [debug]: -----------------------------------
+22/07/06 10:36:57 703 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:36:57 703 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:38:38 651 [debug]: -----------------------------------
+22/07/06 10:38:38 653 [debug]: |       Start Express Server      |
+22/07/06 10:38:38 654 [debug]: -----------------------------------
+22/07/06 10:38:38 654 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:38:38 654 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:39:03 235 [debug]: -----------------------------------
+22/07/06 10:39:03 237 [debug]: |       Start Express Server      |
+22/07/06 10:39:03 237 [debug]: -----------------------------------
+22/07/06 10:39:03 237 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:39:03 238 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:39:05 975 [debug]: -----------------------------------
+22/07/06 10:39:05 977 [debug]: |       Start Express Server      |
+22/07/06 10:39:05 977 [debug]: -----------------------------------
+22/07/06 10:39:05 978 [debug]: server address => http://192.168.10.103:3001
+22/07/06 10:39:05 978 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 10:40:39 189 [debug]: 클라이언트가 접속했습니다.
+22/07/06 10:40:39 190 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 10:40:39 191 [debug]: [POST] http://localhost:3001/session/login
+22/07/06 10:40:39 197 [error]: [ReferenceError] userid is not defined
+22/07/06 10:40:39 198 [error]: ReferenceError: userid is not defined
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:95:25
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/06 10:40:39 203 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/06 10:40:39 204 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 10:42:22 922 [debug]: 클라이언트가 접속했습니다.
+22/07/06 10:42:22 923 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 10:42:22 923 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 10:42:22 925 [debug]: [HTTP %s Params] %s=%s
+22/07/06 10:42:22 927 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/06 10:42:22 927 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 10:43:22 117 [debug]: 클라이언트가 접속했습니다.
+22/07/06 10:43:22 118 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 10:43:22 118 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 10:43:22 132 [debug]: [HTTP %s Params] %s=%s
+22/07/06 10:43:22 132 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/06 10:43:22 133 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 10:46:16 703 [debug]: 클라이언트가 접속했습니다.
+22/07/06 10:46:16 704 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 10:46:16 704 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 10:46:16 706 [debug]: [signedCookies] connect.sid = PC6VxGFrNkdQJESBKlyLqA73OeU1w9QZ
+22/07/06 10:46:16 707 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 10:46:16 707 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 10:46:27 203 [debug]: 클라이언트가 접속했습니다.
+22/07/06 10:46:27 204 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 10:46:27 204 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 10:46:27 205 [debug]: [HTTP %s Params] %s=%s
+22/07/06 10:46:27 206 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 10:46:27 206 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 10:46:33 034 [debug]: 클라이언트가 접속했습니다.
+22/07/06 10:46:33 034 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 10:46:33 034 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 10:46:33 035 [debug]: [cookies] my_msg = j:null
+22/07/06 10:46:33 035 [debug]: [signedCookies] my_msg_signed = j:null
+22/07/06 10:46:33 035 [debug]: [signedCookies] connect.sid = PC6VxGFrNkdQJESBKlyLqA73OeU1w9QZ
+22/07/06 10:46:33 036 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 10:46:33 036 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:00:53 093 [debug]: -----------------------------------
+22/07/06 11:00:53 095 [debug]: |       Start Express Server      |
+22/07/06 11:00:53 096 [debug]: -----------------------------------
+22/07/06 11:00:53 096 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:00:53 097 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:24:33 859 [debug]: -----------------------------------
+22/07/06 11:24:33 862 [debug]: |       Start Express Server      |
+22/07/06 11:24:33 862 [debug]: -----------------------------------
+22/07/06 11:24:33 863 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:24:33 863 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:24:38 591 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:24:38 592 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:24:38 593 [debug]: [GET] http://localhost:3001/send_mail
+22/07/06 11:24:38 603 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/06 11:24:38 603 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:195:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/06 11:24:38 610 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/06 11:24:38 610 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:27:08 948 [debug]: -----------------------------------
+22/07/06 11:27:08 950 [debug]: |       Start Express Server      |
+22/07/06 11:27:08 951 [debug]: -----------------------------------
+22/07/06 11:27:08 951 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:27:08 952 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:27:18 914 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:27:18 914 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:27:18 915 [debug]: [POST] http://localhost:3001/send_mail
+22/07/06 11:27:18 921 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:27:18 922 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:27:18 922 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:27:18 923 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:27:18 923 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:27:18 923 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:27:18 924 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/06 11:27:18 924 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/06 11:27:18 929 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/06 11:27:18 930 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:28:18 690 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:28:18 691 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:28:18 691 [debug]: [POST] http://localhost:3001/send_mail
+22/07/06 11:28:18 692 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:18 693 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:18 693 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:18 693 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:18 693 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:18 693 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:18 694 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/06 11:28:18 694 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/06 11:28:18 695 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/06 11:28:18 695 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:28:19 972 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:28:19 973 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:28:19 973 [debug]: [POST] http://localhost:3001/send_mail
+22/07/06 11:28:19 974 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:19 974 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:19 974 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:19 974 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:19 974 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:19 975 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:19 975 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/06 11:28:19 975 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/06 11:28:19 976 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 11:28:19 976 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:28:21 327 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:28:21 327 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:28:21 327 [debug]: [POST] http://localhost:3001/send_mail
+22/07/06 11:28:21 329 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:21 329 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:21 329 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:21 329 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:21 330 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:21 330 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:28:21 330 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/06 11:28:21 330 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/06 11:28:21 332 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/06 11:28:21 332 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:30:44 998 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:30:44 998 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:30:44 999 [debug]: [GET] http://localhost:3001/04_cookie.html
+22/07/06 11:30:45 005 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/06 11:30:45 005 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:30:45 275 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:30:45 275 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:30:45 275 [debug]: [GET] http://localhost:3001/favicon.ico
+22/07/06 11:30:45 280 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/06 11:30:45 280 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:30:48 711 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:30:48 711 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:30:48 711 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 11:30:48 722 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:30:48 723 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/06 11:30:48 723 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:30:49 663 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:30:49 663 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:30:49 664 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 11:30:49 665 [debug]: [cookies] my_msg = qefqefqef
+22/07/06 11:30:49 665 [debug]: [signedCookies] my_msg_signed = qefqefqef
+22/07/06 11:30:49 666 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 11:30:49 666 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:30:50 644 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:30:50 645 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:30:50 645 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 11:30:50 647 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 11:30:50 647 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:31:04 007 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:31:04 007 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:31:04 008 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 11:31:04 009 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:31:04 010 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 11:31:04 010 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:31:19 755 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:31:19 756 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:31:19 756 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 11:31:19 758 [debug]: [cookies] my_msg = qefqefqef
+22/07/06 11:31:19 758 [debug]: [signedCookies] my_msg_signed = qefqefqef
+22/07/06 11:31:19 759 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 11:31:19 759 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:33:02 613 [debug]: -----------------------------------
+22/07/06 11:33:02 615 [debug]: |       Start Express Server      |
+22/07/06 11:33:02 615 [debug]: -----------------------------------
+22/07/06 11:33:02 616 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:33:02 616 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:33:05 892 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:33:05 893 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:33:05 893 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 11:33:05 901 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/06 11:33:05 902 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:33:06 816 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:33:06 817 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:33:06 817 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 11:33:06 828 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:33:06 830 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/06 11:33:06 831 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:33:07 710 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:33:07 710 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 11:33:07 711 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 11:33:07 713 [debug]: [cookies] my_msg = qefqefqef
+22/07/06 11:33:07 714 [debug]: [signedCookies] my_msg_signed = qefqefqef
+22/07/06 11:33:07 715 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/06 11:33:07 715 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:33:17 858 [debug]: -----------------------------------
+22/07/06 11:33:17 861 [debug]: |       Start Express Server      |
+22/07/06 11:33:17 861 [debug]: -----------------------------------
+22/07/06 11:33:17 862 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:33:17 862 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:33:35 253 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:33:35 254 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:33:35 254 [debug]: [POST] http://localhost:3001/send_mail
+22/07/06 11:33:35 261 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:33:35 261 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:33:35 262 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:33:35 262 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:33:35 262 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:33:35 263 [debug]: [HTTP %s Params] %s=%s
+22/07/06 11:33:35 264 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/06 11:33:35 264 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/06 11:33:35 269 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/07/06 11:33:35 269 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:36:25 255 [debug]: -----------------------------------
+22/07/06 11:36:25 257 [debug]: |       Start Express Server      |
+22/07/06 11:36:25 258 [debug]: -----------------------------------
+22/07/06 11:36:25 258 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:36:25 258 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:37:30 722 [debug]: -----------------------------------
+22/07/06 11:37:30 725 [debug]: |       Start Express Server      |
+22/07/06 11:37:30 725 [debug]: -----------------------------------
+22/07/06 11:37:30 725 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:37:30 726 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:38:16 118 [debug]: -----------------------------------
+22/07/06 11:38:16 120 [debug]: |       Start Express Server      |
+22/07/06 11:38:16 120 [debug]: -----------------------------------
+22/07/06 11:38:16 121 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:38:16 121 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:38:41 322 [debug]: -----------------------------------
+22/07/06 11:38:41 325 [debug]: |       Start Express Server      |
+22/07/06 11:38:41 325 [debug]: -----------------------------------
+22/07/06 11:38:41 326 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:38:41 326 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:38:44 021 [debug]: -----------------------------------
+22/07/06 11:38:44 023 [debug]: |       Start Express Server      |
+22/07/06 11:38:44 024 [debug]: -----------------------------------
+22/07/06 11:38:44 024 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:38:44 024 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:40:31 939 [debug]: -----------------------------------
+22/07/06 11:40:31 941 [debug]: |       Start Express Server      |
+22/07/06 11:40:31 942 [debug]: -----------------------------------
+22/07/06 11:40:31 942 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:40:31 942 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:40:56 021 [debug]: -----------------------------------
+22/07/06 11:40:56 024 [debug]: |       Start Express Server      |
+22/07/06 11:40:56 025 [debug]: -----------------------------------
+22/07/06 11:40:56 025 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:40:56 026 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:40:57 890 [debug]: -----------------------------------
+22/07/06 11:40:57 892 [debug]: |       Start Express Server      |
+22/07/06 11:40:57 893 [debug]: -----------------------------------
+22/07/06 11:40:57 893 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:40:57 893 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:42:23 986 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:42:23 987 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:42:23 987 [debug]: [POST] http://localhost:3001/upload/single
+22/07/06 11:42:24 009 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/07/06 11:42:24 009 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:44:07 508 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:44:07 509 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:44:07 509 [debug]: [POST] http://localhost:3001/upload/multi
+22/07/06 11:44:07 511 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/06 11:44:07 512 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:195:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/06 11:44:07 513 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/06 11:44:07 513 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:44:20 518 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:44:20 519 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:44:20 519 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:44:20 522 [error]: [Error] null
+22/07/06 11:44:20 523 [error]: Error: null
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/FileUploadController.js:43:21
+    at done (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:45:7)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:65:11
+    at removeUploadedFiles (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/remove-uploaded-files.js:5:28)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:61:9
+    at Counter.onceZero (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/counter.js:23:29)
+    at abortWithError (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:56:21)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:110:18
+    at fileFilter (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/FileHelper.js:146:18)
+    at wrappedFileFilter (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/index.js:44:7)
+22/07/06 11:44:20 524 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/06 11:44:20 524 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:44:52 131 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:44:52 131 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:44:52 131 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:44:52 133 [error]: [Error] null
+22/07/06 11:44:52 134 [error]: Error: null
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/FileUploadController.js:43:21
+    at done (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:45:7)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:65:11
+    at removeUploadedFiles (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/remove-uploaded-files.js:5:28)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:61:9
+    at Counter.onceZero (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/counter.js:23:29)
+    at abortWithError (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:56:21)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:110:18
+    at fileFilter (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/FileHelper.js:146:18)
+    at wrappedFileFilter (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/index.js:44:7)
+22/07/06 11:44:52 134 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 11:44:52 135 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:45:45 777 [debug]: -----------------------------------
+22/07/06 11:45:45 779 [debug]: |       Start Express Server      |
+22/07/06 11:45:45 780 [debug]: -----------------------------------
+22/07/06 11:45:45 781 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:45:45 781 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:49:24 000 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:49:24 002 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:49:24 003 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:49:24 017 [error]: [Error] null
+22/07/06 11:49:24 018 [error]: Error: null
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/FileUploadController.js:43:21
+    at done (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:45:7)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:65:11
+    at removeUploadedFiles (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/remove-uploaded-files.js:5:28)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:61:9
+    at Counter.onceZero (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/counter.js:23:29)
+    at abortWithError (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:56:21)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:110:18
+    at fileFilter (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/FileHelper.js:146:18)
+    at wrappedFileFilter (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/index.js:44:7)
+22/07/06 11:49:24 027 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 26ms
+22/07/06 11:49:24 027 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:49:51 834 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:49:51 834 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:49:51 835 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:49:51 838 [error]: [Error] null
+22/07/06 11:49:51 838 [error]: Error: null
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/FileUploadController.js:43:21
+    at done (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:45:7)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:65:11
+    at removeUploadedFiles (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/remove-uploaded-files.js:5:28)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:61:9
+    at Counter.onceZero (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/counter.js:23:29)
+    at abortWithError (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:56:21)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:110:18
+    at fileFilter (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/FileHelper.js:146:18)
+    at wrappedFileFilter (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/index.js:44:7)
+22/07/06 11:49:51 839 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/06 11:49:51 839 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:51:36 022 [debug]: -----------------------------------
+22/07/06 11:51:36 025 [debug]: |       Start Express Server      |
+22/07/06 11:51:36 025 [debug]: -----------------------------------
+22/07/06 11:51:36 025 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:51:36 026 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:56:56 751 [debug]: -----------------------------------
+22/07/06 11:56:56 754 [debug]: |       Start Express Server      |
+22/07/06 11:56:56 754 [debug]: -----------------------------------
+22/07/06 11:56:56 754 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:56:56 755 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:56:59 416 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:56:59 417 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:56:59 418 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:56:59 436 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/07/06 11:56:59 437 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:57:15 127 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:57:15 127 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:57:15 128 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:57:15 139 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/06 11:57:15 139 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:57:40 361 [debug]: -----------------------------------
+22/07/06 11:57:40 364 [debug]: |       Start Express Server      |
+22/07/06 11:57:40 364 [debug]: -----------------------------------
+22/07/06 11:57:40 365 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:57:40 365 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:57:41 550 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:57:41 551 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:57:41 552 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:57:41 583 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 32ms
+22/07/06 11:57:41 584 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:58:06 936 [debug]: -----------------------------------
+22/07/06 11:58:06 938 [debug]: |       Start Express Server      |
+22/07/06 11:58:06 938 [debug]: -----------------------------------
+22/07/06 11:58:06 939 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:58:06 939 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:58:08 458 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:58:08 459 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:58:08 460 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:58:08 482 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/07/06 11:58:08 483 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:58:32 207 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:58:32 207 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:58:32 208 [debug]: [POST] http://localhost:3001/upload/multipl
+22/07/06 11:58:32 210 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/06 11:58:32 210 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:195:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/06 11:58:32 211 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/06 11:58:32 211 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:58:34 782 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:58:34 782 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:58:34 782 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:58:34 787 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/06 11:58:34 787 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 11:58:40 485 [debug]: -----------------------------------
+22/07/06 11:58:40 489 [debug]: |       Start Express Server      |
+22/07/06 11:58:40 490 [debug]: -----------------------------------
+22/07/06 11:58:40 491 [debug]: server address => http://192.168.10.103:3001
+22/07/06 11:58:40 492 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 11:58:56 388 [debug]: 클라이언트가 접속했습니다.
+22/07/06 11:58:56 388 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 11:58:56 389 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 11:58:56 412 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/07/06 11:58:56 413 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:01:16 339 [debug]: -----------------------------------
+22/07/06 12:01:16 341 [debug]: |       Start Express Server      |
+22/07/06 12:01:16 342 [debug]: -----------------------------------
+22/07/06 12:01:16 343 [debug]: server address => http://192.168.10.103:3001
+22/07/06 12:01:16 343 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 12:01:23 213 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:01:23 214 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 12:01:23 214 [debug]: [POST] http://localhost:3001/upload/single
+22/07/06 12:01:23 226 [error]: [Error] 파일 업로드 도중 알 수 없는 에러가 발생했습니다.
+22/07/06 12:01:23 227 [error]: Error: 파일 업로드 도중 알 수 없는 에러가 발생했습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/FileUploadController.js:18:21
+    at done (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:45:7)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:65:11
+    at removeUploadedFiles (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/remove-uploaded-files.js:5:28)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:61:9
+    at Counter.onceZero (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/counter.js:23:29)
+    at abortWithError (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:56:21)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:110:18
+    at wrappedFileFilter (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/index.js:40:16)
+    at Multipart.<anonymous> (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:107:7)
+22/07/06 12:01:23 232 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/06 12:01:23 232 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:01:30 512 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:01:30 513 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 12:01:30 513 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 12:01:30 521 [error]: [Error] 파일 업로드 도중 알 수 없는 에러가 발생했습니다.
+22/07/06 12:01:30 521 [error]: Error: 파일 업로드 도중 알 수 없는 에러가 발생했습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/FileUploadController.js:43:21
+    at done (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:45:7)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:65:11
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/remove-uploaded-files.js:20:9
+    at FSReqCallback.oncomplete (node:fs:188:23)
+22/07/06 12:01:30 522 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/06 12:01:30 522 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:01:43 130 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:01:43 130 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/06 12:01:43 131 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/06 12:01:43 133 [error]: [Error] null
+22/07/06 12:01:43 133 [error]: Error: null
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/FileUploadController.js:43:21
+    at done (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:45:7)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:65:11
+    at removeUploadedFiles (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/remove-uploaded-files.js:5:28)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:61:9
+    at Counter.onceZero (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/counter.js:23:29)
+    at abortWithError (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:56:21)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/lib/make-middleware.js:110:18
+    at fileFilter (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/FileHelper.js:146:18)
+    at wrappedFileFilter (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/multer/index.js:44:7)
+22/07/06 12:01:43 134 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/06 12:01:43 134 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:03:14 203 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:03:14 204 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:03:14 204 [debug]: [GET] http://localhost:3001/04_cookie.html
+22/07/06 12:03:14 208 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/06 12:03:14 208 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:03:18 381 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:03:18 381 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:03:18 381 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:03:18 392 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:03:18 393 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/06 12:03:18 393 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:03:19 443 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:03:19 443 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:03:19 443 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:03:19 445 [debug]: [cookies] my_msg = ㅋㅋㅋㅋㅋㅋㅋㅋ
+22/07/06 12:03:19 445 [debug]: [signedCookies] my_msg_signed = ㅋㅋㅋㅋㅋㅋㅋㅋ
+22/07/06 12:03:19 446 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:03:19 446 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:07 120 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:07 120 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:07 121 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:04:07 122 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:04:07 123 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:04:07 123 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:12 233 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:12 234 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:12 234 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:04:12 235 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/06 12:04:12 235 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:13 081 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:13 081 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:13 081 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:04:13 083 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:04:13 083 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:13 530 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:13 531 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:13 531 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:04:13 532 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/06 12:04:13 532 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:13 689 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:13 689 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:13 689 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:04:13 691 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:04:13 691 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:15 243 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:15 243 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:15 244 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:04:15 245 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:04:15 245 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:16 820 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:16 820 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:16 820 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:04:16 821 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:04:16 822 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:04:16 823 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:47 030 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:47 031 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:47 031 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:04:47 033 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:04:47 033 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:48 312 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:48 312 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:48 312 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:04:48 313 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:04:48 314 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:04:48 315 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:49 419 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:49 420 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:49 420 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:04:49 421 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:04:49 422 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:04:49 422 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:49 811 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:49 811 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:49 812 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:04:49 813 [debug]: [cookies] my_msg = ㅋㅋㅋㅋㅋㅋㅋㅋ
+22/07/06 12:04:49 813 [debug]: [signedCookies] my_msg_signed = ㅋㅋㅋㅋㅋㅋㅋㅋ
+22/07/06 12:04:49 814 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:04:49 814 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:50 241 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:50 241 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:50 241 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:04:50 244 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:04:50 244 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:52 212 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:52 212 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:52 213 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:04:52 214 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:04:52 214 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:04:52 693 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:04:52 693 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:04:52 694 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:04:52 695 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:04:52 696 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:04:52 696 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:19 580 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:19 580 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:19 580 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:05:19 581 [debug]: [cookies] my_msg = ㅋㅋㅋㅋㅋㅋㅋㅋ
+22/07/06 12:05:19 581 [debug]: [signedCookies] my_msg_signed = ㅋㅋㅋㅋㅋㅋㅋㅋ
+22/07/06 12:05:19 582 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:19 582 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:20 489 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:20 489 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:20 489 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:05:20 490 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:05:20 491 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:20 491 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:30 904 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:30 904 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:30 904 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:05:30 905 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:05:30 906 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:30 906 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:31 424 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:31 425 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:31 425 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:05:31 426 [debug]: [cookies] my_msg = ㅋㅋㅋㅋㅋㅋㅋㅋ
+22/07/06 12:05:31 426 [debug]: [signedCookies] my_msg_signed = ㅋㅋㅋㅋㅋㅋㅋㅋ
+22/07/06 12:05:31 427 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:31 427 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:31 997 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:31 998 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:31 998 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:05:31 999 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:05:32 000 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:32 000 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:43 400 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:43 400 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:43 401 [debug]: [GET] http://localhost:3001/04_cookie.html
+22/07/06 12:05:43 402 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:43 402 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:44 481 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:44 481 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:44 481 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:05:44 482 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:05:44 483 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:44 483 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:45 336 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:45 337 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:45 338 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:05:45 339 [debug]: [cookies] my_msg = j:null
+22/07/06 12:05:45 339 [debug]: [signedCookies] my_msg_signed = j:null
+22/07/06 12:05:45 340 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:05:45 340 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:47 463 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:47 463 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:47 464 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:05:47 465 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:05:47 466 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:05:47 466 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:48 977 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:48 977 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:48 978 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:05:48 979 [debug]: [cookies] my_msg = asdasd
+22/07/06 12:05:48 979 [debug]: [signedCookies] my_msg_signed = asdasd
+22/07/06 12:05:48 979 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:48 980 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:49 586 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:49 586 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:49 586 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:05:49 587 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:05:49 588 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:49 588 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:05:50 710 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:05:50 710 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:05:50 710 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:05:50 712 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:05:50 712 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:07:26 619 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:07:26 620 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:07:26 620 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:07:26 622 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:07:26 622 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:07:34 848 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:07:34 848 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:07:34 848 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:07:34 850 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:07:34 850 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:07:34 851 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:07:35 612 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:07:35 613 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:07:35 613 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:07:35 614 [debug]: [cookies] my_msg = asdasd
+22/07/06 12:07:35 615 [debug]: [signedCookies] my_msg_signed = asdasd
+22/07/06 12:07:35 615 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:07:35 615 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:25 206 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:25 206 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:25 206 [debug]: [GET] http://localhost:3001/04_cookie.html
+22/07/06 12:15:25 208 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:15:25 208 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:29 447 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:29 448 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:29 448 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:15:29 449 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:15:29 450 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:15:29 450 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:30 677 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:30 678 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:30 678 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:15:30 679 [debug]: [cookies] my_msg = azzzzz
+22/07/06 12:15:30 680 [debug]: [signedCookies] my_msg_signed = azzzzz
+22/07/06 12:15:30 680 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:15:30 680 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:31 539 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:31 539 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:31 540 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:15:31 541 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:15:31 541 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:45 107 [debug]: -----------------------------------
+22/07/06 12:15:45 110 [debug]: |       Start Express Server      |
+22/07/06 12:15:45 111 [debug]: -----------------------------------
+22/07/06 12:15:45 111 [debug]: server address => http://192.168.10.103:3001
+22/07/06 12:15:45 112 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:46 724 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:46 725 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:46 725 [debug]: [GET] http://localhost:3001/04_cookie.html
+22/07/06 12:15:46 731 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/06 12:15:46 732 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:49 461 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:49 461 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:49 462 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:15:49 466 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/06 12:15:49 466 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:50 078 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:50 078 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:50 078 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:15:50 081 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:15:50 081 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:50 933 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:50 933 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:50 933 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:15:50 944 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:15:50 945 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/06 12:15:50 946 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:52 473 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:52 474 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:52 474 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:15:52 476 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:15:52 477 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:15:52 477 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:53 252 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:53 252 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:53 252 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:15:53 253 [debug]: [cookies] my_msg = asdasd
+22/07/06 12:15:53 253 [debug]: [signedCookies] my_msg_signed = asdasd
+22/07/06 12:15:53 254 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:15:53 254 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:15:55 857 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:15:55 857 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:15:55 857 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:15:55 859 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:15:55 859 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:16:50 420 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:16:50 420 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:16:50 420 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:16:50 421 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:16:50 422 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:16:50 422 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:16:51 554 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:16:51 554 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:16:51 554 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:16:51 556 [debug]: [cookies] my_msg = zzzzzz
+22/07/06 12:16:51 556 [debug]: [signedCookies] my_msg_signed = zzzzzz
+22/07/06 12:16:51 556 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:16:51 557 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:16:53 249 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:16:53 249 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:16:53 249 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:16:53 251 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:16:53 251 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:17:12 822 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:17:12 822 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:17:12 823 [debug]: [GET] http://localhost:3001/04_cookie.html
+22/07/06 12:17:12 826 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/06 12:17:12 826 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:17:14 138 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:17:14 138 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:17:14 138 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:17:14 139 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:17:14 140 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:17:14 140 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:17:16 211 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:17:16 211 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:17:16 211 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:17:16 214 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:17:16 214 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:17:17 834 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:17:17 835 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:17:17 835 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:17:17 836 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:17:17 837 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:17:17 837 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:17:19 165 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:17:19 165 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:17:19 166 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:17:19 167 [debug]: [cookies] my_msg = asdasd
+22/07/06 12:17:19 167 [debug]: [signedCookies] my_msg_signed = asdasd
+22/07/06 12:17:19 168 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:17:19 168 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:17:19 972 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:17:19 972 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:17:19 972 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:17:19 974 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/06 12:17:19 974 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:18:19 967 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:18:19 967 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:18:19 967 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:18:19 968 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:18:19 969 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:18:19 969 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:18:21 711 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:18:21 712 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:18:21 712 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:18:21 713 [debug]: [cookies] my_msg = asdasd
+22/07/06 12:18:21 713 [debug]: [signedCookies] my_msg_signed = asdasd
+22/07/06 12:18:21 714 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:18:21 714 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:18:22 849 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:18:22 849 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:18:22 850 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:18:22 852 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:18:22 852 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:18:25 827 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:18:25 827 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:18:25 827 [debug]: [GET] http://localhost:3001/04_cookie.html
+22/07/06 12:18:25 829 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:18:25 829 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:18:26 859 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:18:26 859 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:18:26 860 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:18:26 860 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/06 12:18:26 861 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:18:27 928 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:18:27 929 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:18:27 929 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:18:27 930 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:18:27 931 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:18:27 931 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:18:28 638 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:18:28 639 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:18:28 639 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:18:28 640 [debug]: [cookies] my_msg = j:null
+22/07/06 12:18:28 640 [debug]: [signedCookies] my_msg_signed = j:null
+22/07/06 12:18:28 641 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:18:28 641 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:18:29 667 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:18:29 667 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:18:29 667 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:18:29 668 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/06 12:18:29 669 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:19:00 832 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:19:00 833 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:19:00 833 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:19:00 834 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:19:00 835 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:19:00 835 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:19:02 268 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:19:02 268 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:19:02 268 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:19:02 270 [debug]: [cookies] my_msg = 14ㅎ14ㅎ14ㅎ
+22/07/06 12:19:02 270 [debug]: [signedCookies] my_msg_signed = 14ㅎ14ㅎ14ㅎ
+22/07/06 12:19:02 271 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/06 12:19:02 271 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:19:03 439 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:19:03 439 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:19:03 439 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:19:03 440 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/06 12:19:03 440 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:19:04 846 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:19:04 846 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:19:04 846 [debug]: [GET] http://localhost:3001/04_cookie.html
+22/07/06 12:19:04 848 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:19:04 848 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:19:06 233 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:19:06 233 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:19:06 234 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:19:06 235 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:19:06 235 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:19:06 235 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:19:07 826 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:19:07 826 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:19:07 827 [debug]: [POST] http://localhost:3001/cookie
+22/07/06 12:19:07 828 [debug]: [HTTP %s Params] %s=%s
+22/07/06 12:19:07 828 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:19:07 828 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:19:09 191 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:19:09 192 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:19:09 192 [debug]: [GET] http://localhost:3001/cookie
+22/07/06 12:19:09 193 [debug]: [cookies] my_msg = ㅁㅇㄹㅁㄷㄹㅎㅂ4ㅎ
+22/07/06 12:19:09 193 [debug]: [signedCookies] my_msg_signed = ㅁㅇㄹㅁㄷㄹㅎㅂ4ㅎ
+22/07/06 12:19:09 194 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/06 12:19:09 194 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/06 12:19:09 923 [debug]: 클라이언트가 접속했습니다.
+22/07/06 12:19:09 924 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/06 12:19:09 924 [debug]: [DELETE] http://localhost:3001/cookie
+22/07/06 12:19:09 925 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/06 12:19:09 925 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,4 +1,4 @@
-import logger from '../../helper/logHelper.js';
+import logger from '../../../helper/logHelper.js';
 import express from 'express';
 
 export default () => {
@@ -7,7 +7,7 @@ export default () => {
   router
   .post('/cookie', (req, res, next) => {
     // POST로 전달된 파라미터 받기
-    /**
+    /**/
     // WebHelper 적용 전
     const msg = req.body.msg;
     /*/
@@ -28,7 +28,7 @@ export default () => {
       signed: true
     });
 
-    /**
+    /**/
     // WebHelper 적용 전
     res.status(200).send('Success');
     /*/
@@ -56,7 +56,7 @@ export default () => {
       my_msg: my_msg,
       my_msg_signed: my_msg_signed,
     };
-    /**
+    /**/
     // WebHelper 적용 전
     res.status(200).send(result_data);
     /*/
@@ -69,7 +69,7 @@ export default () => {
     res.clearCookie('my_msg', { path: '/' });
     res.clearCookie('my_msg_signed', { path: '/' });
 
-    /**
+    /**/
     // WebHelper 적용 전
     res.status(200).send('clear');
     /*/
