@@ -2,3 +2,28 @@
 22/07/07 11:26:26 560 [info]: >> Connection 임대됨 [threaId=42]
 22/07/07 11:26:26 561 [debug]: SELECT * FROM student
 22/07/07 11:26:26 571 [info]: >> Connection 반납됨 [threaId=42]
+22/07/07 15:04:56 064 [info]: >> DATABASE 접속됨 [threaId=47]
+22/07/07 15:06:18 471 [info]: >> DATABASE 접속됨 [threaId=48]
+22/07/07 15:07:16 319 [info]: >> DATABASE 접속됨 [threaId=49]
+22/07/07 15:07:16 321 [info]: >> Connection 임대됨 [threaId=49]
+22/07/07 15:07:16 323 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/07 15:07:16 332 [debug]: SELECT deptno, dname, loc FROM department WHERE dname LIKE concat('%', '풀스텍', '%') ORDER BY deptno DESC LIMIT 0, 3
+22/07/07 15:07:16 334 [debug]: INSERT INTO department (dname, loc) VALUES ('풀스텍', '1401호');
+22/07/07 15:07:16 336 [debug]: DELETE FROM department WHERE deptno='300';
+22/07/07 15:07:16 337 [debug]: UPDATE department SET dname='수정된학과', loc='수정된위치' WHERE deptno='300';
+22/07/07 15:07:16 338 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/07 15:07:16 341 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredata, '%Y-%m-%d') AS h_date, comm, p.deptno, dname, loc FROM professor AS p INNER JOIN department AS d ON p.deptno = d.deptno
+22/07/07 15:07:54 523 [info]: >> DATABASE 접속됨 [threaId=50]
+22/07/07 15:07:54 525 [info]: >> Connection 임대됨 [threaId=50]
+22/07/07 15:07:54 528 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/07 15:07:54 536 [debug]: SELECT deptno, dname, loc FROM department WHERE dname LIKE concat('%', '풀스텍', '%') ORDER BY deptno DESC LIMIT 0, 3
+22/07/07 15:07:54 538 [debug]: INSERT INTO department (dname, loc) VALUES ('풀스텍', '1401호');
+22/07/07 15:07:54 539 [debug]: DELETE FROM department WHERE deptno='300';
+22/07/07 15:07:54 541 [debug]: UPDATE department SET dname='수정된학과', loc='수정된위치' WHERE deptno='300';
+22/07/07 15:07:54 542 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/07 15:07:54 544 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, p.deptno, dname, loc FROM professor AS p INNER JOIN department AS d ON p.deptno = d.deptno
+22/07/07 15:07:54 549 [info]: >> Connection 반납됨 [threaId=50]
+22/07/07 17:32:20 240 [info]: >> DATABASE 접속됨 [threaId=52]
+22/07/07 17:32:20 242 [info]: >> Connection 임대됨 [threaId=52]
+22/07/07 17:32:20 244 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/07 17:32:20 249 [info]: >> Connection 반납됨 [threaId=52]
