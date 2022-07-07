@@ -1,0 +1,4 @@
+22/07/07 11:26:26 558 [info]: >> DATABASE 접속됨 [threaId=42]
+22/07/07 11:26:26 560 [info]: >> Connection 임대됨 [threaId=42]
+22/07/07 11:26:26 561 [debug]: SELECT * FROM student
+22/07/07 11:26:26 571 [info]: >> Connection 반납됨 [threaId=42]

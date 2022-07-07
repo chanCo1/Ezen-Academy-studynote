@@ -37,7 +37,7 @@ dbcon.connect((err) => {
   // 문자열이라더라도 홑따옴표 사용 안함
   const sql = "INSERT INTO department (dname, loc) VALUES (?, ?)";
   // SQL문의 '?'를 치환할 배열 -> ? 순선대로 값을 지정한다.
-  const input_data = ['Node학과', '공학관'];
+  const input_data = ['테스트학과', '1관'];
 
 
   /** (5) SQL 실행하기 */

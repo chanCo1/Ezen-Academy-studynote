@@ -12,7 +12,10 @@ const connectionInfo = {
   port: process.env.DATABASE_PORT,          // MYSQL 포트번호
   user: process.env.DATABASE_USERNAME,      // MYSQL의 로그인 할 수 있는 계정 이름
   password: process.env.DATABASE_PASSWORD,  // 비밀번호
-  database: process.env.DATABASE_SCHEMA     // 사용하고자 하는 데이터베이스 이름
+  database: process.env.DATABASE_SCHEMA,    // 사용하고자 하는 데이터베이스 이름
+  connectionLimit: process.env.DATABASE_CONNECTION_LIMIT,         // 최대 커넥션 수
+  connectTimeout: process.env.DATABASE_CONNECT_TIMEOUT,        // 커넥션 타임아웃
+  waitForConnections: process.env.DATABASE_WAIT_FOR_CONNECTIONS,  // 커넥션 풀이 다 찬 경우 처리
 };
 
 console.info(connectionInfo);
@@ -24,11 +27,11 @@ const pool = mysql2.createPool(connectionInfo);
 
 /** (3) pool 객체가 지원하는 이벤트 정의 */
 pool.on('connection', (connection) => {
-  console.debug('>> Database 접속됨 [threaId = %d', connection.threadId);
+  console.debug('>> Database 접속됨 [threaId] = %d', connection.threadId);
 });
 
 pool.on('acquire', (connection) => {
-  console.debug('>> Connection 임대됨 [threaId = %d', connection.threadId);
+  console.debug('>> Connection 임대됨 [threaId] = %d', connection.threadId);
 });
 
 pool.on('enqueue', () => {
@@ -36,7 +39,7 @@ pool.on('enqueue', () => {
 });
 
 pool.on('release', (connection) => {
-  console.debug('>> Connection 반납됨 [threaId = %d', connection.threadId);
+  console.debug('>> Connection 반납됨 [threaId] = %d', connection.threadId);
 });
 
 (async () => {
