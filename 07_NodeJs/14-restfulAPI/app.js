@@ -24,20 +24,10 @@ import expressSession from 'express-session'    // Session 처리
 import cors from 'cors';                        // cors 처리
 
 /** 예외처리 관련 클래스 */
-import BadRequestException from '../exceptions/BadRequestException.js';
-import MultipartException from '../exceptions/MultipartException.js';
 import PageNotFoundException from '../exceptions/PageNotFoundException.js';
-import RuntimeException from '../exceptions/RuntimeException.js';
 
 /** URL을 라우팅하는 모듈 참조 */
-import SetupController from './controllers/SetupController.js';
-import GetparamsController from './controllers/GetparamsController.js';
-import PostPutDeleteController from './controllers/PostPutDeleteController.js';
-import CookieController from './controllers/CookieController.js';
-import SessionController from './controllers/SessionController.js';
-import SendMailController from './controllers/SendMailController.js';
-import FileUploadController from './controllers/FileUploadController.js';
-import ApiTest from './controllers/ApiTest.js';
+import DepartmentController from './controllers/DepartmentController.js';
 
 
 /* - - - - - - - - - - - - - - - - - - - -
@@ -174,40 +164,15 @@ app.use(cors());
 /* - - - - - - - - - - - - - - - - - - - -
 5) 각 URL별 백엔드 기능 정의
 - - - - - - - - - - - - - - - - - - - - */
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 01-setup.js
-app.use(SetupController());
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 02-GetParams.js
-app.use(GetparamsController());
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 03-Post, Put, Delete.js
-app.use(PostPutDeleteController());
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 04-Cookie.js
-// public/04_cookie.html
-app.use(CookieController());
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 05-Session.js
-// Insomnia로 테스트
-app.use(SessionController());
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 06-SendMail.js
-// public/06_mail.html
-app.use(SendMailController());
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 07-FileUpload.js
-// public/07_upload/single.html
-app.use(FileUploadController());
-
-// api test //
-app.use(ApiTest());
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Department
+app.use(DepartmentController());
 
 // 컨트롤러에서 에러 발생이 next(에러객체)를 호출했을 때 동작할 처리 //
 app.use((err, req, res, next) => res.sendError(err));
 
 // 앞에서 정의하지 않은 기타 URL에 대한 일괄 처리 (무조건 맨 마지막에 정의해야 함) //
 app.use('*', (req, res, next) => res.sendError(new PageNotFoundException()));
+
 
 
 /* - - - - - - - - - - - - - - - - - - - -

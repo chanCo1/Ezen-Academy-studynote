@@ -6,14 +6,17 @@ import DepartmentService from '../service/DepartmentService.js';
     let result = await DepartmentService.getList();
     console.log(result);
     
-    result = await DepartmentService.getItem({deptno: 102});
+    result = await DepartmentService.getItem({deptno: 220});
     console.log(result);
     result = await DepartmentService.addItem({dname: 'MVC학과', loc: '여긴어디?'});
     console.log(result);
-    result = await DepartmentService.editItem({deptno: 102, dname: 'MVC학과', loc: '여긴어디?'});
+    result = await DepartmentService.editItem({deptno: 220, dname: 'MVC학과', loc: '여긴어디?'});
     console.log(result);
 
-    await DepartmentService.deletItem({deptno: 102});
+    // await DepartmentService.deleteItem({deptno: 102});
+
+    result = await DepartmentService.getCount();
+    console.log(result);
 
   } catch(e) {
     console.error(e);

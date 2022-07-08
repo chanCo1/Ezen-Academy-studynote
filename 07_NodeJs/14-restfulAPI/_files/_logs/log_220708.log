@@ -60,3 +60,1481 @@
 22/07/08 14:17:05 609 [debug]: server address => http://192.168.10.103:3001
 22/07/08 14:17:05 610 [debug]: - - - - - - - - - - - - - - - - - -
 22/07/08 14:17:26 692 [info]: Database Pool is closed
+22/07/08 14:18:43 975 [info]: >> DATABASE 접속됨 [threaId=53]
+22/07/08 14:18:43 977 [info]: >> Connection 임대됨 [threaId=53]
+22/07/08 14:18:43 980 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:18:43 984 [info]: >> Connection 반납됨 [threaId=53]
+22/07/08 14:18:43 988 [info]: Database Pool is closed
+22/07/08 14:19:19 267 [info]: >> DATABASE 접속됨 [threaId=54]
+22/07/08 14:19:19 269 [info]: >> Connection 임대됨 [threaId=54]
+22/07/08 14:19:19 272 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:19:19 275 [info]: >> Connection 반납됨 [threaId=54]
+22/07/08 14:19:19 279 [info]: Database Pool is closed
+22/07/08 14:21:33 137 [info]: Database Pool is closed
+22/07/08 14:24:18 315 [info]: >> DATABASE 접속됨 [threaId=55]
+22/07/08 14:24:18 317 [info]: >> Connection 임대됨 [threaId=55]
+22/07/08 14:24:18 320 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:24:18 324 [info]: >> Connection 반납됨 [threaId=55]
+22/07/08 14:24:18 327 [info]: >> Connection 임대됨 [threaId=55]
+22/07/08 14:24:18 328 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:24:18 329 [info]: >> Connection 반납됨 [threaId=55]
+22/07/08 14:24:18 330 [info]: Database Pool is closed
+22/07/08 14:36:30 725 [info]: >> DATABASE 접속됨 [threaId=56]
+22/07/08 14:36:30 727 [info]: >> Connection 임대됨 [threaId=56]
+22/07/08 14:36:30 730 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:36:30 733 [info]: >> Connection 반납됨 [threaId=56]
+22/07/08 14:36:30 737 [info]: >> Connection 임대됨 [threaId=56]
+22/07/08 14:36:30 738 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:36:30 739 [info]: >> Connection 반납됨 [threaId=56]
+22/07/08 14:36:30 739 [info]: >> Connection 임대됨 [threaId=56]
+22/07/08 14:36:30 740 [info]: >> Connection 반납됨 [threaId=56]
+22/07/08 14:36:30 741 [info]: Database Pool is closed
+22/07/08 14:36:53 375 [info]: >> DATABASE 접속됨 [threaId=57]
+22/07/08 14:36:53 377 [info]: >> Connection 임대됨 [threaId=57]
+22/07/08 14:36:53 380 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:36:53 384 [info]: >> Connection 반납됨 [threaId=57]
+22/07/08 14:36:53 389 [info]: >> Connection 임대됨 [threaId=57]
+22/07/08 14:36:53 390 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:36:53 391 [info]: >> Connection 반납됨 [threaId=57]
+22/07/08 14:36:53 391 [info]: >> Connection 임대됨 [threaId=57]
+22/07/08 14:36:53 392 [debug]: INSERT INTO department (dname, loc) VALUES ('MVC학과', '여긴어디?');
+22/07/08 14:36:53 394 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='215';
+22/07/08 14:36:53 395 [info]: >> Connection 반납됨 [threaId=57]
+22/07/08 14:36:53 396 [info]: >> Connection 임대됨 [threaId=57]
+22/07/08 14:36:53 396 [debug]: UPDATE department SET dname='MVC학과', loc='여긴어디?' WHERE deptno='102';
+22/07/08 14:36:53 397 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:36:53 398 [info]: >> Connection 반납됨 [threaId=57]
+22/07/08 14:36:53 399 [info]: Database Pool is closed
+22/07/08 14:37:03 817 [info]: >> DATABASE 접속됨 [threaId=58]
+22/07/08 14:37:03 819 [info]: >> Connection 임대됨 [threaId=58]
+22/07/08 14:37:03 822 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:37:03 825 [info]: >> Connection 반납됨 [threaId=58]
+22/07/08 14:37:03 828 [info]: >> Connection 임대됨 [threaId=58]
+22/07/08 14:37:03 829 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:37:03 830 [info]: >> Connection 반납됨 [threaId=58]
+22/07/08 14:37:03 830 [info]: >> Connection 임대됨 [threaId=58]
+22/07/08 14:37:03 831 [debug]: INSERT INTO department (dname, loc) VALUES ('MVC학과', '여긴어디?');
+22/07/08 14:37:03 832 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='216';
+22/07/08 14:37:03 833 [info]: >> Connection 반납됨 [threaId=58]
+22/07/08 14:37:03 833 [info]: >> Connection 임대됨 [threaId=58]
+22/07/08 14:37:03 834 [debug]: UPDATE department SET dname='MVC학과', loc='여긴어디?' WHERE deptno='102';
+22/07/08 14:37:03 835 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:37:03 836 [info]: >> Connection 반납됨 [threaId=58]
+22/07/08 14:37:03 836 [info]: >> Connection 임대됨 [threaId=58]
+22/07/08 14:37:03 836 [info]: >> Connection 반납됨 [threaId=58]
+22/07/08 14:37:03 837 [info]: Database Pool is closed
+22/07/08 14:38:03 316 [info]: >> DATABASE 접속됨 [threaId=59]
+22/07/08 14:38:03 318 [info]: >> Connection 임대됨 [threaId=59]
+22/07/08 14:38:03 322 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:38:03 325 [info]: >> Connection 반납됨 [threaId=59]
+22/07/08 14:38:03 328 [info]: >> Connection 임대됨 [threaId=59]
+22/07/08 14:38:03 329 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:38:03 330 [info]: >> Connection 반납됨 [threaId=59]
+22/07/08 14:38:03 331 [info]: >> Connection 임대됨 [threaId=59]
+22/07/08 14:38:03 332 [debug]: INSERT INTO department (dname, loc) VALUES ('MVC학과', '여긴어디?');
+22/07/08 14:38:03 333 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='217';
+22/07/08 14:38:03 334 [info]: >> Connection 반납됨 [threaId=59]
+22/07/08 14:38:03 334 [info]: >> Connection 임대됨 [threaId=59]
+22/07/08 14:38:03 335 [debug]: UPDATE department SET dname='MVC학과', loc='여긴어디?' WHERE deptno='102';
+22/07/08 14:38:03 335 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:38:03 336 [info]: >> Connection 반납됨 [threaId=59]
+22/07/08 14:38:03 336 [info]: >> Connection 임대됨 [threaId=59]
+22/07/08 14:38:03 337 [debug]: DELETE FROM student WHERE deptno='102';
+22/07/08 14:38:03 339 [debug]: DELETE FROM professor WHERE deptno='102';
+22/07/08 14:38:03 340 [debug]: DELETE FROM department WHERE deptno='102';
+22/07/08 14:38:03 341 [info]: >> Connection 반납됨 [threaId=59]
+22/07/08 14:38:03 342 [info]: Database Pool is closed
+22/07/08 14:38:20 299 [info]: >> DATABASE 접속됨 [threaId=60]
+22/07/08 14:38:20 301 [info]: >> Connection 임대됨 [threaId=60]
+22/07/08 14:38:20 304 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:38:20 307 [info]: >> Connection 반납됨 [threaId=60]
+22/07/08 14:38:20 311 [info]: >> Connection 임대됨 [threaId=60]
+22/07/08 14:38:20 312 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:38:20 313 [info]: >> Connection 반납됨 [threaId=60]
+22/07/08 14:38:20 314 [info]: Database Pool is closed
+22/07/08 14:59:55 009 [info]: >> DATABASE 접속됨 [threaId=63]
+22/07/08 14:59:55 011 [info]: >> Connection 임대됨 [threaId=63]
+22/07/08 14:59:55 014 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 14:59:55 018 [info]: >> Connection 반납됨 [threaId=63]
+22/07/08 14:59:55 021 [info]: >> Connection 임대됨 [threaId=63]
+22/07/08 14:59:55 022 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='102';
+22/07/08 14:59:55 023 [info]: >> Connection 반납됨 [threaId=63]
+22/07/08 14:59:55 024 [info]: Database Pool is closed
+22/07/08 15:30:30 864 [info]: >> DATABASE 접속됨 [threaId=64]
+22/07/08 15:30:30 866 [info]: >> Connection 임대됨 [threaId=64]
+22/07/08 15:30:30 869 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 15:30:30 873 [info]: >> Connection 반납됨 [threaId=64]
+22/07/08 15:30:30 877 [info]: >> Connection 임대됨 [threaId=64]
+22/07/08 15:30:30 878 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 15:30:30 879 [info]: >> Connection 반납됨 [threaId=64]
+22/07/08 15:30:30 880 [info]: >> Connection 임대됨 [threaId=64]
+22/07/08 15:30:30 880 [debug]: INSERT INTO department (dname, loc) VALUES ('MVC학과', '여긴어디?');
+22/07/08 15:30:30 882 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='218';
+22/07/08 15:30:30 883 [info]: >> Connection 반납됨 [threaId=64]
+22/07/08 15:30:30 883 [info]: >> Connection 임대됨 [threaId=64]
+22/07/08 15:30:30 884 [debug]: UPDATE department SET dname='MVC학과', loc='여긴어디?' WHERE deptno='101';
+22/07/08 15:30:30 886 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 15:30:30 886 [info]: >> Connection 반납됨 [threaId=64]
+22/07/08 15:30:30 887 [info]: Database Pool is closed
+22/07/08 15:51:07 315 [debug]: -----------------------------------
+22/07/08 15:51:07 319 [debug]: |       Start Express Server      |
+22/07/08 15:51:07 319 [debug]: -----------------------------------
+22/07/08 15:51:07 321 [debug]: server address => http://192.168.10.103:3001
+22/07/08 15:51:07 321 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 15:51:17 911 [debug]: 클라이언트가 접속했습니다.
+22/07/08 15:51:17 912 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 15:51:17 913 [debug]: [GET] http://localhost:3001/department
+22/07/08 15:51:17 920 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 15:51:17 921 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 15:51:17 926 [debug]: 클라이언트가 접속했습니다.
+22/07/08 15:51:17 927 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 15:51:17 927 [debug]: [GET] http://localhost:3001/department/
+22/07/08 15:51:17 982 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 56ms
+22/07/08 15:51:17 982 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 15:52:38 264 [info]: Database Pool is closed
+22/07/08 15:56:33 245 [info]: >> DATABASE 접속됨 [threaId=66]
+22/07/08 15:56:33 248 [info]: >> Connection 임대됨 [threaId=66]
+22/07/08 15:56:33 251 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 15:56:33 254 [info]: >> Connection 반납됨 [threaId=66]
+22/07/08 15:56:33 257 [info]: >> Connection 임대됨 [threaId=66]
+22/07/08 15:56:33 258 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 15:56:33 259 [info]: >> Connection 반납됨 [threaId=66]
+22/07/08 15:56:33 260 [info]: >> Connection 임대됨 [threaId=66]
+22/07/08 15:56:33 260 [debug]: INSERT INTO department (dname, loc) VALUES ('MVC학과', '여긴어디?');
+22/07/08 15:56:33 262 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='219';
+22/07/08 15:56:33 263 [info]: >> Connection 반납됨 [threaId=66]
+22/07/08 15:56:33 263 [info]: >> Connection 임대됨 [threaId=66]
+22/07/08 15:56:33 264 [debug]: UPDATE department SET dname='MVC학과', loc='여긴어디?' WHERE deptno='101';
+22/07/08 15:56:33 265 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 15:56:33 265 [info]: >> Connection 반납됨 [threaId=66]
+22/07/08 15:56:33 266 [info]: Database Pool is closed
+22/07/08 15:57:43 502 [debug]: -----------------------------------
+22/07/08 15:57:43 504 [debug]: |       Start Express Server      |
+22/07/08 15:57:43 505 [debug]: -----------------------------------
+22/07/08 15:57:43 505 [debug]: server address => http://192.168.10.103:3001
+22/07/08 15:57:43 506 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 15:57:49 198 [debug]: 클라이언트가 접속했습니다.
+22/07/08 15:57:49 199 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 15:57:49 200 [debug]: [GET] http://localhost:3001/department
+22/07/08 15:57:49 208 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 15:57:49 208 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 15:57:49 213 [debug]: 클라이언트가 접속했습니다.
+22/07/08 15:57:49 213 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 15:57:49 213 [debug]: [GET] http://localhost:3001/department/
+22/07/08 15:57:49 239 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 26ms
+22/07/08 15:57:49 239 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 15:58:03 889 [info]: Database Pool is closed
+22/07/08 15:58:09 432 [debug]: -----------------------------------
+22/07/08 15:58:09 434 [debug]: |       Start Express Server      |
+22/07/08 15:58:09 435 [debug]: -----------------------------------
+22/07/08 15:58:09 435 [debug]: server address => http://192.168.10.103:3001
+22/07/08 15:58:09 436 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:05:25 960 [debug]: -----------------------------------
+22/07/08 16:05:25 962 [debug]: |       Start Express Server      |
+22/07/08 16:05:25 963 [debug]: -----------------------------------
+22/07/08 16:05:25 964 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:05:25 965 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:05:39 538 [debug]: -----------------------------------
+22/07/08 16:05:39 540 [debug]: |       Start Express Server      |
+22/07/08 16:05:39 541 [debug]: -----------------------------------
+22/07/08 16:05:39 541 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:05:39 542 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:05:49 093 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:05:49 094 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:05:49 095 [debug]: [GET] http://localhost:3001/department
+22/07/08 16:05:49 104 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/08 16:05:49 104 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:05:49 109 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:05:49 109 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:05:49 110 [debug]: [GET] http://localhost:3001/department/
+22/07/08 16:05:49 133 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/07/08 16:05:49 134 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:05:50 365 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:05:50 365 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:05:50 365 [debug]: [GET] http://localhost:3001/department
+22/07/08 16:05:50 367 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 16:05:50 367 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:05:50 368 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:05:50 368 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:05:50 369 [debug]: [GET] http://localhost:3001/department/
+22/07/08 16:05:50 374 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/08 16:05:50 374 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:06:08 313 [info]: Database Pool is closed
+22/07/08 16:06:12 568 [debug]: -----------------------------------
+22/07/08 16:06:12 571 [debug]: |       Start Express Server      |
+22/07/08 16:06:12 571 [debug]: -----------------------------------
+22/07/08 16:06:12 571 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:06:12 572 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:06:39 545 [info]: Database Pool is closed
+22/07/08 16:06:42 716 [info]: >> DATABASE 접속됨 [threaId=70]
+22/07/08 16:06:42 718 [info]: >> Connection 임대됨 [threaId=70]
+22/07/08 16:06:42 721 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 16:06:42 725 [info]: >> Connection 반납됨 [threaId=70]
+22/07/08 16:06:42 728 [info]: >> Connection 임대됨 [threaId=70]
+22/07/08 16:06:42 729 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 16:06:42 730 [info]: >> Connection 반납됨 [threaId=70]
+22/07/08 16:06:42 731 [info]: >> Connection 임대됨 [threaId=70]
+22/07/08 16:06:42 731 [debug]: INSERT INTO department (dname, loc) VALUES ('MVC학과', '여긴어디?');
+22/07/08 16:06:42 733 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='220';
+22/07/08 16:06:42 733 [info]: >> Connection 반납됨 [threaId=70]
+22/07/08 16:06:42 734 [info]: >> Connection 임대됨 [threaId=70]
+22/07/08 16:06:42 734 [debug]: UPDATE department SET dname='MVC학과', loc='여긴어디?' WHERE deptno='101';
+22/07/08 16:06:42 735 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 16:06:42 736 [info]: >> Connection 반납됨 [threaId=70]
+22/07/08 16:06:42 736 [info]: Database Pool is closed
+22/07/08 16:07:02 558 [debug]: -----------------------------------
+22/07/08 16:07:02 561 [debug]: |       Start Express Server      |
+22/07/08 16:07:02 562 [debug]: -----------------------------------
+22/07/08 16:07:02 563 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:07:02 563 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:08:42 205 [debug]: -----------------------------------
+22/07/08 16:08:42 208 [debug]: |       Start Express Server      |
+22/07/08 16:08:42 208 [debug]: -----------------------------------
+22/07/08 16:08:42 209 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:08:42 210 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:08:54 864 [debug]: -----------------------------------
+22/07/08 16:08:54 866 [debug]: |       Start Express Server      |
+22/07/08 16:08:54 867 [debug]: -----------------------------------
+22/07/08 16:08:54 867 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:08:54 867 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:10:17 052 [debug]: -----------------------------------
+22/07/08 16:10:17 054 [debug]: |       Start Express Server      |
+22/07/08 16:10:17 055 [debug]: -----------------------------------
+22/07/08 16:10:17 056 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:10:17 056 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:13:20 438 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:13:20 439 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:13:20 440 [debug]: [GET] http://localhost:3001/department/202
+22/07/08 16:13:20 446 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 16:13:20 447 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 16:13:20 452 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/08 16:13:20 453 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:13:44 856 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:13:44 856 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:13:44 857 [debug]: [GET] http://localhost:3001/department/202
+22/07/08 16:13:44 858 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 16:13:44 859 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 16:13:44 860 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 16:13:44 860 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:13:50 142 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:13:50 142 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:13:50 143 [debug]: [GET] http://localhost:3001/department
+22/07/08 16:13:50 144 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 16:13:50 145 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:13:50 145 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:13:50 145 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:13:50 146 [debug]: [GET] http://localhost:3001/department/
+22/07/08 16:13:50 177 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 32ms
+22/07/08 16:13:50 177 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:19:00 556 [debug]: -----------------------------------
+22/07/08 16:19:00 558 [debug]: |       Start Express Server      |
+22/07/08 16:19:00 558 [debug]: -----------------------------------
+22/07/08 16:19:00 559 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:19:00 559 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:19:14 581 [debug]: -----------------------------------
+22/07/08 16:19:14 584 [debug]: |       Start Express Server      |
+22/07/08 16:19:14 585 [debug]: -----------------------------------
+22/07/08 16:19:14 586 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:19:14 587 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:20:42 258 [debug]: -----------------------------------
+22/07/08 16:20:42 261 [debug]: |       Start Express Server      |
+22/07/08 16:20:42 261 [debug]: -----------------------------------
+22/07/08 16:20:42 262 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:20:42 262 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:21:08 217 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:21:08 218 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:21:08 219 [debug]: [GET] http://localhost:3001/department
+22/07/08 16:21:08 228 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/08 16:21:08 229 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:21:08 234 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:21:08 234 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:21:08 234 [debug]: [GET] http://localhost:3001/department/
+22/07/08 16:21:08 260 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 26ms
+22/07/08 16:21:08 260 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:21:11 176 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:21:11 176 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:21:11 176 [debug]: [GET] http://localhost:3001/department/202
+22/07/08 16:21:11 178 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 16:21:11 179 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 16:21:11 180 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 16:21:11 180 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:21:13 540 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:21:13 541 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:21:13 541 [debug]: [GET] http://localhost:3001/department
+22/07/08 16:21:13 542 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 16:21:13 542 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:21:13 543 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:21:13 543 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:21:13 543 [debug]: [GET] http://localhost:3001/department/
+22/07/08 16:21:13 549 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/08 16:21:13 549 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:23:14 165 [debug]: -----------------------------------
+22/07/08 16:23:14 168 [debug]: |       Start Express Server      |
+22/07/08 16:23:14 168 [debug]: -----------------------------------
+22/07/08 16:23:14 169 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:23:14 169 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:24:29 794 [debug]: -----------------------------------
+22/07/08 16:24:29 796 [debug]: |       Start Express Server      |
+22/07/08 16:24:29 796 [debug]: -----------------------------------
+22/07/08 16:24:29 797 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:24:29 797 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:25:52 591 [debug]: -----------------------------------
+22/07/08 16:25:52 593 [debug]: |       Start Express Server      |
+22/07/08 16:25:52 593 [debug]: -----------------------------------
+22/07/08 16:25:52 594 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:25:52 596 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:26:09 490 [debug]: -----------------------------------
+22/07/08 16:26:09 493 [debug]: |       Start Express Server      |
+22/07/08 16:26:09 493 [debug]: -----------------------------------
+22/07/08 16:26:09 494 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:26:09 495 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:28:31 330 [debug]: -----------------------------------
+22/07/08 16:28:31 332 [debug]: |       Start Express Server      |
+22/07/08 16:28:31 332 [debug]: -----------------------------------
+22/07/08 16:28:31 333 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:28:31 333 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:28:42 872 [debug]: -----------------------------------
+22/07/08 16:28:42 876 [debug]: |       Start Express Server      |
+22/07/08 16:28:42 876 [debug]: -----------------------------------
+22/07/08 16:28:42 877 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:28:42 877 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:28:55 369 [debug]: -----------------------------------
+22/07/08 16:28:55 371 [debug]: |       Start Express Server      |
+22/07/08 16:28:55 372 [debug]: -----------------------------------
+22/07/08 16:28:55 372 [debug]: server address => http://192.168.10.103:3001
+22/07/08 16:28:55 372 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 16:44:24 866 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:44:24 867 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:44:24 867 [debug]: [GET] http://localhost:3001/student
+22/07/08 16:44:24 874 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 16:44:24 875 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 16:44:24 882 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/08 16:44:24 882 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:44:30 094 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:44:30 094 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:44:30 094 [debug]: [GET] http://localhost:3001/professor
+22/07/08 16:44:30 097 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/08 16:44:30 097 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:44:30 098 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:44:30 099 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:44:30 099 [debug]: [GET] http://localhost:3001/professor/
+22/07/08 16:44:30 107 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 16:44:30 107 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 16:44:30 108 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 16:44:30 108 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:44:35 187 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:44:35 187 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:44:35 187 [debug]: [GET] http://localhost:3001/department
+22/07/08 16:44:35 189 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 16:44:35 189 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 16:44:35 189 [debug]: 클라이언트가 접속했습니다.
+22/07/08 16:44:35 189 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 16:44:35 190 [debug]: [GET] http://localhost:3001/department/
+22/07/08 16:44:35 214 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 25ms
+22/07/08 16:44:35 215 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:05:03 075 [debug]: -----------------------------------
+22/07/08 17:05:03 077 [debug]: |       Start Express Server      |
+22/07/08 17:05:03 077 [debug]: -----------------------------------
+22/07/08 17:05:03 078 [debug]: server address => http://192.168.10.103:3001
+22/07/08 17:05:03 078 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 17:35:30 043 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:35:30 044 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:35:30 046 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:35:30 054 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/08 17:35:30 055 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:35:30 060 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:35:30 060 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:35:30 061 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:35:30 091 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 31ms
+22/07/08 17:35:30 091 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:43:06 015 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:43:06 015 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:43:06 015 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:43:06 017 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 17:43:06 017 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:43:06 018 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:43:06 018 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:43:06 018 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:43:06 023 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 17:43:06 024 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:43:10 743 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:43:10 743 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:43:10 743 [debug]: [GET] http://localhost:3001/department/202
+22/07/08 17:43:10 745 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 17:43:10 746 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 17:43:10 747 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 17:43:10 747 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:43:30 035 [info]: Database Pool is closed
+22/07/08 17:43:38 054 [info]: >> DATABASE 접속됨 [threaId=78]
+22/07/08 17:43:38 056 [info]: >> Connection 임대됨 [threaId=78]
+22/07/08 17:43:38 059 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 17:43:38 063 [info]: >> Connection 반납됨 [threaId=78]
+22/07/08 17:43:38 068 [info]: >> Connection 임대됨 [threaId=78]
+22/07/08 17:43:38 069 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 17:43:38 070 [info]: >> Connection 반납됨 [threaId=78]
+22/07/08 17:43:38 070 [info]: >> Connection 임대됨 [threaId=78]
+22/07/08 17:43:38 071 [debug]: INSERT INTO department (dname, loc) VALUES ('MVC학과', '여긴어디?');
+22/07/08 17:43:38 073 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='221';
+22/07/08 17:43:38 074 [info]: >> Connection 반납됨 [threaId=78]
+22/07/08 17:43:38 074 [info]: >> Connection 임대됨 [threaId=78]
+22/07/08 17:43:38 075 [debug]: UPDATE department SET dname='MVC학과', loc='여긴어디?' WHERE deptno='101';
+22/07/08 17:43:38 076 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 17:43:38 076 [info]: >> Connection 반납됨 [threaId=78]
+22/07/08 17:43:38 077 [info]: Database Pool is closed
+22/07/08 17:44:57 446 [debug]: -----------------------------------
+22/07/08 17:44:57 448 [debug]: |       Start Express Server      |
+22/07/08 17:44:57 449 [debug]: -----------------------------------
+22/07/08 17:44:57 449 [debug]: server address => http://192.168.10.103:3001
+22/07/08 17:44:57 449 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:02 769 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:45:02 769 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:45:02 770 [debug]: [GET] http://localhost:3001/department/220
+22/07/08 17:45:02 776 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 17:45:02 776 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 17:45:02 781 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/08 17:45:02 782 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:04 616 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:45:04 617 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:45:04 617 [debug]: [GET] http://localhost:3001/department/220
+22/07/08 17:45:04 619 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 17:45:04 619 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 17:45:04 620 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/08 17:45:04 620 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:07 006 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:45:07 006 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:45:07 006 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:45:07 008 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 17:45:07 008 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:07 011 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:45:07 012 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:45:07 012 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:45:07 036 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/07/08 17:45:07 037 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:42 761 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:45:42 761 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:45:42 762 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:45:42 763 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 17:45:42 764 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:42 764 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:45:42 765 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:45:42 765 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:45:42 769 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 17:45:42 769 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:47 045 [info]: Database Pool is closed
+22/07/08 17:45:48 729 [debug]: -----------------------------------
+22/07/08 17:45:48 732 [debug]: |       Start Express Server      |
+22/07/08 17:45:48 732 [debug]: -----------------------------------
+22/07/08 17:45:48 732 [debug]: server address => http://192.168.10.103:3001
+22/07/08 17:45:48 733 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:51 083 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:45:51 083 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:45:51 084 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:45:51 092 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 17:45:51 093 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:45:51 097 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:45:51 098 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:45:51 098 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:45:51 122 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/07/08 17:45:51 122 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:47:27 993 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:47:27 994 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:47:27 994 [debug]: [POST] http://localhost:3001/department
+22/07/08 17:47:27 997 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/08 17:47:27 997 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:210:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/08 17:47:27 998 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 17:47:27 999 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:47:30 504 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:47:30 504 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:47:30 504 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:47:30 506 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 17:47:30 506 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:47:30 507 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:47:30 507 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:47:30 507 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:47:30 514 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/08 17:47:30 514 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:50:00 857 [debug]: -----------------------------------
+22/07/08 17:50:00 859 [debug]: |       Start Express Server      |
+22/07/08 17:50:00 860 [debug]: -----------------------------------
+22/07/08 17:50:00 860 [debug]: server address => http://192.168.10.103:3001
+22/07/08 17:50:00 861 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 17:50:03 301 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:50:03 302 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:50:03 303 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:50:03 310 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 17:50:03 311 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:50:03 316 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:50:03 316 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:50:03 316 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:50:03 340 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/07/08 17:50:03 341 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:51:35 856 [debug]: -----------------------------------
+22/07/08 17:51:35 858 [debug]: |       Start Express Server      |
+22/07/08 17:51:35 859 [debug]: -----------------------------------
+22/07/08 17:51:35 859 [debug]: server address => http://192.168.10.103:3001
+22/07/08 17:51:35 859 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 17:51:38 946 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:51:38 947 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:51:38 947 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:51:38 955 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/08 17:51:38 956 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:51:38 960 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:51:38 960 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:51:38 961 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:51:38 984 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/07/08 17:51:38 984 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:54:11 573 [debug]: -----------------------------------
+22/07/08 17:54:11 575 [debug]: |       Start Express Server      |
+22/07/08 17:54:11 576 [debug]: -----------------------------------
+22/07/08 17:54:11 576 [debug]: server address => http://192.168.10.103:3001
+22/07/08 17:54:11 576 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 17:54:54 809 [debug]: -----------------------------------
+22/07/08 17:54:54 812 [debug]: |       Start Express Server      |
+22/07/08 17:54:54 812 [debug]: -----------------------------------
+22/07/08 17:54:54 813 [debug]: server address => http://192.168.10.103:3001
+22/07/08 17:54:54 813 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:20 325 [debug]: -----------------------------------
+22/07/08 17:58:20 327 [debug]: |       Start Express Server      |
+22/07/08 17:58:20 327 [debug]: -----------------------------------
+22/07/08 17:58:20 328 [debug]: server address => http://192.168.10.103:3001
+22/07/08 17:58:20 328 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:27 740 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:58:27 740 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:58:27 741 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:58:27 748 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/08 17:58:27 749 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:27 754 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:58:27 754 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:58:27 755 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:58:27 777 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/07/08 17:58:27 777 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:28 693 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:58:28 694 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:58:28 694 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:58:28 697 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/08 17:58:28 697 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:28 701 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:58:28 701 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:58:28 701 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:58:28 712 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/08 17:58:28 712 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:28 971 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:58:28 971 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:58:28 971 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:58:28 973 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 17:58:28 973 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:28 976 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:58:28 976 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:58:28 977 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:58:28 983 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/08 17:58:28 983 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:29 402 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:58:29 403 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:58:29 403 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:58:29 404 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 17:58:29 404 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:58:29 405 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:58:29 405 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:58:29 405 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:58:29 410 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 17:58:29 411 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:59:07 846 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:59:07 846 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:59:07 847 [debug]: [GET] http://localhost:3001/department
+22/07/08 17:59:07 848 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 17:59:07 848 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 17:59:07 849 [debug]: 클라이언트가 접속했습니다.
+22/07/08 17:59:07 849 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 17:59:07 849 [debug]: [GET] http://localhost:3001/department/
+22/07/08 17:59:07 855 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/08 17:59:07 855 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:02:07 009 [debug]: -----------------------------------
+22/07/08 18:02:07 012 [debug]: |       Start Express Server      |
+22/07/08 18:02:07 012 [debug]: -----------------------------------
+22/07/08 18:02:07 013 [debug]: server address => http://192.168.10.103:3001
+22/07/08 18:02:07 013 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 18:04:08 125 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:04:08 125 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:04:08 126 [debug]: [GET] http://localhost:3001/department
+22/07/08 18:04:08 134 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 18:04:08 135 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:04:08 139 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:04:08 140 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:04:08 140 [debug]: [GET] http://localhost:3001/department/
+22/07/08 18:04:08 179 [info]: >> DATABASE 접속됨 [threaId=90]
+22/07/08 18:04:08 179 [info]: >> Connection 임대됨 [threaId=90]
+22/07/08 18:04:08 183 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 18:04:28 096 [debug]: -----------------------------------
+22/07/08 18:04:28 102 [debug]: |       Start Express Server      |
+22/07/08 18:04:28 103 [debug]: -----------------------------------
+22/07/08 18:04:28 103 [debug]: server address => http://192.168.10.103:3001
+22/07/08 18:04:28 104 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 18:04:31 465 [info]: Database Pool is closed
+22/07/08 18:04:33 635 [debug]: -----------------------------------
+22/07/08 18:04:33 637 [debug]: |       Start Express Server      |
+22/07/08 18:04:33 638 [debug]: -----------------------------------
+22/07/08 18:04:33 638 [debug]: server address => http://192.168.10.103:3001
+22/07/08 18:04:33 639 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 18:04:36 618 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:04:36 618 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:04:36 619 [debug]: [GET] http://localhost:3001/department
+22/07/08 18:04:36 627 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 18:04:36 628 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:04:36 632 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:04:36 632 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:04:36 633 [debug]: [GET] http://localhost:3001/department/
+22/07/08 18:04:36 651 [info]: >> DATABASE 접속됨 [threaId=91]
+22/07/08 18:04:36 652 [info]: >> Connection 임대됨 [threaId=91]
+22/07/08 18:04:36 655 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 18:04:36 658 [info]: >> Connection 반납됨 [threaId=91]
+22/07/08 18:04:36 660 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 28ms
+22/07/08 18:04:36 660 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:05:58 009 [debug]: -----------------------------------
+22/07/08 18:05:58 012 [debug]: |       Start Express Server      |
+22/07/08 18:05:58 012 [debug]: -----------------------------------
+22/07/08 18:05:58 013 [debug]: server address => http://192.168.10.103:3001
+22/07/08 18:05:58 013 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 18:06:00 485 [debug]: -----------------------------------
+22/07/08 18:06:00 488 [debug]: |       Start Express Server      |
+22/07/08 18:06:00 489 [debug]: -----------------------------------
+22/07/08 18:06:00 489 [debug]: server address => http://192.168.10.103:3001
+22/07/08 18:06:00 490 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 18:06:02 094 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:06:02 094 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:06:02 095 [debug]: [GET] http://localhost:3001/department
+22/07/08 18:06:02 106 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/08 18:06:02 107 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:06:02 112 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:06:02 112 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:06:02 113 [debug]: [GET] http://localhost:3001/department/
+22/07/08 18:06:02 116 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:06:02 132 [info]: >> DATABASE 접속됨 [threaId=92]
+22/07/08 18:06:02 133 [info]: >> Connection 임대됨 [threaId=92]
+22/07/08 18:06:02 138 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 18:06:02 183 [info]: >> Connection 반납됨 [threaId=92]
+22/07/08 18:06:02 186 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 74ms
+22/07/08 18:06:02 186 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:06:04 363 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:06:04 363 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:06:04 363 [debug]: [GET] http://localhost:3001/department/220
+22/07/08 18:06:04 365 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:06:04 365 [info]: >> Connection 임대됨 [threaId=92]
+22/07/08 18:06:04 366 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='220';
+22/07/08 18:06:04 367 [info]: >> Connection 반납됨 [threaId=92]
+22/07/08 18:06:04 367 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 18:06:04 368 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:09:04 937 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:09:04 938 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:09:04 938 [debug]: [GET] http://localhost:3001/department/205
+22/07/08 18:09:04 939 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:09:04 940 [info]: >> Connection 임대됨 [threaId=92]
+22/07/08 18:09:04 940 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='205';
+22/07/08 18:09:04 941 [info]: >> Connection 반납됨 [threaId=92]
+22/07/08 18:09:04 942 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/08 18:09:04 942 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getItem (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:54:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:51:14
+22/07/08 18:09:04 943 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 18:09:04 943 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:09:10 059 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:09:10 059 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:09:10 059 [debug]: [GET] http://localhost:3001/department/210
+22/07/08 18:09:10 060 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:09:10 061 [info]: >> Connection 임대됨 [threaId=92]
+22/07/08 18:09:10 061 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='210';
+22/07/08 18:09:10 062 [info]: >> Connection 반납됨 [threaId=92]
+22/07/08 18:09:10 062 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/08 18:09:10 062 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getItem (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:54:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:51:14
+22/07/08 18:09:10 063 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 18:09:10 063 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:09:13 014 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:09:13 014 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:09:13 014 [debug]: [GET] http://localhost:3001/department/101
+22/07/08 18:09:13 015 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:09:13 016 [info]: >> Connection 임대됨 [threaId=92]
+22/07/08 18:09:13 016 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/08 18:09:13 017 [info]: >> Connection 반납됨 [threaId=92]
+22/07/08 18:09:13 018 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 18:09:13 018 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:10:26 829 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:10:26 829 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:10:26 830 [debug]: [POST] http://localhost:3001/department
+22/07/08 18:10:26 845 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:10:26 845 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:10:26 845 [info]: >> Connection 임대됨 [threaId=92]
+22/07/08 18:10:26 846 [debug]: INSERT INTO department (dname, loc) VALUES ('새로운 학과', '여긴어디?');
+22/07/08 18:10:26 848 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='222';
+22/07/08 18:10:26 849 [info]: >> Connection 반납됨 [threaId=92]
+22/07/08 18:10:26 849 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+22/07/08 18:10:26 849 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:11:30 060 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:11:30 060 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:11:30 060 [debug]: [PUT] http://localhost:3001/department/222
+22/07/08 18:11:30 062 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:11:30 062 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:11:30 062 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:11:30 062 [info]: >> Connection 임대됨 [threaId=92]
+22/07/08 18:11:30 063 [debug]: UPDATE department SET dname='수정된학과', loc='나는누구?' WHERE deptno='222';
+22/07/08 18:11:30 064 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='222';
+22/07/08 18:11:30 064 [info]: >> Connection 반납됨 [threaId=92]
+22/07/08 18:11:30 064 [error]: [ReferenceError] json is not defined
+22/07/08 18:11:30 064 [error]: ReferenceError: json is not defined
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:113:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/07/08 18:11:30 065 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 18:11:30 065 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:12:55 590 [debug]: -----------------------------------
+22/07/08 18:12:55 592 [debug]: |       Start Express Server      |
+22/07/08 18:12:55 593 [debug]: -----------------------------------
+22/07/08 18:12:55 593 [debug]: server address => http://192.168.10.103:3001
+22/07/08 18:12:55 593 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 18:12:57 296 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:12:57 297 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:12:57 298 [debug]: [PUT] http://localhost:3001/department/222
+22/07/08 18:12:57 314 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:12:57 315 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:12:57 316 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:12:57 361 [info]: >> DATABASE 접속됨 [threaId=93]
+22/07/08 18:12:57 361 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:12:57 363 [debug]: UPDATE department SET dname='수정된학과', loc='나는누구?' WHERE deptno='222';
+22/07/08 18:12:57 365 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='222';
+22/07/08 18:12:57 368 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:12:57 372 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 75ms
+22/07/08 18:12:57 372 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:13:08 357 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:13:08 357 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:13:08 357 [debug]: [GET] http://localhost:3001/department
+22/07/08 18:13:08 361 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 18:13:08 361 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:13:08 365 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:13:08 365 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:13:08 365 [debug]: [GET] http://localhost:3001/department/
+22/07/08 18:13:08 368 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:13:08 368 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:13:08 370 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 18:13:08 371 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:13:08 372 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/08 18:13:08 372 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:13:39 307 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:13:39 307 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:13:39 308 [debug]: [DELETE] http://localhost:3001/department/222
+22/07/08 18:13:39 308 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:13:39 309 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:13:39 309 [debug]: DELETE FROM student WHERE deptno='222';
+22/07/08 18:13:39 310 [debug]: DELETE FROM professor WHERE deptno='222';
+22/07/08 18:13:39 311 [debug]: DELETE FROM department WHERE deptno='222';
+22/07/08 18:13:39 311 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:13:39 312 [error]: [ReferenceError] data is not defined
+22/07/08 18:13:39 312 [error]: ReferenceError: data is not defined
+    at DepartmentService.deleteItem (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:160:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:140:7
+22/07/08 18:13:39 312 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 18:13:39 313 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:15:21 716 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:15:21 716 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:15:21 716 [debug]: [GET] http://localhost:3001/department
+22/07/08 18:15:21 718 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 18:15:21 718 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:15:21 719 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:15:21 719 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:15:21 719 [debug]: [GET] http://localhost:3001/department/
+22/07/08 18:15:21 721 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:15:21 721 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:15:21 722 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 18:15:21 723 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:15:21 724 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 18:15:21 724 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:16:57 740 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:16:57 740 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:16:57 741 [debug]: [DELETE] http://localhost:3001/department/221
+22/07/08 18:16:57 742 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:16:57 742 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:16:57 742 [debug]: DELETE FROM student WHERE deptno='221';
+22/07/08 18:16:57 743 [debug]: DELETE FROM professor WHERE deptno='221';
+22/07/08 18:16:57 744 [debug]: DELETE FROM department WHERE deptno='221';
+22/07/08 18:16:57 745 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:16:57 746 [error]: [ReferenceError] data is not defined
+22/07/08 18:16:57 746 [error]: ReferenceError: data is not defined
+    at DepartmentService.deleteItem (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:160:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:140:7
+22/07/08 18:16:57 747 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/08 18:16:57 747 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:16:59 896 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:16:59 897 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:16:59 897 [debug]: [GET] http://localhost:3001/department
+22/07/08 18:16:59 898 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 18:16:59 898 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:16:59 899 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:16:59 899 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:16:59 900 [debug]: [GET] http://localhost:3001/department/
+22/07/08 18:16:59 901 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:16:59 902 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:16:59 902 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 18:16:59 904 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:16:59 904 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 18:16:59 905 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:32:28 414 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:32:28 414 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:32:28 414 [debug]: [GET] http://localhost:3001/department?query=node
+22/07/08 18:32:28 416 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 18:32:28 416 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:32:28 417 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:32:28 417 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:32:28 418 [debug]: [GET] http://localhost:3001/department/?query=node
+22/07/08 18:32:28 419 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:32:28 419 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:32:28 420 [debug]: SELECT deptno, dname, loc FROM department WHERE dname LIKE concat('%', 'node', '%') OR loc LIKE concat('%', 'node', '%') ORDER BY deptno DESC
+22/07/08 18:32:28 422 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:32:28 422 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/08 18:32:28 422 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:25:14
+22/07/08 18:32:28 423 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/08 18:32:28 423 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:32:34 728 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:32:34 728 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:32:34 728 [debug]: [GET] http://localhost:3001/department?query=mvc
+22/07/08 18:32:34 729 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 18:32:34 729 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:32:34 730 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:32:34 730 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:32:34 730 [debug]: [GET] http://localhost:3001/department/?query=mvc
+22/07/08 18:32:34 732 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:32:34 732 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:32:34 733 [debug]: SELECT deptno, dname, loc FROM department WHERE dname LIKE concat('%', 'mvc', '%') OR loc LIKE concat('%', 'mvc', '%') ORDER BY deptno DESC
+22/07/08 18:32:34 734 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:32:34 734 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 18:32:34 735 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:33:18 694 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:33:18 694 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:33:18 694 [debug]: [GET] http://localhost:3001/department?query=여긴
+22/07/08 18:33:18 696 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 18:33:18 696 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:33:18 696 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:33:18 697 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:33:18 697 [debug]: [GET] http://localhost:3001/department/?query=여긴
+22/07/08 18:33:18 698 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:33:18 698 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:33:18 699 [debug]: SELECT deptno, dname, loc FROM department WHERE dname LIKE concat('%', '여긴', '%') OR loc LIKE concat('%', '여긴', '%') ORDER BY deptno DESC
+22/07/08 18:33:18 700 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:33:18 701 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 18:33:18 701 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:33:23 470 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:33:23 470 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:33:23 470 [debug]: [GET] http://localhost:3001/department?query=공학
+22/07/08 18:33:23 471 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 18:33:23 472 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 18:33:23 472 [debug]: 클라이언트가 접속했습니다.
+22/07/08 18:33:23 472 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 18:33:23 472 [debug]: [GET] http://localhost:3001/department/?query=공학
+22/07/08 18:33:23 473 [debug]: [HTTP %s Params] %s=%s
+22/07/08 18:33:23 473 [info]: >> Connection 임대됨 [threaId=93]
+22/07/08 18:33:23 474 [debug]: SELECT deptno, dname, loc FROM department WHERE dname LIKE concat('%', '공학', '%') OR loc LIKE concat('%', '공학', '%') ORDER BY deptno DESC
+22/07/08 18:33:23 474 [info]: >> Connection 반납됨 [threaId=93]
+22/07/08 18:33:23 475 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/08 18:33:23 475 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:36:58 905 [debug]: -----------------------------------
+22/07/08 19:36:58 907 [debug]: |       Start Express Server      |
+22/07/08 19:36:58 907 [debug]: -----------------------------------
+22/07/08 19:36:58 908 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:36:58 908 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:43:51 800 [debug]: -----------------------------------
+22/07/08 19:43:51 802 [debug]: |       Start Express Server      |
+22/07/08 19:43:51 803 [debug]: -----------------------------------
+22/07/08 19:43:51 803 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:43:51 804 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:44:59 637 [debug]: -----------------------------------
+22/07/08 19:44:59 639 [debug]: |       Start Express Server      |
+22/07/08 19:44:59 639 [debug]: -----------------------------------
+22/07/08 19:44:59 640 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:44:59 640 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:45:23 657 [debug]: -----------------------------------
+22/07/08 19:45:23 659 [debug]: |       Start Express Server      |
+22/07/08 19:45:23 659 [debug]: -----------------------------------
+22/07/08 19:45:23 660 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:45:23 660 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:46:02 086 [debug]: -----------------------------------
+22/07/08 19:46:02 089 [debug]: |       Start Express Server      |
+22/07/08 19:46:02 089 [debug]: -----------------------------------
+22/07/08 19:46:02 089 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:46:02 090 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:46:22 204 [debug]: -----------------------------------
+22/07/08 19:46:22 206 [debug]: |       Start Express Server      |
+22/07/08 19:46:22 207 [debug]: -----------------------------------
+22/07/08 19:46:22 207 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:46:22 207 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:48:47 458 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:48:47 459 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:48:47 460 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 19:48:47 468 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 19:48:47 468 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:48:47 473 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:48:47 473 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:48:47 473 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 19:48:47 476 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:48:47 477 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:48:47 477 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:48:47 478 [error]: [TypeError] departmentService.getCount is not a function
+22/07/08 19:48:47 478 [error]: TypeError: departmentService.getCount is not a function
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:34:50
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/08 19:48:47 480 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/08 19:48:47 480 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:52:26 310 [debug]: -----------------------------------
+22/07/08 19:52:26 314 [debug]: |       Start Express Server      |
+22/07/08 19:52:26 314 [debug]: -----------------------------------
+22/07/08 19:52:26 316 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:52:26 316 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:52:38 939 [debug]: -----------------------------------
+22/07/08 19:52:38 941 [debug]: |       Start Express Server      |
+22/07/08 19:52:38 942 [debug]: -----------------------------------
+22/07/08 19:52:38 942 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:52:38 942 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:52:43 419 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:52:43 419 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:52:43 420 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 19:52:43 428 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 19:52:43 428 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:52:43 433 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:52:43 433 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:52:43 433 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 19:52:43 436 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:52:43 437 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:52:43 437 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:52:43 457 [info]: >> DATABASE 접속됨 [threaId=94]
+22/07/08 19:52:43 458 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:52:43 461 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:52:43 463 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:52:43 464 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:52:43 465 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:52:43 466 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:52:43 468 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 35ms
+22/07/08 19:52:43 468 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:53:31 684 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:53:31 685 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:53:31 685 [debug]: [GET] http://localhost:3001/department
+22/07/08 19:53:31 686 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 19:53:31 686 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:53:31 690 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:53:31 690 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:53:31 690 [debug]: [GET] http://localhost:3001/department/
+22/07/08 19:53:31 691 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:53:31 692 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:53:31 692 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:53:31 692 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:53:31 694 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:53:31 695 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:53:31 695 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:53:31 697 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:53:31 698 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:53:31 699 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 19:53:31 699 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:53:47 384 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:53:47 384 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:53:47 384 [debug]: [GET] http://localhost:3001/department?page=1
+22/07/08 19:53:47 385 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 19:53:47 385 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:53:47 386 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:53:47 386 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:53:47 387 [debug]: [GET] http://localhost:3001/department/?page=1
+22/07/08 19:53:47 387 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:53:47 388 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:53:47 388 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:53:47 388 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:53:47 388 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:53:47 389 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:53:47 389 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:53:47 389 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:53:47 390 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:53:47 390 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 19:53:47 391 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:54:03 116 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:54:03 116 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:54:03 116 [debug]: [GET] http://localhost:3001/department?page=2
+22/07/08 19:54:03 118 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 19:54:03 118 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:54:03 119 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:54:03 119 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:54:03 119 [debug]: [GET] http://localhost:3001/department/?page=2
+22/07/08 19:54:03 120 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:54:03 120 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:54:03 121 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:54:03 121 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:54:03 121 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:54:03 122 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:54:03 122 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:54:03 122 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:54:03 123 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:54:03 124 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 19:54:03 124 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:54:16 979 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:54:16 979 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:54:16 979 [debug]: [GET] http://localhost:3001/department?page=1
+22/07/08 19:54:16 981 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 19:54:16 981 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:54:16 982 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:54:16 982 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:54:16 982 [debug]: [GET] http://localhost:3001/department/?page=1
+22/07/08 19:54:16 984 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:54:16 984 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:54:16 985 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:54:16 985 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:54:16 985 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:54:16 986 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:54:16 987 [info]: >> Connection 임대됨 [threaId=94]
+22/07/08 19:54:16 987 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:54:16 988 [info]: >> Connection 반납됨 [threaId=94]
+22/07/08 19:54:16 989 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/08 19:54:16 989 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:55:36 589 [info]: Database Pool is closed
+22/07/08 19:55:38 341 [debug]: -----------------------------------
+22/07/08 19:55:38 344 [debug]: |       Start Express Server      |
+22/07/08 19:55:38 344 [debug]: -----------------------------------
+22/07/08 19:55:38 344 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:55:38 345 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:55:44 592 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:55:44 593 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:55:44 594 [debug]: [GET] http://localhost:3001/department?page=1
+22/07/08 19:55:44 602 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 19:55:44 603 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:55:44 608 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:55:44 608 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:55:44 608 [debug]: [GET] http://localhost:3001/department/?page=1
+22/07/08 19:55:44 611 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:44 612 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:44 612 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:44 634 [info]: >> DATABASE 접속됨 [threaId=95]
+22/07/08 19:55:44 634 [info]: >> Connection 임대됨 [threaId=95]
+22/07/08 19:55:44 637 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:55:44 643 [info]: >> Connection 반납됨 [threaId=95]
+22/07/08 19:55:44 643 [info]: >> Connection 임대됨 [threaId=95]
+22/07/08 19:55:44 644 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:55:44 649 [info]: >> Connection 반납됨 [threaId=95]
+22/07/08 19:55:44 651 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 43ms
+22/07/08 19:55:44 651 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:55:50 001 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:55:50 001 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:55:50 001 [debug]: [GET] http://localhost:3001/department?page=2
+22/07/08 19:55:50 003 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 19:55:50 003 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:55:50 007 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:55:50 007 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:55:50 007 [debug]: [GET] http://localhost:3001/department/?page=2
+22/07/08 19:55:50 008 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:50 009 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:50 009 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:50 009 [info]: >> Connection 임대됨 [threaId=95]
+22/07/08 19:55:50 010 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:55:50 011 [info]: >> Connection 반납됨 [threaId=95]
+22/07/08 19:55:50 011 [info]: >> Connection 임대됨 [threaId=95]
+22/07/08 19:55:50 012 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:55:50 013 [info]: >> Connection 반납됨 [threaId=95]
+22/07/08 19:55:50 013 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/08 19:55:50 014 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:55:54 457 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:55:54 457 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:55:54 457 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 19:55:54 459 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 19:55:54 459 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:55:54 459 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:55:54 460 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:55:54 460 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 19:55:54 461 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:54 461 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:54 461 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:55:54 461 [info]: >> Connection 임대됨 [threaId=95]
+22/07/08 19:55:54 462 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:55:54 463 [info]: >> Connection 반납됨 [threaId=95]
+22/07/08 19:55:54 463 [info]: >> Connection 임대됨 [threaId=95]
+22/07/08 19:55:54 463 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:55:54 464 [info]: >> Connection 반납됨 [threaId=95]
+22/07/08 19:55:54 465 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/08 19:55:54 465 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:43 114 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:58:43 115 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:58:43 115 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 19:58:43 117 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 19:58:43 118 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:43 118 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:58:43 118 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:58:43 119 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 19:58:43 120 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:43 120 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:43 120 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:43 120 [info]: >> Connection 임대됨 [threaId=95]
+22/07/08 19:58:43 120 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:58:43 121 [info]: >> Connection 반납됨 [threaId=95]
+22/07/08 19:58:43 121 [info]: >> Connection 임대됨 [threaId=95]
+22/07/08 19:58:43 121 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:58:43 122 [info]: >> Connection 반납됨 [threaId=95]
+22/07/08 19:58:43 122 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 19:58:43 123 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:45 320 [info]: Database Pool is closed
+22/07/08 19:58:46 881 [debug]: -----------------------------------
+22/07/08 19:58:46 883 [debug]: |       Start Express Server      |
+22/07/08 19:58:46 883 [debug]: -----------------------------------
+22/07/08 19:58:46 884 [debug]: server address => http://192.168.10.103:3001
+22/07/08 19:58:46 884 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:49 141 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:58:49 141 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:58:49 142 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 19:58:49 150 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/08 19:58:49 150 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:49 155 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:58:49 155 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:58:49 155 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 19:58:49 158 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:49 159 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:49 159 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:49 175 [info]: >> DATABASE 접속됨 [threaId=96]
+22/07/08 19:58:49 176 [info]: >> Connection 임대됨 [threaId=96]
+22/07/08 19:58:49 178 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:58:49 181 [info]: >> Connection 반납됨 [threaId=96]
+22/07/08 19:58:49 181 [info]: >> Connection 임대됨 [threaId=96]
+22/07/08 19:58:49 182 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:58:49 184 [info]: >> Connection 반납됨 [threaId=96]
+22/07/08 19:58:49 186 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 31ms
+22/07/08 19:58:49 186 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:55 744 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:58:55 745 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:58:55 745 [debug]: [GET] http://localhost:3001/department?page=2&rows=5
+22/07/08 19:58:55 747 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 19:58:55 747 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:55 751 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:58:55 751 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:58:55 751 [debug]: [GET] http://localhost:3001/department/?page=2&rows=5
+22/07/08 19:58:55 753 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:55 753 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:55 753 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:55 753 [info]: >> Connection 임대됨 [threaId=96]
+22/07/08 19:58:55 754 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:58:55 756 [info]: >> Connection 반납됨 [threaId=96]
+22/07/08 19:58:55 757 [info]: >> Connection 임대됨 [threaId=96]
+22/07/08 19:58:55 757 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:58:55 758 [info]: >> Connection 반납됨 [threaId=96]
+22/07/08 19:58:55 759 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/08 19:58:55 759 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:59 666 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:58:59 667 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:58:59 667 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 19:58:59 668 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 19:58:59 668 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 19:58:59 669 [debug]: 클라이언트가 접속했습니다.
+22/07/08 19:58:59 669 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 19:58:59 670 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 19:58:59 671 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:59 671 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:59 671 [debug]: [HTTP %s Params] %s=%s
+22/07/08 19:58:59 671 [info]: >> Connection 임대됨 [threaId=96]
+22/07/08 19:58:59 672 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 19:58:59 673 [info]: >> Connection 반납됨 [threaId=96]
+22/07/08 19:58:59 673 [info]: >> Connection 임대됨 [threaId=96]
+22/07/08 19:58:59 674 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 19:58:59 674 [info]: >> Connection 반납됨 [threaId=96]
+22/07/08 19:58:59 675 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/08 19:58:59 675 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:01:13 330 [debug]: -----------------------------------
+22/07/08 20:01:13 333 [debug]: |       Start Express Server      |
+22/07/08 20:01:13 333 [debug]: -----------------------------------
+22/07/08 20:01:13 333 [debug]: server address => http://192.168.10.103:3001
+22/07/08 20:01:13 334 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 20:03:34 484 [debug]: -----------------------------------
+22/07/08 20:03:34 487 [debug]: |       Start Express Server      |
+22/07/08 20:03:34 487 [debug]: -----------------------------------
+22/07/08 20:03:34 488 [debug]: server address => http://192.168.10.103:3001
+22/07/08 20:03:34 488 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 20:04:54 259 [debug]: -----------------------------------
+22/07/08 20:04:54 261 [debug]: |       Start Express Server      |
+22/07/08 20:04:54 262 [debug]: -----------------------------------
+22/07/08 20:04:54 262 [debug]: server address => http://192.168.10.103:3001
+22/07/08 20:04:54 262 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 20:04:59 817 [debug]: -----------------------------------
+22/07/08 20:04:59 819 [debug]: |       Start Express Server      |
+22/07/08 20:04:59 820 [debug]: -----------------------------------
+22/07/08 20:04:59 820 [debug]: server address => http://192.168.10.103:3001
+22/07/08 20:04:59 820 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 20:05:36 319 [debug]: -----------------------------------
+22/07/08 20:05:36 322 [debug]: |       Start Express Server      |
+22/07/08 20:05:36 322 [debug]: -----------------------------------
+22/07/08 20:05:36 323 [debug]: server address => http://192.168.10.103:3001
+22/07/08 20:05:36 323 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 20:05:40 506 [info]: Database Pool is closed
+22/07/08 20:05:42 982 [info]: >> DATABASE 접속됨 [threaId=97]
+22/07/08 20:05:42 984 [info]: >> Connection 임대됨 [threaId=97]
+22/07/08 20:05:42 988 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC
+22/07/08 20:05:42 991 [info]: >> Connection 반납됨 [threaId=97]
+22/07/08 20:05:42 995 [info]: >> Connection 임대됨 [threaId=97]
+22/07/08 20:05:42 996 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='220';
+22/07/08 20:05:42 998 [info]: >> Connection 반납됨 [threaId=97]
+22/07/08 20:05:42 998 [info]: >> Connection 임대됨 [threaId=97]
+22/07/08 20:05:42 999 [debug]: INSERT INTO department (dname, loc) VALUES ('MVC학과', '여긴어디?');
+22/07/08 20:05:43 001 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='223';
+22/07/08 20:05:43 002 [info]: >> Connection 반납됨 [threaId=97]
+22/07/08 20:05:43 002 [info]: >> Connection 임대됨 [threaId=97]
+22/07/08 20:05:43 003 [debug]: UPDATE department SET dname='MVC학과', loc='여긴어디?' WHERE deptno='220';
+22/07/08 20:05:43 004 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='220';
+22/07/08 20:05:43 005 [info]: >> Connection 반납됨 [threaId=97]
+22/07/08 20:05:43 005 [info]: >> Connection 임대됨 [threaId=97]
+22/07/08 20:05:43 006 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:05:43 007 [info]: >> Connection 반납됨 [threaId=97]
+22/07/08 20:05:43 007 [info]: Database Pool is closed
+22/07/08 20:05:56 993 [debug]: -----------------------------------
+22/07/08 20:05:56 995 [debug]: |       Start Express Server      |
+22/07/08 20:05:56 995 [debug]: -----------------------------------
+22/07/08 20:05:56 996 [debug]: server address => http://192.168.10.103:3001
+22/07/08 20:05:56 996 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 20:06:39 681 [debug]: -----------------------------------
+22/07/08 20:06:39 684 [debug]: |       Start Express Server      |
+22/07/08 20:06:39 684 [debug]: -----------------------------------
+22/07/08 20:06:39 685 [debug]: server address => http://192.168.10.103:3001
+22/07/08 20:06:39 685 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 20:06:51 080 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:06:51 081 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:06:51 082 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 20:06:51 089 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/08 20:06:51 089 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:06:51 094 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:06:51 094 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:06:51 094 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 20:06:51 097 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:06:51 098 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:06:51 098 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:06:51 112 [info]: >> DATABASE 접속됨 [threaId=98]
+22/07/08 20:06:51 113 [info]: >> Connection 임대됨 [threaId=98]
+22/07/08 20:06:51 115 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:06:51 118 [info]: >> Connection 반납됨 [threaId=98]
+22/07/08 20:06:51 118 [error]: [ReferenceError] Cannot access 'nowGroup' before initialization
+22/07/08 20:06:51 119 [error]: ReferenceError: Cannot access 'nowGroup' before initialization
+    at pagenation (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/UtilHelper.js:63:30)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:35:18
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/07/08 20:06:51 121 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 27ms
+22/07/08 20:06:51 121 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:08:20 726 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:08:20 726 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:08:20 727 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 20:08:20 728 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 20:08:20 728 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:08:20 729 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:08:20 729 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:08:20 729 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 20:08:20 731 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:08:20 731 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:08:20 731 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:08:20 731 [info]: >> Connection 임대됨 [threaId=98]
+22/07/08 20:08:20 732 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:08:20 733 [info]: >> Connection 반납됨 [threaId=98]
+22/07/08 20:08:20 733 [error]: [ReferenceError] Cannot access 'nowGroup' before initialization
+22/07/08 20:08:20 733 [error]: ReferenceError: Cannot access 'nowGroup' before initialization
+    at pagenation (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/UtilHelper.js:63:30)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:35:18
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/07/08 20:08:20 734 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 20:08:20 734 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:09:49 864 [info]: Database Pool is closed
+22/07/08 20:09:51 920 [debug]: -----------------------------------
+22/07/08 20:09:51 922 [debug]: |       Start Express Server      |
+22/07/08 20:09:51 922 [debug]: -----------------------------------
+22/07/08 20:09:51 923 [debug]: server address => http://192.168.10.103:3001
+22/07/08 20:09:51 923 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/08 20:09:54 347 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:09:54 348 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:09:54 349 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 20:09:54 356 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/08 20:09:54 357 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:09:54 361 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:09:54 362 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:09:54 362 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 20:09:54 364 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:09:54 365 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:09:54 365 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:09:54 383 [info]: >> DATABASE 접속됨 [threaId=99]
+22/07/08 20:09:54 383 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:09:54 386 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:09:54 390 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:09:54 391 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:09:54 392 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 0, 5
+22/07/08 20:09:54 398 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:09:54 400 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 38ms
+22/07/08 20:09:54 400 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:10:01 347 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:10:01 347 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:10:01 347 [debug]: [GET] http://localhost:3001/department?page=1&rows=10
+22/07/08 20:10:01 349 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 20:10:01 349 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:10:01 352 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:10:01 353 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:10:01 353 [debug]: [GET] http://localhost:3001/department/?page=1&rows=10
+22/07/08 20:10:01 355 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:01 355 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:01 355 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:01 355 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:10:01 357 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:10:01 358 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:10:01 358 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:10:01 360 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 0, 10
+22/07/08 20:10:01 360 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:10:01 361 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/08 20:10:01 361 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:10:04 944 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:10:04 944 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:10:04 944 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 20:10:04 945 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 20:10:04 946 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:10:04 947 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:10:04 947 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:10:04 947 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 20:10:04 949 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:04 949 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:04 949 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:04 949 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:10:04 950 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:10:04 951 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:10:04 951 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:10:04 952 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 0, 5
+22/07/08 20:10:04 954 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:10:04 954 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/08 20:10:04 955 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:10:12 749 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:10:12 749 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:10:12 749 [debug]: [GET] http://localhost:3001/department?page=2&rows=5
+22/07/08 20:10:12 751 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 20:10:12 751 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:10:12 752 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:10:12 752 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:10:12 752 [debug]: [GET] http://localhost:3001/department/?page=2&rows=5
+22/07/08 20:10:12 753 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:12 753 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:12 753 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:12 753 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:10:12 754 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:10:12 754 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:10:12 754 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:10:12 755 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 5, 5
+22/07/08 20:10:12 755 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:10:12 756 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 20:10:12 756 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:10:18 187 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:10:18 187 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:10:18 188 [debug]: [GET] http://localhost:3001/department?page=3&rows=5
+22/07/08 20:10:18 189 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 20:10:18 189 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:10:18 190 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:10:18 190 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:10:18 190 [debug]: [GET] http://localhost:3001/department/?page=3&rows=5
+22/07/08 20:10:18 191 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:18 192 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:18 192 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:10:18 192 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:10:18 192 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:10:18 193 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:10:18 193 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:10:18 194 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 10, 5
+22/07/08 20:10:18 195 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:10:18 196 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/08 20:10:18 196 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
