@@ -1,6 +1,6 @@
 # 이젠아카데미 풀스텍 과정 _React & Node.js_
 
-**_이젠 아카데미 강의노트 정리_**
+### **_이젠 아카데미 강의노트 정리_**
 
 ### 01_컴퓨터기본
 
@@ -51,8 +51,8 @@
 * Position 속성
 * Background 속성
 * 요소에 효과를 주는 속성
-* 반응형 웹
 * Flex 속성
+* 반응형 웹
 
 ### 04_VanillaJS
 
@@ -61,3 +61,11 @@
 * HTML 제어
 * Ajax / Axios
 * CRUD
+
+### 05_React
+
+### 06_Database
+
+### 07_Node.js
+
+### 08_Linux
