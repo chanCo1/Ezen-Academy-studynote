@@ -3,8 +3,9 @@ import DepartmentSlice from './slice/DepartmentSlice';
 
 const store = configureStore({
   reducer: {
-    DepartmentSlice: DepartmentSlice,
+    Department: DepartmentSlice
   },
+
   middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false}),
   devTools: true,
 });

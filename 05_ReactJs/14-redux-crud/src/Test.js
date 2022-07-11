@@ -6,7 +6,7 @@ import { getList, getItem, postItem, putItem, deleteItem } from './slice/Departm
 const Test = memo(() => {
 
   const dispatch = useDispatch();
-  const { data, loading, error } = useSelector(state => state.DepartmentSlice);
+  const { data, loading, error } = useSelector(state => state.Department);
 
   useEffect(() => {
     dispatch(getList({query: '공학', page: 1, rows: 5}));
