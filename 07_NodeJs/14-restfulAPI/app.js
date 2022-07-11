@@ -12,6 +12,7 @@ import DBPool from '../helper/DBPool.js';
 import path from 'path';
 
 // 설치가 필요한 모듈
+import cors from 'cors';                        // cors 처리
 import dotenv from 'dotenv';
 import express from 'express';                  // express 본체
 import useragent from 'express-useragent';      // 클라이언트의 정보를 조회할 수 있는 기능
@@ -21,7 +22,6 @@ import bodyParser from 'body-parser';           // POST 파라미터 처리
 import methodOverride from 'method-override';   // PUT 파라미터 처리
 import cookieParser from 'cookie-parser';       // Cookie 처리
 import expressSession from 'express-session'    // Session 처리
-import cors from 'cors';                        // cors 처리
 
 /** 예외처리 관련 클래스 */
 import PageNotFoundException from '../exceptions/PageNotFoundException.js';
@@ -103,10 +103,13 @@ process.on('exit', () => {
 })
 
 
-
 /* - - - - - - - - - - - - - - - - - - - -
 4) Express 객체의 추가 설정
 - - - - - - - - - - - - - - - - - - - - */
+
+/** cors */
+// 위치에 따라 영향이 있는것 같다. 맨위로 올림
+app.use(cors());
 
 /** POST 파라미터 수신 모듈 설정, 추가되는 미들웨어들 중 가장 먼저 설정해야한다. */
 // body-parser를 이용해 application/x-www-form-urlencoded 파싱
@@ -157,9 +160,6 @@ app.use(serveFavicon(process.env.FAVICON_PATH));
 /** WebHelper */
 app.use(WebHelper());
 
-/** cors */
-app.use(cors());
-
 
 /* - - - - - - - - - - - - - - - - - - - -
 5) 각 URL별 백엔드 기능 정의
@@ -189,5 +189,5 @@ app.listen(process.env.PORT, () => {
     logger.debug(`server address => http://${v}:${process.env.PORT}`);
   });
 
-  logger.debug('- - - - - - - - - - - - - - - - - -')
+  logger.debug('- - - - - - - - - - - - - - - - - - - - - - - - - - - -')
 });

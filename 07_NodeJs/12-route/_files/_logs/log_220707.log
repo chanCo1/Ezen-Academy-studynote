@@ -1,0 +1,1278 @@
+22/07/07 13:35:57 628 [debug]: -----------------------------------
+22/07/07 13:35:57 630 [debug]: |       Start Express Server      |
+22/07/07 13:35:57 630 [debug]: -----------------------------------
+22/07/07 13:35:57 631 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:35:57 631 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:36:20 581 [debug]: 클라이언트가 접속했습니다.
+22/07/07 13:36:20 582 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 13:36:20 583 [debug]: [GET] http://localhost:3001/department
+22/07/07 13:36:20 590 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/07 13:36:20 590 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 13:36:20 596 [debug]: 클라이언트가 접속했습니다.
+22/07/07 13:36:20 596 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 13:36:20 596 [debug]: [GET] http://localhost:3001/department/
+22/07/07 13:36:20 606 [error]: [Error] You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://www.npmjs.com/package/mysql2#using-promise-wrapper, or the mysql2 documentation at https://github.com/sidorares/node-mysql2/tree/master/documentation/Promise-Wrapper.md
+22/07/07 13:36:20 607 [error]: Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://www.npmjs.com/package/mysql2#using-promise-wrapper, or the mysql2 documentation at https://github.com/sidorares/node-mysql2/tree/master/documentation/Promise-Wrapper.md
+    at Query.then (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/mysql2/lib/commands/query.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/07/07 13:36:20 610 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/07 13:36:20 610 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 13:38:50 452 [debug]: -----------------------------------
+22/07/07 13:38:50 454 [debug]: |       Start Express Server      |
+22/07/07 13:38:50 454 [debug]: -----------------------------------
+22/07/07 13:38:50 455 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:38:50 455 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:38:52 772 [debug]: 클라이언트가 접속했습니다.
+22/07/07 13:38:52 773 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 13:38:52 774 [debug]: [GET] http://localhost:3001/department/
+22/07/07 13:38:52 784 [error]: [TypeError] object is not iterable (cannot read property Symbol(Symbol.iterator))
+22/07/07 13:38:52 785 [error]: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:66:25
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 13:38:52 790 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+22/07/07 13:38:52 790 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 13:38:52 877 [debug]: 클라이언트가 접속했습니다.
+22/07/07 13:38:52 877 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 13:38:52 878 [debug]: [GET] http://localhost:3001/favicon.ico
+22/07/07 13:38:52 885 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/07 13:38:52 885 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 13:39:16 542 [debug]: -----------------------------------
+22/07/07 13:39:16 545 [debug]: |       Start Express Server      |
+22/07/07 13:39:16 545 [debug]: -----------------------------------
+22/07/07 13:39:16 545 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:39:16 546 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:39:18 219 [debug]: 클라이언트가 접속했습니다.
+22/07/07 13:39:18 219 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 13:39:18 220 [debug]: [GET] http://localhost:3001/department/
+22/07/07 13:39:18 232 [error]: [TypeError] object is not iterable (cannot read property Symbol(Symbol.iterator))
+22/07/07 13:39:18 233 [error]: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:66:25
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 13:39:18 245 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 26ms
+22/07/07 13:39:18 246 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 13:39:47 233 [debug]: -----------------------------------
+22/07/07 13:39:47 236 [debug]: |       Start Express Server      |
+22/07/07 13:39:47 236 [debug]: -----------------------------------
+22/07/07 13:39:47 236 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:39:47 237 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:40:45 693 [debug]: -----------------------------------
+22/07/07 13:40:45 695 [debug]: |       Start Express Server      |
+22/07/07 13:40:45 696 [debug]: -----------------------------------
+22/07/07 13:40:45 696 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:40:45 697 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:51:25 464 [debug]: -----------------------------------
+22/07/07 13:51:25 466 [debug]: |       Start Express Server      |
+22/07/07 13:51:25 467 [debug]: -----------------------------------
+22/07/07 13:51:25 467 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:51:25 470 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:51:35 761 [debug]: -----------------------------------
+22/07/07 13:51:35 764 [debug]: |       Start Express Server      |
+22/07/07 13:51:35 764 [debug]: -----------------------------------
+22/07/07 13:51:35 765 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:51:35 765 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:51:41 640 [debug]: 클라이언트가 접속했습니다.
+22/07/07 13:51:41 641 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 13:51:41 641 [debug]: [GET] http://localhost:3001/department/
+22/07/07 13:51:41 653 [error]: [Error] You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://www.npmjs.com/package/mysql2#using-promise-wrapper, or the mysql2 documentation at https://github.com/sidorares/node-mysql2/tree/master/documentation/Promise-Wrapper.md
+22/07/07 13:51:41 654 [error]: Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://www.npmjs.com/package/mysql2#using-promise-wrapper, or the mysql2 documentation at https://github.com/sidorares/node-mysql2/tree/master/documentation/Promise-Wrapper.md
+    at Query.then (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/mysql2/lib/commands/query.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/07/07 13:51:41 658 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+22/07/07 13:51:41 658 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 13:52:02 317 [debug]: -----------------------------------
+22/07/07 13:52:02 319 [debug]: |       Start Express Server      |
+22/07/07 13:52:02 320 [debug]: -----------------------------------
+22/07/07 13:52:02 320 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:52:02 320 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:53:04 642 [debug]: -----------------------------------
+22/07/07 13:53:04 644 [debug]: |       Start Express Server      |
+22/07/07 13:53:04 644 [debug]: -----------------------------------
+22/07/07 13:53:04 646 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:53:04 646 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:53:13 114 [debug]: -----------------------------------
+22/07/07 13:53:13 116 [debug]: |       Start Express Server      |
+22/07/07 13:53:13 117 [debug]: -----------------------------------
+22/07/07 13:53:13 117 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:53:13 117 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:53:25 223 [debug]: -----------------------------------
+22/07/07 13:53:25 226 [debug]: |       Start Express Server      |
+22/07/07 13:53:25 226 [debug]: -----------------------------------
+22/07/07 13:53:25 227 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:53:25 227 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:54:47 230 [debug]: -----------------------------------
+22/07/07 13:54:47 232 [debug]: |       Start Express Server      |
+22/07/07 13:54:47 233 [debug]: -----------------------------------
+22/07/07 13:54:47 233 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:54:47 234 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 13:54:59 594 [debug]: -----------------------------------
+22/07/07 13:54:59 596 [debug]: |       Start Express Server      |
+22/07/07 13:54:59 597 [debug]: -----------------------------------
+22/07/07 13:54:59 597 [debug]: server address => http://192.168.10.103:3001
+22/07/07 13:54:59 598 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 15:54:27 376 [debug]: -----------------------------------
+22/07/07 15:54:27 378 [debug]: |       Start Express Server      |
+22/07/07 15:54:27 378 [debug]: -----------------------------------
+22/07/07 15:54:27 379 [debug]: server address => http://192.168.10.103:3001
+22/07/07 15:54:27 379 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 15:54:49 153 [debug]: 클라이언트가 접속했습니다.
+22/07/07 15:54:49 154 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 15:54:49 155 [debug]: [GET] http://localhost:3001/department/
+22/07/07 15:54:49 190 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+22/07/07 15:54:49 191 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 18:42:34 487 [debug]: -----------------------------------
+22/07/07 18:42:34 489 [debug]: |       Start Express Server      |
+22/07/07 18:42:34 489 [debug]: -----------------------------------
+22/07/07 18:42:34 489 [debug]: server address => http://192.168.10.103:3001
+22/07/07 18:42:34 490 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 18:43:25 725 [debug]: 클라이언트가 접속했습니다.
+22/07/07 18:43:25 726 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 18:43:25 727 [debug]: [GET] http://localhost:3001/api_test/custom_error
+22/07/07 18:43:25 733 [error]: [Error] 개발자가 직접 생성한 에러가 발생했습니다.
+22/07/07 18:43:25 733 [error]: Error: 개발자가 직접 생성한 에러가 발생했습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:13:15
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 18:43:25 738 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/07 18:43:25 738 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 18:44:58 105 [debug]: 클라이언트가 접속했습니다.
+22/07/07 18:44:58 106 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 18:44:58 106 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 18:44:58 108 [debug]: [HTTP %s Params] %s=%s
+22/07/07 18:44:58 109 [debug]: [HTTP %s Params] %s=%s
+22/07/07 18:44:58 109 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/07 18:44:58 109 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 18:44:58 110 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 18:44:58 111 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:35:14 974 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:35:14 974 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:35:14 974 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:35:14 975 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:35:14 975 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:35:14 975 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/07 19:35:14 975 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:35:14 976 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/07 19:35:14 976 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:37:02 408 [debug]: -----------------------------------
+22/07/07 19:37:02 410 [debug]: |       Start Express Server      |
+22/07/07 19:37:02 410 [debug]: -----------------------------------
+22/07/07 19:37:02 411 [debug]: server address => http://192.168.10.103:3001
+22/07/07 19:37:02 411 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 19:37:07 045 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:37:07 046 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:37:07 047 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:37:07 051 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:37:07 052 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:37:07 053 [error]: [Error] num1의 값이 없습니다.
+22/07/07 19:37:07 053 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:37:07 058 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/07 19:37:07 058 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:37:07 219 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:37:07 220 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:37:07 220 [debug]: [GET] http://localhost:3001/favicon.ico
+22/07/07 19:37:07 224 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 19:37:07 224 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:42:17 524 [debug]: -----------------------------------
+22/07/07 19:42:17 526 [debug]: |       Start Express Server      |
+22/07/07 19:42:17 526 [debug]: -----------------------------------
+22/07/07 19:42:17 527 [debug]: server address => http://192.168.10.103:3001
+22/07/07 19:42:17 527 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 19:42:25 022 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:42:25 023 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:42:25 024 [debug]: [POST] http://localhost:3001/cookie
+22/07/07 19:42:25 041 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:42:25 046 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/07/07 19:42:25 047 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:42:32 216 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:42:32 217 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:42:32 217 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 19:42:32 219 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:42:32 220 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:42:32 220 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:42:32 220 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:42:32 220 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:42:32 221 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:42:32 221 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/07 19:42:32 221 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:42:32 222 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/07 19:42:32 223 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:43:03 445 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:43:03 445 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:43:03 445 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 19:43:03 446 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:03 446 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:03 446 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:03 447 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:03 447 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:03 447 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:03 447 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/07 19:43:03 447 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:43:03 448 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 19:43:03 448 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:43:25 682 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:43:25 683 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:43:25 683 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 19:43:25 684 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:25 684 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:25 684 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:25 685 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:25 685 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:25 685 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:25 685 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/07 19:43:25 685 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:43:25 687 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 19:43:25 687 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:43:31 378 [debug]: -----------------------------------
+22/07/07 19:43:31 380 [debug]: |       Start Express Server      |
+22/07/07 19:43:31 380 [debug]: -----------------------------------
+22/07/07 19:43:31 381 [debug]: server address => http://192.168.10.103:3001
+22/07/07 19:43:31 381 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 19:43:33 676 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:43:33 677 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:43:33 677 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 19:43:33 683 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:33 684 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:33 685 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:33 685 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:33 686 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:33 686 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:43:33 687 [error]: [Error] 발신자 메일주소를 입력하세요.
+22/07/07 19:43:33 688 [error]: Error: 발신자 메일주소를 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:43:33 694 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/07 19:43:33 694 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:44:44 364 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:44:44 364 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:44:44 365 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:44:44 367 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:44:44 368 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:44:44 368 [error]: [Error] num1의 값이 없습니다.
+22/07/07 19:44:44 368 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:44:44 369 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/07 19:44:44 369 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:44:51 446 [debug]: -----------------------------------
+22/07/07 19:44:51 448 [debug]: |       Start Express Server      |
+22/07/07 19:44:51 449 [debug]: -----------------------------------
+22/07/07 19:44:51 449 [debug]: server address => http://192.168.10.103:3001
+22/07/07 19:44:51 449 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 19:44:54 369 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:44:54 369 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:44:54 370 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:44:54 375 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:44:54 376 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:44:54 376 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/07 19:44:54 377 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:16:27)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:44:54 382 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/07 19:44:54 382 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:45:33 441 [debug]: -----------------------------------
+22/07/07 19:45:33 444 [debug]: |       Start Express Server      |
+22/07/07 19:45:33 444 [debug]: -----------------------------------
+22/07/07 19:45:33 444 [debug]: server address => http://192.168.10.103:3001
+22/07/07 19:45:33 445 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 19:45:35 877 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:45:35 878 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:45:35 878 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:45:35 883 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:45:35 884 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:45:35 884 [error]: [ReferenceError] field is not defined
+22/07/07 19:45:35 885 [error]: ReferenceError: field is not defined
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:19:42)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:45:35 890 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/07 19:45:35 890 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:45:53 905 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:45:53 905 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:45:53 905 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:45:53 907 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:45:53 907 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:45:53 907 [error]: [ReferenceError] field is not defined
+22/07/07 19:45:53 908 [error]: ReferenceError: field is not defined
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:19:42)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:45:53 909 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 19:45:53 909 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:45:59 023 [debug]: -----------------------------------
+22/07/07 19:45:59 025 [debug]: |       Start Express Server      |
+22/07/07 19:45:59 025 [debug]: -----------------------------------
+22/07/07 19:45:59 025 [debug]: server address => http://192.168.10.103:3001
+22/07/07 19:45:59 026 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 19:46:01 757 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:46:01 758 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:46:01 759 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:46:01 763 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:46:01 764 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:46:01 765 [error]: [Error] num1의 값이 없습니다.
+22/07/07 19:46:01 765 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:19:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:46:01 769 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/07 19:46:01 769 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:46:21 368 [debug]: -----------------------------------
+22/07/07 19:46:21 370 [debug]: |       Start Express Server      |
+22/07/07 19:46:21 371 [debug]: -----------------------------------
+22/07/07 19:46:21 371 [debug]: server address => http://192.168.10.103:3001
+22/07/07 19:46:21 371 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 19:46:25 017 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:46:25 018 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/07 19:46:25 019 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:46:25 024 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:46:25 025 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:46:25 026 [error]: [Error] num1의 값이 없습니다.
+22/07/07 19:46:25 026 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:46:25 030 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/07 19:46:25 031 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:53:04 724 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:53:04 725 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:53:04 725 [debug]: [GET] http://localhost:3001/api_test/cumtom_error
+22/07/07 19:53:04 728 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/07 19:53:04 729 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/app.js:195:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:328:13)
+22/07/07 19:53:04 730 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/07 19:53:04 730 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:53:12 542 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:53:12 542 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:53:12 542 [debug]: [GET] http://localhost:3001/api_test/custom_error
+22/07/07 19:53:12 544 [error]: [Error] 개발자가 직접 생성한 에러가 발생했습니다.
+22/07/07 19:53:12 544 [error]: Error: 개발자가 직접 생성한 에러가 발생했습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:13:15
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 19:53:12 545 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 19:53:12 545 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:53:39 520 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:53:39 521 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:53:39 521 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/07 19:53:39 522 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:53:39 522 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:53:39 522 [error]: [Error] num1의 값이 없습니다.
+22/07/07 19:53:39 522 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:53:39 524 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/07 19:53:39 524 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:56:29 418 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:56:29 419 [debug]: [Client] ::ffff:127.0.0.1 / unknown / node-fetch / unknown
+22/07/07 19:56:29 419 [debug]: [GET] http://localhost:3001/favicon.ico
+22/07/07 19:56:29 422 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 19:56:29 422 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:57:15 894 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:57:15 895 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:57:15 895 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200
+22/07/07 19:57:15 896 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:57:15 896 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:57:15 897 [error]: [Error] num2의 값이 없습니다.
+22/07/07 19:57:15 897 [error]: Error: num2의 값이 없습니다.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:30:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 19:57:15 898 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 19:57:15 898 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:57:22 385 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:57:22 385 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:57:22 385 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200&num2=500
+22/07/07 19:57:22 386 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:57:22 386 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:57:22 387 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/07 19:57:22 387 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:57:31 377 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:57:31 377 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:57:31 378 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200&num2=a
+22/07/07 19:57:31 379 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:57:31 379 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:57:31 379 [error]: [Error] num2는 숫자 형식만 가능합니다.
+22/07/07 19:57:31 379 [error]: Error: num2는 숫자 형식만 가능합니다.
+    at RegexHelper.field (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:126:13)
+    at RegexHelper.num (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:237:17)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/ApiTest.js:31:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+22/07/07 19:57:31 380 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 19:57:31 380 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:57:35 368 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:57:35 369 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:57:35 369 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200&num2=500
+22/07/07 19:57:35 370 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:57:35 370 [debug]: [HTTP %s Params] %s=%s
+22/07/07 19:57:35 371 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/07 19:57:35 371 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:59:51 240 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:59:51 240 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:59:51 240 [debug]: [POST] http://localhost:3001/session/login
+22/07/07 19:59:51 242 [error]: [ReferenceError] userid is not defined
+22/07/07 19:59:51 242 [error]: ReferenceError: userid is not defined
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:95:25
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 19:59:51 243 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 19:59:51 243 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 19:59:59 462 [debug]: 클라이언트가 접속했습니다.
+22/07/07 19:59:59 462 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 19:59:59 462 [debug]: [POST] http://localhost:3001/session
+22/07/07 19:59:59 464 [error]: [ReferenceError] Cannot access 'username' before initialization
+22/07/07 19:59:59 464 [error]: ReferenceError: Cannot access 'username' before initialization
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:17:31
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 19:59:59 465 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 19:59:59 465 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:00:09 239 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:00:09 240 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:00:09 240 [debug]: [POST] http://localhost:3001/session?username=세션테스트
+22/07/07 20:00:09 241 [error]: [ReferenceError] Cannot access 'username' before initialization
+22/07/07 20:00:09 241 [error]: ReferenceError: Cannot access 'username' before initialization
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:17:31
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:00:09 242 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 20:00:09 242 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:00:30 174 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:00:30 174 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:00:30 174 [debug]: [POST] http://localhost:3001/session?username=세션테스트
+22/07/07 20:00:30 184 [error]: [ReferenceError] Cannot access 'username' before initialization
+22/07/07 20:00:30 184 [error]: ReferenceError: Cannot access 'username' before initialization
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:17:31
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:00:30 185 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/07 20:00:30 185 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:00:36 091 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:00:36 091 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:00:36 091 [debug]: [POST] http://localhost:3001/session
+22/07/07 20:00:36 093 [error]: [ReferenceError] Cannot access 'username' before initialization
+22/07/07 20:00:36 093 [error]: ReferenceError: Cannot access 'username' before initialization
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:17:31
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:00:36 094 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 20:00:36 094 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:01:00 706 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:01:00 706 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:01:00 707 [debug]: [POST] http://localhost:3001/session
+22/07/07 20:01:00 708 [error]: [ReferenceError] Cannot access 'username' before initialization
+22/07/07 20:01:00 708 [error]: ReferenceError: Cannot access 'username' before initialization
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:17:31
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:01:00 709 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 20:01:00 709 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:03:18 869 [debug]: -----------------------------------
+22/07/07 20:03:18 871 [debug]: |       Start Express Server      |
+22/07/07 20:03:18 872 [debug]: -----------------------------------
+22/07/07 20:03:18 873 [debug]: server address => http://192.168.10.103:3001
+22/07/07 20:03:18 873 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 20:03:25 929 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:03:25 929 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:03:25 930 [debug]: [POST] http://localhost:3001/session
+22/07/07 20:03:25 944 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:03:25 945 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:03:25 952 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/07/07 20:03:25 952 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:03:29 706 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:03:29 706 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:03:29 706 [debug]: [POST] http://localhost:3001/session
+22/07/07 20:03:29 709 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:03:29 709 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:03:29 711 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 20:03:29 711 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:03:43 797 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:03:43 797 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:03:43 798 [debug]: [POST] http://localhost:3001/session
+22/07/07 20:03:43 799 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:03:43 799 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:03:43 800 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 20:03:43 800 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:04:09 795 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:04:09 795 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:04:09 796 [debug]: [GET] http://localhost:3001/session
+22/07/07 20:04:09 799 [debug]: [session]cookie = [object Object]
+22/07/07 20:04:09 799 [debug]: [session]username = 세션테스트
+22/07/07 20:04:09 799 [debug]: [session]nickname = session test
+22/07/07 20:04:09 801 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/07 20:04:09 801 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:04:50 656 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:04:50 656 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:04:50 656 [debug]: [POST] http://localhost:3001/session/login
+22/07/07 20:04:50 657 [error]: [ReferenceError] userid is not defined
+22/07/07 20:04:50 658 [error]: ReferenceError: userid is not defined
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:95:25
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:04:50 659 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 20:04:50 659 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:05:08 132 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:05:08 132 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:05:08 133 [debug]: [POST] http://localhost:3001/session/login
+22/07/07 20:05:08 134 [error]: [ReferenceError] userid is not defined
+22/07/07 20:05:08 134 [error]: ReferenceError: userid is not defined
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:95:25
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:05:08 135 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 20:05:08 135 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:05:33 216 [debug]: -----------------------------------
+22/07/07 20:05:33 219 [debug]: |       Start Express Server      |
+22/07/07 20:05:33 219 [debug]: -----------------------------------
+22/07/07 20:05:33 220 [debug]: server address => http://192.168.10.103:3001
+22/07/07 20:05:33 220 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 20:05:34 658 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:05:34 658 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:05:34 659 [debug]: [POST] http://localhost:3001/session/login
+22/07/07 20:05:34 665 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:05:34 666 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:05:34 666 [debug]: id = null
+22/07/07 20:05:34 667 [debug]: pw = null
+22/07/07 20:05:34 667 [error]: [Error] 아이디나 비밀번호를 확인하세요.
+22/07/07 20:05:34 668 [error]: Error: 아이디나 비밀번호를 확인하세요.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:128:21
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:05:34 672 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/07 20:05:34 673 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:06:20 760 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:06:20 760 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:06:20 760 [debug]: [POST] http://localhost:3001/session/login
+22/07/07 20:06:20 762 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:06:20 762 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:06:20 763 [debug]: id = null
+22/07/07 20:06:20 763 [debug]: pw = null
+22/07/07 20:06:20 763 [error]: [Error] 아이디나 비밀번호를 확인하세요.
+22/07/07 20:06:20 763 [error]: Error: 아이디나 비밀번호를 확인하세요.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:128:21
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:06:20 765 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/07 20:06:20 765 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:06:27 095 [debug]: -----------------------------------
+22/07/07 20:06:27 097 [debug]: |       Start Express Server      |
+22/07/07 20:06:27 097 [debug]: -----------------------------------
+22/07/07 20:06:27 098 [debug]: server address => http://192.168.10.103:3001
+22/07/07 20:06:27 098 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 20:06:29 024 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:06:29 025 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:06:29 025 [debug]: [POST] http://localhost:3001/session/login
+22/07/07 20:06:29 032 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:06:29 033 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:06:29 033 [debug]: id = null
+22/07/07 20:06:29 034 [debug]: pw = null
+22/07/07 20:06:29 034 [error]: [Error] 아이디나 비밀번호를 확인하세요.
+22/07/07 20:06:29 035 [error]: Error: 아이디나 비밀번호를 확인하세요.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:128:21
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:06:29 039 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/07 20:06:29 039 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:06:47 876 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:06:47 876 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:06:47 876 [debug]: [POST] http://localhost:3001/session/login
+22/07/07 20:06:47 878 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:06:47 878 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:06:47 879 [debug]: id = null
+22/07/07 20:06:47 879 [debug]: pw = null
+22/07/07 20:06:47 879 [error]: [Error] 아이디나 비밀번호를 확인하세요.
+22/07/07 20:06:47 879 [error]: Error: 아이디나 비밀번호를 확인하세요.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:128:21
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:06:47 881 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 20:06:47 881 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:09:51 056 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:09:51 057 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:09:51 057 [debug]: [POST] http://localhost:3001/session/login
+22/07/07 20:09:51 065 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:09:51 065 [debug]: [HTTP %s Params] %s=%s
+22/07/07 20:09:51 065 [debug]: id = node
+22/07/07 20:09:51 065 [debug]: pw = 1234
+22/07/07 20:09:51 067 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/07 20:09:51 067 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:10:31 553 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:10:31 553 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:10:31 553 [debug]: [GET] http://localhost:3001/session/login
+22/07/07 20:10:31 557 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 20:10:31 557 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:10:50 495 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:10:50 496 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:10:50 496 [debug]: [GET] http://localhost:3001/session/login
+22/07/07 20:10:50 499 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 20:10:50 499 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:10:52 279 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:10:52 279 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:10:52 280 [debug]: [DELETE] http://localhost:3001/session/login
+22/07/07 20:11:46 395 [debug]: -----------------------------------
+22/07/07 20:11:46 397 [debug]: |       Start Express Server      |
+22/07/07 20:11:46 398 [debug]: -----------------------------------
+22/07/07 20:11:46 398 [debug]: server address => http://192.168.10.103:3001
+22/07/07 20:11:46 399 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 20:11:48 366 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:11:48 367 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:11:48 367 [debug]: [DELETE] http://localhost:3001/session/login
+22/07/07 20:11:48 383 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+22/07/07 20:11:48 383 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 20:11:52 207 [debug]: 클라이언트가 접속했습니다.
+22/07/07 20:11:52 207 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 20:11:52 207 [debug]: [GET] http://localhost:3001/session/login
+22/07/07 20:11:52 210 [error]: [Error] 현재 로그인 상태가 아닙니다.
+22/07/07 20:11:52 211 [error]: Error: 현재 로그인 상태가 아닙니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SessionController.js:189:21
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 20:11:52 212 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/07 20:11:52 212 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:39:46 444 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:39:46 445 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:39:46 445 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:39:46 449 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:39:46 449 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:39:46 450 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:39:46 450 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:39:46 450 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:39:46 450 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:39:46 451 [error]: [TypeError] RegexHelper.email is not a function
+22/07/07 21:39:46 451 [error]: TypeError: RegexHelper.email is not a function
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:22:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 21:39:46 452 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/07 21:39:46 452 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:40:17 170 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:40:17 170 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:40:17 171 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:40:17 172 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:40:17 172 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:40:17 173 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:40:17 173 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:40:17 173 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:40:17 173 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:40:17 174 [error]: [TypeError] RegexHelper.email is not a function
+22/07/07 21:40:17 174 [error]: TypeError: RegexHelper.email is not a function
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:22:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 21:40:17 175 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/07 21:40:17 175 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:41:21 310 [debug]: -----------------------------------
+22/07/07 21:41:21 313 [debug]: |       Start Express Server      |
+22/07/07 21:41:21 314 [debug]: -----------------------------------
+22/07/07 21:41:21 315 [debug]: server address => http://192.168.10.103:3001
+22/07/07 21:41:21 315 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 21:41:23 294 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:41:23 295 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:41:23 296 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:41:23 314 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:23 315 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:23 316 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:23 316 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:23 317 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:23 317 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:23 318 [error]: [TypeError] this.content is not a function
+22/07/07 21:41:23 318 [error]: TypeError: this.content is not a function
+    at RegexHelper.emailCheck (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:185:19)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:22:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:41:23 322 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 27ms
+22/07/07 21:41:23 322 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:41:52 028 [debug]: -----------------------------------
+22/07/07 21:41:52 030 [debug]: |       Start Express Server      |
+22/07/07 21:41:52 031 [debug]: -----------------------------------
+22/07/07 21:41:52 031 [debug]: server address => http://192.168.10.103:3001
+22/07/07 21:41:52 032 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 21:41:54 911 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:41:54 911 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:41:54 912 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:41:54 926 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:54 927 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:54 927 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:54 928 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:54 928 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:54 928 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:41:54 929 [error]: [TypeError] content is not a function
+22/07/07 21:41:54 929 [error]: TypeError: content is not a function
+    at RegexHelper.emailCheck (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:185:14)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:22:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:41:54 933 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 22ms
+22/07/07 21:41:54 933 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:42:15 359 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:42:15 360 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:42:15 360 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:42:15 362 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:15 363 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:15 363 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:15 363 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:15 363 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:15 363 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:15 364 [error]: [Error] 발신자 메일주소를 입력하세요.
+22/07/07 21:42:15 364 [error]: Error: 발신자 메일주소를 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:42:15 365 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/07 21:42:15 365 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:42:18 232 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:42:18 232 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:42:18 233 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:42:18 234 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:18 234 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:18 234 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:18 234 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:18 235 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:18 235 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:18 235 [error]: [Error] 발신자 메일주소를 입력하세요.
+22/07/07 21:42:18 235 [error]: Error: 발신자 메일주소를 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:42:18 236 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 21:42:18 236 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:42:19 566 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:42:19 567 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:42:19 567 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:42:19 568 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:19 569 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:19 569 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:19 569 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:19 569 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:19 569 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:19 570 [error]: [Error] 발신자 메일주소를 입력하세요.
+22/07/07 21:42:19 570 [error]: Error: 발신자 메일주소를 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:42:19 571 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 21:42:19 571 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:42:20 157 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:42:20 158 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:42:20 158 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:42:20 159 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:20 160 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:20 160 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:20 160 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:20 160 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:20 160 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:42:20 161 [error]: [Error] 발신자 메일주소를 입력하세요.
+22/07/07 21:42:20 161 [error]: Error: 발신자 메일주소를 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:21:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:42:20 162 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 21:42:20 162 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:43:02 290 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:43:02 290 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:43:02 290 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:43:02 291 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:43:02 291 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:43:02 291 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:43:02 292 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:43:02 292 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:43:02 292 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:43:02 292 [error]: [TypeError] content is not a function
+22/07/07 21:43:02 292 [error]: TypeError: content is not a function
+    at RegexHelper.emailCheck (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:185:14)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:22:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:43:02 293 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/07 21:43:02 293 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:47:06 311 [debug]: -----------------------------------
+22/07/07 21:47:06 313 [debug]: |       Start Express Server      |
+22/07/07 21:47:06 314 [debug]: -----------------------------------
+22/07/07 21:47:06 314 [debug]: server address => http://192.168.10.103:3001
+22/07/07 21:47:06 315 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 21:47:10 351 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:47:10 352 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:47:10 353 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:47:10 367 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:10 367 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:10 368 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:10 368 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:10 368 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:10 369 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:10 370 [error]: [TypeError] RegexHelper.emailCheck is not a function
+22/07/07 21:47:10 370 [error]: TypeError: RegexHelper.emailCheck is not a function
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:22:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:47:12)
+22/07/07 21:47:10 374 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 22ms
+22/07/07 21:47:10 374 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:47:28 702 [debug]: -----------------------------------
+22/07/07 21:47:28 704 [debug]: |       Start Express Server      |
+22/07/07 21:47:28 705 [debug]: -----------------------------------
+22/07/07 21:47:28 706 [debug]: server address => http://192.168.10.103:3001
+22/07/07 21:47:28 706 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/07 21:47:32 062 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:47:32 063 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:47:32 065 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:47:32 084 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:32 085 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:32 085 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:32 086 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:32 086 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:32 086 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:32 087 [error]: [Error] 수신자 메일주소를 입력하세요.
+22/07/07 21:47:32 088 [error]: Error: 수신자 메일주소를 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:24:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:47:32 092 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 29ms
+22/07/07 21:47:32 092 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:47:39 477 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:47:39 478 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:47:39 478 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:47:39 481 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:39 481 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:39 481 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:39 481 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:39 481 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:39 482 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:39 482 [error]: [Error] 수신자 메일주소를 입력하세요.
+22/07/07 21:47:39 483 [error]: Error: 수신자 메일주소를 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:24:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:47:39 484 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/07 21:47:39 484 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:47:41 024 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:47:41 024 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:47:41 025 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:47:41 026 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:41 026 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:41 026 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:41 027 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:41 027 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:41 027 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:47:41 027 [error]: [Error] 수신자 메일주소를 입력하세요.
+22/07/07 21:47:41 027 [error]: Error: 수신자 메일주소를 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:24:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:47:41 028 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 21:47:41 029 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:48:38 604 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:48:38 604 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:48:38 604 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:48:38 606 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:38 606 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:38 606 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:38 606 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:38 606 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:38 607 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:38 607 [error]: [Error] 메일 제목을 입력하세요.
+22/07/07 21:48:38 607 [error]: Error: 메일 제목을 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:27:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:48:38 608 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/07 21:48:38 608 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:48:41 423 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:48:41 423 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:48:41 423 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:48:41 425 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:41 425 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:41 425 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:41 426 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:41 426 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:41 426 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:41 426 [error]: [Error] 본문 내용을 입력하세요.
+22/07/07 21:48:41 427 [error]: Error: 본문 내용을 입력하세요.
+    at RegexHelper.value (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:22:13)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/12-route/controllers/SendMailController.js:28:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/node_modules/express/lib/router/index.js:175:3)
+22/07/07 21:48:41 429 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/07 21:48:41 429 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:48:43 873 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:48:43 874 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:48:43 874 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:48:43 876 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:43 876 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:43 876 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:43 876 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:43 876 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:43 876 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:48:46 827 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2953ms
+22/07/07 21:48:46 827 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/07 21:49:05 842 [debug]: 클라이언트가 접속했습니다.
+22/07/07 21:49:05 842 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/07 21:49:05 842 [debug]: [POST] http://localhost:3001/send_mail
+22/07/07 21:49:05 844 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:49:05 844 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:49:05 844 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:49:05 845 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:49:05 845 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:49:05 845 [debug]: [HTTP %s Params] %s=%s
+22/07/07 21:49:08 434 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2592ms
+22/07/07 21:49:08 434 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -

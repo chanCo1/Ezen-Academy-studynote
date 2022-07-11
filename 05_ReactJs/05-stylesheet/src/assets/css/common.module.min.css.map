@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../scss/common.module.scss"
-    ],
-    "names": [],
-    "file": "common.module.min.css"
-}
+{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"common.module.min.css"}

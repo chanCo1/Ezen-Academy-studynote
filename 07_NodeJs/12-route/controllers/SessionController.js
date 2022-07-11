@@ -14,8 +14,8 @@ export default () => {
     const nickname = req.body.nickname;
     /*/
     // WebHelper 적용 후
-    const username = req.post(username);
-    const nickname = req.post(nickname);
+    const username = req.post('username');
+    const nickname = req.post('nickname');
     /**/
 
     // 세션 저장
@@ -92,8 +92,8 @@ router
     const pw = req.body.userpw;
     /*/
     // WebHelper 적용 후
-    const id = req.post(userid);
-    const pw = req.post(userpw);
+    const id = req.post('userid');
+    const pw = req.post('userpw');
     /**/
 
     logger.debug('id = ' + id);
@@ -158,6 +158,8 @@ router
     } catch (e) {
       return next(e);
     }
+
+    res.sendResult();
     /**/
   })
   .get('/session/login', (req, res, next) => {

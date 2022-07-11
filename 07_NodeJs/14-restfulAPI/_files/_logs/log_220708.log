@@ -1538,3 +1538,61 @@
 22/07/08 20:10:18 195 [info]: >> Connection 반납됨 [threaId=99]
 22/07/08 20:10:18 196 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
 22/07/08 20:10:18 196 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:53:31 688 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:53:31 688 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:53:31 689 [debug]: [GET] http://localhost:3001/department?page=3&rows=5
+22/07/08 20:53:31 691 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/08 20:53:31 691 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:53:31 691 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:53:31 692 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:53:31 692 [debug]: [GET] http://localhost:3001/department/?page=3&rows=5
+22/07/08 20:53:31 693 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:31 693 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:31 693 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:31 693 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:53:31 693 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:53:31 694 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:53:31 695 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:53:31 695 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 10, 5
+22/07/08 20:53:31 696 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:53:31 696 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/08 20:53:31 696 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:53:34 579 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:53:34 579 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:53:34 579 [debug]: [GET] http://localhost:3001/department?page=1&rows=5
+22/07/08 20:53:34 580 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/08 20:53:34 581 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:53:34 581 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:53:34 581 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:53:34 581 [debug]: [GET] http://localhost:3001/department/?page=1&rows=5
+22/07/08 20:53:34 582 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:34 583 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:34 583 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:34 583 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:53:34 583 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:53:34 584 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:53:34 584 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:53:34 585 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 0, 5
+22/07/08 20:53:34 585 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:53:34 586 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 20:53:34 586 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:53:38 000 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:53:38 000 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:53:38 000 [debug]: [GET] http://localhost:3001/department?page=1&rows=3
+22/07/08 20:53:38 002 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/08 20:53:38 002 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 20:53:38 003 [debug]: 클라이언트가 접속했습니다.
+22/07/08 20:53:38 003 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/08 20:53:38 003 [debug]: [GET] http://localhost:3001/department/?page=1&rows=3
+22/07/08 20:53:38 004 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:38 004 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:38 004 [debug]: [HTTP %s Params] %s=%s
+22/07/08 20:53:38 005 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:53:38 005 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/08 20:53:38 006 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:53:38 006 [info]: >> Connection 임대됨 [threaId=99]
+22/07/08 20:53:38 006 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 0, 3
+22/07/08 20:53:38 007 [info]: >> Connection 반납됨 [threaId=99]
+22/07/08 20:53:38 008 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/08 20:53:38 008 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/08 23:44:35 217 [info]: Database Pool is closed

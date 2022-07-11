@@ -2,8 +2,8 @@ import DBPool from '../helper/DBPool.js';
 import MybatisMapper from 'mybatis-mapper';
 
 MybatisMapper.createMapper([
-  './mappers/DepartmentMapper.xml',
-  './mappers/ProfessorDepartmentMapper.xml'
+  '../mappers/DepartmentMapper.xml',
+  '../mappers/ProfessorDepartmentMapper.xml'
 ]);
 
 (async () => {
@@ -12,7 +12,7 @@ MybatisMapper.createMapper([
   let params = {deptno: 201};
   let query = MybatisMapper.getStatement('DepartmentMapper', 'selectItem', params);
   let [result] = await dbcon.query(query);
-  console.log(result);
+  // console.log(result);
 
 
   params = {dname: '풀스텍', offset: 0, listCount: 3};
@@ -23,7 +23,7 @@ MybatisMapper.createMapper([
 
   params = {dname: '풀스텍', loc: '1401호'};
   query = MybatisMapper.getStatement('DepartmentMapper', 'insertItem', params);
-  [result] = await dbcon.query(query);
+  result = await dbcon.query(query);
   console.log(`affectedRows=${result.affectedRows}, insertId=${result.insertId}`);
 
 
@@ -42,7 +42,7 @@ MybatisMapper.createMapper([
   [result] = await dbcon.query(query);
   // -> [ { cnt: 53 } ]
   console.log(`cnt=${result[0].cnt}`);
-
+  
 
   query = MybatisMapper.getStatement('ProfessorDepartmentMapper', 'selectJoin');
   [result] = await dbcon.query(query);

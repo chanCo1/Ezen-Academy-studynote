@@ -21,6 +21,7 @@ export default () => {
   router.put('/send_put', (req, res, next) => {
     // URL 파라미터들은 req.body 객체의 하위 데이터로 저장된다.
     logger.debug('[프론트엔드로 부터 전달받은 PUT 파라미터]');
+    console.log(req.query);
     for (let key in req.body) {
       const str = '\t >> ' + key + '=' + req.body[key];
       logger.debug(str);

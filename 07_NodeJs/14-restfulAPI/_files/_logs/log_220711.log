@@ -1,0 +1,1368 @@
+22/07/11 11:13:58 169 [debug]: -----------------------------------
+22/07/11 11:13:58 171 [debug]: |       Start Express Server      |
+22/07/11 11:13:58 172 [debug]: -----------------------------------
+22/07/11 11:13:58 172 [debug]: server address => http://192.168.10.103:3001
+22/07/11 11:13:58 172 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 11:19:22 315 [debug]: 클라이언트가 접속했습니다.
+22/07/11 11:19:22 316 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 11:19:22 316 [debug]: [GET] http://localhost:3001/department/
+22/07/11 11:19:22 322 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:19:22 323 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:19:22 323 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:19:22 344 [info]: >> DATABASE 접속됨 [threaId=2]
+22/07/11 11:19:22 344 [info]: >> Connection 임대됨 [threaId=2]
+22/07/11 11:19:22 347 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 11:19:22 365 [info]: >> Connection 반납됨 [threaId=2]
+22/07/11 11:19:22 365 [info]: >> Connection 임대됨 [threaId=2]
+22/07/11 11:19:22 367 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 11:19:22 369 [info]: >> Connection 반납됨 [threaId=2]
+22/07/11 11:19:22 373 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 57ms
+22/07/11 11:19:22 373 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 11:33:33 111 [debug]: 클라이언트가 접속했습니다.
+22/07/11 11:33:33 111 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 11:33:33 111 [debug]: [GET] http://localhost:3001/
+22/07/11 11:33:33 117 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 11:33:33 117 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 11:33:40 566 [debug]: 클라이언트가 접속했습니다.
+22/07/11 11:33:40 566 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 11:33:40 567 [debug]: [GET] http://localhost:3001/department/
+22/07/11 11:33:40 568 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:33:40 568 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:33:40 568 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:33:40 568 [info]: >> Connection 임대됨 [threaId=2]
+22/07/11 11:33:40 569 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 11:33:40 570 [info]: >> Connection 반납됨 [threaId=2]
+22/07/11 11:33:40 570 [info]: >> Connection 임대됨 [threaId=2]
+22/07/11 11:33:40 571 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 11:33:40 571 [info]: >> Connection 반납됨 [threaId=2]
+22/07/11 11:33:40 572 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 11:33:40 572 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 11:41:32 535 [info]: Database Pool is closed
+22/07/11 11:41:41 131 [debug]: -----------------------------------
+22/07/11 11:41:41 134 [debug]: |       Start Express Server      |
+22/07/11 11:41:41 134 [debug]: -----------------------------------
+22/07/11 11:41:41 135 [debug]: server address => http://192.168.10.103:3001
+22/07/11 11:41:41 135 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 11:43:28 345 [debug]: -----------------------------------
+22/07/11 11:43:28 347 [debug]: |       Start Express Server      |
+22/07/11 11:43:28 347 [debug]: -----------------------------------
+22/07/11 11:43:28 348 [debug]: server address => http://192.168.10.103:3001
+22/07/11 11:43:28 348 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 11:43:47 737 [debug]: -----------------------------------
+22/07/11 11:43:47 740 [debug]: |       Start Express Server      |
+22/07/11 11:43:47 741 [debug]: -----------------------------------
+22/07/11 11:43:47 741 [debug]: server address => http://192.168.10.103:3001
+22/07/11 11:43:47 742 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 11:50:56 355 [debug]: -----------------------------------
+22/07/11 11:50:56 357 [debug]: |       Start Express Server      |
+22/07/11 11:50:56 357 [debug]: -----------------------------------
+22/07/11 11:50:56 358 [debug]: server address => http://192.168.10.103:3001
+22/07/11 11:50:56 358 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 11:51:28 276 [debug]: -----------------------------------
+22/07/11 11:51:28 279 [debug]: |       Start Express Server      |
+22/07/11 11:51:28 280 [debug]: -----------------------------------
+22/07/11 11:51:28 280 [debug]: server address => http://192.168.10.103:3001
+22/07/11 11:51:28 281 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 12:11:27 432 [info]: Database Pool is closed
+22/07/11 12:11:29 478 [debug]: -----------------------------------
+22/07/11 12:11:29 480 [debug]: |       Start Express Server      |
+22/07/11 12:11:29 481 [debug]: -----------------------------------
+22/07/11 12:11:29 481 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:11:29 482 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 12:13:11 322 [debug]: -----------------------------------
+22/07/11 12:13:11 324 [debug]: |       Start Express Server      |
+22/07/11 12:13:11 325 [debug]: -----------------------------------
+22/07/11 12:13:11 325 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:13:11 326 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 12:14:17 962 [debug]: -----------------------------------
+22/07/11 12:14:17 964 [debug]: |       Start Express Server      |
+22/07/11 12:14:17 964 [debug]: -----------------------------------
+22/07/11 12:14:17 965 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:14:17 965 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 12:15:24 493 [debug]: -----------------------------------
+22/07/11 12:15:24 495 [debug]: |       Start Express Server      |
+22/07/11 12:15:24 496 [debug]: -----------------------------------
+22/07/11 12:15:24 496 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:15:24 496 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 12:16:21 764 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:16:21 765 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:16:21 766 [debug]: [GET] http://localhost:3001/
+22/07/11 12:16:21 773 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/11 12:16:21 773 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:18:42 952 [info]: Database Pool is closed
+22/07/11 12:20:57 545 [debug]: -----------------------------------
+22/07/11 12:20:57 547 [debug]: |       Start Express Server      |
+22/07/11 12:20:57 548 [debug]: -----------------------------------
+22/07/11 12:20:57 548 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:20:57 548 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 12:21:07 213 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:21:07 214 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:21:07 214 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:21:07 219 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:21:07 220 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:21:07 220 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:21:07 236 [info]: >> DATABASE 접속됨 [threaId=3]
+22/07/11 12:21:07 236 [info]: >> Connection 임대됨 [threaId=3]
+22/07/11 12:21:07 239 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 12:21:07 242 [info]: >> Connection 반납됨 [threaId=3]
+22/07/11 12:21:07 242 [info]: >> Connection 임대됨 [threaId=3]
+22/07/11 12:21:07 244 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 12:21:07 246 [info]: >> Connection 반납됨 [threaId=3]
+22/07/11 12:21:07 249 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+22/07/11 12:21:07 250 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:21:07 344 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:21:07 345 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:21:07 345 [debug]: [GET] http://localhost:3001/favicon.ico
+22/07/11 12:21:07 352 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 12:21:07 353 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:23:32 321 [debug]: -----------------------------------
+22/07/11 12:23:32 324 [debug]: |       Start Express Server      |
+22/07/11 12:23:32 325 [debug]: -----------------------------------
+22/07/11 12:23:32 326 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:23:32 326 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 12:23:39 114 [debug]: -----------------------------------
+22/07/11 12:23:39 117 [debug]: |       Start Express Server      |
+22/07/11 12:23:39 118 [debug]: -----------------------------------
+22/07/11 12:23:39 118 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:23:39 119 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/11 12:24:33 211 [debug]: -----------------------------------
+22/07/11 12:24:33 214 [debug]: |       Start Express Server      |
+22/07/11 12:24:33 214 [debug]: -----------------------------------
+22/07/11 12:24:33 215 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:24:33 215 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:24:53 507 [debug]: -----------------------------------
+22/07/11 12:24:53 510 [debug]: |       Start Express Server      |
+22/07/11 12:24:53 511 [debug]: -----------------------------------
+22/07/11 12:24:53 511 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:24:53 511 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:25:04 865 [debug]: -----------------------------------
+22/07/11 12:25:04 867 [debug]: |       Start Express Server      |
+22/07/11 12:25:04 867 [debug]: -----------------------------------
+22/07/11 12:25:04 867 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:25:04 868 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:26:28 210 [info]: Database Pool is closed
+22/07/11 12:26:30 972 [debug]: -----------------------------------
+22/07/11 12:26:30 974 [debug]: |       Start Express Server      |
+22/07/11 12:26:30 974 [debug]: -----------------------------------
+22/07/11 12:26:30 975 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:26:30 975 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:27:30 307 [debug]: -----------------------------------
+22/07/11 12:27:30 310 [debug]: |       Start Express Server      |
+22/07/11 12:27:30 310 [debug]: -----------------------------------
+22/07/11 12:27:30 311 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:27:30 311 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:27:56 648 [debug]: -----------------------------------
+22/07/11 12:27:56 650 [debug]: |       Start Express Server      |
+22/07/11 12:27:56 650 [debug]: -----------------------------------
+22/07/11 12:27:56 651 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:27:56 651 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:29:55 332 [debug]: -----------------------------------
+22/07/11 12:29:55 334 [debug]: |       Start Express Server      |
+22/07/11 12:29:55 334 [debug]: -----------------------------------
+22/07/11 12:29:55 335 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:29:55 335 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:29:58 507 [debug]: -----------------------------------
+22/07/11 12:29:58 510 [debug]: |       Start Express Server      |
+22/07/11 12:29:58 510 [debug]: -----------------------------------
+22/07/11 12:29:58 510 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:29:58 511 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:30:37 343 [debug]: -----------------------------------
+22/07/11 12:30:37 345 [debug]: |       Start Express Server      |
+22/07/11 12:30:37 346 [debug]: -----------------------------------
+22/07/11 12:30:37 346 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:30:37 347 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:32:59 436 [info]: Database Pool is closed
+22/07/11 12:35:57 535 [debug]: -----------------------------------
+22/07/11 12:35:57 538 [debug]: |       Start Express Server      |
+22/07/11 12:35:57 538 [debug]: -----------------------------------
+22/07/11 12:35:57 538 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:35:57 539 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:36:01 578 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:36:01 578 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:36:01 579 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:36:01 584 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:36:01 584 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:36:01 585 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:36:01 601 [info]: >> DATABASE 접속됨 [threaId=4]
+22/07/11 12:36:01 601 [info]: >> Connection 임대됨 [threaId=4]
+22/07/11 12:36:01 604 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 12:36:01 606 [info]: >> Connection 반납됨 [threaId=4]
+22/07/11 12:36:01 607 [info]: >> Connection 임대됨 [threaId=4]
+22/07/11 12:36:01 608 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 12:36:01 610 [info]: >> Connection 반납됨 [threaId=4]
+22/07/11 12:36:01 614 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+22/07/11 12:36:01 615 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:36:42 376 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:36:42 376 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:36:42 377 [debug]: [GET] http://localhost:3001/
+22/07/11 12:36:42 379 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/11 12:36:42 379 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:36:42 384 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:36:42 385 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:36:42 385 [debug]: [GET] http://localhost:3001/
+22/07/11 12:36:42 386 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 12:36:42 386 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:36:45 971 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:36:45 971 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:36:45 972 [debug]: [GET] http://localhost:3001/
+22/07/11 12:36:45 975 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/11 12:36:45 975 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:36:45 980 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:36:45 981 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:36:45 981 [debug]: [GET] http://localhost:3001/
+22/07/11 12:36:45 983 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 12:36:45 983 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:37:13 264 [debug]: -----------------------------------
+22/07/11 12:37:13 267 [debug]: |       Start Express Server      |
+22/07/11 12:37:13 267 [debug]: -----------------------------------
+22/07/11 12:37:13 267 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:37:13 268 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:43:00 531 [debug]: -----------------------------------
+22/07/11 12:43:00 533 [debug]: |       Start Express Server      |
+22/07/11 12:43:00 534 [debug]: -----------------------------------
+22/07/11 12:43:00 534 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:43:00 534 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:43:29 954 [debug]: -----------------------------------
+22/07/11 12:43:29 956 [debug]: |       Start Express Server      |
+22/07/11 12:43:29 956 [debug]: -----------------------------------
+22/07/11 12:43:29 957 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:43:29 957 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:44:18 925 [debug]: -----------------------------------
+22/07/11 12:44:18 927 [debug]: |       Start Express Server      |
+22/07/11 12:44:18 927 [debug]: -----------------------------------
+22/07/11 12:44:18 928 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:44:18 928 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:44:37 637 [debug]: -----------------------------------
+22/07/11 12:44:37 640 [debug]: |       Start Express Server      |
+22/07/11 12:44:37 640 [debug]: -----------------------------------
+22/07/11 12:44:37 640 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:44:37 641 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:45:00 250 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:45:00 251 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:45:00 252 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:45:00 257 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:45:00 258 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:45:00 258 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:45:00 274 [info]: >> DATABASE 접속됨 [threaId=5]
+22/07/11 12:45:00 275 [info]: >> Connection 임대됨 [threaId=5]
+22/07/11 12:45:00 277 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 12:45:00 280 [info]: >> Connection 반납됨 [threaId=5]
+22/07/11 12:45:00 281 [info]: >> Connection 임대됨 [threaId=5]
+22/07/11 12:45:00 282 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 12:45:00 283 [info]: >> Connection 반납됨 [threaId=5]
+22/07/11 12:45:00 288 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 37ms
+22/07/11 12:45:00 288 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:45:11 807 [debug]: -----------------------------------
+22/07/11 12:45:11 810 [debug]: |       Start Express Server      |
+22/07/11 12:45:11 810 [debug]: -----------------------------------
+22/07/11 12:45:11 811 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:45:11 811 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:45:26 082 [debug]: -----------------------------------
+22/07/11 12:45:26 084 [debug]: |       Start Express Server      |
+22/07/11 12:45:26 084 [debug]: -----------------------------------
+22/07/11 12:45:26 085 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:45:26 085 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:45:28 717 [debug]: -----------------------------------
+22/07/11 12:45:28 720 [debug]: |       Start Express Server      |
+22/07/11 12:45:28 720 [debug]: -----------------------------------
+22/07/11 12:45:28 721 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:45:28 721 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:45:30 389 [info]: Database Pool is closed
+22/07/11 12:45:32 220 [debug]: -----------------------------------
+22/07/11 12:45:32 223 [debug]: |       Start Express Server      |
+22/07/11 12:45:32 223 [debug]: -----------------------------------
+22/07/11 12:45:32 224 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:45:32 224 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:45:40 150 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:45:40 150 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:45:40 151 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:45:40 157 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:45:40 158 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:45:40 159 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:45:40 174 [info]: >> DATABASE 접속됨 [threaId=6]
+22/07/11 12:45:40 174 [info]: >> Connection 임대됨 [threaId=6]
+22/07/11 12:45:40 177 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 12:45:40 179 [info]: >> Connection 반납됨 [threaId=6]
+22/07/11 12:45:40 180 [info]: >> Connection 임대됨 [threaId=6]
+22/07/11 12:45:40 181 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 12:45:40 182 [info]: >> Connection 반납됨 [threaId=6]
+22/07/11 12:45:40 186 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+22/07/11 12:45:40 186 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:47:08 418 [debug]: -----------------------------------
+22/07/11 12:47:08 420 [debug]: |       Start Express Server      |
+22/07/11 12:47:08 421 [debug]: -----------------------------------
+22/07/11 12:47:08 422 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:47:08 423 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:47:12 651 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:47:12 651 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:47:12 652 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:47:12 657 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:47:12 657 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:47:12 658 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:47:12 673 [info]: >> DATABASE 접속됨 [threaId=7]
+22/07/11 12:47:12 674 [info]: >> Connection 임대됨 [threaId=7]
+22/07/11 12:47:12 677 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 12:47:12 679 [info]: >> Connection 반납됨 [threaId=7]
+22/07/11 12:47:12 680 [info]: >> Connection 임대됨 [threaId=7]
+22/07/11 12:47:12 681 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 12:47:12 682 [info]: >> Connection 반납됨 [threaId=7]
+22/07/11 12:47:12 686 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 35ms
+22/07/11 12:47:12 687 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:47:20 153 [debug]: -----------------------------------
+22/07/11 12:47:20 156 [debug]: |       Start Express Server      |
+22/07/11 12:47:20 156 [debug]: -----------------------------------
+22/07/11 12:47:20 156 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:47:20 157 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:48:45 085 [debug]: -----------------------------------
+22/07/11 12:48:45 088 [debug]: |       Start Express Server      |
+22/07/11 12:48:45 088 [debug]: -----------------------------------
+22/07/11 12:48:45 089 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:48:45 089 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:48:47 644 [debug]: -----------------------------------
+22/07/11 12:48:47 647 [debug]: |       Start Express Server      |
+22/07/11 12:48:47 647 [debug]: -----------------------------------
+22/07/11 12:48:47 648 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:48:47 648 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:48:49 962 [debug]: -----------------------------------
+22/07/11 12:48:49 964 [debug]: |       Start Express Server      |
+22/07/11 12:48:49 965 [debug]: -----------------------------------
+22/07/11 12:48:49 965 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:48:49 966 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:48:58 125 [debug]: -----------------------------------
+22/07/11 12:48:58 127 [debug]: |       Start Express Server      |
+22/07/11 12:48:58 127 [debug]: -----------------------------------
+22/07/11 12:48:58 127 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:48:58 128 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:49:17 426 [debug]: -----------------------------------
+22/07/11 12:49:17 428 [debug]: |       Start Express Server      |
+22/07/11 12:49:17 429 [debug]: -----------------------------------
+22/07/11 12:49:17 430 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:49:17 430 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:50:39 632 [debug]: -----------------------------------
+22/07/11 12:50:39 635 [debug]: |       Start Express Server      |
+22/07/11 12:50:39 635 [debug]: -----------------------------------
+22/07/11 12:50:39 636 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:50:39 636 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:51:28 131 [debug]: -----------------------------------
+22/07/11 12:51:28 133 [debug]: |       Start Express Server      |
+22/07/11 12:51:28 134 [debug]: -----------------------------------
+22/07/11 12:51:28 134 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:51:28 135 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:51:29 945 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:51:29 946 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:51:29 947 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:51:38 154 [info]: Database Pool is closed
+22/07/11 12:51:40 259 [debug]: -----------------------------------
+22/07/11 12:51:40 261 [debug]: |       Start Express Server      |
+22/07/11 12:51:40 261 [debug]: -----------------------------------
+22/07/11 12:51:40 262 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:51:40 262 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:51:43 117 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:51:43 118 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:51:43 119 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:52:00 313 [debug]: -----------------------------------
+22/07/11 12:52:00 316 [debug]: |       Start Express Server      |
+22/07/11 12:52:00 317 [debug]: -----------------------------------
+22/07/11 12:52:00 317 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:52:00 318 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:52:02 263 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:52:02 264 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:52:02 264 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:52:02 272 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:52:02 273 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:52:02 274 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:52:02 293 [info]: >> DATABASE 접속됨 [threaId=8]
+22/07/11 12:52:02 294 [info]: >> Connection 임대됨 [threaId=8]
+22/07/11 12:52:02 297 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 12:52:02 301 [info]: >> Connection 반납됨 [threaId=8]
+22/07/11 12:52:02 301 [info]: >> Connection 임대됨 [threaId=8]
+22/07/11 12:52:02 303 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 12:52:02 305 [info]: >> Connection 반납됨 [threaId=8]
+22/07/11 12:52:02 310 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 46ms
+22/07/11 12:52:02 310 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:52:11 470 [debug]: -----------------------------------
+22/07/11 12:52:11 472 [debug]: |       Start Express Server      |
+22/07/11 12:52:11 473 [debug]: -----------------------------------
+22/07/11 12:52:11 473 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:52:11 473 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:52:18 721 [debug]: -----------------------------------
+22/07/11 12:52:18 724 [debug]: |       Start Express Server      |
+22/07/11 12:52:18 724 [debug]: -----------------------------------
+22/07/11 12:52:18 725 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:52:18 725 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:52:20 931 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:52:20 932 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:52:20 934 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:52:54 625 [debug]: -----------------------------------
+22/07/11 12:52:54 627 [debug]: |       Start Express Server      |
+22/07/11 12:52:54 628 [debug]: -----------------------------------
+22/07/11 12:52:54 629 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:52:54 629 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:52:56 634 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:52:56 635 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 12:52:56 635 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:52:56 640 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:52:56 641 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:52:56 641 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:52:56 657 [info]: >> DATABASE 접속됨 [threaId=9]
+22/07/11 12:52:56 657 [info]: >> Connection 임대됨 [threaId=9]
+22/07/11 12:52:56 660 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 12:52:56 662 [info]: >> Connection 반납됨 [threaId=9]
+22/07/11 12:52:56 663 [info]: >> Connection 임대됨 [threaId=9]
+22/07/11 12:52:56 664 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 12:52:56 666 [info]: >> Connection 반납됨 [threaId=9]
+22/07/11 12:52:56 670 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 35ms
+22/07/11 12:52:56 670 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:53:56 996 [debug]: -----------------------------------
+22/07/11 12:53:56 998 [debug]: |       Start Express Server      |
+22/07/11 12:53:56 998 [debug]: -----------------------------------
+22/07/11 12:53:56 998 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:53:56 999 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 12:57:34 024 [debug]: -----------------------------------
+22/07/11 12:57:34 026 [debug]: |       Start Express Server      |
+22/07/11 12:57:34 027 [debug]: -----------------------------------
+22/07/11 12:57:34 027 [debug]: server address => http://192.168.10.103:3001
+22/07/11 12:57:34 027 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:00:07 883 [debug]: -----------------------------------
+22/07/11 13:00:07 885 [debug]: |       Start Express Server      |
+22/07/11 13:00:07 885 [debug]: -----------------------------------
+22/07/11 13:00:07 886 [debug]: server address => http://192.168.10.103:3001
+22/07/11 13:00:07 886 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:05:08 476 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:05:08 477 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:05:08 478 [debug]: [GET] http://localhost:3001/department/
+22/07/11 13:05:08 482 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:05:08 483 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:05:08 483 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:05:08 499 [info]: >> DATABASE 접속됨 [threaId=10]
+22/07/11 13:05:08 500 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:05:08 502 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 13:05:08 505 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:05:08 506 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:05:08 508 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 13:05:08 509 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:05:08 513 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+22/07/11 13:05:08 513 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:03 001 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:03 002 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:03 002 [debug]: [GET] http://localhost:3001/department?query=공학&page=2&rows=5
+22/07/11 13:55:03 004 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 13:55:03 005 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:03 006 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:03 006 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:03 006 [debug]: [GET] http://localhost:3001/department/undefined
+22/07/11 13:55:03 008 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 009 [error]: [Error] 학과번호가 잘못되었습니다.
+22/07/11 13:55:03 009 [error]: Error: 학과번호가 잘못되었습니다.
+    at RegexHelper.field (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:126:13)
+    at RegexHelper.num (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/helper/RegexHelper.js:229:17)
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:58:19
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+22/07/11 13:55:03 010 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/11 13:55:03 011 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:03 012 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:03 012 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:03 013 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:55:03 015 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 015 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 015 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 015 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:03 017 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:55:03 027 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:03 027 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:03 029 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:55:03 031 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:03 032 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:55:03 032 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:55:03 033 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 21ms
+22/07/11 13:55:03 033 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:03 036 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:03 036 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:03 037 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:55:03 038 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 038 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 038 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 038 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:03 039 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:55:03 040 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:03 041 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:03 041 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:55:03 042 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:03 043 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:55:03 043 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:55:03 043 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 13:55:03 044 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:03 046 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:03 046 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:03 047 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:55:03 048 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 049 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 049 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:03 049 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:03 050 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:55:03 051 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:03 051 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:03 052 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:55:03 053 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:03 053 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:55:03 053 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:55:03 054 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/11 13:55:03 054 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:41 022 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:41 022 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:41 022 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 13:55:41 025 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:41 025 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:41 026 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:55:41 026 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:55:41 027 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:41 027 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:41 027 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:41 028 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 13:55:41 029 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:41 029 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:41 029 [debug]: [POST] http://localhost:3001/department
+22/07/11 13:55:41 038 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:41 038 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:41 039 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:41 039 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:41 039 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:55:41 040 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:55:41 040 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:41 040 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:41 040 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:41 040 [debug]: [OPTIONS] http://localhost:3001/department/undefined
+22/07/11 13:55:41 041 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:55:41 042 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:41 043 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:41 043 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:41 043 [debug]: [PUT] http://localhost:3001/department
+22/07/11 13:55:41 044 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 13:55:41 044 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 13:55:41 045 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 13:55:41 045 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:41 045 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:41 045 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:41 046 [debug]: [DELETE] http://localhost:3001/department/undefined
+22/07/11 13:55:41 046 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:41 047 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:41 048 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 26ms
+22/07/11 13:55:41 048 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:41 048 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:41 048 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:41 049 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:55:41 050 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:41 050 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:41 051 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:41 051 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:41 051 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:55:41 053 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:41 053 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:41 054 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:55:41 054 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:41 055 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:55:41 055 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:55:41 055 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 13:55:41 056 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:52 785 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:52 785 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:52 785 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 13:55:52 787 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:52 787 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:52 787 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:55:52 788 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:55:52 788 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:52 789 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:52 789 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:52 790 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 13:55:52 791 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:52 791 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:52 791 [debug]: [POST] http://localhost:3001/department
+22/07/11 13:55:52 792 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:52 793 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:52 793 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:52 793 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:52 793 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:55:52 794 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:55:52 794 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:52 795 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:52 795 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/11 13:55:52 795 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:52 796 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:52 796 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:52 796 [debug]: [OPTIONS] http://localhost:3001/department/220
+22/07/11 13:55:52 798 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 13:55:52 798 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:52 799 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:52 800 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:52 800 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:55:52 801 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:52 801 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:52 801 [debug]: [PUT] http://localhost:3001/department
+22/07/11 13:55:52 802 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 13:55:52 802 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 13:55:52 804 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/11 13:55:52 804 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:52 805 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:52 806 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:52 806 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:52 806 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:52 808 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:55:52 808 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:52 808 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:52 808 [debug]: [DELETE] http://localhost:3001/department/220
+22/07/11 13:55:52 809 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:52 811 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:52 811 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:52 812 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:55:52 814 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:52 814 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:55:52 814 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:55:52 815 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/11 13:55:52 815 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:52 819 [info]: >> DATABASE 접속됨 [threaId=11]
+22/07/11 13:55:52 820 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:55:52 820 [debug]: DELETE FROM student WHERE deptno='220';
+22/07/11 13:55:52 825 [debug]: DELETE FROM professor WHERE deptno='220';
+22/07/11 13:55:52 827 [debug]: DELETE FROM department WHERE deptno='220';
+22/07/11 13:55:52 832 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:55:52 832 [error]: [ReferenceError] data is not defined
+22/07/11 13:55:52 833 [error]: ReferenceError: data is not defined
+    at DepartmentService.deleteItem (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:160:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:156:7
+22/07/11 13:55:52 833 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 25ms
+22/07/11 13:55:52 833 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:56 856 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:56 856 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:56 857 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 13:55:56 858 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:56 858 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:56 859 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 13:55:56 859 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:56 859 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:56 860 [debug]: [POST] http://localhost:3001/department
+22/07/11 13:55:56 860 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:56 860 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:56 861 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:56 862 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 13:55:56 862 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:56 863 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:56 863 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:56 864 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:55:56 865 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:56 865 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:56 865 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:55:56 865 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:55:56 865 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:55:56 866 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:55:56 866 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:55:56 866 [debug]: [PUT] http://localhost:3001/department
+22/07/11 13:55:56 867 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 13:55:56 867 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 13:55:56 868 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 13:55:56 868 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:55:56 868 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:55:56 868 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:55:56 869 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:55:56 870 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:55:56 870 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:55:56 870 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:55:56 871 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/11 13:55:56 871 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:20 862 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:20 862 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:20 862 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 13:56:20 864 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:20 864 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:20 864 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:56:20 865 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:56:20 865 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:20 865 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:20 866 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:56:20 866 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 13:56:20 866 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:20 867 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:20 867 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:56:20 867 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 0ms
+22/07/11 13:56:20 867 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:20 868 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:56:20 869 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 13:56:20 869 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:20 871 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:20 871 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:20 871 [debug]: [POST] http://localhost:3001/department
+22/07/11 13:56:20 872 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:20 872 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:20 872 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:56:20 873 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호');
+22/07/11 13:56:20 873 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:20 873 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:20 874 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:56:20 875 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:20 876 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:20 876 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:20 876 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:56:20 876 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:56:20 877 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='228';
+22/07/11 13:56:20 878 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:56:20 878 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 13:56:20 878 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:20 879 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:56:20 879 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:56:20 880 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:56:20 880 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:20 880 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:20 881 [debug]: [PUT] http://localhost:3001/department
+22/07/11 13:56:20 881 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 13:56:20 882 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 13:56:20 882 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 13:56:20 882 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:20 883 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:56:20 883 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:56:20 883 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:56:20 884 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/11 13:56:20 884 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:53 805 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:53 805 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:53 805 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 13:56:53 808 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:53 809 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:56:53 809 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 13:56:53 810 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:53 810 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:53 810 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:56:53 810 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 0ms
+22/07/11 13:56:53 811 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:53 811 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:56:53 811 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 13:56:53 812 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:53 812 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:53 812 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:53 812 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:56:53 813 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:56:53 813 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:53 814 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:53 814 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:53 814 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:56:53 815 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:53 815 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:53 815 [debug]: [POST] http://localhost:3001/department
+22/07/11 13:56:53 816 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:53 816 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:53 816 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:56:53 817 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호');
+22/07/11 13:56:53 817 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:53 817 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:53 817 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:56:53 818 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:56:53 818 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:56:53 818 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='229';
+22/07/11 13:56:53 819 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:56:53 819 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:56:53 819 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:56:53 820 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:56:53 820 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 13:56:53 820 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:53 821 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:56:53 821 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:56:53 821 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:56:53 821 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 13:56:53 821 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:56:53 822 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:56:53 822 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:56:53 822 [debug]: [PUT] http://localhost:3001/department
+22/07/11 13:56:53 824 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 13:56:53 824 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 13:56:53 825 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/11 13:56:53 825 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 108 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 108 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 108 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:59:27 109 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:59:27 109 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 109 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 109 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 110 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:59:27 110 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 13:59:27 110 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 111 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 111 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 111 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:59:27 112 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 0ms
+22/07/11 13:59:27 112 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 112 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 113 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 113 [debug]: [POST] http://localhost:3001/department
+22/07/11 13:59:27 114 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 114 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 114 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:59:27 114 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호');
+22/07/11 13:59:27 115 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 115 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 115 [debug]: [PUT] http://localhost:3001/department
+22/07/11 13:59:27 116 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 13:59:27 116 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 13:59:27 117 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 13:59:27 117 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 117 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 118 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 118 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 13:59:27 120 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 13:59:27 120 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 120 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 120 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 121 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 13:59:27 123 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 123 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 123 [debug]: [PUT] http://localhost:3001/department
+22/07/11 13:59:27 124 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 13:59:27 124 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 13:59:27 126 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/11 13:59:27 127 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 128 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 128 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:59:27 129 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 13:59:27 129 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 129 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 129 [debug]: [POST] http://localhost:3001/department
+22/07/11 13:59:27 130 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 131 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 132 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='230';
+22/07/11 13:59:27 132 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:59:27 133 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/11 13:59:27 134 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 134 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:59:27 134 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 21ms
+22/07/11 13:59:27 134 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 139 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 139 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 139 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 13:59:27 140 [info]: >> DATABASE 접속됨 [threaId=12]
+22/07/11 13:59:27 140 [info]: >> Connection 임대됨 [threaId=12]
+22/07/11 13:59:27 140 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호');
+22/07/11 13:59:27 141 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 141 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:59:27 141 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 13:59:27 142 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='231';
+22/07/11 13:59:27 144 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:59:27 144 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 13:59:27 145 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 147 [info]: >> Connection 반납됨 [threaId=12]
+22/07/11 13:59:27 147 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/11 13:59:27 148 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 177 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 178 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 178 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:59:27 181 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 182 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 182 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 182 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:59:27 183 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:59:27 185 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:59:27 185 [info]: >> Connection 임대됨 [threaId=11]
+22/07/11 13:59:27 186 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:59:27 188 [info]: >> Connection 반납됨 [threaId=11]
+22/07/11 13:59:27 188 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:59:27 188 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:59:27 189 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/11 13:59:27 189 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:27 196 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:59:27 197 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 13:59:27 197 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 13:59:27 202 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 202 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 203 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:59:27 203 [info]: >> Connection 임대됨 [threaId=12]
+22/07/11 13:59:27 204 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 13:59:27 208 [info]: >> Connection 반납됨 [threaId=12]
+22/07/11 13:59:27 208 [info]: >> Connection 임대됨 [threaId=10]
+22/07/11 13:59:27 209 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 13:59:27 211 [info]: >> Connection 반납됨 [threaId=10]
+22/07/11 13:59:27 212 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 13:59:27 212 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 13:59:27 212 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/11 13:59:27 212 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 13:59:52 855 [info]: Database Pool is closed
+22/07/11 14:00:03 220 [debug]: -----------------------------------
+22/07/11 14:00:03 222 [debug]: |       Start Express Server      |
+22/07/11 14:00:03 223 [debug]: -----------------------------------
+22/07/11 14:00:03 223 [debug]: server address => http://192.168.10.103:3001
+22/07/11 14:00:03 223 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 392 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 393 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 394 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 14:00:09 397 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/11 14:00:09 398 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 403 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 403 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 404 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 14:00:09 404 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 14:00:09 405 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 406 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 406 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 406 [debug]: [POST] http://localhost:3001/department
+22/07/11 14:00:09 419 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 419 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 425 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 425 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 426 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 14:00:09 426 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 14:00:09 426 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 427 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 427 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 427 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 14:00:09 428 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 1ms
+22/07/11 14:00:09 428 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 429 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 429 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 429 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 14:00:09 431 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 431 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 431 [debug]: [POST] http://localhost:3001/department
+22/07/11 14:00:09 432 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 433 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 434 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 434 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 434 [debug]: [PUT] http://localhost:3001/department
+22/07/11 14:00:09 436 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 14:00:09 436 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 14:00:09 443 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/11 14:00:09 444 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 445 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 446 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 446 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 446 [debug]: [PUT] http://localhost:3001/department
+22/07/11 14:00:09 447 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/11 14:00:09 447 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/app.js:174:48
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+    at /Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/node_modules/express/lib/router/index.js:328:13)
+22/07/11 14:00:09 450 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/11 14:00:09 452 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 454 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 454 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 455 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 14:00:09 495 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 497 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 497 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 504 [info]: >> DATABASE 접속됨 [threaId=13]
+22/07/11 14:00:09 504 [info]: >> Connection 임대됨 [threaId=13]
+22/07/11 14:00:09 509 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호');
+22/07/11 14:00:09 509 [info]: >> DATABASE 접속됨 [threaId=14]
+22/07/11 14:00:09 510 [info]: >> Connection 임대됨 [threaId=14]
+22/07/11 14:00:09 512 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호');
+22/07/11 14:00:09 514 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='232';
+22/07/11 14:00:09 515 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='233';
+22/07/11 14:00:09 519 [info]: >> Connection 반납됨 [threaId=13]
+22/07/11 14:00:09 524 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 118ms
+22/07/11 14:00:09 524 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 526 [info]: >> Connection 반납됨 [threaId=14]
+22/07/11 14:00:09 530 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 99ms
+22/07/11 14:00:09 531 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 532 [info]: >> DATABASE 접속됨 [threaId=15]
+22/07/11 14:00:09 532 [info]: >> Connection 임대됨 [threaId=15]
+22/07/11 14:00:09 533 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 14:00:09 535 [info]: >> Connection 반납됨 [threaId=15]
+22/07/11 14:00:09 537 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 108ms
+22/07/11 14:00:09 538 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 540 [info]: >> DATABASE 접속됨 [threaId=16]
+22/07/11 14:00:09 540 [info]: >> Connection 임대됨 [threaId=16]
+22/07/11 14:00:09 543 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:00:09 545 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 545 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 546 [debug]: [GET] http://localhost:3001/department/101
+22/07/11 14:00:09 547 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 547 [info]: >> Connection 임대됨 [threaId=13]
+22/07/11 14:00:09 548 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101';
+22/07/11 14:00:09 550 [info]: >> Connection 반납됨 [threaId=16]
+22/07/11 14:00:09 550 [info]: >> Connection 임대됨 [threaId=14]
+22/07/11 14:00:09 551 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 14:00:09 552 [info]: >> Connection 반납됨 [threaId=13]
+22/07/11 14:00:09 555 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/11 14:00:09 556 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 558 [info]: >> Connection 반납됨 [threaId=14]
+22/07/11 14:00:09 559 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 14:00:09 560 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 14:00:09 601 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 147ms
+22/07/11 14:00:09 603 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:09 605 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:09 605 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:09 606 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 14:00:09 608 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 609 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 617 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:09 618 [info]: >> Connection 임대됨 [threaId=15]
+22/07/11 14:00:09 621 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:00:09 623 [info]: >> Connection 반납됨 [threaId=15]
+22/07/11 14:00:09 623 [info]: >> Connection 임대됨 [threaId=16]
+22/07/11 14:00:09 625 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 14:00:09 626 [info]: >> Connection 반납됨 [threaId=16]
+22/07/11 14:00:09 626 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 14:00:09 627 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 14:00:09 628 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/07/11 14:00:09 629 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:20 389 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:20 390 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:20 390 [debug]: [GET] http://localhost:3001/department/
+22/07/11 14:00:20 391 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:20 391 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:20 392 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:20 392 [info]: >> Connection 임대됨 [threaId=13]
+22/07/11 14:00:20 393 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 14:00:20 393 [info]: >> Connection 반납됨 [threaId=13]
+22/07/11 14:00:20 394 [info]: >> Connection 임대됨 [threaId=14]
+22/07/11 14:00:20 395 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 14:00:20 396 [info]: >> Connection 반납됨 [threaId=14]
+22/07/11 14:00:20 396 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 14:00:20 397 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:24 222 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:24 222 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:24 222 [debug]: [GET] http://localhost:3001/
+22/07/11 14:00:24 225 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/11 14:00:24 225 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:00:30 928 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:00:30 928 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:00:30 928 [debug]: [GET] http://localhost:3001/department/
+22/07/11 14:00:30 930 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:30 930 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:30 930 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:00:30 930 [info]: >> Connection 임대됨 [threaId=15]
+22/07/11 14:00:30 930 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/11 14:00:30 931 [info]: >> Connection 반납됨 [threaId=15]
+22/07/11 14:00:30 931 [info]: >> Connection 임대됨 [threaId=16]
+22/07/11 14:00:30 932 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/11 14:00:30 932 [info]: >> Connection 반납됨 [threaId=16]
+22/07/11 14:00:30 933 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 14:00:30 933 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:01:18 024 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:01:18 024 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:01:18 024 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 14:01:18 025 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:01:18 026 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:01:18 026 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:01:18 026 [info]: >> Connection 임대됨 [threaId=13]
+22/07/11 14:01:18 026 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:01:18 027 [info]: >> Connection 반납됨 [threaId=13]
+22/07/11 14:01:18 028 [info]: >> Connection 임대됨 [threaId=14]
+22/07/11 14:01:18 029 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 5, 5
+22/07/11 14:01:18 029 [info]: >> Connection 반납됨 [threaId=14]
+22/07/11 14:01:18 029 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 14:01:18 030 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/service/DepartmentService.js:29:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///Users/chanu/Desktop/chanFiles/VScode/EZEN/studynote/07_NodeJs/14-restfulAPI/controllers/DepartmentController.js:40:14
+22/07/11 14:01:18 031 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 14:01:18 031 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:02:35 711 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:02:35 712 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:02:35 712 [debug]: [GET] http://localhost:3001/department?query=공학&page=1&rows=5
+22/07/11 14:02:35 714 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/07/11 14:02:35 714 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:02:35 716 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:02:35 716 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:02:35 716 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:02:35 718 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:35 718 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:35 718 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:35 718 [info]: >> Connection 임대됨 [threaId=15]
+22/07/11 14:02:35 719 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:02:35 720 [info]: >> Connection 반납됨 [threaId=15]
+22/07/11 14:02:35 720 [info]: >> Connection 임대됨 [threaId=16]
+22/07/11 14:02:35 720 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:02:35 722 [info]: >> Connection 반납됨 [threaId=16]
+22/07/11 14:02:35 722 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 14:02:35 722 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:02:39 524 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:02:39 524 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:02:39 525 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:02:39 526 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:39 526 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:39 526 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:39 526 [info]: >> Connection 임대됨 [threaId=13]
+22/07/11 14:02:39 527 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:02:39 528 [info]: >> Connection 반납됨 [threaId=13]
+22/07/11 14:02:39 528 [info]: >> Connection 임대됨 [threaId=14]
+22/07/11 14:02:39 528 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:02:39 529 [info]: >> Connection 반납됨 [threaId=14]
+22/07/11 14:02:39 533 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/11 14:02:39 533 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:02:39 543 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:02:39 543 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:02:39 543 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:02:39 546 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:39 547 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:39 547 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:02:39 548 [info]: >> Connection 임대됨 [threaId=15]
+22/07/11 14:02:39 548 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:02:39 551 [info]: >> Connection 반납됨 [threaId=15]
+22/07/11 14:02:39 551 [info]: >> Connection 임대됨 [threaId=16]
+22/07/11 14:02:39 552 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:02:39 554 [info]: >> Connection 반납됨 [threaId=16]
+22/07/11 14:02:39 555 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/11 14:02:39 556 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:10:55 335 [debug]: -----------------------------------
+22/07/11 14:10:55 339 [debug]: |       Start Express Server      |
+22/07/11 14:10:55 340 [debug]: -----------------------------------
+22/07/11 14:10:55 341 [debug]: server address => http://192.168.10.103:3001
+22/07/11 14:10:55 342 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:10:57 993 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:10:57 994 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:10:57 995 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:10:57 999 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:10:58 000 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:10:58 000 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:10:58 017 [info]: >> DATABASE 접속됨 [threaId=17]
+22/07/11 14:10:58 017 [info]: >> Connection 임대됨 [threaId=17]
+22/07/11 14:10:58 020 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:10:58 023 [info]: >> Connection 반납됨 [threaId=17]
+22/07/11 14:10:58 023 [info]: >> Connection 임대됨 [threaId=17]
+22/07/11 14:10:58 031 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:10:58 034 [info]: >> Connection 반납됨 [threaId=17]
+22/07/11 14:10:58 045 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 51ms
+22/07/11 14:10:58 045 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:10:58 052 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:10:58 052 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:10:58 053 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:10:58 056 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:10:58 056 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:10:58 057 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:10:58 058 [info]: >> Connection 임대됨 [threaId=17]
+22/07/11 14:10:58 059 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:10:58 060 [info]: >> Connection 반납됨 [threaId=17]
+22/07/11 14:10:58 060 [info]: >> Connection 임대됨 [threaId=17]
+22/07/11 14:10:58 062 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:10:58 064 [info]: >> Connection 반납됨 [threaId=17]
+22/07/11 14:10:58 067 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/11 14:10:58 069 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:11:06 150 [debug]: -----------------------------------
+22/07/11 14:11:06 153 [debug]: |       Start Express Server      |
+22/07/11 14:11:06 153 [debug]: -----------------------------------
+22/07/11 14:11:06 154 [debug]: server address => http://192.168.10.103:3001
+22/07/11 14:11:06 154 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:11:07 927 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:11:07 928 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:11:07 929 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:11:07 946 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:11:07 948 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:11:07 949 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:11:07 969 [info]: >> DATABASE 접속됨 [threaId=18]
+22/07/11 14:11:07 970 [info]: >> Connection 임대됨 [threaId=18]
+22/07/11 14:11:07 976 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:11:07 981 [info]: >> Connection 반납됨 [threaId=18]
+22/07/11 14:11:07 982 [info]: >> Connection 임대됨 [threaId=18]
+22/07/11 14:11:07 984 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:11:07 986 [info]: >> Connection 반납됨 [threaId=18]
+22/07/11 14:11:07 992 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 64ms
+22/07/11 14:11:07 992 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:11:07 998 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:11:07 998 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:11:07 999 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:11:08 001 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:11:08 002 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:11:08 002 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:11:08 003 [info]: >> Connection 임대됨 [threaId=18]
+22/07/11 14:11:08 004 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:11:08 005 [info]: >> Connection 반납됨 [threaId=18]
+22/07/11 14:11:08 005 [info]: >> Connection 임대됨 [threaId=18]
+22/07/11 14:11:08 007 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:11:08 008 [info]: >> Connection 반납됨 [threaId=18]
+22/07/11 14:11:08 010 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/11 14:11:08 010 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:12:34 332 [debug]: -----------------------------------
+22/07/11 14:12:34 335 [debug]: |       Start Express Server      |
+22/07/11 14:12:34 336 [debug]: -----------------------------------
+22/07/11 14:12:34 336 [debug]: server address => http://192.168.10.103:3001
+22/07/11 14:12:34 337 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:12:36 073 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:12:36 074 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:12:36 074 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:12:36 081 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:36 082 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:36 083 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:36 122 [info]: >> DATABASE 접속됨 [threaId=19]
+22/07/11 14:12:36 122 [info]: >> Connection 임대됨 [threaId=19]
+22/07/11 14:12:36 126 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:12:36 129 [info]: >> Connection 반납됨 [threaId=19]
+22/07/11 14:12:36 129 [info]: >> Connection 임대됨 [threaId=19]
+22/07/11 14:12:36 131 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:12:36 132 [info]: >> Connection 반납됨 [threaId=19]
+22/07/11 14:12:36 137 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 64ms
+22/07/11 14:12:36 138 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:12:36 142 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:12:36 142 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:12:36 142 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:12:36 145 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:36 145 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:36 146 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:36 146 [info]: >> Connection 임대됨 [threaId=19]
+22/07/11 14:12:36 147 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:12:36 149 [info]: >> Connection 반납됨 [threaId=19]
+22/07/11 14:12:36 149 [info]: >> Connection 임대됨 [threaId=19]
+22/07/11 14:12:36 150 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:12:36 152 [info]: >> Connection 반납됨 [threaId=19]
+22/07/11 14:12:36 153 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/11 14:12:36 153 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:12:41 639 [debug]: -----------------------------------
+22/07/11 14:12:41 642 [debug]: |       Start Express Server      |
+22/07/11 14:12:41 642 [debug]: -----------------------------------
+22/07/11 14:12:41 642 [debug]: server address => http://192.168.10.103:3001
+22/07/11 14:12:41 643 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:12:43 563 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:12:43 564 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:12:43 565 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:12:43 570 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:43 571 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:43 572 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:43 601 [info]: >> DATABASE 접속됨 [threaId=20]
+22/07/11 14:12:43 601 [info]: >> Connection 임대됨 [threaId=20]
+22/07/11 14:12:43 605 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:12:43 608 [info]: >> Connection 반납됨 [threaId=20]
+22/07/11 14:12:43 609 [info]: >> Connection 임대됨 [threaId=20]
+22/07/11 14:12:43 610 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:12:43 612 [info]: >> Connection 반납됨 [threaId=20]
+22/07/11 14:12:43 617 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 53ms
+22/07/11 14:12:43 617 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/11 14:12:43 622 [debug]: 클라이언트가 접속했습니다.
+22/07/11 14:12:43 622 [debug]: [Client] ::1 / macOS Mojave / Chrome / Apple Mac
+22/07/11 14:12:43 622 [debug]: [GET] http://localhost:3001/department/?query=공학&page=1&rows=5
+22/07/11 14:12:43 624 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:43 624 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:43 624 [debug]: [HTTP %s Params] %s=%s
+22/07/11 14:12:43 625 [info]: >> Connection 임대됨 [threaId=20]
+22/07/11 14:12:43 625 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')
+22/07/11 14:12:43 626 [info]: >> Connection 반납됨 [threaId=20]
+22/07/11 14:12:43 627 [info]: >> Connection 임대됨 [threaId=20]
+22/07/11 14:12:43 627 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '공학', '%')  OR loc LIKE concat('%', '공학', '%')  ORDER BY deptno DESC  LIMIT 0, 5
+22/07/11 14:12:43 629 [info]: >> Connection 반납됨 [threaId=20]
+22/07/11 14:12:43 630 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/11 14:12:43 630 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,69 @@
+22/07/10 14:25:25 992 [info]: >> DATABASE 접속됨 [threaId=103]
+22/07/10 14:25:25 994 [info]: >> Connection 임대됨 [threaId=103]
+22/07/10 14:25:25 996 [debug]: SELECT * FROM student
+22/07/10 14:25:26 019 [info]: >> Connection 반납됨 [threaId=103]
+22/07/10 14:25:26 020 [info]: Database Pool is closed
+22/07/10 15:33:00 533 [info]: >> DATABASE 접속됨 [threaId=104]
+22/07/10 15:33:00 535 [info]: >> Connection 임대됨 [threaId=104]
+22/07/10 15:33:00 537 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/10 15:33:00 549 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '풀스텍', '%')  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/10 15:33:00 554 [debug]: INSERT INTO department (dname, loc) VALUES ('풀스텍', '1401호');
+22/07/10 15:33:00 562 [debug]: DELETE FROM department WHERE deptno='300';
+22/07/10 15:33:00 566 [debug]: UPDATE department SET dname='수정된학과', loc='수정된위치'  WHERE deptno='300';
+22/07/10 15:33:00 568 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/10 15:33:00 572 [debug]: SELECT  profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, p.deptno, dname, loc  FROM professor AS p  INNER JOIN department AS d  ON p.deptno = d.deptno
+22/07/10 15:33:00 577 [info]: >> Connection 반납됨 [threaId=104]
+22/07/10 15:33:00 577 [info]: Database Pool is closed
+22/07/10 15:36:04 816 [info]: >> DATABASE 접속됨 [threaId=105]
+22/07/10 15:36:04 818 [info]: >> Connection 임대됨 [threaId=105]
+22/07/10 15:36:04 821 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/10 15:36:04 829 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '풀스텍', '%')  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/10 15:36:04 831 [debug]: DELETE FROM department WHERE deptno='300';
+22/07/10 15:36:04 832 [debug]: UPDATE department SET dname='수정된학과', loc='수정된위치'  WHERE deptno='300';
+22/07/10 15:36:04 834 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/10 15:36:04 835 [info]: >> Connection 반납됨 [threaId=105]
+22/07/10 15:36:04 836 [info]: Database Pool is closed
+22/07/10 15:37:51 534 [info]: >> DATABASE 접속됨 [threaId=106]
+22/07/10 15:37:51 536 [info]: >> Connection 임대됨 [threaId=106]
+22/07/10 15:37:51 538 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/10 15:37:51 545 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '풀스텍', '%')  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/10 15:37:51 547 [debug]: INSERT INTO department (dname, loc) VALUES ('풀스텍', '1401호');
+22/07/10 15:37:51 548 [debug]: DELETE FROM department WHERE deptno='300';
+22/07/10 15:37:51 549 [debug]: UPDATE department SET dname='수정된학과', loc='수정된위치'  WHERE deptno='300';
+22/07/10 15:37:51 549 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/10 15:37:51 551 [info]: >> Connection 반납됨 [threaId=106]
+22/07/10 15:37:51 551 [info]: Database Pool is closed
+22/07/10 15:38:19 771 [info]: >> DATABASE 접속됨 [threaId=107]
+22/07/10 15:38:19 773 [info]: >> Connection 임대됨 [threaId=107]
+22/07/10 15:38:19 775 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/10 15:38:19 782 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '풀스텍', '%')  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/10 15:38:19 784 [debug]: INSERT INTO department (dname, loc) VALUES ('풀스텍', '1401호');
+22/07/10 15:38:19 785 [debug]: DELETE FROM department WHERE deptno='300';
+22/07/10 15:38:19 786 [debug]: UPDATE department SET dname='수정된학과', loc='수정된위치'  WHERE deptno='300';
+22/07/10 15:38:19 787 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/10 15:38:19 788 [debug]: SELECT  profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, p.deptno, dname, loc  FROM professor AS p  INNER JOIN department AS d  ON p.deptno = d.deptno
+22/07/10 15:38:19 790 [info]: >> Connection 반납됨 [threaId=107]
+22/07/10 15:38:19 790 [info]: Database Pool is closed
+22/07/10 15:39:21 776 [info]: >> DATABASE 접속됨 [threaId=108]
+22/07/10 15:39:21 778 [info]: >> Connection 임대됨 [threaId=108]
+22/07/10 15:39:21 781 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/10 15:39:21 786 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '풀스텍', '%')  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/10 15:39:21 788 [debug]: INSERT INTO department (dname, loc) VALUES ('풀스텍', '1401호');
+22/07/10 15:39:21 791 [debug]: DELETE FROM department WHERE deptno='300';
+22/07/10 15:39:21 792 [debug]: UPDATE department SET dname='수정된학과', loc='수정된위치'  WHERE deptno='300';
+22/07/10 15:39:21 794 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/10 15:39:21 795 [debug]: SELECT  profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, p.deptno, dname, loc  FROM professor AS p  INNER JOIN department AS d  ON p.deptno = d.deptno
+22/07/10 15:39:21 797 [info]: >> Connection 반납됨 [threaId=108]
+22/07/10 15:39:21 797 [info]: Database Pool is closed
+22/07/10 15:40:10 693 [info]: >> DATABASE 접속됨 [threaId=109]
+22/07/10 15:40:10 695 [info]: >> Connection 임대됨 [threaId=109]
+22/07/10 15:40:10 697 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/10 15:40:10 702 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '풀스텍', '%')  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/10 15:40:10 705 [info]: >> Connection 반납됨 [threaId=109]
+22/07/10 15:40:10 706 [info]: Database Pool is closed
+22/07/10 15:40:27 155 [info]: >> DATABASE 접속됨 [threaId=110]
+22/07/10 15:40:27 157 [info]: >> Connection 임대됨 [threaId=110]
+22/07/10 15:40:27 160 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='201';
+22/07/10 15:40:27 164 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', '풀스텍', '%')  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/10 15:40:27 166 [info]: >> Connection 반납됨 [threaId=110]
+22/07/10 15:40:27 167 [info]: Database Pool is closed

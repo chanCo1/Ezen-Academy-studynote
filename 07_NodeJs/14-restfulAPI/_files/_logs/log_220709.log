@@ -1,0 +1,25 @@
+22/07/09 13:51:28 610 [debug]: -----------------------------------
+22/07/09 13:51:28 612 [debug]: |       Start Express Server      |
+22/07/09 13:51:28 613 [debug]: -----------------------------------
+22/07/09 13:51:28 613 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/09 13:51:32 644 [debug]: 클라이언트가 접속했습니다.
+22/07/09 13:51:32 644 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/09 13:51:32 645 [debug]: [GET] http://localhost:3001/department?page=1&rows=3
+22/07/09 13:51:32 652 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/09 13:51:32 653 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/09 13:51:32 657 [debug]: 클라이언트가 접속했습니다.
+22/07/09 13:51:32 658 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/09 13:51:32 658 [debug]: [GET] http://localhost:3001/department/?page=1&rows=3
+22/07/09 13:51:32 661 [debug]: [HTTP %s Params] %s=%s
+22/07/09 13:51:32 661 [debug]: [HTTP %s Params] %s=%s
+22/07/09 13:51:32 661 [debug]: [HTTP %s Params] %s=%s
+22/07/09 13:51:32 676 [info]: >> DATABASE 접속됨 [threaId=102]
+22/07/09 13:51:32 677 [info]: >> Connection 임대됨 [threaId=102]
+22/07/09 13:51:32 679 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/09 13:51:32 682 [info]: >> Connection 반납됨 [threaId=102]
+22/07/09 13:51:32 682 [info]: >> Connection 임대됨 [threaId=102]
+22/07/09 13:51:32 683 [debug]: SELECT deptno, dname, loc FROM department ORDER BY deptno DESC LIMIT 0, 3
+22/07/09 13:51:32 684 [info]: >> Connection 반납됨 [threaId=102]
+22/07/09 13:51:32 687 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 29ms
+22/07/09 13:51:32 687 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/09 15:48:23 739 [info]: Database Pool is closed
