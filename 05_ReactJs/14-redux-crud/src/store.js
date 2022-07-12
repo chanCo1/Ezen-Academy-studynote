@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import DepartmentSlice from './slice/DepartmentSlice';
+import DepartmentSlice from './slices/DepartmentSlice';
 
 const store = configureStore({
   reducer: {
-    Department: DepartmentSlice
+    DepartmentSlice: DepartmentSlice
   },
 
   middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false}),
