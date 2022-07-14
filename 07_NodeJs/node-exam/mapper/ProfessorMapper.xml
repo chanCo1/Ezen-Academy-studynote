@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ProfessorMapper">
+
+  <!-- 다중행 조회를 위한 기능 정의 -->
+  <select id="selectList">
+
+    SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname
+    FROM professor p
+    INNER JOIN department d
+    ON p.deptno = d.deptno
+
+     <!-- where절 사용 -->
+     <where>
+      <if test="name != null and name != ' '">
+        name LIKE concat('%', #{name}, '%')
+      </if>
+    </where>
+
+    ORDER BY deptno DESC
+
+    <if test="listCount > 0">
+      LIMIT ${offset}, ${listCount}
+    </if>
+    
+  </select>
+
+  <!-- 단일행 조회를 위한 기능 정의 -->
+  <!-- 아래가 원본 -->
+  <!-- SELECT * FROM professor WHERE profno=#{profno}; -->
+  <select id="selectItem">
+
+    SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname
+    FROM professor p
+    INNER JOIN department d
+    ON p.deptno = d.deptno
+
+    <where>
+      profno=#{profno}
+    </where>
+
+  </select>
+
+  <!-- 교수 데이터 생성 -->
+  <insert id="insertItem">
+    INSERT INTO professor (name, userid, position, sal, hiredate, comm, deptno)
+    VALUES (#{name}, #{userid}, #{position}, #{sal}, #{hiredate}, #{comm}, #{deptno});
+  </insert>
+
+  <!-- 교수 데이터 수정을 위한 기능 정의 -->
+  <update id="updateItem">
+    UPDATE professor SET name=#{name}, position=#{position}
+    WHERE profno=#{profno};
+  </update>
+
+  <!-- 데이터 삭제를 위한 기능 정의 -->
+  <delete id="deleteItem">
+    DELETE FROM professor WHERE profno=#{profno};
+  </delete>
+
+  <!-- 데이터 수 조회하기 -->
+  <select id="selectCountAll">
+    SELECT COUNT(*) AS count FROM professor
+
+    <where>
+      <if test="name != null and name != ' '">
+        name LIKE concat('%', #{name}, '%')
+      </if>
+    </where>
+  </select>
+
+</mapper>

@@ -1,0 +1,539 @@
+22/07/14 13:35:40 989 [debug]: -----------------------------------
+22/07/14 13:35:40 992 [debug]: |       Start Express Server      |
+22/07/14 13:35:40 992 [debug]: -----------------------------------
+22/07/14 13:35:40 992 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 13:35:51 990 [debug]:  >>>> Database Pool is closed
+22/07/14 13:36:10 740 [info]: >> DATABASE 접속됨 [threaId=107]
+22/07/14 13:36:10 743 [info]: >> Connection 임대됨 [threaId=107]
+22/07/14 13:36:10 745 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 13:36:10 770 [info]: >> Connection 반납됨 [threaId=107]
+22/07/14 13:36:10 775 [info]: >> Connection 임대됨 [threaId=107]
+22/07/14 13:36:10 777 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9902'
+22/07/14 13:36:10 779 [info]: >> Connection 반납됨 [threaId=107]
+22/07/14 13:36:10 780 [debug]:  >>>> Database Pool is closed
+22/07/14 13:37:13 070 [debug]: -----------------------------------
+22/07/14 13:37:13 073 [debug]: |       Start Express Server      |
+22/07/14 13:37:13 073 [debug]: -----------------------------------
+22/07/14 13:37:13 073 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 13:37:14 986 [debug]: 클라이언트가 접속했습니다.
+22/07/14 13:37:15 006 [info]: >> DATABASE 접속됨 [threaId=108]
+22/07/14 13:37:15 006 [info]: >> Connection 임대됨 [threaId=108]
+22/07/14 13:37:15 008 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 13:37:15 012 [info]: >> Connection 반납됨 [threaId=108]
+22/07/14 13:37:15 017 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 13:38:42 191 [debug]: -----------------------------------
+22/07/14 13:38:42 193 [debug]: |       Start Express Server      |
+22/07/14 13:38:42 193 [debug]: -----------------------------------
+22/07/14 13:38:42 193 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 13:39:31 658 [debug]: -----------------------------------
+22/07/14 13:39:31 661 [debug]: |       Start Express Server      |
+22/07/14 13:39:31 661 [debug]: -----------------------------------
+22/07/14 13:39:31 661 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 13:39:52 087 [debug]: 클라이언트가 접속했습니다.
+22/07/14 13:39:52 092 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 13:52:32 713 [debug]: 클라이언트가 접속했습니다.
+22/07/14 13:52:32 730 [info]: >> DATABASE 접속됨 [threaId=109]
+22/07/14 13:52:32 730 [info]: >> Connection 임대됨 [threaId=109]
+22/07/14 13:52:32 732 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 13:52:32 737 [info]: >> Connection 반납됨 [threaId=109]
+22/07/14 13:52:32 738 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 13:52:39 010 [debug]: 클라이언트가 접속했습니다.
+22/07/14 13:52:39 011 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 13:53:40 172 [debug]: -----------------------------------
+22/07/14 13:53:40 175 [debug]: |       Start Express Server      |
+22/07/14 13:53:40 176 [debug]: -----------------------------------
+22/07/14 13:53:40 176 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 13:53:41 169 [debug]: 클라이언트가 접속했습니다.
+22/07/14 13:53:41 178 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 13:54:20 546 [debug]: -----------------------------------
+22/07/14 13:54:20 548 [debug]: |       Start Express Server      |
+22/07/14 13:54:20 548 [debug]: -----------------------------------
+22/07/14 13:54:20 549 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 13:54:21 901 [debug]: 클라이언트가 접속했습니다.
+22/07/14 13:54:21 919 [info]: >> DATABASE 접속됨 [threaId=110]
+22/07/14 13:54:21 920 [info]: >> Connection 임대됨 [threaId=110]
+22/07/14 13:54:21 923 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9901'
+22/07/14 13:54:21 927 [info]: >> Connection 반납됨 [threaId=110]
+22/07/14 13:54:21 930 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 13:54:27 414 [debug]: 클라이언트가 접속했습니다.
+22/07/14 13:54:27 414 [info]: >> Connection 임대됨 [threaId=110]
+22/07/14 13:54:27 415 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9903'
+22/07/14 13:54:27 416 [info]: >> Connection 반납됨 [threaId=110]
+22/07/14 13:54:27 417 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 13:54:59 999 [debug]: -----------------------------------
+22/07/14 13:55:00 002 [debug]: |       Start Express Server      |
+22/07/14 13:55:00 002 [debug]: -----------------------------------
+22/07/14 13:55:00 003 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:02:48 164 [debug]: -----------------------------------
+22/07/14 14:02:48 167 [debug]: |       Start Express Server      |
+22/07/14 14:02:48 167 [debug]: -----------------------------------
+22/07/14 14:02:48 167 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:02:58 876 [debug]: -----------------------------------
+22/07/14 14:02:58 878 [debug]: |       Start Express Server      |
+22/07/14 14:02:58 878 [debug]: -----------------------------------
+22/07/14 14:02:58 879 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:06:02 546 [debug]: -----------------------------------
+22/07/14 14:06:02 548 [debug]: |       Start Express Server      |
+22/07/14 14:06:02 549 [debug]: -----------------------------------
+22/07/14 14:06:02 549 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:06:13 388 [debug]: -----------------------------------
+22/07/14 14:06:13 390 [debug]: |       Start Express Server      |
+22/07/14 14:06:13 391 [debug]: -----------------------------------
+22/07/14 14:06:13 391 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:07:07 178 [debug]: -----------------------------------
+22/07/14 14:07:07 180 [debug]: |       Start Express Server      |
+22/07/14 14:07:07 180 [debug]: -----------------------------------
+22/07/14 14:07:07 181 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:08:51 113 [debug]: -----------------------------------
+22/07/14 14:08:51 115 [debug]: |       Start Express Server      |
+22/07/14 14:08:51 115 [debug]: -----------------------------------
+22/07/14 14:08:51 116 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:10:36 496 [debug]: -----------------------------------
+22/07/14 14:10:36 500 [debug]: |       Start Express Server      |
+22/07/14 14:10:36 500 [debug]: -----------------------------------
+22/07/14 14:10:36 501 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:12:46 785 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:22:14 115 [debug]: -----------------------------------
+22/07/14 14:22:14 118 [debug]: |       Start Express Server      |
+22/07/14 14:22:14 118 [debug]: -----------------------------------
+22/07/14 14:22:14 119 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:22:18 011 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:24:39 953 [debug]: -----------------------------------
+22/07/14 14:24:39 955 [debug]: |       Start Express Server      |
+22/07/14 14:24:39 956 [debug]: -----------------------------------
+22/07/14 14:24:39 956 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:24:40 639 [debug]:  >>>> Database Pool is closed
+22/07/14 14:24:48 660 [info]: >> DATABASE 접속됨 [threaId=112]
+22/07/14 14:24:48 662 [info]: >> Connection 임대됨 [threaId=112]
+22/07/14 14:24:48 664 [debug]: INSERT INTO professor (name, userid, position, sal, hiredate, comm, deptno)  VALUES ('시험교수', 'testID', '교수', '300', '2022-07-13', '20', '101');
+22/07/14 14:24:48 675 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9925'
+22/07/14 14:24:48 678 [info]: >> Connection 반납됨 [threaId=112]
+22/07/14 14:24:48 680 [debug]:  >>>> Database Pool is closed
+22/07/14 14:25:01 840 [debug]: -----------------------------------
+22/07/14 14:25:01 843 [debug]: |       Start Express Server      |
+22/07/14 14:25:01 843 [debug]: -----------------------------------
+22/07/14 14:25:01 843 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:27:30 955 [debug]: -----------------------------------
+22/07/14 14:27:30 957 [debug]: |       Start Express Server      |
+22/07/14 14:27:30 958 [debug]: -----------------------------------
+22/07/14 14:27:30 959 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:27:38 298 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:27:38 329 [info]: >> DATABASE 접속됨 [threaId=113]
+22/07/14 14:27:38 330 [info]: >> Connection 임대됨 [threaId=113]
+22/07/14 14:27:38 332 [debug]: INSERT INTO professor (name, userid, position, sal, hiredate, comm, deptno)  VALUES ('찬찬', 'chacha', '백수', '00', '20220714', '00', '202');
+22/07/14 14:27:38 335 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9926'
+22/07/14 14:27:38 339 [info]: >> Connection 반납됨 [threaId=113]
+22/07/14 14:27:38 342 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:28:00 757 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:28:00 757 [info]: >> Connection 임대됨 [threaId=113]
+22/07/14 14:28:00 758 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 14:28:00 760 [info]: >> Connection 반납됨 [threaId=113]
+22/07/14 14:28:00 761 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:36:46 129 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:36:46 131 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:37:58 862 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:37:58 864 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:39:52 622 [debug]: -----------------------------------
+22/07/14 14:39:52 624 [debug]: |       Start Express Server      |
+22/07/14 14:39:52 624 [debug]: -----------------------------------
+22/07/14 14:39:52 625 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:39:55 174 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:39:55 193 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:40:04 856 [debug]: -----------------------------------
+22/07/14 14:40:04 859 [debug]: |       Start Express Server      |
+22/07/14 14:40:04 859 [debug]: -----------------------------------
+22/07/14 14:40:04 860 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:40:05 827 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:40:05 861 [info]: >> DATABASE 접속됨 [threaId=114]
+22/07/14 14:40:05 862 [info]: >> Connection 임대됨 [threaId=114]
+22/07/14 14:40:05 863 [debug]: UPDATE professor SET name='이름없음', position='사장'  WHERE profno='9926';
+22/07/14 14:40:05 869 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9926'
+22/07/14 14:40:05 872 [info]: >> Connection 반납됨 [threaId=114]
+22/07/14 14:40:05 876 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:51:29 693 [debug]: -----------------------------------
+22/07/14 14:51:29 695 [debug]: |       Start Express Server      |
+22/07/14 14:51:29 696 [debug]: -----------------------------------
+22/07/14 14:51:29 696 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:51:54 086 [debug]: -----------------------------------
+22/07/14 14:51:54 090 [debug]: |       Start Express Server      |
+22/07/14 14:51:54 090 [debug]: -----------------------------------
+22/07/14 14:51:54 091 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:52:07 862 [debug]: -----------------------------------
+22/07/14 14:52:07 864 [debug]: |       Start Express Server      |
+22/07/14 14:52:07 864 [debug]: -----------------------------------
+22/07/14 14:52:07 865 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:52:17 876 [debug]: -----------------------------------
+22/07/14 14:52:17 879 [debug]: |       Start Express Server      |
+22/07/14 14:52:17 879 [debug]: -----------------------------------
+22/07/14 14:52:17 880 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 14:53:24 931 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:53:24 949 [info]: >> DATABASE 접속됨 [threaId=115]
+22/07/14 14:53:24 950 [info]: >> Connection 임대됨 [threaId=115]
+22/07/14 14:53:24 952 [debug]: DELETE FROM student WHERE profno='9926';
+22/07/14 14:53:24 954 [debug]: DELETE FROM professor WHERE profno='9926';
+22/07/14 14:53:24 955 [info]: >> Connection 반납됨 [threaId=115]
+22/07/14 14:53:24 958 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:53:45 848 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:53:45 849 [info]: >> Connection 임대됨 [threaId=115]
+22/07/14 14:53:45 849 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 14:53:45 853 [info]: >> Connection 반납됨 [threaId=115]
+22/07/14 14:53:45 854 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:58:20 321 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:58:20 322 [info]: >> Connection 임대됨 [threaId=115]
+22/07/14 14:58:20 322 [debug]: DELETE FROM student WHERE profno='9921';
+22/07/14 14:58:20 323 [debug]: DELETE FROM professor WHERE profno='9921';
+22/07/14 14:58:20 324 [info]: >> Connection 반납됨 [threaId=115]
+22/07/14 14:58:20 325 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:58:33 982 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:58:33 983 [info]: >> Connection 임대됨 [threaId=115]
+22/07/14 14:58:33 983 [debug]: DELETE FROM student WHERE profno='9922';
+22/07/14 14:58:33 984 [debug]: DELETE FROM professor WHERE profno='9922';
+22/07/14 14:58:33 985 [info]: >> Connection 반납됨 [threaId=115]
+22/07/14 14:58:33 986 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:58:36 088 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:58:36 088 [info]: >> Connection 임대됨 [threaId=115]
+22/07/14 14:58:36 090 [debug]: DELETE FROM student WHERE profno='9923';
+22/07/14 14:58:36 091 [debug]: DELETE FROM professor WHERE profno='9923';
+22/07/14 14:58:36 092 [info]: >> Connection 반납됨 [threaId=115]
+22/07/14 14:58:36 093 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:58:38 028 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:58:38 029 [info]: >> Connection 임대됨 [threaId=115]
+22/07/14 14:58:38 029 [debug]: DELETE FROM student WHERE profno='9925';
+22/07/14 14:58:38 030 [debug]: DELETE FROM professor WHERE profno='9925';
+22/07/14 14:58:38 031 [info]: >> Connection 반납됨 [threaId=115]
+22/07/14 14:58:38 032 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:58:41 162 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:58:41 163 [info]: >> Connection 임대됨 [threaId=115]
+22/07/14 14:58:41 163 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 14:58:41 164 [info]: >> Connection 반납됨 [threaId=115]
+22/07/14 14:58:41 165 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 14:59:31 642 [debug]: 클라이언트가 접속했습니다.
+22/07/14 14:59:31 652 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:29:05 066 [debug]: -----------------------------------
+22/07/14 15:29:05 069 [debug]: |       Start Express Server      |
+22/07/14 15:29:05 069 [debug]: -----------------------------------
+22/07/14 15:29:05 070 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:29:31 710 [debug]: -----------------------------------
+22/07/14 15:29:31 712 [debug]: |       Start Express Server      |
+22/07/14 15:29:31 712 [debug]: -----------------------------------
+22/07/14 15:29:31 713 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:31:47 446 [debug]: -----------------------------------
+22/07/14 15:31:47 448 [debug]: |       Start Express Server      |
+22/07/14 15:31:47 448 [debug]: -----------------------------------
+22/07/14 15:31:47 449 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:33:42 852 [debug]: -----------------------------------
+22/07/14 15:33:42 854 [debug]: |       Start Express Server      |
+22/07/14 15:33:42 855 [debug]: -----------------------------------
+22/07/14 15:33:42 855 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:34:25 194 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:34:25 201 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:35:34 830 [debug]: -----------------------------------
+22/07/14 15:35:34 832 [debug]: |       Start Express Server      |
+22/07/14 15:35:34 833 [debug]: -----------------------------------
+22/07/14 15:35:34 833 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:36:08 098 [debug]: -----------------------------------
+22/07/14 15:36:08 100 [debug]: |       Start Express Server      |
+22/07/14 15:36:08 101 [debug]: -----------------------------------
+22/07/14 15:36:08 101 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:36:11 507 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:36:11 528 [info]: >> DATABASE 접속됨 [threaId=116]
+22/07/14 15:36:11 528 [info]: >> Connection 임대됨 [threaId=116]
+22/07/14 15:36:11 529 [info]: >> Connection 반납됨 [threaId=116]
+22/07/14 15:36:11 533 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:36:18 674 [debug]: -----------------------------------
+22/07/14 15:36:18 676 [debug]: |       Start Express Server      |
+22/07/14 15:36:18 676 [debug]: -----------------------------------
+22/07/14 15:36:18 677 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:36:19 599 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:36:19 617 [info]: >> DATABASE 접속됨 [threaId=117]
+22/07/14 15:36:19 618 [info]: >> Connection 임대됨 [threaId=117]
+22/07/14 15:36:19 620 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 15:36:19 626 [info]: >> Connection 반납됨 [threaId=117]
+22/07/14 15:36:19 627 [info]: >> Connection 임대됨 [threaId=117]
+22/07/14 15:36:19 627 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:36:19 630 [info]: >> Connection 반납됨 [threaId=117]
+22/07/14 15:36:19 633 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:40:57 918 [debug]: -----------------------------------
+22/07/14 15:40:57 920 [debug]: |       Start Express Server      |
+22/07/14 15:40:57 920 [debug]: -----------------------------------
+22/07/14 15:40:57 921 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:41:00 223 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:41:00 240 [info]: >> DATABASE 접속됨 [threaId=118]
+22/07/14 15:41:00 240 [info]: >> Connection 임대됨 [threaId=118]
+22/07/14 15:41:00 243 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 15:41:00 246 [info]: >> Connection 반납됨 [threaId=118]
+22/07/14 15:41:00 246 [info]: >> Connection 임대됨 [threaId=118]
+22/07/14 15:41:00 247 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:41:00 249 [info]: >> Connection 반납됨 [threaId=118]
+22/07/14 15:41:00 253 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:41:26 686 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:41:26 686 [info]: >> Connection 임대됨 [threaId=118]
+22/07/14 15:41:26 689 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 15:41:26 689 [info]: >> Connection 반납됨 [threaId=118]
+22/07/14 15:41:26 689 [info]: >> Connection 임대됨 [threaId=118]
+22/07/14 15:41:26 690 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:41:26 691 [info]: >> Connection 반납됨 [threaId=118]
+22/07/14 15:41:26 691 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:41:38 233 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:41:38 233 [info]: >> Connection 임대됨 [threaId=118]
+22/07/14 15:41:38 234 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 15:41:38 235 [info]: >> Connection 반납됨 [threaId=118]
+22/07/14 15:41:38 235 [info]: >> Connection 임대됨 [threaId=118]
+22/07/14 15:41:38 235 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:41:38 236 [info]: >> Connection 반납됨 [threaId=118]
+22/07/14 15:41:38 237 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:49:56 239 [debug]:  >>>> Database Pool is closed
+22/07/14 15:49:59 200 [info]: >> DATABASE 접속됨 [threaId=119]
+22/07/14 15:49:59 203 [info]: >> Connection 임대됨 [threaId=119]
+22/07/14 15:49:59 205 [debug]: INSERT INTO professor (name, userid, position, sal, hiredate, comm, deptno)  VALUES ('시험교수', 'testID', '교수', '300', '2022-07-13', '20', '101');
+22/07/14 15:49:59 209 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9927'
+22/07/14 15:49:59 212 [info]: >> Connection 반납됨 [threaId=119]
+22/07/14 15:49:59 215 [debug]:  >>>> Database Pool is closed
+22/07/14 15:50:21 314 [info]: >> DATABASE 접속됨 [threaId=120]
+22/07/14 15:50:21 316 [info]: >> Connection 임대됨 [threaId=120]
+22/07/14 15:50:21 317 [info]: >> Connection 반납됨 [threaId=120]
+22/07/14 15:50:21 320 [debug]:  >>>> Database Pool is closed
+22/07/14 15:50:52 762 [info]: >> DATABASE 접속됨 [threaId=121]
+22/07/14 15:50:52 763 [info]: >> Connection 임대됨 [threaId=121]
+22/07/14 15:50:52 766 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 15:50:52 770 [info]: >> Connection 반납됨 [threaId=121]
+22/07/14 15:50:52 771 [debug]:  >>>> Database Pool is closed
+22/07/14 15:51:15 872 [debug]: -----------------------------------
+22/07/14 15:51:15 874 [debug]: |       Start Express Server      |
+22/07/14 15:51:15 874 [debug]: -----------------------------------
+22/07/14 15:51:15 875 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 15:51:17 537 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:51:17 553 [info]: >> DATABASE 접속됨 [threaId=122]
+22/07/14 15:51:17 554 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:51:17 557 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 15:51:17 559 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:51:17 560 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:51:17 561 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:51:17 562 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:51:17 566 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:51:30 255 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:51:30 256 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:51:30 258 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 15:51:30 259 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:51:30 259 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:51:30 260 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:51:30 260 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:51:30 261 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:51:45 933 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:51:45 934 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:51:45 935 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 15:51:45 935 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:51:45 936 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:51:45 936 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:51:45 937 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:51:45 937 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:52:08 659 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:52:08 659 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:52:08 660 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 15:52:08 660 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:52:08 660 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:52:08 661 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:52:08 661 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:52:08 662 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:52:18 581 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:52:18 581 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:52:18 582 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '이재우', '%')
+22/07/14 15:52:18 583 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:52:18 583 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:52:18 583 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:52:18 584 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:52:18 585 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:54:57 041 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:54:57 042 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:54:57 043 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 15:54:57 043 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:54:57 044 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:54:57 044 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:54:57 045 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:54:57 046 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:55:10 608 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:55:10 608 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:55:10 609 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 15:55:10 610 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:55:10 610 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:55:10 611 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:55:10 611 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:55:10 612 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:56:37 952 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:56:37 961 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 15:58:38 613 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:58:38 613 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:58:38 614 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 15:58:38 614 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:58:38 614 [info]: >> Connection 임대됨 [threaId=122]
+22/07/14 15:58:38 614 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 15:58:38 615 [info]: >> Connection 반납됨 [threaId=122]
+22/07/14 15:58:38 616 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 16:04:29 651 [debug]: -----------------------------------
+22/07/14 16:04:29 653 [debug]: |       Start Express Server      |
+22/07/14 16:04:29 654 [debug]: -----------------------------------
+22/07/14 16:04:29 654 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 16:07:22 249 [debug]: 클라이언트가 접속했습니다.
+22/07/14 16:07:22 267 [info]: >> DATABASE 접속됨 [threaId=125]
+22/07/14 16:07:22 267 [info]: >> Connection 임대됨 [threaId=125]
+22/07/14 16:07:22 270 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 16:07:22 273 [info]: >> Connection 반납됨 [threaId=125]
+22/07/14 16:07:22 273 [info]: >> Connection 임대됨 [threaId=125]
+22/07/14 16:07:22 274 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 16:07:22 277 [info]: >> Connection 반납됨 [threaId=125]
+22/07/14 16:07:22 280 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 16:08:45 669 [debug]: 클라이언트가 접속했습니다.
+22/07/14 16:08:45 670 [info]: >> Connection 임대됨 [threaId=125]
+22/07/14 16:08:45 671 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 16:08:45 671 [info]: >> Connection 반납됨 [threaId=125]
+22/07/14 16:08:45 671 [info]: >> Connection 임대됨 [threaId=125]
+22/07/14 16:08:45 672 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno
+22/07/14 16:08:45 673 [info]: >> Connection 반납됨 [threaId=125]
+22/07/14 16:08:45 674 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 16:09:01 821 [debug]:  >>>> Database Pool is closed
+22/07/14 16:09:03 279 [debug]: -----------------------------------
+22/07/14 16:09:03 281 [debug]: |       Start Express Server      |
+22/07/14 16:09:03 282 [debug]: -----------------------------------
+22/07/14 16:09:03 282 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 16:09:05 292 [debug]: 클라이언트가 접속했습니다.
+22/07/14 16:09:05 308 [info]: >> DATABASE 접속됨 [threaId=126]
+22/07/14 16:09:05 309 [info]: >> Connection 임대됨 [threaId=126]
+22/07/14 16:09:05 311 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 16:09:05 314 [info]: >> Connection 반납됨 [threaId=126]
+22/07/14 16:09:05 314 [info]: >> Connection 임대됨 [threaId=126]
+22/07/14 16:09:05 315 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  ORDER BY deptno DESC
+22/07/14 16:09:05 318 [info]: >> Connection 반납됨 [threaId=126]
+22/07/14 16:09:05 321 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 16:09:14 964 [debug]: 클라이언트가 접속했습니다.
+22/07/14 16:09:14 965 [info]: >> Connection 임대됨 [threaId=126]
+22/07/14 16:09:14 966 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 16:09:14 967 [info]: >> Connection 반납됨 [threaId=126]
+22/07/14 16:09:14 967 [info]: >> Connection 임대됨 [threaId=126]
+22/07/14 16:09:14 968 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  ORDER BY deptno DESC
+22/07/14 16:09:14 970 [info]: >> Connection 반납됨 [threaId=126]
+22/07/14 16:09:14 971 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 16:09:33 141 [debug]: 클라이언트가 접속했습니다.
+22/07/14 16:09:33 142 [info]: >> Connection 임대됨 [threaId=126]
+22/07/14 16:09:33 142 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 16:09:33 143 [info]: >> Connection 반납됨 [threaId=126]
+22/07/14 16:09:33 143 [info]: >> Connection 임대됨 [threaId=126]
+22/07/14 16:09:33 143 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  ORDER BY deptno DESC
+22/07/14 16:09:33 144 [info]: >> Connection 반납됨 [threaId=126]
+22/07/14 16:09:33 145 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 16:11:07 096 [debug]: -----------------------------------
+22/07/14 16:11:07 098 [debug]: |       Start Express Server      |
+22/07/14 16:11:07 099 [debug]: -----------------------------------
+22/07/14 16:11:07 099 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 16:11:09 496 [debug]: 클라이언트가 접속했습니다.
+22/07/14 16:11:09 517 [info]: >> DATABASE 접속됨 [threaId=127]
+22/07/14 16:11:09 517 [info]: >> Connection 임대됨 [threaId=127]
+22/07/14 16:11:09 520 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 16:11:09 522 [info]: >> Connection 반납됨 [threaId=127]
+22/07/14 16:11:09 523 [info]: >> Connection 임대됨 [threaId=127]
+22/07/14 16:11:09 524 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/14 16:11:09 526 [info]: >> Connection 반납됨 [threaId=127]
+22/07/14 16:11:09 529 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 16:11:17 877 [debug]: 클라이언트가 접속했습니다.
+22/07/14 16:11:17 878 [info]: >> Connection 임대됨 [threaId=127]
+22/07/14 16:11:17 879 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 16:11:17 880 [info]: >> Connection 반납됨 [threaId=127]
+22/07/14 16:11:17 880 [info]: >> Connection 임대됨 [threaId=127]
+22/07/14 16:11:17 881 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  name LIKE concat('%', '재우', '%')  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/14 16:11:17 882 [info]: >> Connection 반납됨 [threaId=127]
+22/07/14 16:11:17 883 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 16:46:19 902 [debug]: -----------------------------------
+22/07/14 16:46:19 905 [debug]: |       Start Express Server      |
+22/07/14 16:46:19 906 [debug]: -----------------------------------
+22/07/14 16:46:19 906 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 16:48:21 421 [debug]: 클라이언트가 접속했습니다.
+22/07/14 16:59:59 984 [debug]: -----------------------------------
+22/07/14 16:59:59 986 [debug]: |       Start Express Server      |
+22/07/14 16:59:59 987 [debug]: -----------------------------------
+22/07/14 16:59:59 987 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 17:15:19 219 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:15:19 247 [info]: >> DATABASE 접속됨 [threaId=128]
+22/07/14 17:15:19 247 [info]: >> Connection 임대됨 [threaId=128]
+22/07/14 17:15:19 250 [debug]: INSERT INTO professor (name, userid, position, sal, hiredate, comm, deptno)  VALUES ('노드시혐', 'nodetest', '교수', '500', '20220714', '30', '212');
+22/07/14 17:15:19 252 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9928'
+22/07/14 17:15:19 255 [info]: >> Connection 반납됨 [threaId=128]
+22/07/14 17:15:19 258 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:26:25 474 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:26:25 476 [info]: >> Connection 임대됨 [threaId=128]
+22/07/14 17:26:25 478 [debug]: UPDATE professor SET name='수정된이름', position='수정된직급'  WHERE profno='9928';
+22/07/14 17:26:25 481 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9928'
+22/07/14 17:26:25 483 [info]: >> Connection 반납됨 [threaId=128]
+22/07/14 17:26:25 484 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:27:52 210 [debug]: -----------------------------------
+22/07/14 17:27:52 213 [debug]: |       Start Express Server      |
+22/07/14 17:27:52 214 [debug]: -----------------------------------
+22/07/14 17:27:52 216 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 17:27:53 250 [debug]: -----------------------------------
+22/07/14 17:27:53 254 [debug]: |       Start Express Server      |
+22/07/14 17:27:53 255 [debug]: -----------------------------------
+22/07/14 17:27:53 256 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 17:31:17 775 [debug]: -----------------------------------
+22/07/14 17:31:17 777 [debug]: |       Start Express Server      |
+22/07/14 17:31:17 778 [debug]: -----------------------------------
+22/07/14 17:31:17 778 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 17:37:58 387 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:37:58 404 [info]: >> DATABASE 접속됨 [threaId=129]
+22/07/14 17:37:58 404 [info]: >> Connection 임대됨 [threaId=129]
+22/07/14 17:37:58 406 [debug]: DELETE FROM student WHERE profno='9928';
+22/07/14 17:37:58 408 [debug]: DELETE FROM professor WHERE profno='9928';
+22/07/14 17:37:58 409 [info]: >> Connection 반납됨 [threaId=129]
+22/07/14 17:37:58 413 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:43:28 533 [debug]: -----------------------------------
+22/07/14 17:43:28 536 [debug]: |       Start Express Server      |
+22/07/14 17:43:28 537 [debug]: -----------------------------------
+22/07/14 17:43:28 539 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 17:45:06 744 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:45:06 762 [info]: >> DATABASE 접속됨 [threaId=130]
+22/07/14 17:45:06 763 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:45:06 765 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9903'
+22/07/14 17:45:06 768 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:45:06 772 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:45:14 883 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:45:14 886 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:45:14 887 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 17:45:14 888 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:45:14 889 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:45:14 890 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/14 17:45:14 892 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:45:14 893 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:45:28 756 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:45:28 757 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:45:28 757 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  profno='9902'
+22/07/14 17:45:28 758 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:45:28 759 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:52:09 800 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:52:09 800 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:52:09 801 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 17:52:09 801 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:52:09 801 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:52:09 802 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/14 17:52:09 802 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:52:09 803 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:52:14 849 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:52:14 850 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:52:14 851 [debug]: SELECT COUNT(*) AS count FROM professor
+22/07/14 17:52:14 851 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:52:14 851 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:52:14 852 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  ORDER BY deptno DESC  LIMIT 0, 2
+22/07/14 17:52:14 853 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:52:14 853 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:53:22 161 [debug]: 클라이언트가 접속했습니다.
+22/07/14 17:53:22 161 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:53:22 162 [debug]: SELECT COUNT(*) AS count FROM professor  WHERE  name LIKE concat('%', '재우', '%')
+22/07/14 17:53:22 163 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:53:22 163 [info]: >> Connection 임대됨 [threaId=130]
+22/07/14 17:53:22 164 [debug]: SELECT profno, name, userid, position, sal, date_format(hiredate, '%Y-%m-%d') AS h_date, comm, d.deptno, d.dname  FROM professor p  INNER JOIN department d  ON p.deptno = d.deptno  WHERE  name LIKE concat('%', '재우', '%')  ORDER BY deptno DESC  LIMIT 0, 10
+22/07/14 17:53:22 164 [info]: >> Connection 반납됨 [threaId=130]
+22/07/14 17:53:22 165 [debug]: 클라이언트의 접속이 종료 되었습니다.
+22/07/14 17:55:29 321 [debug]: -----------------------------------
+22/07/14 17:55:29 323 [debug]: |       Start Express Server      |
+22/07/14 17:55:29 324 [debug]: -----------------------------------
+22/07/14 17:55:29 324 [debug]: - - - - - - - - - - - - - - - - - -
+22/07/14 17:55:32 311 [debug]: -----------------------------------
+22/07/14 17:55:32 313 [debug]: |       Start Express Server      |
+22/07/14 17:55:32 314 [debug]: -----------------------------------
+22/07/14 17:55:32 314 [debug]: - - - - - - - - - - - - - - - - - -
