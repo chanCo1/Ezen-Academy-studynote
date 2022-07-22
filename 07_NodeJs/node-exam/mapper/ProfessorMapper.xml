@@ -18,7 +18,7 @@
       </if>
     </where>
 
-    ORDER BY deptno DESC
+    ORDER BY profno
 
     <if test="listCount > 0">
       LIMIT ${offset}, ${listCount}
@@ -50,7 +50,7 @@
 
   <!-- 교수 데이터 수정을 위한 기능 정의 -->
   <update id="updateItem">
-    UPDATE professor SET name=#{name}, position=#{position}
+    UPDATE professor SET name=#{name}, userid=#{userid}, position=#{position}, sal=#{sal}, hiredate=#{hiredate}, comm=#{comm}, deptno=#{deptno}
     WHERE profno=#{profno};
   </update>
 

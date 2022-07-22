@@ -82,12 +82,13 @@ class DepartmentService {
       // 새로 저장된 데이터의 PK값을 활용하여 다시 조회
       sql = mybatisMapper.getStatement('DepartmentMapper', 'selectItem', {deptno: insertId});
       let [result] = await dbcon.query(sql);
-
+ 
       if(result.length === 0) {
         throw new RuntimeException('저장된 데이터를 조회할 수 없습니다.');
       }
 
       data = result[0];
+
     } catch(err) {
       throw err;
     } finally {
@@ -156,8 +157,6 @@ class DepartmentService {
     } finally {
       if(dbcon) dbcon.release();
     }
-
-    return data;
   };
 
   /** 전체 데이터 수 조회 */

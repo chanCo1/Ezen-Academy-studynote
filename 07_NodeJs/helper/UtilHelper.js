@@ -32,7 +32,8 @@ const urlFormat = (urlObject) =>
  * @param nowPage     - 현재 페이지 (GET파라미터로 수신한 값)
  * @param listCount   - 한 페이지에 보여질 목록의 수 (개발자가 정의하거나 GET으로 받는 값)
  * @param groupCount  - 페이지 그룹 수 (개발자가 정하는 값)
- * @retrun Object   - nowPage            : 현재 페이지
+ * 
+ * @return Object   - nowPage            : 현재 페이지
  *                  - totalCount         : 전체 데이터 수
  *                  - listCount          : 한 페이지에 보여질 목록의 수
  *                  - totalPage          : 전체 페이지 수

@@ -246,7 +246,7 @@ const DepartmentList = memo(() => {
                   <NavLink to={`/query=${query}&rows=${rows}&page=${data.pagenation.nextGroupLastPage}`}>&raquo;</NavLink>
                 </li>
               ) : (
-                <li><NavLink to='#' className='disabled'>&raquo;</NavLink></li>
+                <li><NavLink to={`/?query=${query}&rows=${rows}&page=${data.pagenation.groupEnd}`} className="disabled">&raquo;</NavLink></li>
               )}
             </Pagenation>
           )}

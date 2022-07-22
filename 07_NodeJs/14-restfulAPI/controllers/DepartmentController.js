@@ -157,6 +157,7 @@ const DepartmentController = () => {
         deptno: deptno,
       });
     } catch(err) {
+      console.log(err);
       return next(err);
     }
 

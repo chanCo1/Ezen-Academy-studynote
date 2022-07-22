@@ -92,7 +92,6 @@ const ProfessorController = () => {
       RegexHelper.value(position, '직급을 입력해주세요');
       RegexHelper.value(sal, '급여를 입력해주세요');
       RegexHelper.value(hiredate, '입사일을 입력해주세요');
-      RegexHelper.value(comm, '수당을 입력해주세요');
       RegexHelper.value(deptno, '학과번호를 입력해주세요');
     } catch (err) {
       return err;
@@ -123,7 +122,12 @@ const ProfessorController = () => {
     // 파라미터 받기
     const profno = req.get('profno');
     const name = req.put('name');
+    const userid = req.put('userid');
     const position = req.put('position');
+    const sal = req.put('sal');
+    const hiredate = req.put('hiredate');
+    const comm = req.put('comm');
+    const deptno = req.put('deptno');
 
     // 유효성 검사
     try {
@@ -141,7 +145,12 @@ const ProfessorController = () => {
       json = await ProfessorService.editItem({
         profno: profno,
         name: name,
+        userid: userid,
         position: position,
+        sal: sal,
+        hiredate: hiredate,
+        comm: comm,
+        deptno: deptno,
       });
     } catch (err) {
       return next(err);

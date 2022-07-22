@@ -1,0 +1,34 @@
+22/07/14 15:53:45 560 [info]: >> DATABASE 접속됨 [threaId=123]
+22/07/14 15:53:45 562 [info]: >> Connection 임대됨 [threaId=123]
+22/07/14 15:53:45 565 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC
+22/07/14 15:53:45 569 [info]: >> Connection 반납됨 [threaId=123]
+22/07/14 15:53:45 573 [info]: >> Connection 임대됨 [threaId=123]
+22/07/14 15:53:45 574 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/14 15:53:45 575 [info]: >> Connection 반납됨 [threaId=123]
+22/07/14 15:53:45 576 [info]: Database Pool is closed
+22/07/14 15:56:32 432 [debug]: -----------------------------------
+22/07/14 15:56:32 434 [debug]: |       Start Express Server      |
+22/07/14 15:56:32 434 [debug]: -----------------------------------
+22/07/14 15:56:32 434 [debug]: server address => http://192.168.10.103:3002
+22/07/14 15:56:32 435 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/14 15:56:42 607 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:56:42 608 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/14 15:56:42 609 [debug]: [GET] http://localhost:3002/department?page=1&rows=3
+22/07/14 15:56:42 627 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/07/14 15:56:42 628 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/14 15:56:42 632 [debug]: 클라이언트가 접속했습니다.
+22/07/14 15:56:42 632 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia / unknown
+22/07/14 15:56:42 632 [debug]: [GET] http://localhost:3002/department/?page=1&rows=3
+22/07/14 15:56:42 635 [debug]: [HTTP %s Params] %s=%s
+22/07/14 15:56:42 635 [debug]: [HTTP %s Params] %s=%s
+22/07/14 15:56:42 635 [debug]: [HTTP %s Params] %s=%s
+22/07/14 15:56:42 650 [info]: >> DATABASE 접속됨 [threaId=124]
+22/07/14 15:56:42 650 [info]: >> Connection 임대됨 [threaId=124]
+22/07/14 15:56:42 652 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/07/14 15:56:42 657 [info]: >> Connection 반납됨 [threaId=124]
+22/07/14 15:56:42 657 [info]: >> Connection 임대됨 [threaId=124]
+22/07/14 15:56:42 658 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 3
+22/07/14 15:56:42 659 [info]: >> Connection 반납됨 [threaId=124]
+22/07/14 15:56:42 661 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 29ms
+22/07/14 15:56:42 661 [debug]: - - - - - - - - - - - - - - - - - - - - - - - - - -
+22/07/14 15:57:13 671 [info]: Database Pool is closed
