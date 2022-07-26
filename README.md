@@ -1,7 +1,8 @@
 # 이젠아카데미 풀스텍 과정 _React & Node.js_
 - 수업기간: 2022.01.18 ~ 2022.07.29
-- 강의내용 정리: [블로그 이동](https://chan-co.tistory.com/){:target="_blank"}
-<!-- - 강의내용 정리: <a href="https://chan-co.tistory.com/" target="_blank">https://chan-co.tistory.com/</a> -->
+- 강의내용 정리: <a href="https://chan-co.tistory.com/" target="_blank">https://chan-co.tistory.com</a>
+
+
 
 <br />
 
