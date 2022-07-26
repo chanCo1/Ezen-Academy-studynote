@@ -1,9 +1,9 @@
 import express from 'express';
 
-import { pagenation } from '../../helper/UtilHelper.js';
-import logger from '../../helper/logHelper.js';
-import RegexHelper from '../../helper/RegexHelper.js';
-import BadRequestException from '../../exceptions/BadRequestException.js';
+import { pagenation } from '../helper/UtilHelper.js';
+import logger from '../helper/logHelper.js';
+import RegexHelper from '../helper/RegexHelper.js';
+import BadRequestException from '../exceptions/BadRequestException.js';
 import departmentService from '../service/DepartmentService.js';
 
 const DepartmentController = () => {

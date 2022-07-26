@@ -1,4 +1,4 @@
-import DBPool from "../../helper/DBPool.js";
+import DBPool from "../helper/DBPool.js";
 import DepartmentService from '../service/DepartmentService.js';
 
 (async () => {

@@ -2,10 +2,10 @@
 1) 모듈 참조
 - - - - - - - - - - - - - - - - - - - - */
 // 직접 구현한 모듈
-import logger from '../helper/logHelper.js';
-import { myIp, urlFormat } from '../helper/UtilHelper.js';
-import WebHelper from '../helper/WebHelper.js';
-import DBPool from '../helper/DBPool.js';
+import logger from './helper/logHelper.js';
+import { myIp, urlFormat } from './helper/UtilHelper.js';
+import WebHelper from './helper/WebHelper.js';
+import DBPool from './helper/DBPool.js';
 
 // 내장 모듈
 // import url from 'url';
@@ -24,7 +24,7 @@ import expressSession from 'express-session'    // Session 처리
 import cors from 'cors';                        // cors 처리
 
 /** 예외처리 관련 클래스 */
-import PageNotFoundException from '../exceptions/PageNotFoundException.js';
+import PageNotFoundException from './exceptions/PageNotFoundException.js';
 
 /** URL을 라우팅하는 모듈 참조 */
 import DepartmentController from './controllers/DepartmentController.js';
