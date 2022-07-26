@@ -107,5 +107,38 @@
 ### 07_Node.js
 
 * Node.js 개념 이해하기
+* Node Modules
+* Event, File I/O
+* Log
+* Scheduler
+* HTTP Client
+* HTTP Server
+* Express
+* Cookie / Session
+* 메일보내기
+* File Upload
+* Route
+* 유효성검사
+* SingleTon 패턴
+* MySQL 연동
+* 객체지향 데이터베이스 프로그래밍(Mybatis)
+* CORS / MVC 패턴
+* Service Layer / 페이지 번호 구현
+
+<br />
 
 ### 08_Linux
+
+* Linux(Ubuntu) 설치하기
+* Linux(Ubuntu) 시스템 사용하기
+* vi 편집기
+* 파일 및 디렉토리와 명령어
+* 사용자 및 그룹관리
+* 팡리 다운로드, 압축하기
+* 프로세스 관리
+* 쉘(Shell)
+* 서비스와 리눅스 패키지
+* 네트워크와 방화벽
+* FTP (File Transfer Protocol)
+* SSH 서비스
+* MariaDB 설치하기
